@@ -1,2 +1,3 @@
 hightlighter: pygments
 github: [Repository metadata]
+exclude: ["vender", "Gemfile", "Gemfile.lock"]
