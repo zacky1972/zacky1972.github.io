@@ -1,3 +1,6 @@
 hightlighter: pygments
+markdown: redcarpet
+kramdown:
+  input: GFM
 github: [Repository metadata]
 exclude: ["vender", "Gemfile", "Gemfile.lock"]
