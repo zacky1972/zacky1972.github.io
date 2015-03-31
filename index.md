@@ -4,7 +4,7 @@ layout: default
 ---
 # ZACKY のブログへようこそ！
 
-<!--[ビジョンとミッション](/vision-mission.html)-->
+<!--[ビジョンとミッション]({{ site.url }}/vision-mission.html)-->
 
 <ul>
 	{% for post in site.posts %}
@@ -31,3 +31,4 @@ int main(int argc, char *argv[]) {
 	return 0;
 }
 {% endhighlight %}
+
