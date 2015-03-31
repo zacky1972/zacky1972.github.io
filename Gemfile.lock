@@ -125,5 +125,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   posix-spawn
+  pygments.rb
   redcarpet
   yajl-ruby
