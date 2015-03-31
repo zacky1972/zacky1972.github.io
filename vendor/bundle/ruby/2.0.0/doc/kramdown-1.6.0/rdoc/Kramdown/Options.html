@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+<title>module Kramdown::Options - kramdown-1.6.0 Documentation</title>
+
+<link type="text/css" media="screen" href="../rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="../js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/darkfish.js"></script>
+
+
+<body id="top" class="module">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="../index.html">Home</a>
+    <a href="../table_of_contents.html#classes">Classes</a>
+    <a href="../table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  
+
+  <div id="file-metadata">
+    <nav id="file-list-section" class="section">
+  <h3 class="section-header">Defined In</h3>
+  <ul>
+    <li>lib/kramdown/options.rb
+  </ul>
+</nav>
+
+    
+  </div>
+
+  <div id="class-metadata">
+    <nav id="sections-section" class="section">
+  <h3 class="section-header">Sections</h3>
+  <ul class="link-list">
+    
+      <li><a href="#5Buntitled-5D"></a></li>
+    
+      <li><a href="#Option+Definitions">Option Definitions</a></li>
+    
+      <li><a href="#Option+Validators">Option Validators</a></li>
+    
+      <li><a href="#Option+definitions">Option definitions</a></li>
+    
+  </ul>
+</nav>
+
+    
+    
+    
+    <!-- Method Quickref -->
+<nav id="method-list-section" class="section">
+  <h3 class="section-header">Methods</h3>
+
+  <ul class="link-list">
+    
+    <li ><a href="#method-c-defaults">::defaults</a>
+    
+    <li ><a href="#method-c-define">::define</a>
+    
+    <li ><a href="#method-c-defined-3F">::defined?</a>
+    
+    <li ><a href="#method-c-definitions">::definitions</a>
+    
+    <li ><a href="#method-c-merge">::merge</a>
+    
+    <li ><a href="#method-c-parse">::parse</a>
+    
+    <li ><a href="#method-c-simple_array_validator">::simple_array_validator</a>
+    
+    <li ><a href="#method-c-simple_hash_validator">::simple_hash_validator</a>
+    
+    <li ><a href="#method-c-str_to_sym">::str_to_sym</a>
+    
+  </ul>
+</nav>
+
+  </div>
+
+  <div id="project-metadata">
+    
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../Kramdown.html">Kramdown</a>
+  
+    <li><a href="../Kramdown/Converter.html">Kramdown::Converter</a>
+  
+    <li><a href="../Kramdown/Converter/Base.html">Kramdown::Converter::Base</a>
+  
+    <li><a href="../Kramdown/Converter/Html.html">Kramdown::Converter::Html</a>
+  
+    <li><a href="../Kramdown/Converter/Kramdown.html">Kramdown::Converter::Kramdown</a>
+  
+    <li><a href="../Kramdown/Converter/Latex.html">Kramdown::Converter::Latex</a>
+  
+    <li><a href="../Kramdown/Converter/MathEngine.html">Kramdown::Converter::MathEngine</a>
+  
+    <li><a href="../Kramdown/Converter/MathEngine/Itex2MML.html">Kramdown::Converter::MathEngine::Itex2MML</a>
+  
+    <li><a href="../Kramdown/Converter/MathEngine/Mathjax.html">Kramdown::Converter::MathEngine::Mathjax</a>
+  
+    <li><a href="../Kramdown/Converter/MathEngine/Ritex.html">Kramdown::Converter::MathEngine::Ritex</a>
+  
+    <li><a href="../Kramdown/Converter/Pdf.html">Kramdown::Converter::Pdf</a>
+  
+    <li><a href="../Kramdown/Converter/Pdf/PrawnDocumentExtension.html">Kramdown::Converter::Pdf::PrawnDocumentExtension</a>
+  
+    <li><a href="../Kramdown/Converter/Pdf/PrawnDocumentExtension/CustomBox.html">Kramdown::Converter::Pdf::PrawnDocumentExtension::CustomBox</a>
+  
+    <li><a href="../Kramdown/Converter/Pdf/PrawnDocumentExtension/Prawn.html">Kramdown::Converter::Pdf::PrawnDocumentExtension::Prawn</a>
+  
+    <li><a href="../Kramdown/Converter/Pdf/PrawnDocumentExtension/Prawn/Text.html">Kramdown::Converter::Pdf::PrawnDocumentExtension::Prawn::Text</a>
+  
+    <li><a href="../Kramdown/Converter/Pdf/PrawnDocumentExtension/Prawn/Text/Formatted.html">Kramdown::Converter::Pdf::PrawnDocumentExtension::Prawn::Text::Formatted</a>
+  
+    <li><a href="../Kramdown/Converter/RemoveHtmlTags.html">Kramdown::Converter::RemoveHtmlTags</a>
+  
+    <li><a href="../Kramdown/Converter/SyntaxHighlighter.html">Kramdown::Converter::SyntaxHighlighter</a>
+  
+    <li><a href="../Kramdown/Converter/SyntaxHighlighter/Coderay.html">Kramdown::Converter::SyntaxHighlighter::Coderay</a>
+  
+    <li><a href="../Kramdown/Converter/SyntaxHighlighter/Rouge.html">Kramdown::Converter::SyntaxHighlighter::Rouge</a>
+  
+    <li><a href="../Kramdown/Converter/Toc.html">Kramdown::Converter::Toc</a>
+  
+    <li><a href="../Kramdown/Document.html">Kramdown::Document</a>
+  
+    <li><a href="../Kramdown/Element.html">Kramdown::Element</a>
+  
+    <li><a href="../Kramdown/Error.html">Kramdown::Error</a>
+  
+    <li><a href="../Kramdown/Options.html">Kramdown::Options</a>
+  
+    <li><a href="../Kramdown/Options/Boolean.html">Kramdown::Options::Boolean</a>
+  
+    <li><a href="../Kramdown/Parser.html">Kramdown::Parser</a>
+  
+    <li><a href="../Kramdown/Parser/Base.html">Kramdown::Parser::Base</a>
+  
+    <li><a href="../Kramdown/Parser/GFM.html">Kramdown::Parser::GFM</a>
+  
+    <li><a href="../Kramdown/Parser/Html.html">Kramdown::Parser::Html</a>
+  
+    <li><a href="../Kramdown/Parser/Html/Constants.html">Kramdown::Parser::Html::Constants</a>
+  
+    <li><a href="../Kramdown/Parser/Html/ElementConverter.html">Kramdown::Parser::Html::ElementConverter</a>
+  
+    <li><a href="../Kramdown/Parser/Html/Parser.html">Kramdown::Parser::Html::Parser</a>
+  
+    <li><a href="../Kramdown/Parser/Kramdown.html">Kramdown::Parser::Kramdown</a>
+  
+    <li><a href="../Kramdown/Parser/Markdown.html">Kramdown::Parser::Markdown</a>
+  
+    <li><a href="../Kramdown/Utils.html">Kramdown::Utils</a>
+  
+    <li><a href="../Kramdown/Utils/Configurable.html">Kramdown::Utils::Configurable</a>
+  
+    <li><a href="../Kramdown/Utils/Entities.html">Kramdown::Utils::Entities</a>
+  
+    <li><a href="../Kramdown/Utils/Entities/Entity.html">Kramdown::Utils::Entities::Entity</a>
+  
+    <li><a href="../Kramdown/Utils/Html.html">Kramdown::Utils::Html</a>
+  
+    <li><a href="../Kramdown/Utils/OrderedHash.html">Kramdown::Utils::OrderedHash</a>
+  
+    <li><a href="../Kramdown/Utils/StringScanner.html">Kramdown::Utils::StringScanner</a>
+  
+    <li><a href="../Kramdown/Utils/Unidecoder.html">Kramdown::Utils::Unidecoder</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation">
+  <h1 class="module">module Kramdown::Options</h1>
+
+  <div id="description" class="description">
+    
+<p>This module defines all options that are used by parsers and/or converters
+as well as providing methods to deal with the options.</p>
+
+  </div><!-- description -->
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    <!-- Methods -->
+    
+  </section><!-- 5Buntitled-5D -->
+
+  
+  
+  <section id="Option+Definitions" class="documentation-section">
+    
+    <div class="documentation-section-title">
+      <h2 class="section-header">
+        Option Definitions
+      </h2>
+      <span class="section-click-top">
+        <a href="#top">&uarr; top</a>
+      </span>
+    </div>
+    
+
+    
+
+    
+
+    
+
+    <!-- Methods -->
+    
+  </section><!-- Option+Definitions -->
+
+  
+  
+  <section id="Option+Validators" class="documentation-section">
+    
+    <div class="documentation-section-title">
+      <h2 class="section-header">
+        Option Validators
+      </h2>
+      <span class="section-click-top">
+        <a href="#top">&uarr; top</a>
+      </span>
+    </div>
+    
+
+    
+
+    
+
+    
+
+    <!-- Methods -->
+    
+     <section id="public-class-Option+Validators-method-details" class="method-section section">
+      <h3 class="section-header">Public Class Methods</h3>
+
+    
+      <div id="method-c-simple_array_validator" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">simple_array_validator</span><span
+            class="method-args">(val, name, size)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Ensures that the option value <code>val</code> for the option called
+<code>name</code> is a valid array. The parameter <code>val</code> can be</p>
+<ul><li>
+<p>a comma separated string which is split into an array of values</p>
+</li><li>
+<p>or an array.</p>
+</li></ul>
+
+<p>Additionally, the array is checked for the correct size.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="simple_array_validator-source">
+            <pre><span class="ruby-comment"># File lib/kramdown/options.rb, line 136</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">simple_array_validator</span>(<span class="ruby-identifier">val</span>, <span class="ruby-identifier">name</span>, <span class="ruby-identifier">size</span>)
+  <span class="ruby-keyword">if</span> <span class="ruby-constant">String</span> <span class="ruby-operator">===</span> <span class="ruby-identifier">val</span>
+    <span class="ruby-identifier">val</span> = <span class="ruby-identifier">val</span>.<span class="ruby-identifier">split</span>(<span class="ruby-regexp">/,/</span>)
+  <span class="ruby-keyword">elsif</span> <span class="ruby-operator">!</span>(<span class="ruby-constant">Array</span> <span class="ruby-operator">===</span> <span class="ruby-identifier">val</span>)
+    <span class="ruby-identifier">raise</span> <span class="ruby-constant">Kramdown</span><span class="ruby-operator">::</span><span class="ruby-constant">Error</span>, <span class="ruby-node">&quot;Invalid type #{val.class} for option #{name}&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">val</span>.<span class="ruby-identifier">size</span> <span class="ruby-operator">!=</span> <span class="ruby-identifier">size</span>
+    <span class="ruby-identifier">raise</span> <span class="ruby-constant">Kramdown</span><span class="ruby-operator">::</span><span class="ruby-constant">Error</span>, <span class="ruby-node">&quot;Option #{name} needs exactly #{size} values&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">val</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- simple_array_validator-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- simple_array_validator-method -->
+
+    
+      <div id="method-c-simple_hash_validator" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">simple_hash_validator</span><span
+            class="method-args">(val, name)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Ensures that the option value <code>val</code> for the option called
+<code>name</code> is a valid hash. The parameter <code>val</code> can be</p>
+<ul><li>
+<p>a hash in YAML format</p>
+</li><li>
+<p>or a Ruby Hash object.</p>
+</li></ul>
+          
+          
+
+          
+          <div class="method-source-code" id="simple_hash_validator-source">
+            <pre><span class="ruby-comment"># File lib/kramdown/options.rb, line 153</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">simple_hash_validator</span>(<span class="ruby-identifier">val</span>, <span class="ruby-identifier">name</span>)
+  <span class="ruby-keyword">if</span> <span class="ruby-constant">String</span> <span class="ruby-operator">===</span> <span class="ruby-identifier">val</span>
+    <span class="ruby-keyword">begin</span>
+      <span class="ruby-identifier">val</span> = <span class="ruby-constant">YAML</span>.<span class="ruby-identifier">load</span>(<span class="ruby-identifier">val</span>)
+    <span class="ruby-keyword">rescue</span> <span class="ruby-constant">RuntimeError</span>, <span class="ruby-constant">ArgumentError</span>, <span class="ruby-constant">SyntaxError</span>
+      <span class="ruby-identifier">raise</span> <span class="ruby-constant">Kramdown</span><span class="ruby-operator">::</span><span class="ruby-constant">Error</span>, <span class="ruby-node">&quot;Invalid YAML value for option #{name}&quot;</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">raise</span> <span class="ruby-constant">Kramdown</span><span class="ruby-operator">::</span><span class="ruby-constant">Error</span>, <span class="ruby-node">&quot;Invalid type #{val.class} for option #{name}&quot;</span> <span class="ruby-keyword">if</span> <span class="ruby-operator">!</span>(<span class="ruby-constant">Hash</span> <span class="ruby-operator">===</span> <span class="ruby-identifier">val</span>)
+  <span class="ruby-identifier">val</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- simple_hash_validator-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- simple_hash_validator-method -->
+
+    
+    </section><!-- public-class-method-details -->
+  
+  </section><!-- Option+Validators -->
+
+  
+  
+  <section id="Option+definitions" class="documentation-section">
+    
+    <div class="documentation-section-title">
+      <h2 class="section-header">
+        Option definitions
+      </h2>
+      <span class="section-click-top">
+        <a href="#top">&uarr; top</a>
+      </span>
+    </div>
+    
+
+    
+
+    
+    <!-- Constants -->
+    <section id="constants-list" class="section">
+      <h3 class="section-header">Constants</h3>
+      <dl>
+      
+        <dt id="ALLOWED_TYPES">ALLOWED_TYPES
+        
+        <dd class="description"><p>Allowed option types.</p>
+        
+      
+        <dt id="Definition">Definition
+        
+        <dd class="description"><p>Struct class for storing the definition of an option.</p>
+        
+      
+      </dl>
+    </section>
+    
+
+    
+
+    <!-- Methods -->
+    
+     <section id="public-class-Option+definitions-method-details" class="method-section section">
+      <h3 class="section-header">Public Class Methods</h3>
+
+    
+      <div id="method-c-defaults" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">defaults</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Return a Hash with the default values for all options.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="defaults-source">
+            <pre><span class="ruby-comment"># File lib/kramdown/options.rb, line 69</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">defaults</span>
+  <span class="ruby-identifier">temp</span> = {}
+  <span class="ruby-ivar">@options</span>.<span class="ruby-identifier">each</span> {<span class="ruby-operator">|</span><span class="ruby-identifier">n</span>, <span class="ruby-identifier">o</span><span class="ruby-operator">|</span> <span class="ruby-identifier">temp</span>[<span class="ruby-identifier">o</span>.<span class="ruby-identifier">name</span>] = <span class="ruby-identifier">o</span>.<span class="ruby-identifier">default</span>}
+  <span class="ruby-identifier">temp</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- defaults-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- defaults-method -->
+
+    
+      <div id="method-c-define" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">define</span><span
+            class="method-args">(name, type, default, desc, &block)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Define a new option called <code>name</code> (a Symbol) with the given
+<code>type</code> (String, Integer, Float, Symbol, <a
+href="Options/Boolean.html">Boolean</a>, Object), default value
+<code>default</code> and the description <code>desc</code>. If a block is
+specified, it should validate the value and either raise an error or return
+a valid value.</p>
+
+<p>The type &#39;Object&#39; should only be used for complex types for which
+none of the other types suffices. A block needs to be specified when using
+type &#39;Object&#39; and it has to cope with a value given as string and
+as the opaque type.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="define-source">
+            <pre><span class="ruby-comment"># File lib/kramdown/options.rb, line 49</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">define</span>(<span class="ruby-identifier">name</span>, <span class="ruby-identifier">type</span>, <span class="ruby-identifier">default</span>, <span class="ruby-identifier">desc</span>, <span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-identifier">name</span> = <span class="ruby-identifier">name</span>.<span class="ruby-identifier">to_sym</span>
+  <span class="ruby-identifier">raise</span> <span class="ruby-constant">ArgumentError</span>, <span class="ruby-node">&quot;Option name #{name} is already used&quot;</span> <span class="ruby-keyword">if</span> <span class="ruby-ivar">@options</span>.<span class="ruby-identifier">has_key?</span>(<span class="ruby-identifier">name</span>)
+  <span class="ruby-identifier">raise</span> <span class="ruby-constant">ArgumentError</span>, <span class="ruby-node">&quot;Invalid option type #{type} specified&quot;</span> <span class="ruby-keyword">if</span> <span class="ruby-operator">!</span><span class="ruby-constant">ALLOWED_TYPES</span>.<span class="ruby-identifier">include?</span>(<span class="ruby-identifier">type</span>)
+  <span class="ruby-identifier">raise</span> <span class="ruby-constant">ArgumentError</span>, <span class="ruby-string">&quot;Invalid type for default value&quot;</span> <span class="ruby-keyword">if</span> <span class="ruby-operator">!</span>(<span class="ruby-identifier">type</span> <span class="ruby-operator">===</span> <span class="ruby-identifier">default</span>) <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-operator">!</span><span class="ruby-identifier">default</span>.<span class="ruby-identifier">nil?</span>
+  <span class="ruby-identifier">raise</span> <span class="ruby-constant">ArgumentError</span>, <span class="ruby-string">&quot;Missing validator block&quot;</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">type</span> <span class="ruby-operator">==</span> <span class="ruby-constant">Object</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">block</span>.<span class="ruby-identifier">nil?</span>
+  <span class="ruby-ivar">@options</span>[<span class="ruby-identifier">name</span>] = <span class="ruby-constant">Definition</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">name</span>, <span class="ruby-identifier">type</span>, <span class="ruby-identifier">default</span>, <span class="ruby-identifier">desc</span>, <span class="ruby-identifier">block</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- define-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- define-method -->
+
+    
+      <div id="method-c-defined-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">defined?</span><span
+            class="method-args">(name)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Return <code>true</code> if an option called <code>name</code> is defined.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="defined-3F-source">
+            <pre><span class="ruby-comment"># File lib/kramdown/options.rb, line 64</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-keyword">defined?</span>(<span class="ruby-identifier">name</span>)
+  <span class="ruby-ivar">@options</span>.<span class="ruby-identifier">has_key?</span>(<span class="ruby-identifier">name</span>.<span class="ruby-identifier">to_sym</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- defined-3F-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- defined-3F-method -->
+
+    
+      <div id="method-c-definitions" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">definitions</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Return all option definitions.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="definitions-source">
+            <pre><span class="ruby-comment"># File lib/kramdown/options.rb, line 59</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">definitions</span>
+  <span class="ruby-ivar">@options</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- definitions-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- definitions-method -->
+
+    
+      <div id="method-c-merge" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">merge</span><span
+            class="method-args">(hash)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Merge the defaults Hash with the <strong>parsed</strong> options from the
+given Hash, i.e. only valid option names are considered and their value is
+run through the parse method.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="merge-source">
+            <pre><span class="ruby-comment"># File lib/kramdown/options.rb, line 77</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">merge</span>(<span class="ruby-identifier">hash</span>)
+  <span class="ruby-identifier">temp</span> = <span class="ruby-identifier">defaults</span>
+  <span class="ruby-identifier">hash</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">k</span>,<span class="ruby-identifier">v</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">k</span> = <span class="ruby-identifier">k</span>.<span class="ruby-identifier">to_sym</span>
+    <span class="ruby-ivar">@options</span>.<span class="ruby-identifier">has_key?</span>(<span class="ruby-identifier">k</span>) <span class="ruby-operator">?</span> <span class="ruby-identifier">temp</span>[<span class="ruby-identifier">k</span>] = <span class="ruby-identifier">parse</span>(<span class="ruby-identifier">k</span>, <span class="ruby-identifier">v</span>) <span class="ruby-operator">:</span> <span class="ruby-identifier">temp</span>[<span class="ruby-identifier">k</span>] = <span class="ruby-identifier">v</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">temp</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- merge-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- merge-method -->
+
+    
+      <div id="method-c-parse" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">parse</span><span
+            class="method-args">(name, data)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Parse the given value <code>data</code> as if it was a value for the option
+<code>name</code> and return the parsed value with the correct type.</p>
+
+<p>If <code>data</code> already has the correct type, it is just returned.
+Otherwise it is converted to a String and then to the correct type.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="parse-source">
+            <pre><span class="ruby-comment"># File lib/kramdown/options.rb, line 91</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-identifier">name</span>, <span class="ruby-identifier">data</span>)
+  <span class="ruby-identifier">name</span> = <span class="ruby-identifier">name</span>.<span class="ruby-identifier">to_sym</span>
+  <span class="ruby-identifier">raise</span> <span class="ruby-constant">ArgumentError</span>, <span class="ruby-node">&quot;No option named #{name} defined&quot;</span> <span class="ruby-keyword">if</span> <span class="ruby-operator">!</span><span class="ruby-ivar">@options</span>.<span class="ruby-identifier">has_key?</span>(<span class="ruby-identifier">name</span>)
+  <span class="ruby-keyword">if</span> <span class="ruby-operator">!</span>(<span class="ruby-ivar">@options</span>[<span class="ruby-identifier">name</span>].<span class="ruby-identifier">type</span> <span class="ruby-operator">===</span> <span class="ruby-identifier">data</span>)
+    <span class="ruby-identifier">data</span> = <span class="ruby-identifier">data</span>.<span class="ruby-identifier">to_s</span>
+    <span class="ruby-identifier">data</span> = <span class="ruby-keyword">if</span> <span class="ruby-ivar">@options</span>[<span class="ruby-identifier">name</span>].<span class="ruby-identifier">type</span> <span class="ruby-operator">==</span> <span class="ruby-constant">String</span>
+             <span class="ruby-identifier">data</span>
+           <span class="ruby-keyword">elsif</span> <span class="ruby-ivar">@options</span>[<span class="ruby-identifier">name</span>].<span class="ruby-identifier">type</span> <span class="ruby-operator">==</span> <span class="ruby-constant">Integer</span>
+             <span class="ruby-constant">Integer</span>(<span class="ruby-identifier">data</span>) <span class="ruby-keyword">rescue</span> <span class="ruby-identifier">raise</span> <span class="ruby-constant">Kramdown</span><span class="ruby-operator">::</span><span class="ruby-constant">Error</span>, <span class="ruby-node">&quot;Invalid integer value for option &#39;#{name}&#39;: &#39;#{data}&#39;&quot;</span>
+           <span class="ruby-keyword">elsif</span> <span class="ruby-ivar">@options</span>[<span class="ruby-identifier">name</span>].<span class="ruby-identifier">type</span> <span class="ruby-operator">==</span> <span class="ruby-constant">Float</span>
+             <span class="ruby-constant">Float</span>(<span class="ruby-identifier">data</span>) <span class="ruby-keyword">rescue</span> <span class="ruby-identifier">raise</span> <span class="ruby-constant">Kramdown</span><span class="ruby-operator">::</span><span class="ruby-constant">Error</span>, <span class="ruby-node">&quot;Invalid float value for option &#39;#{name}&#39;: &#39;#{data}&#39;&quot;</span>
+           <span class="ruby-keyword">elsif</span> <span class="ruby-ivar">@options</span>[<span class="ruby-identifier">name</span>].<span class="ruby-identifier">type</span> <span class="ruby-operator">==</span> <span class="ruby-constant">Symbol</span>
+             <span class="ruby-identifier">str_to_sym</span>(<span class="ruby-identifier">data</span>)
+           <span class="ruby-keyword">elsif</span> <span class="ruby-ivar">@options</span>[<span class="ruby-identifier">name</span>].<span class="ruby-identifier">type</span> <span class="ruby-operator">==</span> <span class="ruby-constant">Boolean</span>
+             <span class="ruby-identifier">data</span>.<span class="ruby-identifier">downcase</span>.<span class="ruby-identifier">strip</span> <span class="ruby-operator">!=</span> <span class="ruby-string">&#39;false&#39;</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-operator">!</span><span class="ruby-identifier">data</span>.<span class="ruby-identifier">empty?</span>
+           <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">data</span> = <span class="ruby-ivar">@options</span>[<span class="ruby-identifier">name</span>].<span class="ruby-identifier">validator</span>[<span class="ruby-identifier">data</span>] <span class="ruby-keyword">if</span> <span class="ruby-ivar">@options</span>[<span class="ruby-identifier">name</span>].<span class="ruby-identifier">validator</span>
+  <span class="ruby-identifier">data</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- parse-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- parse-method -->
+
+    
+      <div id="method-c-str_to_sym" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">str_to_sym</span><span
+            class="method-args">(data)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Converts the given String <code>data</code> into a Symbol or
+<code>nil</code> with the following provisions:</p>
+<ul><li>
+<p>A leading colon is stripped from the string.</p>
+</li><li>
+<p>An empty value or a value equal to “nil” results in <code>nil</code>.</p>
+</li></ul>
+          
+          
+
+          
+          <div class="method-source-code" id="str_to_sym-source">
+            <pre><span class="ruby-comment"># File lib/kramdown/options.rb, line 117</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">str_to_sym</span>(<span class="ruby-identifier">data</span>)
+  <span class="ruby-identifier">data</span> = <span class="ruby-identifier">data</span>.<span class="ruby-identifier">strip</span>
+  <span class="ruby-identifier">data</span> = <span class="ruby-identifier">data</span>[<span class="ruby-value">1</span><span class="ruby-operator">..</span><span class="ruby-value">-1</span>] <span class="ruby-keyword">if</span> <span class="ruby-identifier">data</span>[<span class="ruby-value">0</span>] <span class="ruby-operator">==</span> <span class="ruby-string">:</span>
+  (<span class="ruby-identifier">data</span>.<span class="ruby-identifier">empty?</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">data</span> <span class="ruby-operator">==</span> <span class="ruby-string">&#39;nil&#39;</span> <span class="ruby-operator">?</span> <span class="ruby-keyword">nil</span> <span class="ruby-operator">:</span> <span class="ruby-identifier">data</span>.<span class="ruby-identifier">to_sym</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- str_to_sym-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- str_to_sym-method -->
+
+    
+    </section><!-- public-class-method-details -->
+  
+  </section><!-- Option+definitions -->
+
+</div><!-- documentation -->
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 4.0.0.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+

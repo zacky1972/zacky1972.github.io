@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+<title>class Kramdown::Element - kramdown-1.6.0 Documentation</title>
+
+<link type="text/css" media="screen" href="../rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="../js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/darkfish.js"></script>
+
+
+<body id="top" class="class">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="../index.html">Home</a>
+    <a href="../table_of_contents.html#classes">Classes</a>
+    <a href="../table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  
+<div id="table-of-contents">
+  <nav class="section">
+    <h3 class="section-header">Table of Contents</h3>
+    <ul>
+      <li><a href="#label-Structural+Elements">Structural Elements</a>
+      <li><a href="#label-%3Aroot">:root</a>
+      <li><a href="#label-%3Ablank">:blank</a>
+      <li><a href="#label-%3Ap">:p</a>
+      <li><a href="#label-%3Aheader">:header</a>
+      <li><a href="#label-%3Ablockquote">:blockquote</a>
+      <li><a href="#label-%3Acodeblock">:codeblock</a>
+      <li><a href="#label-%3Aul">:ul</a>
+      <li><a href="#label-%3Aol">:ol</a>
+      <li><a href="#label-%3Ali">:li</a>
+      <li><a href="#label-%3Adl">:dl</a>
+      <li><a href="#label-%3Adt">:dt</a>
+      <li><a href="#label-%3Add">:dd</a>
+      <li><a href="#label-%3Ahr">:hr</a>
+      <li><a href="#label-%3Atable">:table</a>
+      <li><a href="#label-%3Athead">:thead</a>
+      <li><a href="#label-%3Atbody">:tbody</a>
+      <li><a href="#label-%3Atfoot">:tfoot</a>
+      <li><a href="#label-%3Atr">:tr</a>
+      <li><a href="#label-%3Atd">:td</a>
+      <li><a href="#label-%3Amath">:math</a>
+      <li><a href="#label-Text+Markup+Elements">Text Markup Elements</a>
+      <li><a href="#label-%3Atext">:text</a>
+      <li><a href="#label-%3Abr">:br</a>
+      <li><a href="#label-%3Aa">:a</a>
+      <li><a href="#label-%3Aimg">:img</a>
+      <li><a href="#label-%3Acodespan">:codespan</a>
+      <li><a href="#label-%3Afootnote">:footnote</a>
+      <li><a href="#label-%3Aem">:em</a>
+      <li><a href="#label-%3Astrong">:strong</a>
+      <li><a href="#label-%3Aentity">:entity</a>
+      <li><a href="#label-%3Atypographic_sym">:typographic_sym</a>
+      <li><a href="#label-%3Asmart_quote">:smart_quote</a>
+      <li><a href="#label-%3Aabbreviation">:abbreviation</a>
+      <li><a href="#label-Other+Elements">Other Elements</a>
+      <li><a href="#label-%3Ahtml_element">:html_element</a>
+      <li><a href="#label-%3Axml_comment">:xml_comment</a>
+      <li><a href="#label-%3Axml_pi">:xml_pi</a>
+      <li><a href="#label-%3Acomment">:comment</a>
+      <li><a href="#label-%3Araw">:raw</a>
+    </ul>
+  </nav>
+</div>
+
+
+  <div id="file-metadata">
+    <nav id="file-list-section" class="section">
+  <h3 class="section-header">Defined In</h3>
+  <ul>
+    <li>lib/kramdown/element.rb
+  </ul>
+</nav>
+
+    
+  </div>
+
+  <div id="class-metadata">
+    
+    <nav id="parent-class-section" class="section">
+  <h3 class="section-header">Parent</h3>
+  
+  <p class="link">Object
+  
+</nav>
+
+    
+    
+    <!-- Method Quickref -->
+<nav id="method-list-section" class="section">
+  <h3 class="section-header">Methods</h3>
+
+  <ul class="link-list">
+    
+    <li ><a href="#method-c-category">::category</a>
+    
+    <li ><a href="#method-c-new">::new</a>
+    
+    <li ><a href="#method-i-attr">#attr</a>
+    
+    <li ><a href="#method-i-options">#options</a>
+    
+  </ul>
+</nav>
+
+  </div>
+
+  <div id="project-metadata">
+    
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../Kramdown.html">Kramdown</a>
+  
+    <li><a href="../Kramdown/Converter.html">Kramdown::Converter</a>
+  
+    <li><a href="../Kramdown/Converter/Base.html">Kramdown::Converter::Base</a>
+  
+    <li><a href="../Kramdown/Converter/Html.html">Kramdown::Converter::Html</a>
+  
+    <li><a href="../Kramdown/Converter/Kramdown.html">Kramdown::Converter::Kramdown</a>
+  
+    <li><a href="../Kramdown/Converter/Latex.html">Kramdown::Converter::Latex</a>
+  
+    <li><a href="../Kramdown/Converter/MathEngine.html">Kramdown::Converter::MathEngine</a>
+  
+    <li><a href="../Kramdown/Converter/MathEngine/Itex2MML.html">Kramdown::Converter::MathEngine::Itex2MML</a>
+  
+    <li><a href="../Kramdown/Converter/MathEngine/Mathjax.html">Kramdown::Converter::MathEngine::Mathjax</a>
+  
+    <li><a href="../Kramdown/Converter/MathEngine/Ritex.html">Kramdown::Converter::MathEngine::Ritex</a>
+  
+    <li><a href="../Kramdown/Converter/Pdf.html">Kramdown::Converter::Pdf</a>
+  
+    <li><a href="../Kramdown/Converter/Pdf/PrawnDocumentExtension.html">Kramdown::Converter::Pdf::PrawnDocumentExtension</a>
+  
+    <li><a href="../Kramdown/Converter/Pdf/PrawnDocumentExtension/CustomBox.html">Kramdown::Converter::Pdf::PrawnDocumentExtension::CustomBox</a>
+  
+    <li><a href="../Kramdown/Converter/Pdf/PrawnDocumentExtension/Prawn.html">Kramdown::Converter::Pdf::PrawnDocumentExtension::Prawn</a>
+  
+    <li><a href="../Kramdown/Converter/Pdf/PrawnDocumentExtension/Prawn/Text.html">Kramdown::Converter::Pdf::PrawnDocumentExtension::Prawn::Text</a>
+  
+    <li><a href="../Kramdown/Converter/Pdf/PrawnDocumentExtension/Prawn/Text/Formatted.html">Kramdown::Converter::Pdf::PrawnDocumentExtension::Prawn::Text::Formatted</a>
+  
+    <li><a href="../Kramdown/Converter/RemoveHtmlTags.html">Kramdown::Converter::RemoveHtmlTags</a>
+  
+    <li><a href="../Kramdown/Converter/SyntaxHighlighter.html">Kramdown::Converter::SyntaxHighlighter</a>
+  
+    <li><a href="../Kramdown/Converter/SyntaxHighlighter/Coderay.html">Kramdown::Converter::SyntaxHighlighter::Coderay</a>
+  
+    <li><a href="../Kramdown/Converter/SyntaxHighlighter/Rouge.html">Kramdown::Converter::SyntaxHighlighter::Rouge</a>
+  
+    <li><a href="../Kramdown/Converter/Toc.html">Kramdown::Converter::Toc</a>
+  
+    <li><a href="../Kramdown/Document.html">Kramdown::Document</a>
+  
+    <li><a href="../Kramdown/Element.html">Kramdown::Element</a>
+  
+    <li><a href="../Kramdown/Error.html">Kramdown::Error</a>
+  
+    <li><a href="../Kramdown/Options.html">Kramdown::Options</a>
+  
+    <li><a href="../Kramdown/Options/Boolean.html">Kramdown::Options::Boolean</a>
+  
+    <li><a href="../Kramdown/Parser.html">Kramdown::Parser</a>
+  
+    <li><a href="../Kramdown/Parser/Base.html">Kramdown::Parser::Base</a>
+  
+    <li><a href="../Kramdown/Parser/GFM.html">Kramdown::Parser::GFM</a>
+  
+    <li><a href="../Kramdown/Parser/Html.html">Kramdown::Parser::Html</a>
+  
+    <li><a href="../Kramdown/Parser/Html/Constants.html">Kramdown::Parser::Html::Constants</a>
+  
+    <li><a href="../Kramdown/Parser/Html/ElementConverter.html">Kramdown::Parser::Html::ElementConverter</a>
+  
+    <li><a href="../Kramdown/Parser/Html/Parser.html">Kramdown::Parser::Html::Parser</a>
+  
+    <li><a href="../Kramdown/Parser/Kramdown.html">Kramdown::Parser::Kramdown</a>
+  
+    <li><a href="../Kramdown/Parser/Markdown.html">Kramdown::Parser::Markdown</a>
+  
+    <li><a href="../Kramdown/Utils.html">Kramdown::Utils</a>
+  
+    <li><a href="../Kramdown/Utils/Configurable.html">Kramdown::Utils::Configurable</a>
+  
+    <li><a href="../Kramdown/Utils/Entities.html">Kramdown::Utils::Entities</a>
+  
+    <li><a href="../Kramdown/Utils/Entities/Entity.html">Kramdown::Utils::Entities::Entity</a>
+  
+    <li><a href="../Kramdown/Utils/Html.html">Kramdown::Utils::Html</a>
+  
+    <li><a href="../Kramdown/Utils/OrderedHash.html">Kramdown::Utils::OrderedHash</a>
+  
+    <li><a href="../Kramdown/Utils/StringScanner.html">Kramdown::Utils::StringScanner</a>
+  
+    <li><a href="../Kramdown/Utils/Unidecoder.html">Kramdown::Utils::Unidecoder</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation">
+  <h1 class="class">class Kramdown::Element</h1>
+
+  <div id="description" class="description">
+    
+<p>Represents all elements in the element tree.</p>
+
+<p>kramdown only uses this one class for representing all available elements
+in an element tree (paragraphs, headers, emphasis, …). The type of element
+can be set via the <a href="Element.html#attribute-i-type">type</a>
+accessor.</p>
+
+<p>Following is a description of all supported element types.</p>
+
+<p>Note that the option :location may contain the start line number of an
+element in the source document.</p>
+
+<h2 id="label-Structural+Elements">Structural Elements<span><a href="#label-Structural+Elements">&para;</a> <a href="#documentation">&uarr;</a></span></h2>
+
+<h3 id="label-%3Aroot">:root<span><a href="#label-%3Aroot">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>None</p>
+</dd><dt>Usage context
+<dd>
+<p>As the root element of a document</p>
+</dd><dt>Content model
+<dd>
+<p>Block-level elements</p>
+</dd></dl>
+
+<p>Represents the root of a kramdown document.</p>
+
+<p>The root element contains the following option keys:</p>
+<dl class="rdoc-list note-list"><dt>:encoding
+<dd>
+<p>When running on Ruby 1.9 this key has to be set to the encoding used for
+the text parts of the kramdown document.</p>
+</dd><dt>:abbrev_defs
+<dd>
+<p>This key may be used to store the mapping of abbreviation to abbreviation
+definition.</p>
+</dd><dt>:abbrev_attr
+<dd>
+<p>This key may be used to store the mapping of abbreviation to abbreviation
+attributes.</p>
+</dd><dt>:options
+<dd>
+<p>This key may be used to store options that were set during parsing of the
+document.</p>
+</dd></dl>
+
+<h3 id="label-%3Ablank">:blank<span><a href="#label-%3Ablank">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Block-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where block-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>Empty</p>
+</dd></dl>
+
+<p>Represents one or more blank lines. It is not allowed to have two or more
+consecutive blank elements.</p>
+
+<p>The <code>value</code> field may contain the original content of the blank
+lines.</p>
+
+<h3 id="label-%3Ap">:p<span><a href="#label-%3Ap">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Block-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where block-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>Span-level elements</p>
+</dd></dl>
+
+<p>Represents a paragraph.</p>
+
+<p>If the option :transparent is <code>true</code>, this element just
+represents a block of text. I.e. this element just functions as a container
+for span-level elements.</p>
+
+<h3 id="label-%3Aheader">:header<span><a href="#label-%3Aheader">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Block-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where block-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>Span-level elements</p>
+</dd></dl>
+
+<p>Represents a header.</p>
+
+<p>The option :level specifies the header level and has to contain a number
+between 1 and 6. The option :raw_text has to contain the raw header text.</p>
+
+<h3 id="label-%3Ablockquote">:blockquote<span><a href="#label-%3Ablockquote">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Block-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where block-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>Block-level elements</p>
+</dd></dl>
+
+<p>Represents a blockquote.</p>
+
+<h3 id="label-%3Acodeblock">:codeblock<span><a href="#label-%3Acodeblock">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Block-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where block-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>Empty</p>
+</dd></dl>
+
+<p>Represents a code block, i.e. a block of text that should be used as-is.</p>
+
+<p>The <code>value</code> field has to contain the content of the code block.</p>
+
+<h3 id="label-%3Aul">:ul<span><a href="#label-%3Aul">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Block-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where block-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>One or more :li elements</p>
+</dd></dl>
+
+<p>Represents an unordered list.</p>
+
+<h3 id="label-%3Aol">:ol<span><a href="#label-%3Aol">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Block-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where block-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>One or more :li elements</p>
+</dd></dl>
+
+<p>Represents an ordered list.</p>
+
+<h3 id="label-%3Ali">:li<span><a href="#label-%3Ali">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Block-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Inside :ol and :ul elements</p>
+</dd><dt>Content model
+<dd>
+<p>Block-level elements</p>
+</dd></dl>
+
+<p>Represents a list item of an ordered or unordered list.</p>
+
+<p>Note that the first child of a list item must not be a :blank element!</p>
+
+<h3 id="label-%3Adl">:dl<span><a href="#label-%3Adl">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Block-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where block-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>One or more groups each consisting of one or more :dt elements followed by
+one or more :dd elements.</p>
+</dd></dl>
+
+<p>Represents a definition list which contains groups consisting of terms and
+definitions for them.</p>
+
+<h3 id="label-%3Adt">:dt<span><a href="#label-%3Adt">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Block-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Before :dt or :dd elements inside a :dl elment</p>
+</dd><dt>Content model
+<dd>
+<p>Span-level elements</p>
+</dd></dl>
+
+<p>Represents the term part of a term-definition group in a definition list.</p>
+
+<h3 id="label-%3Add">:dd<span><a href="#label-%3Add">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Block-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>After :dt or :dd elements inside a :dl elment</p>
+</dd><dt>Content model
+<dd>
+<p>Block-level elements</p>
+</dd></dl>
+
+<p>Represents the definition part of a term-definition group in a definition
+list.</p>
+
+<h3 id="label-%3Ahr">:hr<span><a href="#label-%3Ahr">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Block-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where block-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>None</p>
+</dd></dl>
+
+<p>Represents a horizontal line.</p>
+
+<h3 id="label-%3Atable">:table<span><a href="#label-%3Atable">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Block-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where block-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>Zero or one :thead elements, one or more :tbody elements, zero or one
+:tfoot elements</p>
+</dd></dl>
+
+<p>Represents a table. Each table row (i.e. :tr element) of the table has to
+contain the same number of :td elements.</p>
+
+<p>The option :alignment has to be an array containing the alignment values,
+exactly one for each column of the table. The possible alignment values are
+:left, :center, :right and :default.</p>
+
+<h3 id="label-%3Athead">:thead<span><a href="#label-%3Athead">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>None</p>
+</dd><dt>Usage context
+<dd>
+<p>As first element inside a :table element</p>
+</dd><dt>Content model
+<dd>
+<p>One or more :tr elements</p>
+</dd></dl>
+
+<p>Represents the table header.</p>
+
+<h3 id="label-%3Atbody">:tbody<span><a href="#label-%3Atbody">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>None</p>
+</dd><dt>Usage context
+<dd>
+<p>After a :thead element but before a :tfoot element inside a :table element</p>
+</dd><dt>Content model
+<dd>
+<p>One or more :tr elements</p>
+</dd></dl>
+
+<p>Represents a table body.</p>
+
+<h3 id="label-%3Atfoot">:tfoot<span><a href="#label-%3Atfoot">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>None</p>
+</dd><dt>Usage context
+<dd>
+<p>As last element inside a :table element</p>
+</dd><dt>Content model
+<dd>
+<p>One or more :tr elements</p>
+</dd></dl>
+
+<p>Represents the table footer.</p>
+
+<h3 id="label-%3Atr">:tr<span><a href="#label-%3Atr">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>None</p>
+</dd><dt>Usage context
+<dd>
+<p>Inside :thead, :tbody and :tfoot elements</p>
+</dd><dt>Content model
+<dd>
+<p>One or more :td elements</p>
+</dd></dl>
+
+<p>Represents a table row.</p>
+
+<h3 id="label-%3Atd">:td<span><a href="#label-%3Atd">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Block-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Inside :tr elements</p>
+</dd><dt>Content model
+<dd>
+<p>As child of :thead/:tr span-level elements, as child of :tbody/:tr and
+:tfoot/:tr block-level elements</p>
+</dd></dl>
+
+<p>Represents a table cell.</p>
+
+<h3 id="label-%3Amath">:math<span><a href="#label-%3Amath">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Block/span-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where block/span-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>None</p>
+</dd></dl>
+
+<p>Represents mathematical text that is written in LaTeX.</p>
+
+<p>The <code>value</code> field has to contain the actual mathematical text.</p>
+
+<p>The option :category has to be set to either :span or :block depending on
+the context where the element is used.</p>
+
+<h2 id="label-Text+Markup+Elements">Text Markup Elements<span><a href="#label-Text+Markup+Elements">&para;</a> <a href="#documentation">&uarr;</a></span></h2>
+
+<h3 id="label-%3Atext">:text<span><a href="#label-%3Atext">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Span-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where span-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>None</p>
+</dd></dl>
+
+<p>Represents text.</p>
+
+<p>The <code>value</code> field has to contain the text itself.</p>
+
+<h3 id="label-%3Abr">:br<span><a href="#label-%3Abr">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Span-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where span-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>None</p>
+</dd></dl>
+
+<p>Represents a hard line break.</p>
+
+<h3 id="label-%3Aa">:a<span><a href="#label-%3Aa">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Span-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where span-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>Span-level elements</p>
+</dd></dl>
+
+<p>Represents a link to an URL.</p>
+
+<p>The attribute <code>href</code> has to be set to the URL to which the link
+points. The attribute <code>title</code> optionally contains the title of
+the link.</p>
+
+<h3 id="label-%3Aimg">:img<span><a href="#label-%3Aimg">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Span-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where span-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>None</p>
+</dd></dl>
+
+<p>Represents an image.</p>
+
+<p>The attribute <code>src</code> has to be set to the URL of the image. The
+attribute <code>alt</code> has to contain a text description of the image.
+The attribute <code>title</code> optionally contains the title of the
+image.</p>
+
+<h3 id="label-%3Acodespan">:codespan<span><a href="#label-%3Acodespan">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Span-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where span-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>None</p>
+</dd></dl>
+
+<p>Represents verbatim text.</p>
+
+<p>The <code>value</code> field has to contain the content of the code span.</p>
+
+<h3 id="label-%3Afootnote">:footnote<span><a href="#label-%3Afootnote">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Span-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where span-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>None</p>
+</dd></dl>
+
+<p>Represents a footnote marker.</p>
+
+<p>The <code>value</code> field has to contain an element whose children are
+the content of the footnote. The option :name has to contain a valid and
+unique footnote name. A valid footnote name consists of a word character or
+a digit and then optionally followed by other word characters, digits or
+dashes.</p>
+
+<h3 id="label-%3Aem">:em<span><a href="#label-%3Aem">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Span-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where span-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>Span-level elements</p>
+</dd></dl>
+
+<p>Represents emphasis of its contents.</p>
+
+<h3 id="label-%3Astrong">:strong<span><a href="#label-%3Astrong">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Span-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where span-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>Span-level elements</p>
+</dd></dl>
+
+<p>Represents strong importance for its contents.</p>
+
+<h3 id="label-%3Aentity">:entity<span><a href="#label-%3Aentity">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Span-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where span-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>None</p>
+</dd></dl>
+
+<p>Represents an HTML entity.</p>
+
+<p>The <code>value</code> field has to contain an instance of <a
+href="Utils/Entities/Entity.html">Kramdown::Utils::Entities::Entity</a>.
+The option :original can be used to store the original representation of
+the entity.</p>
+
+<h3 id="label-%3Atypographic_sym">:typographic_sym<span><a href="#label-%3Atypographic_sym">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Span-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where span-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>None</p>
+</dd></dl>
+
+<p>Represents a typographic symbol.</p>
+
+<p>The <code>value</code> field needs to contain a Symbol representing the
+specific typographic symbol from the following list:</p>
+<dl class="rdoc-list note-list"><dt>:mdash
+<dd>
+<p>An mdash character (—)</p>
+</dd><dt>:ndash
+<dd>
+<p>An ndash character (–)</p>
+</dd><dt>:hellip
+<dd>
+<p>An ellipsis (…)</p>
+</dd><dt>:laquo
+<dd>
+<p>A left guillemet (&lt;&lt;)</p>
+</dd><dt>:raquo
+<dd>
+<p>A right guillemet (&gt;&gt;)</p>
+</dd><dt>:laquo_space
+<dd>
+<p>A left guillemet with a space (&lt;&lt; )</p>
+</dd><dt>:raquo_space
+<dd>
+<p>A right guillemet with a space ( &gt;&gt;)</p>
+</dd></dl>
+
+<h3 id="label-%3Asmart_quote">:smart_quote<span><a href="#label-%3Asmart_quote">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Span-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where span-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>None</p>
+</dd></dl>
+
+<p>Represents a quotation character.</p>
+
+<p>The <code>value</code> field needs to contain a Symbol representing the
+specific quotation character:</p>
+<dl class="rdoc-list note-list"><dt>:lsquo
+<dd>
+<p>Left single quote</p>
+</dd><dt>:rsquo
+<dd>
+<p>Right single quote</p>
+</dd><dt>:ldquo
+<dd>
+<p>Left double quote</p>
+</dd><dt>:rdquo
+<dd>
+<p>Right double quote</p>
+</dd></dl>
+
+<h3 id="label-%3Aabbreviation">:abbreviation<span><a href="#label-%3Aabbreviation">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Span-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where span-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>None</p>
+</dd></dl>
+
+<p>Represents a text part that is an abbreviation.</p>
+
+<p>The <code>value</code> field has to contain the text part that is the
+abbreviation. The definition of the abbreviation is stored in the :root
+element of the document.</p>
+
+<h2 id="label-Other+Elements">Other Elements<span><a href="#label-Other+Elements">&para;</a> <a href="#documentation">&uarr;</a></span></h2>
+
+<h3 id="label-%3Ahtml_element">:html_element<span><a href="#label-%3Ahtml_element">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Block/span-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where block/span-level elements or raw HTML elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>Depends on the element</p>
+</dd></dl>
+
+<p>Represents an HTML element.</p>
+
+<p>The <code>value</code> field has to contain the name of the HTML element
+the element is representing.</p>
+
+<p>The option :category has to be set to either :span or :block depending on
+the whether the element is a block-level or a span-level element. The
+option :content_model has to be set to the content model for the element
+(either :block if it contains block-level elements, :span if it contains
+span-level elements or :raw if it contains raw content).</p>
+
+<h3 id="label-%3Axml_comment">:xml_comment<span><a href="#label-%3Axml_comment">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Block/span-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where block/span-level elements are expected or in raw HTML elements</p>
+</dd><dt>Content model
+<dd>
+<p>None</p>
+</dd></dl>
+
+<p>Represents an XML/HTML comment.</p>
+
+<p>The <code>value</code> field has to contain the whole XML/HTML comment
+including the delimiters.</p>
+
+<p>The option :category has to be set to either :span or :block depending on
+the context where the element is used.</p>
+
+<h3 id="label-%3Axml_pi">:xml_pi<span><a href="#label-%3Axml_pi">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Block/span-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where block/span-level elements are expected or in raw HTML elements</p>
+</dd><dt>Content model
+<dd>
+<p>None</p>
+</dd></dl>
+
+<p>Represents an XML/HTML processing instruction.</p>
+
+<p>The <code>value</code> field has to contain the whole XML/HTML processing
+instruction including the delimiters.</p>
+
+<p>The option :category has to be set to either :span or :block depending on
+the context where the element is used.</p>
+
+<h3 id="label-%3Acomment">:comment<span><a href="#label-%3Acomment">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Block/span-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where block/span-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>None</p>
+</dd></dl>
+
+<p>Represents a comment.</p>
+
+<p>The <code>value</code> field has to contain the comment.</p>
+
+<p>The option :category has to be set to either :span or :block depending on
+the context where the element is used. If it is set to :span, then no blank
+lines are allowed in the comment.</p>
+
+<h3 id="label-%3Araw">:raw<span><a href="#label-%3Araw">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<dl class="rdoc-list label-list"><dt>Category
+<dd>
+<p>Block/span-level element</p>
+</dd><dt>Usage context
+<dd>
+<p>Where block/span-level elements are expected</p>
+</dd><dt>Content model
+<dd>
+<p>None</p>
+</dd></dl>
+
+<p>Represents a raw string that should not be modified. For example, the
+element could contain some HTML code that should be output as-is without
+modification and escaping.</p>
+
+<p>The <code>value</code> field has to contain the actual raw text.</p>
+
+<p>The option :category has to be set to either :span or :block depending on
+the context where the element is used. If it is set to :span, then no blank
+lines are allowed in the raw text.</p>
+
+<p>The option :type can be set to an array of strings to define for which
+converters the raw string is valid.</p>
+
+  </div><!-- description -->
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+    <!-- Attributes -->
+    <section id="attribute-method-details" class="method-section section">
+      <h3 class="section-header">Attributes</h3>
+
+      
+      <div id="attribute-i-children" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">children</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>The child elements of this element.</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-type" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">type</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>A symbol representing the element type. For example, :p or :blockquote.</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-value" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">value</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>The value of the element. The interpretation of this field depends on the
+type of the element. Many elements don&#39;t use this field.</p>
+        
+        </div>
+      </div>
+      
+    </section><!-- attribute-method-details -->
+    
+
+    <!-- Methods -->
+    
+     <section id="public-class-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Class Methods</h3>
+
+    
+      <div id="method-c-category" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">category</span><span
+            class="method-args">(el)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Return the category of <code>el</code> which can be :block, :span or
+<code>nil</code>.</p>
+
+<p>Most elements have a fixed category, however, some elements can either
+appear in a block-level or a span-level context. These elements need to
+have the option :category correctly set.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="category-source">
+            <pre><span class="ruby-comment"># File lib/kramdown/element.rb, line 511</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">category</span>(<span class="ruby-identifier">el</span>)
+  <span class="ruby-constant">CATEGORY</span>[<span class="ruby-identifier">el</span>.<span class="ruby-identifier">type</span>] <span class="ruby-operator">||</span> <span class="ruby-identifier">el</span>.<span class="ruby-identifier">options</span>[<span class="ruby-value">:category</span>]
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- category-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- category-method -->
+
+    
+      <div id="method-c-new" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">new</span><span
+            class="method-args">(type, value = nil, attr = nil, options = nil)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Create a new <a href="Element.html">Element</a> object of type
+<code>type</code>. The optional parameters <code>value</code>,
+<code>attr</code> and <code>options</code> can also be set in this
+constructor for convenience.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="new-source">
+            <pre><span class="ruby-comment"># File lib/kramdown/element.rb, line 483</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">type</span>, <span class="ruby-identifier">value</span> = <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">attr</span> = <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">options</span> = <span class="ruby-keyword">nil</span>)
+  <span class="ruby-ivar">@type</span>, <span class="ruby-ivar">@value</span>, <span class="ruby-ivar">@attr</span>, <span class="ruby-ivar">@options</span> = <span class="ruby-identifier">type</span>, <span class="ruby-identifier">value</span>, (<span class="ruby-constant">Utils</span><span class="ruby-operator">::</span><span class="ruby-constant">OrderedHash</span>.<span class="ruby-identifier">new</span>.<span class="ruby-identifier">merge!</span>(<span class="ruby-identifier">attr</span>) <span class="ruby-keyword">if</span> <span class="ruby-identifier">attr</span>), <span class="ruby-identifier">options</span>
+  <span class="ruby-ivar">@children</span> = []
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- new-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- new-method -->
+
+    
+    </section><!-- public-class-method-details -->
+  
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Instance Methods</h3>
+
+    
+      <div id="method-i-attr" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">attr</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>The attributes of the element. Uses an <a
+href="Utils/OrderedHash.html">Utils::OrderedHash</a> to retain the
+insertion order.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="attr-source">
+            <pre><span class="ruby-comment"># File lib/kramdown/element.rb, line 489</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">attr</span>
+  <span class="ruby-ivar">@attr</span> <span class="ruby-operator">||=</span> <span class="ruby-constant">Utils</span><span class="ruby-operator">::</span><span class="ruby-constant">OrderedHash</span>.<span class="ruby-identifier">new</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- attr-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- attr-method -->
+
+    
+      <div id="method-i-options" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">options</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>The options hash for the element. It is used for storing arbitray options.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="options-source">
+            <pre><span class="ruby-comment"># File lib/kramdown/element.rb, line 494</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">options</span>
+  <span class="ruby-ivar">@options</span> <span class="ruby-operator">||=</span> {}
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- options-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- options-method -->
+
+    
+    </section><!-- public-instance-method-details -->
+  
+  </section><!-- 5Buntitled-5D -->
+
+</div><!-- documentation -->
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 4.0.0.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+
