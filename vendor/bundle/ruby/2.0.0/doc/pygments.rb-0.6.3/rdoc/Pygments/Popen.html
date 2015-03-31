@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+<title>module Pygments::Popen - pygments.rb-0.6.3 Documentation</title>
+
+<link type="text/css" media="screen" href="../rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="../js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/darkfish.js"></script>
+
+
+<body id="top" class="module">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="../index.html">Home</a>
+    <a href="../table_of_contents.html#classes">Classes</a>
+    <a href="../table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  
+
+  <div id="file-metadata">
+    <nav id="file-list-section" class="section">
+  <h3 class="section-header">Defined In</h3>
+  <ul>
+    <li>lib/pygments/popen.rb
+  </ul>
+</nav>
+
+    
+  </div>
+
+  <div id="class-metadata">
+    
+    
+    <!-- Included Modules -->
+<nav id="includes-section" class="section">
+  <h3 class="section-header">Included Modules</h3>
+
+  <ul class="link-list">
+  
+  
+    <li><span class="include">POSIX::Spawn</span>
+  
+  
+  </ul>
+</nav>
+
+    
+    <!-- Method Quickref -->
+<nav id="method-list-section" class="section">
+  <h3 class="section-header">Methods</h3>
+
+  <ul class="link-list">
+    
+    <li ><a href="#method-i-add_ids">#add_ids</a>
+    
+    <li ><a href="#method-i-alive-3F">#alive?</a>
+    
+    <li ><a href="#method-i-css">#css</a>
+    
+    <li ><a href="#method-i-filters">#filters</a>
+    
+    <li ><a href="#method-i-formatters">#formatters</a>
+    
+    <li ><a href="#method-i-get_fixed_bits_from_header">#get_fixed_bits_from_header</a>
+    
+    <li ><a href="#method-i-get_header">#get_header</a>
+    
+    <li ><a href="#method-i-handle_header_and_return">#handle_header_and_return</a>
+    
+    <li ><a href="#method-i-header_to_json">#header_to_json</a>
+    
+    <li ><a href="#method-i-highlight">#highlight</a>
+    
+    <li ><a href="#method-i-lexer_name_for">#lexer_name_for</a>
+    
+    <li ><a href="#method-i-lexers">#lexers</a>
+    
+    <li ><a href="#method-i-lexers-21">#lexers!</a>
+    
+    <li ><a href="#method-i-mentos">#mentos</a>
+    
+    <li ><a href="#method-i-python_binary">#python_binary</a>
+    
+    <li ><a href="#method-i-return_result">#return_result</a>
+    
+    <li ><a href="#method-i-size_check">#size_check</a>
+    
+    <li ><a href="#method-i-start">#start</a>
+    
+    <li ><a href="#method-i-stop">#stop</a>
+    
+    <li ><a href="#method-i-styles">#styles</a>
+    
+    <li ><a href="#method-i-which">#which</a>
+    
+    <li ><a href="#method-i-write_data">#write_data</a>
+    
+  </ul>
+</nav>
+
+  </div>
+
+  <div id="project-metadata">
+    <nav id="fileindex-section" class="section project-section">
+  <h3 class="section-header">Pages</h3>
+
+  <ul>
+  
+    <li class="file"><a href="../lib/pygments/mentos_py.html">mentos.py</a>
+  
+  </ul>
+</nav>
+
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../MentosError.html">MentosError</a>
+  
+    <li><a href="../Pygments.html">Pygments</a>
+  
+    <li><a href="../Pygments/Lexer.html">Pygments::Lexer</a>
+  
+    <li><a href="../Pygments/Popen.html">Pygments::Popen</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation">
+  <h1 class="module">module Pygments::Popen</h1>
+
+  <div id="description" class="description">
+    
+  </div><!-- description -->
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    <!-- Methods -->
+    
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Instance Methods</h3>
+
+    
+      <div id="method-i-alive-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">alive?</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Check for a @pid variable, and then hit `kill -0` with the pid to check if
+the pid is still in the process table. If this function gives us an ENOENT
+or ESRCH, we can also safely return false (no process to worry about).
+Defensively, if EPERM is raised, in a odd/rare dying process situation
+(e.g., mentos is checking on the pid of a dead process and the pid has
+already been re-used) we&#39;ll want to raise that as a more informative
+Mentos exception.</p>
+
+<p>Returns true if the child is alive.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="alive-3F-source">
+            <pre><span class="ruby-comment"># File lib/pygments/popen.rb, line 98</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">alive?</span>
+  <span class="ruby-keyword">return</span> <span class="ruby-keyword">true</span> <span class="ruby-keyword">if</span> <span class="ruby-ivar">@pid</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-constant">Process</span>.<span class="ruby-identifier">kill</span>(<span class="ruby-value">0</span>, <span class="ruby-ivar">@pid</span>)
+  <span class="ruby-keyword">false</span>
+<span class="ruby-keyword">rescue</span> <span class="ruby-constant">Errno</span><span class="ruby-operator">::</span><span class="ruby-constant">ENOENT</span>, <span class="ruby-constant">Errno</span><span class="ruby-operator">::</span><span class="ruby-constant">ESRCH</span>
+  <span class="ruby-keyword">false</span>
+<span class="ruby-keyword">rescue</span> <span class="ruby-constant">Errno</span><span class="ruby-operator">::</span><span class="ruby-constant">EPERM</span>
+  <span class="ruby-identifier">raise</span> <span class="ruby-constant">MentosError</span>, <span class="ruby-string">&quot;EPERM checking if child process is alive.&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- alive-3F-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- alive-3F-method -->
+
+    
+      <div id="method-i-css" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">css</span><span
+            class="method-args">(klass='', opts={})</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Public: Return css for highlighted code</p>
+          
+          
+
+          
+          <div class="method-source-code" id="css-source">
+            <pre><span class="ruby-comment"># File lib/pygments/popen.rb, line 172</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">css</span>(<span class="ruby-identifier">klass</span>=<span class="ruby-string">&#39;&#39;</span>, <span class="ruby-identifier">opts</span>={})
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">klass</span>.<span class="ruby-identifier">is_a?</span>(<span class="ruby-constant">Hash</span>)
+    <span class="ruby-identifier">opts</span> = <span class="ruby-identifier">klass</span>
+    <span class="ruby-identifier">klass</span> = <span class="ruby-string">&#39;&#39;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">mentos</span>(<span class="ruby-value">:css</span>, [<span class="ruby-string">&#39;html&#39;</span>, <span class="ruby-identifier">klass</span>], <span class="ruby-identifier">opts</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- css-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- css-method -->
+
+    
+      <div id="method-i-filters" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">filters</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Public: Return an array of all available filters</p>
+          
+          
+
+          
+          <div class="method-source-code" id="filters-source">
+            <pre><span class="ruby-comment"># File lib/pygments/popen.rb, line 162</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">filters</span>
+  <span class="ruby-identifier">mentos</span>(<span class="ruby-value">:get_all_filters</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- filters-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- filters-method -->
+
+    
+      <div id="method-i-formatters" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">formatters</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Public: Get an array of available <a href="../Pygments.html">Pygments</a>
+formatters</p>
+
+<p>Returns an array of formatters.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="formatters-source">
+            <pre><span class="ruby-comment"># File lib/pygments/popen.rb, line 110</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">formatters</span>
+  <span class="ruby-identifier">mentos</span>(<span class="ruby-value">:get_all_formatters</span>).<span class="ruby-identifier">inject</span>(<span class="ruby-constant">Hash</span>.<span class="ruby-identifier">new</span>) <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span> <span class="ruby-identifier">hash</span>, (<span class="ruby-identifier">name</span>, <span class="ruby-identifier">desc</span>, <span class="ruby-identifier">aliases</span>) <span class="ruby-operator">|</span>
+    <span class="ruby-comment"># Remove the long-winded and repetitive &#39;Formatter&#39; suffix</span>
+    <span class="ruby-identifier">name</span>.<span class="ruby-identifier">sub!</span>(<span class="ruby-regexp">/Formatter$/</span>, <span class="ruby-string">&#39;&#39;</span>)
+    <span class="ruby-identifier">hash</span>[<span class="ruby-identifier">name</span>] = {
+      <span class="ruby-value">:name</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">name</span>,
+      <span class="ruby-value">:description</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">desc</span>,
+      <span class="ruby-value">:aliases</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">aliases</span>
+    }
+    <span class="ruby-identifier">hash</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- formatters-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- formatters-method -->
+
+    
+      <div id="method-i-highlight" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">highlight</span><span
+            class="method-args">(code, opts={})</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Public: Highlight code.</p>
+
+<p>Takes a first-position argument of the code to be highlighted, and a
+second-position hash of various arguments specifiying highlighting
+properties.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="highlight-source">
+            <pre><span class="ruby-comment"># File lib/pygments/popen.rb, line 202</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">highlight</span>(<span class="ruby-identifier">code</span>, <span class="ruby-identifier">opts</span>={})
+  <span class="ruby-comment"># If the caller didn&#39;t give us any code, we have nothing to do,</span>
+  <span class="ruby-comment"># so return right away.</span>
+  <span class="ruby-keyword">return</span> <span class="ruby-identifier">code</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">code</span>.<span class="ruby-identifier">nil?</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">code</span>.<span class="ruby-identifier">empty?</span>
+
+  <span class="ruby-comment"># Callers pass along options in the hash</span>
+  <span class="ruby-identifier">opts</span>[<span class="ruby-value">:options</span>] <span class="ruby-operator">||=</span> {}
+
+  <span class="ruby-comment"># Default to utf-8 for the output encoding, if not given.</span>
+  <span class="ruby-identifier">opts</span>[<span class="ruby-value">:options</span>][<span class="ruby-value">:outencoding</span>] <span class="ruby-operator">||=</span> <span class="ruby-string">&#39;utf-8&#39;</span>
+
+  <span class="ruby-comment"># Get back the string from mentos and force encoding if we can</span>
+  <span class="ruby-identifier">str</span> = <span class="ruby-identifier">mentos</span>(<span class="ruby-value">:highlight</span>, <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">opts</span>, <span class="ruby-identifier">code</span>)
+  <span class="ruby-identifier">str</span>.<span class="ruby-identifier">force_encoding</span>(<span class="ruby-identifier">opts</span>[<span class="ruby-value">:options</span>][<span class="ruby-value">:outencoding</span>]) <span class="ruby-keyword">if</span> <span class="ruby-identifier">str</span>.<span class="ruby-identifier">respond_to?</span>(<span class="ruby-value">:force_encoding</span>)
+  <span class="ruby-identifier">str</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- highlight-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- highlight-method -->
+
+    
+      <div id="method-i-lexer_name_for" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">lexer_name_for</span><span
+            class="method-args">(*args)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Public: Return the name of a lexer.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="lexer_name_for-source">
+            <pre><span class="ruby-comment"># File lib/pygments/popen.rb, line 181</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">lexer_name_for</span>(<span class="ruby-operator">*</span><span class="ruby-identifier">args</span>)
+  <span class="ruby-comment"># Pop off the last arg if it&#39;s a hash, which becomes our opts</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">args</span>.<span class="ruby-identifier">last</span>.<span class="ruby-identifier">is_a?</span>(<span class="ruby-constant">Hash</span>)
+    <span class="ruby-identifier">opts</span> = <span class="ruby-identifier">args</span>.<span class="ruby-identifier">pop</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">opts</span> = {}
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">args</span>.<span class="ruby-identifier">last</span>.<span class="ruby-identifier">is_a?</span>(<span class="ruby-constant">String</span>)
+    <span class="ruby-identifier">code</span> = <span class="ruby-identifier">args</span>.<span class="ruby-identifier">pop</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">code</span> = <span class="ruby-keyword">nil</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">mentos</span>(<span class="ruby-value">:lexer_name_for</span>, <span class="ruby-identifier">args</span>, <span class="ruby-identifier">opts</span>, <span class="ruby-identifier">code</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- lexer_name_for-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- lexer_name_for-method -->
+
+    
+      <div id="method-i-lexers" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">lexers</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Public: Get all lexers from a serialized array. This avoids needing to
+spawn mentos when it&#39;s not really needed (e.g,. one-off jobs, loading
+the Rails env, etc).</p>
+
+<p>Should be preferred to <a href="Popen.html#method-i-lexers-21">lexers!</a></p>
+
+<p>Returns an array of lexers</p>
+          
+          
+
+          
+          <div class="method-source-code" id="lexers-source">
+            <pre><span class="ruby-comment"># File lib/pygments/popen.rb, line 130</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">lexers</span>
+  <span class="ruby-keyword">begin</span>
+    <span class="ruby-identifier">lexer_file</span> = <span class="ruby-constant">File</span>.<span class="ruby-identifier">expand_path</span>(<span class="ruby-string">&#39;../../../lexers&#39;</span>, <span class="ruby-keyword">__FILE__</span>)
+    <span class="ruby-identifier">raw</span> = <span class="ruby-constant">File</span>.<span class="ruby-identifier">open</span>(<span class="ruby-identifier">lexer_file</span>, <span class="ruby-string">&quot;rb&quot;</span>).<span class="ruby-identifier">read</span>
+    <span class="ruby-constant">Marshal</span>.<span class="ruby-identifier">load</span>(<span class="ruby-identifier">raw</span>)
+  <span class="ruby-keyword">rescue</span> <span class="ruby-constant">Errno</span><span class="ruby-operator">::</span><span class="ruby-constant">ENOENT</span>
+    <span class="ruby-identifier">raise</span> <span class="ruby-constant">MentosError</span>, <span class="ruby-string">&quot;Error loading lexer file. Was it created and vendored?&quot;</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- lexers-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- lexers-method -->
+
+    
+      <div id="method-i-lexers-21" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">lexers!</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Public: Get back all available lexers from mentos itself</p>
+
+<p>Returns an array of lexers</p>
+          
+          
+
+          
+          <div class="method-source-code" id="lexers-21-source">
+            <pre><span class="ruby-comment"># File lib/pygments/popen.rb, line 143</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">lexers!</span>
+  <span class="ruby-identifier">mentos</span>(<span class="ruby-value">:get_all_lexers</span>).<span class="ruby-identifier">inject</span>(<span class="ruby-constant">Hash</span>.<span class="ruby-identifier">new</span>) <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">hash</span>, <span class="ruby-identifier">lxr</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">name</span> = <span class="ruby-identifier">lxr</span>[<span class="ruby-value">0</span>]
+    <span class="ruby-identifier">hash</span>[<span class="ruby-identifier">name</span>] = {
+      <span class="ruby-value">:name</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">name</span>,
+      <span class="ruby-value">:aliases</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">lxr</span>[<span class="ruby-value">1</span>],
+      <span class="ruby-value">:filenames</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">lxr</span>[<span class="ruby-value">2</span>],
+      <span class="ruby-value">:mimetypes</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">lxr</span>[<span class="ruby-value">3</span>]
+    }
+    <span class="ruby-identifier">hash</span>[<span class="ruby-string">&quot;dasm16&quot;</span>] = {<span class="ruby-value">:name=</span><span class="ruby-operator">&gt;</span><span class="ruby-string">&quot;dasm16&quot;</span>, <span class="ruby-value">:aliases=</span><span class="ruby-operator">&gt;</span>[<span class="ruby-string">&quot;DASM16&quot;</span>], <span class="ruby-value">:filenames=</span><span class="ruby-operator">&gt;</span>[<span class="ruby-string">&quot;*.dasm16&quot;</span>, <span class="ruby-string">&quot;*.dasm&quot;</span>], <span class="ruby-value">:mimetypes=</span><span class="ruby-operator">&gt;</span>[<span class="ruby-string">&#39;text/x-dasm16&#39;</span>]}
+    <span class="ruby-identifier">hash</span>[<span class="ruby-string">&quot;Puppet&quot;</span>] = {<span class="ruby-value">:name=</span><span class="ruby-operator">&gt;</span><span class="ruby-string">&quot;Puppet&quot;</span>, <span class="ruby-value">:aliases=</span><span class="ruby-operator">&gt;</span>[<span class="ruby-string">&quot;puppet&quot;</span>], <span class="ruby-value">:filenames=</span><span class="ruby-operator">&gt;</span>[<span class="ruby-string">&quot;*.pp&quot;</span>], <span class="ruby-value">:mimetypes=</span><span class="ruby-operator">&gt;</span>[]}
+    <span class="ruby-identifier">hash</span>[<span class="ruby-string">&quot;Augeas&quot;</span>] = {<span class="ruby-value">:name=</span><span class="ruby-operator">&gt;</span><span class="ruby-string">&quot;Augeas&quot;</span>, <span class="ruby-value">:aliases=</span><span class="ruby-operator">&gt;</span>[<span class="ruby-string">&quot;augeas&quot;</span>], <span class="ruby-value">:filenames=</span><span class="ruby-operator">&gt;</span>[<span class="ruby-string">&quot;*.aug&quot;</span>], <span class="ruby-value">:mimetypes=</span><span class="ruby-operator">&gt;</span>[]}
+    <span class="ruby-identifier">hash</span>[<span class="ruby-string">&quot;TOML&quot;</span>]   = {<span class="ruby-value">:name=</span><span class="ruby-operator">&gt;</span><span class="ruby-string">&quot;TOML&quot;</span>,   <span class="ruby-value">:aliases=</span><span class="ruby-operator">&gt;</span>[<span class="ruby-string">&quot;toml&quot;</span>],   <span class="ruby-value">:filenames=</span><span class="ruby-operator">&gt;</span>[<span class="ruby-string">&quot;*.toml&quot;</span>], <span class="ruby-value">:mimetypes=</span><span class="ruby-operator">&gt;</span>[]}
+    <span class="ruby-identifier">hash</span>[<span class="ruby-string">&quot;Slash&quot;</span>]  = {<span class="ruby-value">:name=</span><span class="ruby-operator">&gt;</span><span class="ruby-string">&quot;Slash&quot;</span>,  <span class="ruby-value">:aliases=</span><span class="ruby-operator">&gt;</span>[<span class="ruby-string">&quot;slash&quot;</span>],  <span class="ruby-value">:filenames=</span><span class="ruby-operator">&gt;</span>[<span class="ruby-string">&quot;*.sl&quot;</span>], <span class="ruby-value">:mimetypes=</span><span class="ruby-operator">&gt;</span>[]}
+    <span class="ruby-identifier">hash</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- lexers-21-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- lexers-21-method -->
+
+    
+      <div id="method-i-python_binary" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">python_binary</span><span
+            class="method-args">(is_windows)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Detect a suitable Python binary to use.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="python_binary-source">
+            <pre><span class="ruby-comment"># File lib/pygments/popen.rb, line 45</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">python_binary</span>(<span class="ruby-identifier">is_windows</span>)
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">is_windows</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">which</span>(<span class="ruby-string">&#39;py&#39;</span>)
+    <span class="ruby-keyword">return</span> <span class="ruby-string">&#39;py -2&#39;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">return</span> <span class="ruby-identifier">which</span>(<span class="ruby-string">&#39;python2&#39;</span>) <span class="ruby-operator">||</span> <span class="ruby-string">&#39;python&#39;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- python_binary-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- python_binary-method -->
+
+    
+      <div id="method-i-start" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">start</span><span
+            class="method-args">(pygments_path = File.expand_path('../../../vendor/pygments-main/', __FILE__))</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Get things started by opening a pipe to mentos (the freshmaker), a Python
+process that talks to the <a href="../Pygments.html">Pygments</a> library.
+We&#39;ll talk back and forth across this pipe.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="start-source">
+            <pre><span class="ruby-comment"># File lib/pygments/popen.rb, line 21</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">start</span>(<span class="ruby-identifier">pygments_path</span> = <span class="ruby-constant">File</span>.<span class="ruby-identifier">expand_path</span>(<span class="ruby-string">&#39;../../../vendor/pygments-main/&#39;</span>, <span class="ruby-keyword">__FILE__</span>))
+  <span class="ruby-identifier">is_windows</span> = <span class="ruby-constant">RUBY_PLATFORM</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">/mswin|mingw/</span>
+  <span class="ruby-keyword">begin</span>
+    <span class="ruby-ivar">@log</span> = <span class="ruby-constant">Logger</span>.<span class="ruby-identifier">new</span>(<span class="ruby-constant">ENV</span>[<span class="ruby-string">&#39;MENTOS_LOG&#39;</span>] <span class="ruby-operator">||=</span> <span class="ruby-identifier">is_windows</span> <span class="ruby-operator">?</span> <span class="ruby-string">&#39;NUL:&#39;</span> <span class="ruby-operator">:</span> <span class="ruby-string">&#39;/dev/null&#39;</span>)
+    <span class="ruby-ivar">@log</span>.<span class="ruby-identifier">level</span> = <span class="ruby-constant">Logger</span><span class="ruby-operator">::</span><span class="ruby-constant">INFO</span>
+    <span class="ruby-ivar">@log</span>.<span class="ruby-identifier">datetime_format</span> = <span class="ruby-string">&quot;%Y-%m-%d %H:%M &quot;</span>
+  <span class="ruby-keyword">rescue</span>
+    <span class="ruby-ivar">@log</span> = <span class="ruby-constant">Logger</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">is_windows</span> <span class="ruby-operator">?</span> <span class="ruby-string">&#39;NUL:&#39;</span> <span class="ruby-operator">:</span> <span class="ruby-string">&#39;/dev/null&#39;</span>)
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-constant">ENV</span>[<span class="ruby-string">&#39;PYGMENTS_PATH&#39;</span>] = <span class="ruby-identifier">pygments_path</span>
+
+  <span class="ruby-comment"># Make sure we kill off the child when we&#39;re done</span>
+  <span class="ruby-identifier">at_exit</span> { <span class="ruby-identifier">stop</span> <span class="ruby-string">&quot;Exiting&quot;</span> }
+
+  <span class="ruby-comment"># A pipe to the mentos python process. #popen4 gives us</span>
+  <span class="ruby-comment"># the pid and three IO objects to write and read.</span>
+  <span class="ruby-identifier">python_path</span> = <span class="ruby-identifier">python_binary</span>(<span class="ruby-identifier">is_windows</span>)
+  <span class="ruby-identifier">script</span> = <span class="ruby-node">&quot;#{python_path} #{File.expand_path(&#39;../mentos.py&#39;, __FILE__)}&quot;</span>
+  <span class="ruby-ivar">@pid</span>, <span class="ruby-ivar">@in</span>, <span class="ruby-ivar">@out</span>, <span class="ruby-ivar">@err</span> = <span class="ruby-identifier">popen4</span>(<span class="ruby-identifier">script</span>)
+  <span class="ruby-ivar">@log</span>.<span class="ruby-identifier">info</span> <span class="ruby-node">&quot;[#{Time.now.iso8601}] Starting pid #{@pid.to_s} with fd #{@out.to_i.to_s}.&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- start-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- start-method -->
+
+    
+      <div id="method-i-stop" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">stop</span><span
+            class="method-args">(reason)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Stop the child process by issuing a kill -9.</p>
+
+<p>We then call waitpid() with the pid, which waits for that particular child
+and reaps it.</p>
+
+<p>kill() can set errno to ESRCH if, for some reason, the file is gone;
+regardless the final outcome of this method will be to set our @pid
+variable to nil.</p>
+
+<p>Technically, kill() can also fail with EPERM or EINVAL (wherein the signal
+isn&#39;t sent); but we have permissions, and we&#39;re not doing anything
+invalid here.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="stop-source">
+            <pre><span class="ruby-comment"># File lib/pygments/popen.rb, line 77</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">stop</span>(<span class="ruby-identifier">reason</span>)
+  <span class="ruby-keyword">if</span> <span class="ruby-ivar">@pid</span>
+    <span class="ruby-keyword">begin</span>
+      <span class="ruby-constant">Process</span>.<span class="ruby-identifier">kill</span>(<span class="ruby-string">&#39;KILL&#39;</span>, <span class="ruby-ivar">@pid</span>)
+      <span class="ruby-constant">Process</span>.<span class="ruby-identifier">waitpid</span>(<span class="ruby-ivar">@pid</span>)
+    <span class="ruby-keyword">rescue</span> <span class="ruby-constant">Errno</span><span class="ruby-operator">::</span><span class="ruby-constant">ESRCH</span>, <span class="ruby-constant">Errno</span><span class="ruby-operator">::</span><span class="ruby-constant">ECHILD</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-ivar">@log</span>.<span class="ruby-identifier">info</span> <span class="ruby-node">&quot;[#{Time.now.iso8601}] Killing pid: #{@pid.to_s}. Reason: #{reason}&quot;</span>
+  <span class="ruby-ivar">@pid</span> = <span class="ruby-keyword">nil</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- stop-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- stop-method -->
+
+    
+      <div id="method-i-styles" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">styles</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Public: Return an array of all available styles</p>
+          
+          
+
+          
+          <div class="method-source-code" id="styles-source">
+            <pre><span class="ruby-comment"># File lib/pygments/popen.rb, line 167</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">styles</span>
+  <span class="ruby-identifier">mentos</span>(<span class="ruby-value">:get_all_styles</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- styles-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- styles-method -->
+
+    
+      <div id="method-i-which" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">which</span><span
+            class="method-args">(command)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Cross platform which command from <a
+href="http://stackoverflow.com/a/5471032/284795">stackoverflow.com/a/5471032/284795</a></p>
+          
+          
+
+          
+          <div class="method-source-code" id="which-source">
+            <pre><span class="ruby-comment"># File lib/pygments/popen.rb, line 54</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">which</span>(<span class="ruby-identifier">command</span>)
+  <span class="ruby-identifier">exts</span> = <span class="ruby-constant">ENV</span>[<span class="ruby-string">&#39;PATHEXT&#39;</span>] <span class="ruby-operator">?</span> <span class="ruby-constant">ENV</span>[<span class="ruby-string">&#39;PATHEXT&#39;</span>].<span class="ruby-identifier">split</span>(<span class="ruby-string">&#39;;&#39;</span>) <span class="ruby-operator">:</span> [<span class="ruby-string">&#39;&#39;</span>]
+  <span class="ruby-constant">ENV</span>[<span class="ruby-string">&#39;PATH&#39;</span>].<span class="ruby-identifier">split</span>(<span class="ruby-constant">File</span><span class="ruby-operator">::</span><span class="ruby-constant">PATH_SEPARATOR</span>).<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">dir</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">exts</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">ext</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">path</span> = <span class="ruby-constant">File</span>.<span class="ruby-identifier">join</span>(<span class="ruby-identifier">dir</span>, <span class="ruby-node">&quot;#{command}#{ext}&quot;</span>)
+      <span class="ruby-keyword">return</span> <span class="ruby-identifier">path</span> <span class="ruby-keyword">if</span> <span class="ruby-constant">File</span>.<span class="ruby-identifier">executable?</span>(<span class="ruby-identifier">path</span>) <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-operator">!</span><span class="ruby-constant">File</span>.<span class="ruby-identifier">directory?</span>(<span class="ruby-identifier">path</span>)
+    }
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">return</span> <span class="ruby-keyword">nil</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- which-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- which-method -->
+
+    
+    </section><!-- public-instance-method-details -->
+  
+     <section id="private-instance-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Private Instance Methods</h3>
+
+    
+      <div id="method-i-add_ids" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">add_ids</span><span
+            class="method-args">(code, id)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>With the code, prepend the id (with two spaces to avoid escaping weirdness
+if the following text starts with a slash (like terminal code), and append
+the id, with two padding also. This means we are sending over the 8
+characters + code + 8 characters.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="add_ids-source">
+            <pre><span class="ruby-comment"># File lib/pygments/popen.rb, line 332</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">add_ids</span>(<span class="ruby-identifier">code</span>, <span class="ruby-identifier">id</span>)
+  <span class="ruby-identifier">code</span>.<span class="ruby-identifier">freeze</span>
+  <span class="ruby-identifier">code</span> = <span class="ruby-identifier">id</span> <span class="ruby-operator">+</span> <span class="ruby-node">&quot;  #{code}  #{id}&quot;</span>
+  <span class="ruby-identifier">code</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- add_ids-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- add_ids-method -->
+
+    
+      <div id="method-i-get_fixed_bits_from_header" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">get_fixed_bits_from_header</span><span
+            class="method-args">(out_header)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="get_fixed_bits_from_header-source">
+            <pre><span class="ruby-comment"># File lib/pygments/popen.rb, line 410</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">get_fixed_bits_from_header</span>(<span class="ruby-identifier">out_header</span>)
+  <span class="ruby-identifier">size</span> = <span class="ruby-identifier">out_header</span>.<span class="ruby-identifier">bytesize</span>
+
+  <span class="ruby-comment"># Fixed 32 bits to represent the int. We return a string</span>
+  <span class="ruby-comment"># represenation: e.g, &quot;00000000000000000000000000011110&quot;</span>
+  <span class="ruby-constant">Array</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">32</span>) { <span class="ruby-operator">|</span><span class="ruby-identifier">i</span><span class="ruby-operator">|</span> <span class="ruby-identifier">size</span>[<span class="ruby-identifier">i</span>] }.<span class="ruby-identifier">reverse!</span>.<span class="ruby-identifier">join</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- get_fixed_bits_from_header-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- get_fixed_bits_from_header-method -->
+
+    
+      <div id="method-i-get_header" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">get_header</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Read the header via the pipe.</p>
+
+<p>Returns a header.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="get_header-source">
+            <pre><span class="ruby-comment"># File lib/pygments/popen.rb, line 360</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">get_header</span>
+  <span class="ruby-keyword">begin</span>
+    <span class="ruby-identifier">size</span> = <span class="ruby-ivar">@out</span>.<span class="ruby-identifier">read</span>(<span class="ruby-value">33</span>)
+    <span class="ruby-identifier">size</span> = <span class="ruby-identifier">size</span>[<span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-value">-2</span>]
+
+    <span class="ruby-comment"># Sanity check the size</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-keyword">not</span> <span class="ruby-identifier">size_check</span>(<span class="ruby-identifier">size</span>)
+      <span class="ruby-ivar">@log</span>.<span class="ruby-identifier">error</span> <span class="ruby-node">&quot;[#{Time.now.iso8601}] Size returned from mentos.py invalid.&quot;</span>
+      <span class="ruby-identifier">stop</span> <span class="ruby-string">&quot;Size returned from mentos.py invalid.&quot;</span>
+      <span class="ruby-identifier">raise</span> <span class="ruby-constant">MentosError</span>, <span class="ruby-string">&quot;Size returned from mentos.py invalid.&quot;</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-comment"># Read the amount of bytes we should be expecting. We first</span>
+    <span class="ruby-comment"># convert the string of bits into an integer.</span>
+    <span class="ruby-identifier">header_bytes</span> = <span class="ruby-identifier">size</span>.<span class="ruby-identifier">to_s</span>.<span class="ruby-identifier">to_i</span>(<span class="ruby-value">2</span>) <span class="ruby-operator">+</span> <span class="ruby-value">1</span>
+    <span class="ruby-ivar">@log</span>.<span class="ruby-identifier">info</span> <span class="ruby-node">&quot;[#{Time.now.iso8601}] Size in: #{size.to_s} (#{header_bytes.to_s})&quot;</span>
+    <span class="ruby-ivar">@out</span>.<span class="ruby-identifier">read</span>(<span class="ruby-identifier">header_bytes</span>)
+  <span class="ruby-keyword">rescue</span>
+    <span class="ruby-ivar">@log</span>.<span class="ruby-identifier">error</span> <span class="ruby-node">&quot;[#{Time.now.iso8601}] Failed to get header.&quot;</span>
+    <span class="ruby-identifier">stop</span> <span class="ruby-string">&quot;Failed to get header.&quot;</span>
+    <span class="ruby-identifier">raise</span> <span class="ruby-constant">MentosError</span>, <span class="ruby-string">&quot;Failed to get header.&quot;</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- get_header-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- get_header-method -->
+
+    
+      <div id="method-i-handle_header_and_return" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">handle_header_and_return</span><span
+            class="method-args">(header, id)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Based on the header we receive, determine if we need to read more bytes,
+and read those bytes if necessary.</p>
+
+<p>Then, do a sanity check wih the ids.</p>
+
+<p>Returns a result — either highlighted text or metadata.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="handle_header_and_return-source">
+            <pre><span class="ruby-comment"># File lib/pygments/popen.rb, line 284</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">handle_header_and_return</span>(<span class="ruby-identifier">header</span>, <span class="ruby-identifier">id</span>)
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">header</span>
+    <span class="ruby-identifier">header</span> = <span class="ruby-identifier">header_to_json</span>(<span class="ruby-identifier">header</span>)
+    <span class="ruby-identifier">bytes</span> = <span class="ruby-identifier">header</span>[<span class="ruby-string">&quot;bytes&quot;</span>]
+
+    <span class="ruby-comment"># Read more bytes (the actual response body)</span>
+    <span class="ruby-identifier">res</span> = <span class="ruby-ivar">@out</span>.<span class="ruby-identifier">read</span>(<span class="ruby-identifier">bytes</span>.<span class="ruby-identifier">to_i</span>)
+
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">header</span>[<span class="ruby-string">&quot;method&quot;</span>] <span class="ruby-operator">==</span> <span class="ruby-string">&quot;highlight&quot;</span>
+      <span class="ruby-comment"># Make sure we have a result back; else consider this an error.</span>
+      <span class="ruby-keyword">if</span> <span class="ruby-identifier">res</span>.<span class="ruby-identifier">nil?</span>
+        <span class="ruby-ivar">@log</span>.<span class="ruby-identifier">warn</span> <span class="ruby-node">&quot;[#{Time.now.iso8601}] No highlight result back from mentos.&quot;</span>
+        <span class="ruby-identifier">stop</span> <span class="ruby-string">&quot;No highlight result back from mentos.&quot;</span>
+        <span class="ruby-identifier">raise</span> <span class="ruby-constant">MentosError</span>, <span class="ruby-string">&quot;No highlight result back from mentos.&quot;</span>
+      <span class="ruby-keyword">end</span>
+
+      <span class="ruby-comment"># Remove the newline from Python</span>
+      <span class="ruby-identifier">res</span> = <span class="ruby-identifier">res</span>[<span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-value">-2</span>]
+      <span class="ruby-ivar">@log</span>.<span class="ruby-identifier">info</span> <span class="ruby-node">&quot;[#{Time.now.iso8601}] Highlight in process.&quot;</span>
+
+      <span class="ruby-comment"># Get the id&#39;s</span>
+      <span class="ruby-identifier">start_id</span> = <span class="ruby-identifier">res</span>[<span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-value">7</span>]
+      <span class="ruby-identifier">end_id</span> = <span class="ruby-identifier">res</span>[<span class="ruby-value">-8</span><span class="ruby-operator">..</span><span class="ruby-value">-1</span>]
+
+      <span class="ruby-comment"># Sanity check.</span>
+      <span class="ruby-keyword">if</span> <span class="ruby-keyword">not</span> (<span class="ruby-identifier">start_id</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">id</span> <span class="ruby-keyword">and</span> <span class="ruby-identifier">end_id</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">id</span>)
+        <span class="ruby-ivar">@log</span>.<span class="ruby-identifier">error</span> <span class="ruby-node">&quot;[#{Time.now.iso8601}] ID&#39;s did not match. Aborting.&quot;</span>
+        <span class="ruby-identifier">stop</span> <span class="ruby-string">&quot;ID&#39;s did not match. Aborting.&quot;</span>
+        <span class="ruby-identifier">raise</span> <span class="ruby-constant">MentosError</span>, <span class="ruby-string">&quot;ID&#39;s did not match. Aborting.&quot;</span>
+      <span class="ruby-keyword">else</span>
+        <span class="ruby-comment"># We&#39;re good. Remove the padding</span>
+        <span class="ruby-identifier">res</span> = <span class="ruby-identifier">res</span>[<span class="ruby-value">10</span><span class="ruby-operator">..</span><span class="ruby-value">-11</span>]
+        <span class="ruby-ivar">@log</span>.<span class="ruby-identifier">info</span> <span class="ruby-node">&quot;[#{Time.now.iso8601}] Highlighting complete.&quot;</span>
+        <span class="ruby-identifier">res</span>
+      <span class="ruby-keyword">end</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-identifier">res</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@log</span>.<span class="ruby-identifier">error</span> <span class="ruby-node">&quot;[#{Time.now.iso8601}] No header data back.&quot;</span>
+    <span class="ruby-identifier">stop</span> <span class="ruby-string">&quot;No header data back.&quot;</span>
+    <span class="ruby-identifier">raise</span> <span class="ruby-constant">MentosError</span>, <span class="ruby-string">&quot;No header received back.&quot;</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- handle_header_and_return-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- handle_header_and_return-method -->
+
+    
+      <div id="method-i-header_to_json" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">header_to_json</span><span
+            class="method-args">(header)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Convert a text header into JSON for easy access.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="header_to_json-source">
+            <pre><span class="ruby-comment"># File lib/pygments/popen.rb, line 395</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">header_to_json</span>(<span class="ruby-identifier">header</span>)
+  <span class="ruby-ivar">@log</span>.<span class="ruby-identifier">info</span> <span class="ruby-node">&quot;[#{Time.now.iso8601}] In header: #{header.to_s} &quot;</span>
+  <span class="ruby-identifier">header</span> = <span class="ruby-constant">Yajl</span>.<span class="ruby-identifier">load</span>(<span class="ruby-identifier">header</span>)
+
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">header</span>[<span class="ruby-string">&quot;error&quot;</span>]
+    <span class="ruby-comment"># Raise this as a Ruby exception of the MentosError class.</span>
+    <span class="ruby-comment"># Stop so we don&#39;t leave the pipe in an inconsistent state.</span>
+    <span class="ruby-ivar">@log</span>.<span class="ruby-identifier">error</span> <span class="ruby-node">&quot;[#{Time.now.iso8601}] Failed to convert header to JSON.&quot;</span>
+    <span class="ruby-identifier">stop</span> <span class="ruby-identifier">header</span>[<span class="ruby-string">&quot;error&quot;</span>]
+    <span class="ruby-identifier">raise</span> <span class="ruby-constant">MentosError</span>, <span class="ruby-identifier">header</span>[<span class="ruby-string">&quot;error&quot;</span>]
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">header</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- header_to_json-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- header_to_json-method -->
+
+    
+      <div id="method-i-mentos" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">mentos</span><span
+            class="method-args">(method, args=[], kwargs={}, original_code=nil)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Our &#39;rpc&#39;-ish request to mentos. Requires a method name, and then
+optional args, kwargs, code.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="mentos-source">
+            <pre><span class="ruby-comment"># File lib/pygments/popen.rb, line 223</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">mentos</span>(<span class="ruby-identifier">method</span>, <span class="ruby-identifier">args</span>=[], <span class="ruby-identifier">kwargs</span>={}, <span class="ruby-identifier">original_code</span>=<span class="ruby-keyword">nil</span>)
+  <span class="ruby-comment"># Open the pipe if necessary</span>
+  <span class="ruby-identifier">start</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">alive?</span>
+
+  <span class="ruby-keyword">begin</span>
+    <span class="ruby-comment"># Timeout requests that take too long.</span>
+    <span class="ruby-comment"># Invalid MENTOS_TIMEOUT results in just using default.</span>
+    <span class="ruby-identifier">timeout_time</span> = <span class="ruby-constant">Integer</span>(<span class="ruby-constant">ENV</span>[<span class="ruby-string">&quot;MENTOS_TIMEOUT&quot;</span>]) <span class="ruby-keyword">rescue</span> <span class="ruby-value">8</span>
+
+    <span class="ruby-constant">Timeout</span><span class="ruby-operator">::</span><span class="ruby-identifier">timeout</span>(<span class="ruby-identifier">timeout_time</span>) <span class="ruby-keyword">do</span>
+      <span class="ruby-comment"># For sanity checking on both sides of the pipe when highlighting, we prepend and</span>
+      <span class="ruby-comment"># append an id.  mentos checks that these are 8 character ids and that they match.</span>
+      <span class="ruby-comment"># It then returns the id&#39;s back to Rubyland.</span>
+      <span class="ruby-identifier">id</span> = (<span class="ruby-value">0</span><span class="ruby-operator">...</span><span class="ruby-value">8</span>).<span class="ruby-identifier">map</span>{<span class="ruby-value">65</span>.<span class="ruby-operator">+</span>(<span class="ruby-identifier">rand</span>(<span class="ruby-value">25</span>)).<span class="ruby-identifier">chr</span>}.<span class="ruby-identifier">join</span>
+      <span class="ruby-identifier">code</span> = <span class="ruby-identifier">add_ids</span>(<span class="ruby-identifier">original_code</span>, <span class="ruby-identifier">id</span>) <span class="ruby-keyword">if</span> <span class="ruby-identifier">original_code</span>
+
+      <span class="ruby-comment"># Add metadata to the header and generate it.</span>
+      <span class="ruby-keyword">if</span> <span class="ruby-identifier">code</span>
+        <span class="ruby-identifier">bytesize</span> = <span class="ruby-identifier">code</span>.<span class="ruby-identifier">bytesize</span>
+      <span class="ruby-keyword">else</span>
+        <span class="ruby-identifier">bytesize</span> = <span class="ruby-value">0</span>
+      <span class="ruby-keyword">end</span>
+
+      <span class="ruby-identifier">kwargs</span>.<span class="ruby-identifier">freeze</span>
+      <span class="ruby-identifier">kwargs</span> = <span class="ruby-identifier">kwargs</span>.<span class="ruby-identifier">merge</span>(<span class="ruby-string">&quot;fd&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-ivar">@out</span>.<span class="ruby-identifier">to_i</span>, <span class="ruby-string">&quot;id&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">id</span>, <span class="ruby-string">&quot;bytes&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">bytesize</span>)
+      <span class="ruby-identifier">out_header</span> = <span class="ruby-constant">Yajl</span>.<span class="ruby-identifier">dump</span>(<span class="ruby-value">:method</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">method</span>, <span class="ruby-value">:args</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">args</span>, <span class="ruby-value">:kwargs</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">kwargs</span>)
+
+      <span class="ruby-comment"># Get the size of the header itself and write that.</span>
+      <span class="ruby-identifier">bits</span> = <span class="ruby-identifier">get_fixed_bits_from_header</span>(<span class="ruby-identifier">out_header</span>)
+      <span class="ruby-ivar">@in</span>.<span class="ruby-identifier">write</span>(<span class="ruby-identifier">bits</span>)
+
+      <span class="ruby-comment"># mentos is now waiting for the header, and, potentially, code.</span>
+      <span class="ruby-identifier">write_data</span>(<span class="ruby-identifier">out_header</span>, <span class="ruby-identifier">code</span>)
+
+      <span class="ruby-comment"># mentos will now return data to us. First it sends the header.</span>
+      <span class="ruby-identifier">header</span> = <span class="ruby-identifier">get_header</span>
+
+      <span class="ruby-comment"># Now handle the header, any read any more data required.</span>
+      <span class="ruby-identifier">res</span> = <span class="ruby-identifier">handle_header_and_return</span>(<span class="ruby-identifier">header</span>, <span class="ruby-identifier">id</span>)
+
+      <span class="ruby-comment"># Finally, return what we got.</span>
+      <span class="ruby-identifier">return_result</span>(<span class="ruby-identifier">res</span>, <span class="ruby-identifier">method</span>)
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">rescue</span> <span class="ruby-constant">Timeout</span><span class="ruby-operator">::</span><span class="ruby-constant">Error</span>
+    <span class="ruby-comment"># If we timeout, we need to clear out the pipe and start over.</span>
+    <span class="ruby-ivar">@log</span>.<span class="ruby-identifier">error</span> <span class="ruby-node">&quot;[#{Time.now.iso8601}] Timeout on a mentos #{method} call&quot;</span>
+    <span class="ruby-identifier">stop</span> <span class="ruby-node">&quot;Timeout on mentos #{method} call.&quot;</span>
+  <span class="ruby-keyword">end</span>
+
+<span class="ruby-keyword">rescue</span> <span class="ruby-constant">Errno</span><span class="ruby-operator">::</span><span class="ruby-constant">EPIPE</span>, <span class="ruby-constant">EOFError</span>
+<span class="ruby-identifier">stop</span> <span class="ruby-string">&quot;EPIPE&quot;</span>
+<span class="ruby-identifier">raise</span> <span class="ruby-constant">MentosError</span>, <span class="ruby-string">&quot;EPIPE&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- mentos-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- mentos-method -->
+
+    
+      <div id="method-i-return_result" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">return_result</span><span
+            class="method-args">(res, method)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Return the final result for the API. Return Ruby objects for the methods
+that want them, text otherwise.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="return_result-source">
+            <pre><span class="ruby-comment"># File lib/pygments/popen.rb, line 386</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">return_result</span>(<span class="ruby-identifier">res</span>, <span class="ruby-identifier">method</span>)
+  <span class="ruby-keyword">unless</span> <span class="ruby-identifier">method</span> <span class="ruby-operator">==</span> <span class="ruby-value">:lexer_name_for</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">method</span> <span class="ruby-operator">==</span> <span class="ruby-value">:highlight</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">method</span> <span class="ruby-operator">==</span> <span class="ruby-value">:css</span>
+    <span class="ruby-identifier">res</span> = <span class="ruby-constant">Yajl</span>.<span class="ruby-identifier">load</span>(<span class="ruby-identifier">res</span>, <span class="ruby-value">:symbolize_keys</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>)
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">res</span> = <span class="ruby-identifier">res</span>.<span class="ruby-identifier">rstrip</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">res</span>.<span class="ruby-identifier">class</span> <span class="ruby-operator">==</span> <span class="ruby-constant">String</span>
+  <span class="ruby-identifier">res</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- return_result-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- return_result-method -->
+
+    
+      <div id="method-i-size_check" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">size_check</span><span
+            class="method-args">(size)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Sanity check for size (32-arity of 0&#39;s and 1&#39;s)</p>
+          
+          
+
+          
+          <div class="method-source-code" id="size_check-source">
+            <pre><span class="ruby-comment"># File lib/pygments/popen.rb, line 348</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">size_check</span>(<span class="ruby-identifier">size</span>)
+  <span class="ruby-identifier">size_regex</span> = <span class="ruby-regexp">/[0-1]{32}/</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">size_regex</span>.<span class="ruby-identifier">match</span>(<span class="ruby-identifier">size</span>)
+    <span class="ruby-keyword">true</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-keyword">false</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- size_check-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- size_check-method -->
+
+    
+      <div id="method-i-write_data" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">write_data</span><span
+            class="method-args">(out_header, code=nil)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Write data to mentos, the Python Process.</p>
+
+<p>Returns nothing.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="write_data-source">
+            <pre><span class="ruby-comment"># File lib/pygments/popen.rb, line 341</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">write_data</span>(<span class="ruby-identifier">out_header</span>, <span class="ruby-identifier">code</span>=<span class="ruby-keyword">nil</span>)
+  <span class="ruby-ivar">@in</span>.<span class="ruby-identifier">write</span>(<span class="ruby-identifier">out_header</span>)
+  <span class="ruby-ivar">@log</span>.<span class="ruby-identifier">info</span> <span class="ruby-node">&quot;[#{Time.now.iso8601}] Out header: #{out_header.to_s}&quot;</span>
+  <span class="ruby-ivar">@in</span>.<span class="ruby-identifier">write</span>(<span class="ruby-identifier">code</span>) <span class="ruby-keyword">if</span> <span class="ruby-identifier">code</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- write_data-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- write_data-method -->
+
+    
+    </section><!-- private-instance-method-details -->
+  
+  </section><!-- 5Buntitled-5D -->
+
+</div><!-- documentation -->
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 4.0.0.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+

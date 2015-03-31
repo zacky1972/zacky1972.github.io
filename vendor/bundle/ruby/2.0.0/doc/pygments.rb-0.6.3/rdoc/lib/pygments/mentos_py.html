@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+<title>mentos.py - pygments.rb-0.6.3 Documentation</title>
+
+<link type="text/css" media="screen" href="../../rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../../";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="../../js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/darkfish.js"></script>
+
+
+<body class="file">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="../../index.html">Home</a>
+    <a href="../../table_of_contents.html#classes">Classes</a>
+    <a href="../../table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  
+
+  <div id="project-metadata">
+    <nav id="fileindex-section" class="section project-section">
+  <h3 class="section-header">Pages</h3>
+
+  <ul>
+  
+    <li class="file"><a href="../../lib/pygments/mentos_py.html">mentos.py</a>
+  
+  </ul>
+</nav>
+
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../../MentosError.html">MentosError</a>
+  
+    <li><a href="../../Pygments.html">Pygments</a>
+  
+    <li><a href="../../Pygments/Lexer.html">Pygments::Lexer</a>
+  
+    <li><a href="../../Pygments/Popen.html">Pygments::Popen</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation" class="description">
+  
+<p>#!/usr/bin/env python</p>
+
+<p>import sys, re, os, signal import traceback if &#39;PYGMENTS_PATH&#39; in
+os.environ:</p>
+
+<pre>sys.path.insert(0, os.environ[&#39;PYGMENTS_PATH&#39;])</pre>
+
+<p>dirname = os.path.dirname</p>
+
+<p>base_dir = dirname(dirname(dirname(os.path.abspath(__file__))))
+sys.path.append(base_dir + “/vendor”) sys.path.append(base_dir +
+“/vendor/pygments-main”) sys.path.append(base_dir + “/vendor/simplejson”)</p>
+
+<p>import pygments from pygments import lexers, formatters, styles, filters</p>
+
+<p>from threading import Lock</p>
+
+<p>try:</p>
+
+<pre>import json</pre>
+
+<p>except ImportError:</p>
+
+<pre>import simplejson as json</pre>
+
+<p>def _convert_keys(dictionary):</p>
+
+<pre>if not isinstance(dictionary, dict):
+    return dictionary
+return dict((str(k), _convert_keys(v))
+    for k, v in dictionary.items())</pre>
+
+<p>def _write_error(error):</p>
+
+<pre>res = {&quot;error&quot;: error}
+out_header = json.dumps(res).encode(&#39;utf-8&#39;)
+bits = _get_fixed_bits_from_header(out_header)
+sys.stdout.write(bits + &quot;\n&quot;)
+sys.stdout.flush()
+sys.stdout.write(out_header + &quot;\n&quot;)
+sys.stdout.flush()
+return</pre>
+
+<p>def _get_fixed_bits_from_header(out_header):</p>
+
+<pre>size = len(out_header)
+return &quot;&quot;.join(map(lambda y:str((size&gt;&gt;y)&amp;1), range(32-1, -1, -1)))</pre>
+
+<p>def _signal_handler(signal, frame):</p>
+
+<pre>&quot;&quot;&quot;
+Handle the signal given in the first argument, exiting gracefully
+&quot;&quot;&quot;
+sys.exit(0)</pre>
+
+<p>class Mentos(object):</p>
+
+<pre class="ruby"><span class="ruby-string">&quot;&quot;</span><span class="ruby-string">&quot;
+Interacts with pygments.rb to provide access to pygments functionality
+&quot;</span><span class="ruby-string">&quot;&quot;</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">__init__</span>(<span class="ruby-keyword">self</span>)<span class="ruby-operator">:</span>
+    <span class="ruby-identifier">pass</span>
+
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">return_lexer</span>(<span class="ruby-keyword">self</span>, <span class="ruby-identifier">lexer</span>, <span class="ruby-identifier">args</span>, <span class="ruby-identifier">inputs</span>, <span class="ruby-identifier">code</span>=<span class="ruby-constant">None</span>)<span class="ruby-operator">:</span>
+    <span class="ruby-string">&quot;&quot;</span><span class="ruby-string">&quot;
+    Accepting a variety of possible inputs, return a Lexer object.
+
+    The inputs argument should be a hash with at least one of the following
+    keys:
+
+        - &#39;lexer&#39; (&quot;</span><span class="ruby-identifier">python</span><span class="ruby-string">&quot;)
+        - &#39;mimetype&#39; (&quot;</span><span class="ruby-identifier">text</span><span class="ruby-operator">/</span><span class="ruby-identifier">x</span><span class="ruby-operator">-</span><span class="ruby-identifier">ruby</span><span class="ruby-string">&quot;)
+        - &#39;filename&#39; (&quot;</span><span class="ruby-identifier">yeaaah</span>.<span class="ruby-identifier">py</span><span class="ruby-string">&quot;)
+
+    The code argument should be a string, such as &quot;</span><span class="ruby-identifier">import</span> <span class="ruby-identifier">derp</span><span class="ruby-string">&quot;.
+
+    The code guessing method is not especially great. It is advised that
+    clients pass in a literal lexer name whenever possible, which provides
+    the best probability of match (100 percent).
+    &quot;</span><span class="ruby-string">&quot;&quot;</span>
+
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">lexer</span><span class="ruby-operator">:</span>
+        <span class="ruby-keyword">if</span> <span class="ruby-identifier">inputs</span><span class="ruby-operator">:</span>
+            <span class="ruby-keyword">return</span> <span class="ruby-identifier">lexers</span>.<span class="ruby-identifier">get_lexer_by_name</span>(<span class="ruby-identifier">lexer</span>, <span class="ruby-operator">**</span><span class="ruby-identifier">inputs</span>)
+        <span class="ruby-keyword">else</span><span class="ruby-operator">:</span>
+            <span class="ruby-keyword">return</span> <span class="ruby-identifier">lexers</span>.<span class="ruby-identifier">get_lexer_by_name</span>(<span class="ruby-identifier">lexer</span>)
+
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">inputs</span><span class="ruby-operator">:</span>
+        <span class="ruby-keyword">if</span> <span class="ruby-string">&#39;lexer&#39;</span> <span class="ruby-keyword">in</span> <span class="ruby-identifier">inputs</span><span class="ruby-operator">:</span>
+            <span class="ruby-keyword">return</span> <span class="ruby-identifier">lexers</span>.<span class="ruby-identifier">get_lexer_by_name</span>(<span class="ruby-identifier">inputs</span>[<span class="ruby-string">&#39;lexer&#39;</span>], <span class="ruby-operator">**</span><span class="ruby-identifier">inputs</span>)
+
+        <span class="ruby-identifier">elif</span> <span class="ruby-string">&#39;mimetype&#39;</span> <span class="ruby-keyword">in</span> <span class="ruby-identifier">inputs</span><span class="ruby-operator">:</span>
+            <span class="ruby-keyword">return</span> <span class="ruby-identifier">lexers</span>.<span class="ruby-identifier">get_lexer_for_mimetype</span>(<span class="ruby-identifier">inputs</span>[<span class="ruby-string">&#39;mimetype&#39;</span>], <span class="ruby-operator">**</span><span class="ruby-identifier">inputs</span>)
+
+        <span class="ruby-identifier">elif</span> <span class="ruby-string">&#39;filename&#39;</span> <span class="ruby-keyword">in</span> <span class="ruby-identifier">inputs</span><span class="ruby-operator">:</span>
+            <span class="ruby-identifier">name</span> = <span class="ruby-identifier">inputs</span>[<span class="ruby-string">&#39;filename&#39;</span>]
+
+            <span class="ruby-comment"># If we have code and a filename, pygments allows us to guess</span>
+            <span class="ruby-comment"># with both. This is better than just guessing with code.</span>
+            <span class="ruby-keyword">if</span> <span class="ruby-identifier">code</span><span class="ruby-operator">:</span>
+                <span class="ruby-keyword">return</span> <span class="ruby-identifier">lexers</span>.<span class="ruby-identifier">guess_lexer_for_filename</span>(<span class="ruby-identifier">name</span>, <span class="ruby-identifier">code</span>, <span class="ruby-operator">**</span><span class="ruby-identifier">inputs</span>)
+            <span class="ruby-keyword">else</span><span class="ruby-operator">:</span>
+                <span class="ruby-keyword">return</span> <span class="ruby-identifier">lexers</span>.<span class="ruby-identifier">get_lexer_for_filename</span>(<span class="ruby-identifier">name</span>, <span class="ruby-operator">**</span><span class="ruby-identifier">inputs</span>)
+
+    <span class="ruby-comment"># If all we got is code, try anyway.</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">code</span><span class="ruby-operator">:</span>
+        <span class="ruby-keyword">return</span> <span class="ruby-identifier">lexers</span>.<span class="ruby-identifier">guess_lexer</span>(<span class="ruby-identifier">code</span>, <span class="ruby-operator">**</span><span class="ruby-identifier">inputs</span>)
+
+    <span class="ruby-keyword">else</span><span class="ruby-operator">:</span>
+        <span class="ruby-keyword">return</span> <span class="ruby-constant">None</span>
+
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">highlight_text</span>(<span class="ruby-keyword">self</span>, <span class="ruby-identifier">code</span>, <span class="ruby-identifier">lexer</span>, <span class="ruby-identifier">formatter_name</span>, <span class="ruby-identifier">args</span>, <span class="ruby-identifier">kwargs</span>)<span class="ruby-operator">:</span>
+    <span class="ruby-string">&quot;&quot;</span><span class="ruby-string">&quot;
+    Highlight the relevant code, and return a result string.
+    The default formatter is html, but alternate formatters can be passed in via
+    the formatter_name argument. Additional paramters can be passed as args
+    or kwargs.
+    &quot;</span><span class="ruby-string">&quot;&quot;</span>
+    <span class="ruby-comment"># Default to html if we don&#39;t have the formatter name.</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">formatter_name</span><span class="ruby-operator">:</span>
+        <span class="ruby-identifier">_format_name</span> = <span class="ruby-identifier">str</span>(<span class="ruby-identifier">formatter_name</span>)
+    <span class="ruby-keyword">else</span><span class="ruby-operator">:</span>
+        <span class="ruby-identifier">_format_name</span> = <span class="ruby-string">&quot;html&quot;</span>
+
+    <span class="ruby-comment"># Return a lexer object</span>
+    <span class="ruby-identifier">lexer</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">return_lexer</span>(<span class="ruby-identifier">lexer</span>, <span class="ruby-identifier">args</span>, <span class="ruby-identifier">kwargs</span>, <span class="ruby-identifier">code</span>)
+
+    <span class="ruby-comment"># Make sure we sucessfuly got a lexer</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">lexer</span><span class="ruby-operator">:</span>
+        <span class="ruby-identifier">formatter</span> = <span class="ruby-identifier">pygments</span>.<span class="ruby-identifier">formatters</span>.<span class="ruby-identifier">get_formatter_by_name</span>(<span class="ruby-identifier">str</span>.<span class="ruby-identifier">lower</span>(<span class="ruby-identifier">_format_name</span>), <span class="ruby-operator">**</span><span class="ruby-identifier">kwargs</span>)
+
+        <span class="ruby-comment"># Do the damn thing.</span>
+        <span class="ruby-identifier">res</span> = <span class="ruby-identifier">pygments</span>.<span class="ruby-identifier">highlight</span>(<span class="ruby-identifier">code</span>, <span class="ruby-identifier">lexer</span>, <span class="ruby-identifier">formatter</span>)
+
+        <span class="ruby-keyword">return</span> <span class="ruby-identifier">res</span>
+
+    <span class="ruby-keyword">else</span><span class="ruby-operator">:</span>
+        <span class="ruby-identifier">_write_error</span>(<span class="ruby-string">&quot;No lexer&quot;</span>)
+
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">get_data</span>(<span class="ruby-keyword">self</span>, <span class="ruby-identifier">method</span>, <span class="ruby-identifier">lexer</span>, <span class="ruby-identifier">args</span>, <span class="ruby-identifier">kwargs</span>, <span class="ruby-identifier">text</span>=<span class="ruby-constant">None</span>)<span class="ruby-operator">:</span>
+    <span class="ruby-string">&quot;&quot;</span><span class="ruby-string">&quot;
+    Based on the method argument, determine the action we&#39;d like pygments
+    to do. Then return the data generated from pygments.
+    &quot;</span><span class="ruby-string">&quot;&quot;</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">kwargs</span><span class="ruby-operator">:</span>
+        <span class="ruby-identifier">formatter_name</span> = <span class="ruby-identifier">kwargs</span>.<span class="ruby-identifier">get</span>(<span class="ruby-string">&quot;formatter&quot;</span>, <span class="ruby-constant">None</span>)
+        <span class="ruby-identifier">opts</span> = <span class="ruby-identifier">kwargs</span>.<span class="ruby-identifier">get</span>(<span class="ruby-string">&quot;options&quot;</span>, {})
+
+    <span class="ruby-comment"># Ensure there&#39;s a &#39;method&#39; key before proceeeding</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">method</span><span class="ruby-operator">:</span>
+        <span class="ruby-identifier">res</span> = <span class="ruby-constant">None</span>
+
+        <span class="ruby-comment"># Now check what that method is. For the get methods, pygments</span>
+        <span class="ruby-comment"># itself returns generators, so we make them lists so we can serialize</span>
+        <span class="ruby-comment"># easier.</span>
+        <span class="ruby-keyword">if</span> <span class="ruby-identifier">method</span> <span class="ruby-operator">==</span> <span class="ruby-string">&#39;get_all_styles&#39;</span><span class="ruby-operator">:</span>
+            <span class="ruby-identifier">res</span> = <span class="ruby-identifier">json</span>.<span class="ruby-identifier">dumps</span>(<span class="ruby-identifier">list</span>(<span class="ruby-identifier">pygments</span>.<span class="ruby-identifier">styles</span>.<span class="ruby-identifier">get_all_styles</span>()))
+
+        <span class="ruby-identifier">elif</span> <span class="ruby-identifier">method</span> <span class="ruby-operator">==</span> <span class="ruby-string">&#39;get_all_filters&#39;</span><span class="ruby-operator">:</span>
+            <span class="ruby-identifier">res</span> = <span class="ruby-identifier">json</span>.<span class="ruby-identifier">dumps</span>(<span class="ruby-identifier">list</span>(<span class="ruby-identifier">pygments</span>.<span class="ruby-identifier">filters</span>.<span class="ruby-identifier">get_all_filters</span>()))
+
+        <span class="ruby-identifier">elif</span> <span class="ruby-identifier">method</span> <span class="ruby-operator">==</span> <span class="ruby-string">&#39;get_all_lexers&#39;</span><span class="ruby-operator">:</span>
+            <span class="ruby-identifier">res</span> = <span class="ruby-identifier">json</span>.<span class="ruby-identifier">dumps</span>(<span class="ruby-identifier">list</span>(<span class="ruby-identifier">pygments</span>.<span class="ruby-identifier">lexers</span>.<span class="ruby-identifier">get_all_lexers</span>()))
+
+        <span class="ruby-identifier">elif</span> <span class="ruby-identifier">method</span> <span class="ruby-operator">==</span> <span class="ruby-string">&#39;get_all_formatters&#39;</span><span class="ruby-operator">:</span>
+            <span class="ruby-identifier">res</span> = [ [<span class="ruby-identifier">ft</span>.<span class="ruby-identifier">__name__</span>, <span class="ruby-identifier">ft</span>.<span class="ruby-identifier">name</span>, <span class="ruby-identifier">ft</span>.<span class="ruby-identifier">aliases</span>] <span class="ruby-keyword">for</span> <span class="ruby-identifier">ft</span> <span class="ruby-keyword">in</span> <span class="ruby-identifier">pygments</span>.<span class="ruby-identifier">formatters</span>.<span class="ruby-identifier">get_all_formatters</span>() ]
+            <span class="ruby-identifier">res</span> = <span class="ruby-identifier">json</span>.<span class="ruby-identifier">dumps</span>(<span class="ruby-identifier">res</span>)
+
+        <span class="ruby-identifier">elif</span> <span class="ruby-identifier">method</span> <span class="ruby-operator">==</span> <span class="ruby-string">&#39;highlight&#39;</span><span class="ruby-operator">:</span>
+            <span class="ruby-identifier">try</span><span class="ruby-operator">:</span>
+                <span class="ruby-identifier">text</span> = <span class="ruby-identifier">text</span>.<span class="ruby-identifier">decode</span>(<span class="ruby-string">&#39;utf-8&#39;</span>)
+            <span class="ruby-identifier">except</span> <span class="ruby-constant">UnicodeDecodeError</span><span class="ruby-operator">:</span>
+                <span class="ruby-comment"># The text may already be encoded</span>
+                <span class="ruby-identifier">text</span> = <span class="ruby-identifier">text</span>
+            <span class="ruby-identifier">res</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">highlight_text</span>(<span class="ruby-identifier">text</span>, <span class="ruby-identifier">lexer</span>, <span class="ruby-identifier">formatter_name</span>, <span class="ruby-identifier">args</span>, <span class="ruby-identifier">_convert_keys</span>(<span class="ruby-identifier">opts</span>))
+
+        <span class="ruby-identifier">elif</span> <span class="ruby-identifier">method</span> <span class="ruby-operator">==</span> <span class="ruby-string">&#39;css&#39;</span><span class="ruby-operator">:</span>
+            <span class="ruby-identifier">kwargs</span> = <span class="ruby-identifier">_convert_keys</span>(<span class="ruby-identifier">kwargs</span>)
+            <span class="ruby-identifier">fmt</span> = <span class="ruby-identifier">pygments</span>.<span class="ruby-identifier">formatters</span>.<span class="ruby-identifier">get_formatter_by_name</span>(<span class="ruby-identifier">args</span>[<span class="ruby-value">0</span>], <span class="ruby-operator">**</span><span class="ruby-identifier">kwargs</span>)
+            <span class="ruby-identifier">res</span> = <span class="ruby-identifier">fmt</span>.<span class="ruby-identifier">get_style_defs</span>(<span class="ruby-identifier">args</span>[<span class="ruby-value">1</span>])
+
+        <span class="ruby-identifier">elif</span> <span class="ruby-identifier">method</span> <span class="ruby-operator">==</span> <span class="ruby-string">&#39;lexer_name_for&#39;</span><span class="ruby-operator">:</span>
+            <span class="ruby-identifier">lexer</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">return_lexer</span>(<span class="ruby-constant">None</span>, <span class="ruby-identifier">args</span>, <span class="ruby-identifier">kwargs</span>, <span class="ruby-identifier">text</span>)
+
+            <span class="ruby-keyword">if</span> <span class="ruby-identifier">lexer</span><span class="ruby-operator">:</span>
+                <span class="ruby-comment"># We don&#39;t want the Lexer itself, just the name.</span>
+                <span class="ruby-comment"># Take the first alias.</span>
+                <span class="ruby-identifier">res</span> = <span class="ruby-identifier">lexer</span>.<span class="ruby-identifier">aliases</span>[<span class="ruby-value">0</span>]
+
+            <span class="ruby-keyword">else</span><span class="ruby-operator">:</span>
+                <span class="ruby-identifier">_write_error</span>(<span class="ruby-string">&quot;No lexer&quot;</span>)
+
+        <span class="ruby-keyword">else</span><span class="ruby-operator">:</span>
+            <span class="ruby-identifier">_write_error</span>(<span class="ruby-string">&quot;Invalid method &quot;</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">method</span>)
+
+        <span class="ruby-keyword">return</span> <span class="ruby-identifier">res</span>
+
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">_send_data</span>(<span class="ruby-keyword">self</span>, <span class="ruby-identifier">res</span>, <span class="ruby-identifier">method</span>)<span class="ruby-operator">:</span>
+
+    <span class="ruby-comment"># Base header. We&#39;ll build on this, adding keys as necessary.</span>
+    <span class="ruby-identifier">base_header</span> = {<span class="ruby-string">&quot;method&quot;</span><span class="ruby-operator">:</span> <span class="ruby-identifier">method</span>}
+
+    <span class="ruby-identifier">res_bytes</span> = <span class="ruby-identifier">len</span>(<span class="ruby-identifier">res</span>) <span class="ruby-operator">+</span> <span class="ruby-value">1</span>
+    <span class="ruby-identifier">base_header</span>[<span class="ruby-string">&quot;bytes&quot;</span>] = <span class="ruby-identifier">res_bytes</span>
+
+    <span class="ruby-identifier">out_header</span> = <span class="ruby-identifier">json</span>.<span class="ruby-identifier">dumps</span>(<span class="ruby-identifier">base_header</span>).<span class="ruby-identifier">encode</span>(<span class="ruby-string">&#39;utf-8&#39;</span>)
+
+    <span class="ruby-comment"># Following the protocol, send over a fixed size represenation of the</span>
+    <span class="ruby-comment"># size of the JSON header</span>
+    <span class="ruby-identifier">bits</span> = <span class="ruby-identifier">_get_fixed_bits_from_header</span>(<span class="ruby-identifier">out_header</span>)
+
+    <span class="ruby-comment"># Send it to Rubyland</span>
+    <span class="ruby-identifier">sys</span>.<span class="ruby-identifier">stdout</span>.<span class="ruby-identifier">write</span>(<span class="ruby-identifier">bits</span> <span class="ruby-operator">+</span> <span class="ruby-string">&quot;\n&quot;</span>)
+    <span class="ruby-identifier">sys</span>.<span class="ruby-identifier">stdout</span>.<span class="ruby-identifier">flush</span>()
+
+    <span class="ruby-comment"># Send the header.</span>
+    <span class="ruby-identifier">sys</span>.<span class="ruby-identifier">stdout</span>.<span class="ruby-identifier">write</span>(<span class="ruby-identifier">out_header</span> <span class="ruby-operator">+</span> <span class="ruby-string">&quot;\n&quot;</span>)
+    <span class="ruby-identifier">sys</span>.<span class="ruby-identifier">stdout</span>.<span class="ruby-identifier">flush</span>()
+
+    <span class="ruby-comment"># Finally, send the result</span>
+    <span class="ruby-identifier">sys</span>.<span class="ruby-identifier">stdout</span>.<span class="ruby-identifier">write</span>(<span class="ruby-identifier">res</span> <span class="ruby-operator">+</span> <span class="ruby-string">&quot;\n&quot;</span>)
+    <span class="ruby-identifier">sys</span>.<span class="ruby-identifier">stdout</span>.<span class="ruby-identifier">flush</span>()
+
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">_get_ids</span>(<span class="ruby-keyword">self</span>, <span class="ruby-identifier">text</span>)<span class="ruby-operator">:</span>
+    <span class="ruby-identifier">start_id</span> = <span class="ruby-identifier">text</span>[:<span class="ruby-value">8</span>]
+    <span class="ruby-identifier">end_id</span> = <span class="ruby-identifier">text</span>[<span class="ruby-value">-8</span><span class="ruby-operator">:</span>]
+    <span class="ruby-keyword">return</span> <span class="ruby-identifier">start_id</span>, <span class="ruby-identifier">end_id</span>
+
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">_check_and_return_text</span>(<span class="ruby-keyword">self</span>, <span class="ruby-identifier">text</span>, <span class="ruby-identifier">start_id</span>, <span class="ruby-identifier">end_id</span>)<span class="ruby-operator">:</span>
+
+    <span class="ruby-comment"># Sanity check.</span>
+    <span class="ruby-identifier">id_regex</span> = <span class="ruby-identifier">re</span>.<span class="ruby-identifier">compile</span>(<span class="ruby-string">&#39;[A-Z]{8}&#39;</span>)
+
+    <span class="ruby-keyword">if</span> <span class="ruby-keyword">not</span> <span class="ruby-identifier">id_regex</span>.<span class="ruby-identifier">match</span>(<span class="ruby-identifier">start_id</span>) <span class="ruby-keyword">and</span> <span class="ruby-keyword">not</span> <span class="ruby-identifier">id_regex</span>.<span class="ruby-identifier">match</span>(<span class="ruby-identifier">end_id</span>)<span class="ruby-operator">:</span>
+        <span class="ruby-identifier">_write_error</span>(<span class="ruby-string">&quot;ID check failed. Not an ID.&quot;</span>)
+
+    <span class="ruby-keyword">if</span> <span class="ruby-keyword">not</span> <span class="ruby-identifier">start_id</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">end_id</span><span class="ruby-operator">:</span>
+        <span class="ruby-identifier">_write_error</span>(<span class="ruby-string">&quot;ID check failed. ID&#39;s did not match.&quot;</span>)
+
+    <span class="ruby-comment"># Passed the sanity check. Remove the id&#39;s and return</span>
+    <span class="ruby-identifier">text</span> = <span class="ruby-identifier">text</span>[<span class="ruby-value">10</span><span class="ruby-operator">:</span><span class="ruby-value">-10</span>]
+    <span class="ruby-keyword">return</span> <span class="ruby-identifier">text</span>
+
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">_parse_header</span>(<span class="ruby-keyword">self</span>, <span class="ruby-identifier">header</span>)<span class="ruby-operator">:</span>
+    <span class="ruby-identifier">method</span> = <span class="ruby-identifier">header</span>[<span class="ruby-string">&quot;method&quot;</span>]
+    <span class="ruby-identifier">args</span> = <span class="ruby-identifier">header</span>.<span class="ruby-identifier">get</span>(<span class="ruby-string">&quot;args&quot;</span>, [])
+    <span class="ruby-identifier">kwargs</span> = <span class="ruby-identifier">header</span>.<span class="ruby-identifier">get</span>(<span class="ruby-string">&quot;kwargs&quot;</span>, {})
+    <span class="ruby-identifier">lexer</span> = <span class="ruby-identifier">kwargs</span>.<span class="ruby-identifier">get</span>(<span class="ruby-string">&quot;lexer&quot;</span>, <span class="ruby-constant">None</span>)
+    <span class="ruby-keyword">return</span> (<span class="ruby-identifier">method</span>, <span class="ruby-identifier">args</span>, <span class="ruby-identifier">kwargs</span>, <span class="ruby-identifier">lexer</span>)
+
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">start</span>(<span class="ruby-keyword">self</span>)<span class="ruby-operator">:</span>
+    <span class="ruby-string">&quot;&quot;</span><span class="ruby-string">&quot;
+    Main loop, waiting for inputs on stdin. When it gets some data,
+    it goes to work.
+
+    mentos exposes most of the &quot;</span><span class="ruby-constant">High</span><span class="ruby-operator">-</span><span class="ruby-identifier">level</span> <span class="ruby-constant">API</span><span class="ruby-string">&quot; of pygments. It always
+    expects and requires a JSON header of metadata. If there is data to be
+    pygmentized, this header will be followed by the text to be pygmentized.
+
+    The header is of form:
+    { &quot;</span><span class="ruby-identifier">method</span><span class="ruby-string">&quot;: &quot;</span><span class="ruby-identifier">highlight</span><span class="ruby-string">&quot;, &quot;</span><span class="ruby-identifier">args</span><span class="ruby-string">&quot;: [], &quot;</span><span class="ruby-identifier">kwargs</span><span class="ruby-string">&quot;: {&quot;</span><span class="ruby-identifier">arg1</span><span class="ruby-string">&quot;: &quot;</span><span class="ruby-identifier">v</span><span class="ruby-string">&quot;}, &quot;</span><span class="ruby-identifier">bytes</span><span class="ruby-string">&quot;: 128, &quot;</span><span class="ruby-identifier">fd</span><span class="ruby-string">&quot;: &quot;</span><span class="ruby-value">8</span><span class="ruby-string">&quot;}
+    &quot;</span><span class="ruby-string">&quot;&quot;</span>
+    <span class="ruby-identifier">lock</span> = <span class="ruby-constant">Lock</span>()
+
+    <span class="ruby-keyword">while</span> <span class="ruby-constant">True</span><span class="ruby-operator">:</span>
+        <span class="ruby-comment"># The loop begins by reading off a simple 32-arity string</span>
+        <span class="ruby-comment"># representing an integer of 32 bits. This is the length of</span>
+        <span class="ruby-comment"># our JSON header.</span>
+        <span class="ruby-identifier">size</span> = <span class="ruby-identifier">sys</span>.<span class="ruby-identifier">stdin</span>.<span class="ruby-identifier">read</span>(<span class="ruby-value">32</span>)
+
+        <span class="ruby-identifier">lock</span>.<span class="ruby-identifier">acquire</span>()
+
+        <span class="ruby-identifier">try</span><span class="ruby-operator">:</span>
+            <span class="ruby-comment"># Read from stdin the amount of bytes we were told to expect.</span>
+            <span class="ruby-identifier">header_bytes</span> = <span class="ruby-identifier">int</span>(<span class="ruby-identifier">size</span>, <span class="ruby-value">2</span>)
+
+            <span class="ruby-comment"># Sanity check the size</span>
+            <span class="ruby-identifier">size_regex</span> = <span class="ruby-identifier">re</span>.<span class="ruby-identifier">compile</span>(<span class="ruby-string">&#39;[0-1]{32}&#39;</span>)
+            <span class="ruby-keyword">if</span> <span class="ruby-keyword">not</span> <span class="ruby-identifier">size_regex</span>.<span class="ruby-identifier">match</span>(<span class="ruby-identifier">size</span>)<span class="ruby-operator">:</span>
+                <span class="ruby-identifier">_write_error</span>(<span class="ruby-string">&quot;Size received is not valid.&quot;</span>)
+
+            <span class="ruby-identifier">line</span> = <span class="ruby-identifier">sys</span>.<span class="ruby-identifier">stdin</span>.<span class="ruby-identifier">read</span>(<span class="ruby-identifier">header_bytes</span>)
+
+            <span class="ruby-identifier">header</span> = <span class="ruby-identifier">json</span>.<span class="ruby-identifier">loads</span>(<span class="ruby-identifier">line</span>)
+
+            <span class="ruby-identifier">method</span>, <span class="ruby-identifier">args</span>, <span class="ruby-identifier">kwargs</span>, <span class="ruby-identifier">lexer</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">_parse_header</span>(<span class="ruby-identifier">header</span>)
+            <span class="ruby-identifier">_bytes</span> = <span class="ruby-value">0</span>
+
+            <span class="ruby-keyword">if</span> <span class="ruby-identifier">lexer</span><span class="ruby-operator">:</span>
+                <span class="ruby-identifier">lexer</span> = <span class="ruby-identifier">str</span>(<span class="ruby-identifier">lexer</span>)
+
+            <span class="ruby-comment"># Read more bytes if necessary</span>
+            <span class="ruby-keyword">if</span> <span class="ruby-identifier">kwargs</span><span class="ruby-operator">:</span>
+                <span class="ruby-identifier">_bytes</span> = <span class="ruby-identifier">kwargs</span>.<span class="ruby-identifier">get</span>(<span class="ruby-string">&quot;bytes&quot;</span>, <span class="ruby-value">0</span>)
+
+            <span class="ruby-comment"># Read up to the given number bytes (possibly 0)</span>
+            <span class="ruby-identifier">text</span> = <span class="ruby-identifier">sys</span>.<span class="ruby-identifier">stdin</span>.<span class="ruby-identifier">read</span>(<span class="ruby-identifier">_bytes</span>)
+
+            <span class="ruby-comment"># Sanity check the return.</span>
+            <span class="ruby-keyword">if</span> <span class="ruby-identifier">_bytes</span><span class="ruby-operator">:</span>
+                <span class="ruby-identifier">start_id</span>, <span class="ruby-identifier">end_id</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">_get_ids</span>(<span class="ruby-identifier">text</span>)
+                <span class="ruby-identifier">text</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">_check_and_return_text</span>(<span class="ruby-identifier">text</span>, <span class="ruby-identifier">start_id</span>, <span class="ruby-identifier">end_id</span>)
+
+            <span class="ruby-comment"># Get the actual data from pygments.</span>
+            <span class="ruby-identifier">res</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">get_data</span>(<span class="ruby-identifier">method</span>, <span class="ruby-identifier">lexer</span>, <span class="ruby-identifier">args</span>, <span class="ruby-identifier">kwargs</span>, <span class="ruby-identifier">text</span>)
+
+            <span class="ruby-comment"># Put back the sanity check values.</span>
+            <span class="ruby-keyword">if</span> <span class="ruby-identifier">method</span> <span class="ruby-operator">==</span> <span class="ruby-string">&quot;highlight&quot;</span><span class="ruby-operator">:</span>
+                <span class="ruby-identifier">res</span> = <span class="ruby-identifier">start_id</span> <span class="ruby-operator">+</span> <span class="ruby-string">&quot;  &quot;</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">res</span> <span class="ruby-operator">+</span> <span class="ruby-string">&quot;  &quot;</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">end_id</span>
+
+            <span class="ruby-keyword">self</span>.<span class="ruby-identifier">_send_data</span>(<span class="ruby-identifier">res</span>, <span class="ruby-identifier">method</span>)
+
+        <span class="ruby-identifier">except</span><span class="ruby-operator">:</span>
+            <span class="ruby-identifier">tb</span> = <span class="ruby-identifier">traceback</span>.<span class="ruby-identifier">format_exc</span>()
+            <span class="ruby-identifier">_write_error</span>(<span class="ruby-identifier">tb</span>)
+
+        <span class="ruby-identifier">finally</span><span class="ruby-operator">:</span>
+            <span class="ruby-identifier">lock</span>.<span class="ruby-identifier">release</span>()
+</pre>
+
+<p>def main():</p>
+
+<pre># Signal handlers to trap signals.
+signal.signal(signal.SIGINT, _signal_handler)
+signal.signal(signal.SIGTERM, _signal_handler)
+if sys.platform != &quot;win32&quot;:
+    signal.signal(signal.SIGHUP, _signal_handler)
+
+mentos = Mentos()
+
+if sys.platform == &quot;win32&quot;:
+    # disable CRLF
+    import msvcrt
+    msvcrt.setmode(sys.stdout.fileno(), os.O_BINARY)
+else:
+    # close fd&#39;s inherited from the ruby parent
+    import resource
+    maxfd = resource.getrlimit(resource.RLIMIT_NOFILE)[1]
+    if maxfd == resource.RLIM_INFINITY:
+        maxfd = 65536
+
+    for fd in range(3, maxfd):
+        try:
+            os.close(fd)
+        except:
+            pass
+
+mentos.start()</pre>
+
+<p>if __name__ == “__main__”:</p>
+
+<pre>main()</pre>
+
+</div>
+
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 4.0.0.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+

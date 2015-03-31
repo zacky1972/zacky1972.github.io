@@ -1,3 +1,5 @@
 source 'https://rubygems.org'
 gem 'github-pages'
 gem 'redcarpet'
+gem 'posix-spawn'
+gem 'yajl-ruby'

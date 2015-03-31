@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+<title>class Redcarpet::Render::Safe - redcarpet-3.2.2 Documentation</title>
+
+<link type="text/css" media="screen" href="../../rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../../";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="../../js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/darkfish.js"></script>
+
+
+<body id="top" class="class">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="../../index.html">Home</a>
+    <a href="../../table_of_contents.html#classes">Classes</a>
+    <a href="../../table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  
+
+  <div id="file-metadata">
+    <nav id="file-list-section" class="section">
+  <h3 class="section-header">Defined In</h3>
+  <ul>
+    <li>lib/redcarpet.rb
+  </ul>
+</nav>
+
+    
+  </div>
+
+  <div id="class-metadata">
+    
+    <nav id="parent-class-section" class="section">
+  <h3 class="section-header">Parent</h3>
+  
+  <p class="link">HTML
+  
+</nav>
+
+    
+    
+    <!-- Method Quickref -->
+<nav id="method-list-section" class="section">
+  <h3 class="section-header">Methods</h3>
+
+  <ul class="link-list">
+    
+    <li class="calls-super" ><a href="#method-c-new">::new</a>
+    
+    <li ><a href="#method-i-block_code">#block_code</a>
+    
+    <li ><a href="#method-i-html_escape">#html_escape</a>
+    
+  </ul>
+</nav>
+
+  </div>
+
+  <div id="project-metadata">
+    <nav id="fileindex-section" class="section project-section">
+  <h3 class="section-header">Pages</h3>
+
+  <ul>
+  
+    <li class="file"><a href="../../COPYING.html">COPYING</a>
+  
+  </ul>
+</nav>
+
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../../Object.html">Object</a>
+  
+    <li><a href="../../Redcarpet.html">Redcarpet</a>
+  
+    <li><a href="../../Redcarpet/Markdown.html">Redcarpet::Markdown</a>
+  
+    <li><a href="../../Redcarpet/Render.html">Redcarpet::Render</a>
+  
+    <li><a href="../../Redcarpet/Render/ManPage.html">Redcarpet::Render::ManPage</a>
+  
+    <li><a href="../../Redcarpet/Render/Safe.html">Redcarpet::Render::Safe</a>
+  
+    <li><a href="../../Redcarpet/Render/SmartyHTML.html">Redcarpet::Render::SmartyHTML</a>
+  
+    <li><a href="../../Redcarpet/Render/SmartyPants.html">Redcarpet::Render::SmartyPants</a>
+  
+    <li><a href="../../Redcarpet/Render/StripDown.html">Redcarpet::Render::StripDown</a>
+  
+    <li><a href="../../Redcarpet/Render/XHTML.html">Redcarpet::Render::XHTML</a>
+  
+    <li><a href="../../RedcarpetCompat.html">RedcarpetCompat</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation">
+  <h1 class="class">class Redcarpet::Render::Safe</h1>
+
+  <div id="description" class="description">
+    
+<p>A renderer object you can use to deal with users&#39; input. It enables
+<code>escape_html</code> and <code>safe_links_only</code> by default.</p>
+
+<p>The <code>block_code</code> callback is also overriden not to include the
+lang&#39;s class as the user can basically specify anything with the
+vanilla one.</p>
+
+  </div><!-- description -->
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    <!-- Methods -->
+    
+     <section id="public-class-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Class Methods</h3>
+
+    
+      <div id="method-c-new" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">new</span><span
+            class="method-args">(extensions = {})</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+            <div class="method-calls-super">
+              Calls superclass method
+              
+            </div>
+          
+
+          
+          <div class="method-source-code" id="new-source">
+            <pre><span class="ruby-comment"># File lib/redcarpet.rb, line 32</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">extensions</span> = {})
+  <span class="ruby-keyword">super</span>({
+    <span class="ruby-identifier">escape_html</span><span class="ruby-operator">:</span> <span class="ruby-keyword">true</span>,
+    <span class="ruby-identifier">safe_links_only</span><span class="ruby-operator">:</span> <span class="ruby-keyword">true</span>
+  }.<span class="ruby-identifier">merge</span>(<span class="ruby-identifier">extensions</span>))
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- new-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- new-method -->
+
+    
+    </section><!-- public-class-method-details -->
+  
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Instance Methods</h3>
+
+    
+      <div id="method-i-block_code" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">block_code</span><span
+            class="method-args">(code, lang)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="block_code-source">
+            <pre><span class="ruby-comment"># File lib/redcarpet.rb, line 39</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">block_code</span>(<span class="ruby-identifier">code</span>, <span class="ruby-identifier">lang</span>)
+  <span class="ruby-string">&quot;&lt;pre&gt;&quot;</span>            <span class="ruby-node">&quot;&lt;code&gt;#{html_escape(code)}&lt;/code&gt;&quot;</span>          <span class="ruby-string">&quot;&lt;/pre&gt;&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- block_code-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- block_code-method -->
+
+    
+    </section><!-- public-instance-method-details -->
+  
+     <section id="private-instance-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Private Instance Methods</h3>
+
+    
+      <div id="method-i-html_escape" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">html_escape</span><span
+            class="method-args">(string)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>TODO: This is far from ideal to have such method as we are duplicating
+existing code from Houdini. This method should be defined at the C level.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="html_escape-source">
+            <pre><span class="ruby-comment"># File lib/redcarpet.rb, line 50</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">html_escape</span>(<span class="ruby-identifier">string</span>)
+  <span class="ruby-identifier">string</span>.<span class="ruby-identifier">gsub</span>(<span class="ruby-regexp">/[&#39;&amp;\&quot;&lt;&gt;\/]/</span>, {
+    <span class="ruby-string">&#39;&amp;&#39;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&#39;&amp;amp;&#39;</span>,
+    <span class="ruby-string">&#39;&lt;&#39;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&#39;&amp;lt;&#39;</span>,
+    <span class="ruby-string">&#39;&gt;&#39;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&#39;&amp;gt;&#39;</span>,
+    <span class="ruby-string">&#39;&quot;&#39;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&#39;&amp;quot;&#39;</span>,
+    <span class="ruby-string">&quot;&#39;&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&#39;&amp;#x27;&#39;</span>,
+    <span class="ruby-string">&quot;/&quot;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&#39;&amp;#x2F&#39;</span>,
+  })
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- html_escape-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- html_escape-method -->
+
+    
+    </section><!-- private-instance-method-details -->
+  
+  </section><!-- 5Buntitled-5D -->
+
+</div><!-- documentation -->
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 4.0.0.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+

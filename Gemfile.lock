@@ -124,4 +124,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  posix-spawn
   redcarpet
+  yajl-ruby

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+<title>module Kramdown::Converter::MathEngine::Mathjax - kramdown-1.6.0 Documentation</title>
+
+<link type="text/css" media="screen" href="../../../rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../../../";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="../../../js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../../js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../../js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../../js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../../js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../../js/darkfish.js"></script>
+
+
+<body id="top" class="module">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="../../../index.html">Home</a>
+    <a href="../../../table_of_contents.html#classes">Classes</a>
+    <a href="../../../table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  
+
+  <div id="file-metadata">
+    <nav id="file-list-section" class="section">
+  <h3 class="section-header">Defined In</h3>
+  <ul>
+    <li>lib/kramdown/converter/math_engine/mathjax.rb
+  </ul>
+</nav>
+
+    
+  </div>
+
+  <div id="class-metadata">
+    
+    
+    
+    
+    <!-- Method Quickref -->
+<nav id="method-list-section" class="section">
+  <h3 class="section-header">Methods</h3>
+
+  <ul class="link-list">
+    
+    <li ><a href="#method-c-call">::call</a>
+    
+    <li ><a href="#method-c-preview_string">::preview_string</a>
+    
+  </ul>
+</nav>
+
+  </div>
+
+  <div id="project-metadata">
+    
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../../../Kramdown.html">Kramdown</a>
+  
+    <li><a href="../../../Kramdown/Converter.html">Kramdown::Converter</a>
+  
+    <li><a href="../../../Kramdown/Converter/Base.html">Kramdown::Converter::Base</a>
+  
+    <li><a href="../../../Kramdown/Converter/Html.html">Kramdown::Converter::Html</a>
+  
+    <li><a href="../../../Kramdown/Converter/Kramdown.html">Kramdown::Converter::Kramdown</a>
+  
+    <li><a href="../../../Kramdown/Converter/Latex.html">Kramdown::Converter::Latex</a>
+  
+    <li><a href="../../../Kramdown/Converter/MathEngine.html">Kramdown::Converter::MathEngine</a>
+  
+    <li><a href="../../../Kramdown/Converter/MathEngine/Itex2MML.html">Kramdown::Converter::MathEngine::Itex2MML</a>
+  
+    <li><a href="../../../Kramdown/Converter/MathEngine/Mathjax.html">Kramdown::Converter::MathEngine::Mathjax</a>
+  
+    <li><a href="../../../Kramdown/Converter/MathEngine/Ritex.html">Kramdown::Converter::MathEngine::Ritex</a>
+  
+    <li><a href="../../../Kramdown/Converter/Pdf.html">Kramdown::Converter::Pdf</a>
+  
+    <li><a href="../../../Kramdown/Converter/Pdf/PrawnDocumentExtension.html">Kramdown::Converter::Pdf::PrawnDocumentExtension</a>
+  
+    <li><a href="../../../Kramdown/Converter/Pdf/PrawnDocumentExtension/CustomBox.html">Kramdown::Converter::Pdf::PrawnDocumentExtension::CustomBox</a>
+  
+    <li><a href="../../../Kramdown/Converter/Pdf/PrawnDocumentExtension/Prawn.html">Kramdown::Converter::Pdf::PrawnDocumentExtension::Prawn</a>
+  
+    <li><a href="../../../Kramdown/Converter/Pdf/PrawnDocumentExtension/Prawn/Text.html">Kramdown::Converter::Pdf::PrawnDocumentExtension::Prawn::Text</a>
+  
+    <li><a href="../../../Kramdown/Converter/Pdf/PrawnDocumentExtension/Prawn/Text/Formatted.html">Kramdown::Converter::Pdf::PrawnDocumentExtension::Prawn::Text::Formatted</a>
+  
+    <li><a href="../../../Kramdown/Converter/RemoveHtmlTags.html">Kramdown::Converter::RemoveHtmlTags</a>
+  
+    <li><a href="../../../Kramdown/Converter/SyntaxHighlighter.html">Kramdown::Converter::SyntaxHighlighter</a>
+  
+    <li><a href="../../../Kramdown/Converter/SyntaxHighlighter/Coderay.html">Kramdown::Converter::SyntaxHighlighter::Coderay</a>
+  
+    <li><a href="../../../Kramdown/Converter/SyntaxHighlighter/Rouge.html">Kramdown::Converter::SyntaxHighlighter::Rouge</a>
+  
+    <li><a href="../../../Kramdown/Converter/Toc.html">Kramdown::Converter::Toc</a>
+  
+    <li><a href="../../../Kramdown/Document.html">Kramdown::Document</a>
+  
+    <li><a href="../../../Kramdown/Element.html">Kramdown::Element</a>
+  
+    <li><a href="../../../Kramdown/Error.html">Kramdown::Error</a>
+  
+    <li><a href="../../../Kramdown/Options.html">Kramdown::Options</a>
+  
+    <li><a href="../../../Kramdown/Options/Boolean.html">Kramdown::Options::Boolean</a>
+  
+    <li><a href="../../../Kramdown/Parser.html">Kramdown::Parser</a>
+  
+    <li><a href="../../../Kramdown/Parser/Base.html">Kramdown::Parser::Base</a>
+  
+    <li><a href="../../../Kramdown/Parser/GFM.html">Kramdown::Parser::GFM</a>
+  
+    <li><a href="../../../Kramdown/Parser/Html.html">Kramdown::Parser::Html</a>
+  
+    <li><a href="../../../Kramdown/Parser/Html/Constants.html">Kramdown::Parser::Html::Constants</a>
+  
+    <li><a href="../../../Kramdown/Parser/Html/ElementConverter.html">Kramdown::Parser::Html::ElementConverter</a>
+  
+    <li><a href="../../../Kramdown/Parser/Html/Parser.html">Kramdown::Parser::Html::Parser</a>
+  
+    <li><a href="../../../Kramdown/Parser/Kramdown.html">Kramdown::Parser::Kramdown</a>
+  
+    <li><a href="../../../Kramdown/Parser/Markdown.html">Kramdown::Parser::Markdown</a>
+  
+    <li><a href="../../../Kramdown/Utils.html">Kramdown::Utils</a>
+  
+    <li><a href="../../../Kramdown/Utils/Configurable.html">Kramdown::Utils::Configurable</a>
+  
+    <li><a href="../../../Kramdown/Utils/Entities.html">Kramdown::Utils::Entities</a>
+  
+    <li><a href="../../../Kramdown/Utils/Entities/Entity.html">Kramdown::Utils::Entities::Entity</a>
+  
+    <li><a href="../../../Kramdown/Utils/Html.html">Kramdown::Utils::Html</a>
+  
+    <li><a href="../../../Kramdown/Utils/OrderedHash.html">Kramdown::Utils::OrderedHash</a>
+  
+    <li><a href="../../../Kramdown/Utils/StringScanner.html">Kramdown::Utils::StringScanner</a>
+  
+    <li><a href="../../../Kramdown/Utils/Unidecoder.html">Kramdown::Utils::Unidecoder</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation">
+  <h1 class="module">module Kramdown::Converter::MathEngine::Mathjax</h1>
+
+  <div id="description" class="description">
+    
+<p>Uses the MathJax javascript library for displaying math.</p>
+
+<p>Note that the javascript library itself is not include or linked, this has
+to be done separately. Only the math content is marked up correctly.</p>
+
+  </div><!-- description -->
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    <!-- Methods -->
+    
+     <section id="public-class-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Class Methods</h3>
+
+    
+      <div id="method-c-call" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">call</span><span
+            class="method-args">(converter, el, opts)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="call-source">
+            <pre><span class="ruby-comment"># File lib/kramdown/converter/math_engine/mathjax.rb, line 17</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">call</span>(<span class="ruby-identifier">converter</span>, <span class="ruby-identifier">el</span>, <span class="ruby-identifier">opts</span>)
+  <span class="ruby-identifier">type</span> = <span class="ruby-identifier">el</span>.<span class="ruby-identifier">options</span>[<span class="ruby-value">:category</span>]
+  <span class="ruby-identifier">text</span> = (<span class="ruby-identifier">el</span>.<span class="ruby-identifier">value</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">/&lt;|&amp;/</span> <span class="ruby-operator">?</span> <span class="ruby-node">&quot;% &lt;![CDATA[\n#{el.value} %]]&gt;&quot;</span> <span class="ruby-operator">:</span> <span class="ruby-identifier">el</span>.<span class="ruby-identifier">value</span>)
+  <span class="ruby-identifier">text</span>.<span class="ruby-identifier">gsub!</span>(<span class="ruby-regexp">/&lt;\/?script&gt;?/</span>, <span class="ruby-string">&#39;&#39;</span>)
+
+  <span class="ruby-identifier">preview</span> = <span class="ruby-identifier">preview_string</span>(<span class="ruby-identifier">converter</span>, <span class="ruby-identifier">el</span>, <span class="ruby-identifier">opts</span>)
+
+  <span class="ruby-identifier">attr</span> = {<span class="ruby-value">:type</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-node">&quot;math/tex#{type == :block ? &#39;; mode=display&#39; : &#39;&#39;}&quot;</span>}
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">type</span> <span class="ruby-operator">==</span> <span class="ruby-value">:block</span>
+    <span class="ruby-identifier">preview</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">converter</span>.<span class="ruby-identifier">format_as_block_html</span>(<span class="ruby-string">&#39;script&#39;</span>, <span class="ruby-identifier">attr</span>, <span class="ruby-identifier">text</span>, <span class="ruby-identifier">opts</span>[<span class="ruby-value">:indent</span>])
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">preview</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">converter</span>.<span class="ruby-identifier">format_as_span_html</span>(<span class="ruby-string">&#39;script&#39;</span>, <span class="ruby-identifier">attr</span>, <span class="ruby-identifier">text</span>)
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- call-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- call-method -->
+
+    
+      <div id="method-c-preview_string" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">preview_string</span><span
+            class="method-args">(converter, el, opts)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="preview_string-source">
+            <pre><span class="ruby-comment"># File lib/kramdown/converter/math_engine/mathjax.rb, line 32</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">preview_string</span>(<span class="ruby-identifier">converter</span>, <span class="ruby-identifier">el</span>, <span class="ruby-identifier">opts</span>)
+  <span class="ruby-identifier">preview</span> = <span class="ruby-identifier">converter</span>.<span class="ruby-identifier">options</span>[<span class="ruby-value">:math_engine_opts</span>][<span class="ruby-value">:preview</span>]
+  <span class="ruby-keyword">return</span> <span class="ruby-string">&#39;&#39;</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">preview</span>
+
+  <span class="ruby-identifier">preview</span> = (<span class="ruby-identifier">preview</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">true</span> <span class="ruby-operator">?</span> <span class="ruby-identifier">converter</span>.<span class="ruby-identifier">escape_html</span>(<span class="ruby-identifier">el</span>.<span class="ruby-identifier">value</span>) <span class="ruby-operator">:</span> <span class="ruby-identifier">preview</span>.<span class="ruby-identifier">to_s</span>)
+
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">el</span>.<span class="ruby-identifier">options</span>[<span class="ruby-value">:category</span>] <span class="ruby-operator">==</span> <span class="ruby-value">:block</span>
+    <span class="ruby-identifier">converter</span>.<span class="ruby-identifier">format_as_block_html</span>(<span class="ruby-string">&#39;div&#39;</span>, {<span class="ruby-string">&#39;class&#39;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&#39;MathJax_Preview&#39;</span>}, <span class="ruby-identifier">preview</span>, <span class="ruby-identifier">opts</span>[<span class="ruby-value">:indent</span>])
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">converter</span>.<span class="ruby-identifier">format_as_span_html</span>(<span class="ruby-string">&#39;span&#39;</span>, {<span class="ruby-string">&#39;class&#39;</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&#39;MathJax_Preview&#39;</span>}, <span class="ruby-identifier">preview</span>)
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- preview_string-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- preview_string-method -->
+
+    
+    </section><!-- public-class-method-details -->
+  
+  </section><!-- 5Buntitled-5D -->
+
+</div><!-- documentation -->
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 4.0.0.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+
