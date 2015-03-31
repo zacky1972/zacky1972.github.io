@@ -3,4 +3,4 @@ markdown: redcarpet
 kramdown:
   input: GFM
 github: [Repository metadata]
-exclude: ["vender", "Gemfile", "Gemfile.lock"]
+exclude: ["vendor", "Gemfile", "Gemfile.lock"]
