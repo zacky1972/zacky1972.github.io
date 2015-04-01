@@ -1,0 +1,24 @@
+strong {
+  font-family: Helvetica, arial, sans-serif;
+}
+
+em {
+  font-family: Helvetica, arial, sans-serif;
+  font-weight: bold;
+}
+
+body {
+  font-family: Times, serif;	
+}
+
+a {
+  font-family: Helvetica, arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Helvetica, arial, sans-serif;
+}
+
+figure > figcaption {
+  font-family: Helvetica, arial, sans-serif;
+}

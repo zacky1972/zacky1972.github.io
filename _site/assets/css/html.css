@@ -1,14 +1,4 @@
-strong {
-  font-family: Helvetica, arial, sans-serif;
-}
-
-em {
-  font-family: Helvetica, arial, sans-serif;
-  font-weight: bold;
-}
-
 body {
-  font-family: Helvetica, arial, sans-serif;
   font-size: 14px;
   line-height: 1.6;
   padding-top: 10px;
@@ -24,17 +14,14 @@ body > *:last-child {
   margin-bottom: 0 !important; }
 
 a {
-  font-family: Helvetica, arial, sans-serif;
   color: #4183C4; 
 }
 
 a.absent {
-  font-family: Helvetica, arial, sans-serif;
   color: #cc0000; 
 }
 
 a.anchor {
-  font-family: Helvetica, arial, sans-serif;
   display: block;
   padding-left: 30px;
   margin-left: -30px;
@@ -46,7 +33,6 @@ a.anchor {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Helvetica, arial, sans-serif;
   margin: 25px 0 10px;
   padding: 0;
   font-weight: bold;
@@ -255,7 +241,6 @@ figure > img {
 }
 
 figure > figcaption {
-  font-family: Helvetica, arial, sans-serif;
   font-weight: bold;
 }
 
