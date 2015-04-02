@@ -8,10 +8,193 @@ body {
   padding: 30px;
 }
 
+/*
 body > *:first-child {
   margin-top: 0 !important; }
 body > *:last-child {
   margin-bottom: 0 !important; }
+*/
+
+/*-----------------------------------------------------------------------
+  01-02. outline
+-----------------------------------------------------------------------*/
+header {
+  background: transparent url("../images/bac-header.png") repeat left top;
+  height: 56px;
+  position: relative;
+  width: 100%;
+}
+nav {
+  background: transparent url('../images/bac-nav.png') repeat center top;
+  /*background-color: #313f27;*/
+  font-family: 'Vollkorn', serif;
+  font-size: 0.875em;
+  height: 56px;
+  letter-spacing: 0.063em;
+  overflow: hidden;
+  width: 100%;
+  -webkit-transform: translate3d(0,0,0);
+}
+.breadnav {
+  clear: both;
+  font-size: 0.75em;
+  margin: 0 auto;
+  padding: 8px 0 0 0;
+  width: 960px;
+}
+.contents {
+  clear: both;
+  margin: 0 auto;
+  width: 960px;
+}
+footer {
+  clear: both;
+  padding: 80px 0 0 0;
+  margin: 0 auto;
+  width: 512px;
+}
+
+/*-----------------------------------------------------------------------
+  01-04. nav
+-----------------------------------------------------------------------*/
+nav section {
+  line-height: 12px;
+  margin: 0 auto;
+  width: 960px;
+}
+nav img {
+  height: 24px;
+  width: 24px;
+}
+nav li {
+  list-style: none;
+  float: left;
+  padding: 8px 0;
+  text-align: center;
+  width: 80px;
+}
+nav a,
+nav a:link {
+  color: #004d25; /* bottle green */
+  text-decoration: none;
+  -webkit-transition-property: all;
+  -webkit-transition: 0.25s linear;
+  -moz-transition-property: all;
+  -moz-transition: 0.25s linear;
+  -ms-transition-property: all;
+  -ms-transition: 0.25s linear;
+  -o-transition-property: all;
+  -o-transition: 0.25s linear;
+  transition-property: all;
+  transition: 0.25s linear;
+}
+nav a:visited {
+  color: #004d25; /* bottle green */
+  text-decoration: none;
+  -webkit-transition-property: all;
+  -webkit-transition: 0.25s linear;
+  -moz-transition-property: all;
+  -moz-transition: 0.25s linear;
+  -ms-transition-property: all;
+  -ms-transition: 0.25s linear;
+  -o-transition-property: all;
+  -o-transition: 0.25s linear;
+  transition-property: all;
+  transition: 0.25s linear;
+}
+nav a:hover,
+nav a:active {
+  color: #ef0001;
+  outline: 0;
+  text-decoration: none;
+  -webkit-transition-property: all;
+  -webkit-transition: 0.25s linear;
+  -moz-transition-property: all;
+  -moz-transition: 0.25s linear;
+  -ms-transition-property: all;
+  -ms-transition: 0.25s linear;
+  -o-transition-property: all;
+  -o-transition: 0.25s linear;
+  transition-property: all;
+  transition: 0.25s linear;
+}
+.fixed {
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.fixed_mobile {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+/*-----------------------------------------------------------------------
+  01-05. breadnav
+-----------------------------------------------------------------------*/
+.breadnav li {
+  float: left;
+  margin: 0 4px 0 0;
+}
+.breadnav li + li:before {
+  color: #777777;
+  margin: 0 4px 0 0;
+  content: ">";
+}
+
+/*-----------------------------------------------------------------------
+  01-06. contents
+-----------------------------------------------------------------------*/
+.contents .search {
+  float: right;
+  height: 40px;
+  line-height: 40px;
+  margin: 4px 0 24px 0;
+  overflow: hidden;
+  text-align: right;
+  width: 320px;
+}
+.contents .search-input {
+  border: 1px solid #2b1d19;
+  font-family: 'Vollkorn', serif;
+  height: 20px;
+  padding: 0 0 0 2px;
+  width: 275px;
+}
+.contents .search-button {
+  height: 24px;
+  vertical-align: middle;
+  width: 24px;
+}
+
+/*-----------------------------------------------------------------------
+  01-09. footer
+-----------------------------------------------------------------------*/
+td.about_text {
+  width:400px;
+}
+
+td.about_text p {
+  font-size:12px;
+}
+
+.copyrights {
+  text-align:center;
+  font-size:11px;
+}
+
+
+
+
+
+
+
+
+
 
 a {
   color: #4183C4; 
@@ -244,6 +427,3 @@ figure > figcaption {
   font-weight: bold;
 }
 
-footer {
-  width:512px;
-}

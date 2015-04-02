@@ -2,7 +2,7 @@
 title: ZACKY's Laboratory
 layout: default
 ---
-# ZACKY のブログへようこそ！
+# ZACKY's Laboratory
 
 <!--[ビジョンとミッション]({{ site.url }}/vision-mission.html)-->
 
@@ -15,20 +15,4 @@ layout: default
 		</li>
 	{% endfor %}
 </ul>
-
-```ruby
-class A
-  def one
-    1
-  end
-end
-```
-
-{% highlight c %}
-#include<stdio.h>
-
-int main(int argc, char *argv[]) {
-	return 0;
-}
-{% endhighlight %}
 
