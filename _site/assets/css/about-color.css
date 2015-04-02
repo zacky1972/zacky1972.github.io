@@ -1,3 +1,8 @@
 table.about td {
 	background-color: #7e837f; /* moss gray */
+/*	background-color: #72640c;  olive */
+}
+
+table.about p {
+	color: #004d25; /* bottle green */
 }
