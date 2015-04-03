@@ -5,4 +5,4 @@ permalink: blog/index.html
 ---
 # ブログ
 
-{% include posts-all.html %}
+{% include posts.html %}
