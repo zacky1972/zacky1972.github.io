@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/*-----------------------------------------------------------------------
+  ●   defined by 2014 NEOZEST (http://neozest.jp/)
+  ●   mediaquery definition
+
+  001. common layout
+  002. .top(/index.html)
+-----------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------
+  001 common layout
+-----------------------------------------------------------------------*/
+@media screen and (min-width: 641px) and (max-width: 959px) {
+  .contents {
+    width: 620px;
+  }
+  .blog .main {
+    width: 620px;
+  }
+  .blog .story {
+    padding: 10px;
+  }
+  header h1, h2 {
+    width: 620px;
+  }
+  nav section {
+    width: 620px;
+  }
+  footer {
+    padding: 40px 0 0 0;
+  }
+}
+@media screen and (max-width: 640px) {
+  .contents {
+    width: 300px;
+  }
+  .blog .main {
+    width: 300px;
+  }
+  .blog .story {
+    padding: 10px;
+  }
+  header h1,h2 {
+    width: 300px;
+  }
+  nav section {
+    width: 300px;
+  }
+  nav ul {
+    margin: 0 auto;
+  }
+  footer {
+    padding: 24px 0 0 0;
+  }
+}
+/*-----------------------------------------------------------------------
+  002 .top(/index.html)
+-----------------------------------------------------------------------*/
+@media screen and (min-width: 641px) and (max-width: 959px) {
+  .top .search {
+    margin: 24px 0 0 0;
+  }
+  .top .search-input {
+    width: 173px;
+  }
+  .top .menu li {
+    height: 306px;
+    margin: 0 0 0 11px;
+    width: 204px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .top .search {
+    float: none;
+    margin: 24px 0 0 0;
+    text-align: left;
+  }
+  .top .search-input {
+    margin: 0 0 0 6px;
+    width: 276px;
+  }
+  .top .menu li {
+    float: none;
+    height: 204px;
+    margin: 32px auto 0 auto;
+    width: 306px;
+  }
+  .top .menu li:first-child {
+    margin: 0 auto;
+  }
+}

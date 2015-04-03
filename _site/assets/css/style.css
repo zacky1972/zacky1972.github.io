@@ -331,7 +331,7 @@ td.about_img {
 }
 
 td.about_text {
-  width:400px;
+  width: 100%;
   font-size:12px;
   line-height: 1.25em
 }
