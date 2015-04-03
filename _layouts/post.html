@@ -29,6 +29,17 @@
     <div class="story">
       {{ content }}
     </div>
+    
+    <span class="previous">
+      {% if page.previous %}
+       <a href="{{ site.url }}{{ page.previous.url }}">&lt;&lt; {{ page.previous.title }}</a>
+      {% endif %}
+    </span>
+    <span class="next">
+      {% if page.next %}
+        <a href="{{ site.url }}{{ page.next.url }}">{{ page.next.title }}&gt;&gt;</a> 
+      {% endif %}
+    </span>
   </section>
 
 </article>
