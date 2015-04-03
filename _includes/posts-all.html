@@ -1,6 +1,7 @@
 <!-- posts-tag with {{ include.tag }} -->
 <div class="posts">
 	<table>
+		{% include post-header.html %}
 		{% for post in site.posts %}
 		<tr>
 			<td class="posts date">
