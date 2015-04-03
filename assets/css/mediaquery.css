@@ -33,7 +33,7 @@
 @media screen and (max-width: 640px) {
   .contents {
     width: 300px;
-    font-size: 16px;
+    font-size: 32px;
   }
   .blog .main {
     width: 300px;
