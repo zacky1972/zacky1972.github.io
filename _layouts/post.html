@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 	<meta charset="utf-8">
 	<meta name="author" content="Susumu Yamazaki">
 	<title>{{ page.title }} 〜ZACKY's Laboratory</title>
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="{{ page.excerpt }}" />
+  <meta property="og:url" content="{{ page.url }}" />
+  <meta property="og:image" content="{{ site.url }}/assets/images/ZACKY.jpg" />
+  <meta property="og:site_name" content="ZACKY's Laboratory" />
+  <meta property="og:locale" content="ja_JP" />
+  <meta property="fb:app_id" content="1535470796675479" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 	<link rel="stylesheet" href="{{ site.url }}/assets/css/pygments.css">
   <link rel="stylesheet" href="{{ site.url }}/assets/css/normalize.css">
@@ -14,6 +22,7 @@
 	<!--[if lt IE 9]><script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
 </head>
 <body>
+  {% include FB-SDK.html %}
 	{% include header.html %}
 	{% include navigation.html %}
 <!-- ▼ contents -->
@@ -28,6 +37,7 @@
   <section class="main">
     <div class="story">
       {{ content }}
+      {% include FB-Like.html %}
     </div>
     
     <span class="previous">
