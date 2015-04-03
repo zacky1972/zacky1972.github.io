@@ -13,7 +13,7 @@
 @media only screen and (min-width: 641px) and (max-width: 959px) {
   .contents {
     width: 620px;
-    font-size: 32px;
+    font-size: 24px;
   }
   .blog .main {
     width: 620px;
@@ -22,7 +22,7 @@
     padding: 5px;
   }
   .posts td {
-    font-size: 32px;
+    font-size: 24px;
   }
   header h1, h2 {
     width: 620px;
