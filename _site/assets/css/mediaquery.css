@@ -21,7 +21,7 @@
   .blog .story {
     padding: 5px;
   }
-  .posts {
+  .posts td {
     font-size: 32px;
   }
   header h1, h2 {
@@ -45,7 +45,7 @@
   .blog .story {
     padding: 5px;
   }
-  .posts {
+  .posts td {
     font-size: 32px;
   }
   header h1,h2 {
