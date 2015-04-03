@@ -36,11 +36,11 @@
 }
 @media only screen and (max-width: 640px) {
   .contents {
-    width: 300px;
+    width: 400px;
     font-size: 32px;
   }
   .blog .main {
-    width: 300px;
+    width: 400px;
   }
   .blog .story {
     padding: 5px;
@@ -49,10 +49,10 @@
     font-size: 32px;
   }
   header h1,h2 {
-    width: 300px;
+    width: 400px;
   }
   nav section {
-    width: 300px;
+    width: 400px;
   }
   nav ul {
     margin: 0 auto;
