@@ -322,6 +322,14 @@ table.about p {
   color: #004d25; /* bottle green */
 }
 
+td.about_img {
+  line-height: 0px;
+}
+
+.about td {
+  height: 96px;
+}
+
 td.about_text {
   width:400px;
   font-size:12px;
@@ -332,6 +340,7 @@ td.about_text p {
   font-size:12px;
   line-height: 1.25em
   margin: 0.2em 0px;
+  padding-top: 2px;
 }
 
 .copyrights {
