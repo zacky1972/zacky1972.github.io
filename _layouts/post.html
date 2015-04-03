@@ -19,7 +19,7 @@
 	{% include header.html %}
 	{% include navigation.html %}
 <!-- ▼ contents -->
-<article class="contents top">
+<article class="contents blog">
 
   <section class="search">
     <form action="http://www.google.com/search" id="nav-search">
@@ -33,12 +33,15 @@
     </form>
   </section>
 
-  {{ content }}
-
   <section id="pagetop">
     <div><a href="#header">ZACKY's Software Educational Laboratory Page Topへ</a></div>
   </section>
 
+  <section class="main">
+    <div class="story">
+      {{ content }}
+    </div>
+  </section>
 </article>
 <!-- ▲ contents -->
 
