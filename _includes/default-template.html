@@ -19,18 +19,8 @@
 <!-- ▼ contents -->
 <article class="contents blog">
 
-  <section class="search">
-    <form action="http://www.google.com/search" id="nav-search">
-      <input type="hidden" name="hl" value="ja">
-      <input type="hidden" name="hq" value="inurl:{{ site.url }}">
-      <input type="hidden" name="ie" value="utf-8">
-      <input type="hidden" name="oe" value="utf-8">
-      <input type="hidden" name="filter" value="0">
-      <input class="search-input" type="text" name="q" size="11" maxlength="20" value="">
-      <input class="search-button" type="image" name="btnG" value="検索" alt="検索" src="{{ site.url }}/assets/images/ico-search.png">
-    </form>
-  </section>
-
+  {% include search.html %}
+  
   <section id="pagetop">
     <div><a href="#header">ZACKY's Software Educational Laboratory Page Topへ</a></div>
   </section>
