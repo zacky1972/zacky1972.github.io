@@ -41,7 +41,44 @@
     width: 520px;
   }
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (min-width: 481px) and (max-width: 640px) {
+  .body {
+    max-width: 480px;
+  }
+  .contents {
+    width: 460px;
+    font-size: 16px;
+  }
+  .blog .main {
+    width: 460px;
+  }
+  .blog .story {
+    padding: 5px;
+  }
+  .posts td {
+    font-size: 16px;
+  }
+  header h1,h2 {
+    width: 460px;
+  }
+  nav section {
+    width: 460px;
+  }
+  nav ul {
+    margin: 0 auto;
+  }
+  footer {
+    padding: 12px 0 0 0;
+    width: 460px;
+  }
+  table.about tr {
+    float: center;
+  }
+  td.about_text {
+    width: 370px;
+  }
+}
+@media only screen and (max-width: 480px) {
   .body {
     max-width: 320px;
   }
@@ -94,7 +131,7 @@
     width: 204px;
   }
 }
-@media screen and (max-width: 640px) {
+@media screen and (min-width: 481px) and (max-width: 640px) {
   .top .search {
     float: none;
     margin: 24px 0 0 0;
@@ -102,7 +139,27 @@
   }
   .top .search-input {
     margin: 0 0 0 6px;
-    width: 276px;
+    width: 173px;
+  }
+  .top .menu li {
+    float: none;
+    height: 204px;
+    margin: 32px auto 0 auto;
+    width: 156px;
+  }
+  .top .menu li:first-child {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  .top .search {
+    float: none;
+    margin: 24px 0 0 0;
+    text-align: left;
+  }
+  .top .search-input {
+    margin: 0 0 0 6px;
+    width: 173px;
   }
   .top .menu li {
     float: none;
