@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Susumu Yamazaki">
+	<title>{{ page.title }}</title>
+<!--
+	<link rel="stylesheet" href="{{ site.url }}/assets/css/pygments.css">
+-->
+	<link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
+<!--
+	<link rel="stylesheet" href="{{ site.url }}/assets/css/about.css">
+-->
+	<link rel="apple-touch-icon" href="{{ site.url }}/assets/images/apple-touch-icon.png">
+	<link rel="shortcut icon" href="{{ site.url }}/assets/images/favicon.ico">
+	<!--[if lt IE 9]><script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+</head>
+<body>
+	{% include header.html %}
+	{% include navigation.html %}
+<!-- ▼ contents -->
+<article class="contents top">
+
+  <section class="search">
+    <form action="http://www.google.com/search" id="nav-search">
+      <input type="hidden" name="hl" value="ja">
+      <input type="hidden" name="hq" value="inurl:{{ site.url }}">
+      <input type="hidden" name="ie" value="utf-8">
+      <input type="hidden" name="oe" value="utf-8">
+      <input type="hidden" name="filter" value="0">
+      <input class="search-input" type="text" name="q" size="11" maxlength="20" value="">
+      <input class="search-button" type="image" name="btnG" value="検索" alt="検索" src="./assets/images/ico-search.png">
+    </form>
+  </section>
+
+  {{ contents }}
+
+  <section id="pagetop">
+    <div><a href="#header">ZACKY's Software Educational Laboratory Page Topへ</a></div>
+  </section>
+
+</article>
+<!-- ▲ contents -->
+
+	{% include footer.html %}
+</body>
+</html>
