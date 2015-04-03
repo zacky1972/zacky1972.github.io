@@ -11,6 +11,9 @@
   001 common layout
 -----------------------------------------------------------------------*/
 @media only screen and (min-width: 641px) and (max-width: 959px) {
+  .body {
+    max-width: 640px;
+  }
   .contents {
     width: 620px;
     font-size: 14px;
@@ -35,6 +38,9 @@
   }
 }
 @media only screen and (max-width: 640px) {
+  .body {
+    max-width: 320px;
+  }
   .contents {
     width: 300px;
     font-size: 16px;
