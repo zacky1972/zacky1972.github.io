@@ -360,6 +360,7 @@ td.about_text p {
   border: #c1ab05 2px solid; /* antique gold */
   border-collapse: collapse;
   background-color: #ffedab; /* sunshine yellow */
+  padding: 4px;
 }
 
 .posts td.date {
