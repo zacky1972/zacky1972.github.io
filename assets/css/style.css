@@ -300,6 +300,10 @@ nav a:active {
   vertical-align: middle;
   width: 24px;
 }
+.contents .fb-like {
+  float: left;
+  padding-top: 12px;
+}
 
 /*-----------------------------------------------------------------------
   01-07. main
