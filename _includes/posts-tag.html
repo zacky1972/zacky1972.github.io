@@ -1,0 +1,11 @@
+<!-- posts-tag with {{ include.tag }} -->
+<ul>
+	{% for post in site.tags[include.tag] %}
+		<li>
+			{{ post.date | date_to_string }}
+			<a href="{{ post.url }}"> {{ post.title }}</a>
+			{{ post.excerpt }}
+		</li>
+	{% endfor %}
+</ul>
+<!-- end of posts-tag with {{ include.tag }} -->
