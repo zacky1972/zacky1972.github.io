@@ -1,4 +1,5 @@
 ---
+category: blog
 title: ビジョンとミッション
 layout: post
 permalink: vision-mission.html

@@ -1,4 +1,5 @@
 ---
+category: blog
 tags: 研究室運営 個性に合わせて長所を伸ばす
 title: 山崎進研究室のひみつ〜個性に合わせた長所を伸ばす研究指導
 layout: post

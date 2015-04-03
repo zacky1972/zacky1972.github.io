@@ -1,4 +1,5 @@
 ---
+category: blog
 tags: 告知 実践 多能工プログラマ 自ら学ぶ力を持たせる 
 title: 電子情報通信学会シンポジウム講演
 layout: post
