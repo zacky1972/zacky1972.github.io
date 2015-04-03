@@ -13,6 +13,7 @@
 @media screen and (min-width: 641px) and (max-width: 959px) {
   .contents {
     width: 620px;
+    font-size: 20px;
   }
   .blog .main {
     width: 620px;
@@ -33,6 +34,7 @@
 @media screen and (max-width: 640px) {
   .contents {
     width: 300px;
+    font-size: 32px;
   }
   .blog .main {
     width: 300px;
