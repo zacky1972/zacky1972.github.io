@@ -510,9 +510,18 @@ td.about_text p {
 .blog ol {
   font-size: 0.85em;
   padding: 1em 1em 1.5em 1em;
+  margin: 0 0 2px 2em;
 }
 .blog ul {
   padding: 0 0 1em 0;
+  margin: 0 0 2px 2.5em;
+}
+.blog ol li {
+  list-style-type: decimal;
+}
+.blog ul li {
+  list-style-type: disc;
+  line-height: 120%;
 }
 .blog .prologue {
   color: #333333;
