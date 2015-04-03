@@ -1,6 +1,6 @@
 ---
 title: blog
-layout: post
+layout: default
 permalink: blog/index.html
 ---
 # ブログ
