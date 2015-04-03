@@ -34,7 +34,7 @@
 @media screen and (max-width: 640px) {
   .contents {
     width: 300px;
-    font-size: 32px;
+    font-size: 64px;
   }
   .blog .main {
     width: 300px;
