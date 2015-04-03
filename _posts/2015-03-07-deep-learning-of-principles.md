@@ -209,6 +209,8 @@ excerpt: 今回は理系の知識習得科目における効果的な授業づ�
 
 > [第5章 教材の構造を見極める](http://www2.gsis.kumamoto-u.ac.jp/students/1998/055/sysc/main/chap5.html)
 
+<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=zacky1972-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4762822442" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
 動機づけとしては，次のように行います。
 
 1. まず最終的な学習目標を達成するとどんなことができるようになるのかを説明します。これはARCSモデルでいうとR:関連性に該当します。たとえば私が行ったUMLモデリングの授業では，UMLモデリングの意義を説明し，最終試験で登場するような UML 図を示しました。
@@ -221,6 +223,8 @@ excerpt: 今回は理系の知識習得科目における効果的な授業づ�
 
 ただし，この原則にしたがっても全ての順序性を定義できない場合が多いです。たとえば言語情報の課題には基本的に順序性はありませんし，知的技能の課題でも課題が並列する場合には順序性はありません。[インストラクショナルデザインの原理](http://www.amazon.co.jp/gp/product/4762825735/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4762825735&linkCode=as2&tag=zacky1972-22)の第9章では，このような場合にどのように順序づけるかを論じています。
 
+<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=zacky1972-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4762825735" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
 **「ノードとなる知識の反復が効果的であるためにはどうするか」「学ぶ人の多様性を前にしていろいろと悩むところ」**については**完全習得学習**(mastery learning)の考え方が参考になるでしょう。下記を参照ください。
 
 > [完全習得学習と形成的テスト](http://www.gsis.kumamoto-u.ac.jp/opencourses/pf/2Block/03/1_text.html)
@@ -228,6 +232,9 @@ excerpt: 今回は理系の知識習得科目における効果的な授業づ�
 最近の反転授業でも現代のITを使って完全習得学習が再発明され，完全習得型反転授業(Flipped-Mastery model)と呼ばれています。詳しくは下記を参照ください。
 
 > [反転授業](http://www.amazon.co.jp/gp/product/4990512480/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4990512480&linkCode=as2&tag=zacky1972-22)
+
+<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=zacky1972-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4990512480" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
 
 初等C言語プログラミングでは完全習得学習の一形態である**[PSI:個別化教授システム](http://www.gsis.kumamoto-u.ac.jp/opencourses/pf/2Block/03/2_text.html)**を実現した[向後千春先生のウェブ教材「ネコのぶきっちょと学ぶC言語（2002）」](https://kogolab.wordpress.com/material/web教材/)を採用しました。この授業では，学生はeラーニング教材で個別に自習し，各単元を修了したことを確認するテストを受けて次の単元へ進みます。学生の多様性の問題については，究極的にはこのように個別学習を中心とした学習形態になっていくのではないでしょうか。
 
