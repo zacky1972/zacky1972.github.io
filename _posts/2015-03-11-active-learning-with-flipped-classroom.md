@@ -59,6 +59,7 @@ excerpt: 反転授業とアクティブ・ラーニングを組み合わせる�
 
 教師が最初に読むべきインストラクショナル・デザインの本は[「教材設計マニュアル」](http://www.amazon.co.jp/gp/product/4762822442/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4762822442&linkCode=as2&tag=zacky1972-22)です。これを読んで教材作りにいそしみましょう。それが反転授業とアクティブ・ラーニングを成功させる秘訣です。
 
+<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=zacky1972-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4762822442" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
 
 ## 秘訣その4: ワークショップに慣れていた
 
