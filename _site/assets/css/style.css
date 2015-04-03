@@ -346,6 +346,12 @@ td.about_text p {
   font-size: 14px;
 }
 
+.posts table, td {
+  border: #c1ab05 2px solid; /* antique gold */
+  border-collapse: collapse;
+  background-color: #ffedab; /* sunshine yellow */
+}
+
 .posts td.date {
   width: 15%;
 }
