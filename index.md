@@ -4,4 +4,4 @@ layout: default
 ---
 # ZACKY's Laboratory
 
-{% include posts-all.html %}
+{% include posts.html %}
