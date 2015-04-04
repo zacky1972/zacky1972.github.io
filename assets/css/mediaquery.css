@@ -114,6 +114,15 @@
   td.about_text {
     width: 190px;
   }
+  .posts td.date:first-child {
+    display: none;
+  }
+  .posts td.tag:first-child {
+    display: none;
+  }
+  .posts td.title {
+    width: 100%;
+  }
 }
 /*-----------------------------------------------------------------------
   002 .top(/index.html)
