@@ -48,9 +48,9 @@ excerpt: そもそも何ができたら「問題解決」したことになる�
 
 ---
 
-参考文献: [インストラクショナルデザインの原理](http://www.amazon.co.jp/gp/product/4762825735/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4762825735&linkCode=as2&tag=zacky1972-22): [原著(英文)](http://www.amazon.co.jp/gp/product/0534582842/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=0534582842&linkCode=as2&tag=zacky1972-22)
+参考文献: [インストラクショナルデザインの原理](//www.amazon.co.jp/gp/product/4762825735/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4762825735&linkCode=as2&tag=zacky1972-22): [原著(英文)](//www.amazon.co.jp/gp/product/0534582842/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=0534582842&linkCode=as2&tag=zacky1972-22)
 
-<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=zacky1972-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4762825735" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+<iframe src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=zacky1972-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4762825735" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
 
 ある程度インストラクショナル・デザインの経験を積んだ後に，この本を読むととても深い示唆が得られます。また，授業実践を論文にするときには，この本を辞書代わりにして原著と照らし合わせながら執筆するといいですよ。
 
