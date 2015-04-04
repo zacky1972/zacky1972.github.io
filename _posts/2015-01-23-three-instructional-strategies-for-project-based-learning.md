@@ -14,9 +14,9 @@ excerpt: 田原さんの「成功と失敗を見届ける覚悟がLearningでき
 
 私も試行錯誤(トライアル・アンド・エラー)の体験，とりわけ失敗を恐れずに積極的にチャレンジすることがとても大事だというのに強く共感します。失敗した経験が少ないと，ちょっとした失敗ですぐに挫折してしまう打たれ弱いマインドになってしまいます。そういう失敗を恐れるマインドだと，積極的にリスクをとって新しいことに挑戦できません。現代日本に閉塞感を感じているとしたら，そういうリスクを回避する社会の雰囲気に起因するのではないでしょうか。
 
-話を学習に戻すと，このような失敗を恐れない試行錯誤の体験は経験学習の観点からも有用であると言えます。[経験学習入門](http://www.amazon.co.jp/gp/product/4478017298/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4478017298&linkCode=as2&tag=zacky1972-22)には，経験学習すなわち経験から学ぶことで学習効果を高めるには，次の3つの要素が重要だとまとめています。
+話を学習に戻すと，このような失敗を恐れない試行錯誤の体験は経験学習の観点からも有用であると言えます。[経験学習入門](//www.amazon.co.jp/gp/product/4478017298/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4478017298&linkCode=as2&tag=zacky1972-22)には，経験学習すなわち経験から学ぶことで学習効果を高めるには，次の3つの要素が重要だとまとめています。
 
-<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=zacky1972-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4478017298" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+<iframe src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=zacky1972-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4478017298" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
 
 > 1.ストレッチ: 問題意識を持って，新規性のある課題に取り組む
 

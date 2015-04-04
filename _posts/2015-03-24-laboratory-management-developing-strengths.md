@@ -36,9 +36,9 @@ excerpt: 今回は，秘伝中の秘伝，私の研究室運営のひみつに�
 
 では私の研究室運営について説明します。基本は，学生と面談を繰り返し，**VSS: ビジョン・スタイル・シナリオ**を形成していきます。VSS については次の書籍を参照ください。早稲田大学のラグビーの元監督の中竹竜二さんの秘伝が紹介されています。
 
-> [人を育てる期待のかけ方](http://www.amazon.co.jp/gp/product/B00B8IXLYK/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B00B8IXLYK&linkCode=as2&tag=zacky1972-22)
+> [人を育てる期待のかけ方](//www.amazon.co.jp/gp/product/B00B8IXLYK/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B00B8IXLYK&linkCode=as2&tag=zacky1972-22)
 
-<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=zacky1972-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B00B8IXLYK" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+<iframe src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=zacky1972-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B00B8IXLYK" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
 
 
 この本で紹介されているエピソードを交えながら，VSS の考え方について紹介していきます。パスがどうしても苦手な選手がいました。どれだけ練習してもパスが上手くなりません。しかし中竹氏はその選手がずっと走り続けられることに着目して，ある作戦を思いつきます。その選手に，ボールを持った選手の後ろにずっとついて走るように提案しました。ただし，そのパスが苦手な選手にはパスを回さないという作戦をチーム内で共有します。その作戦を知らない相手チームの選手は，そのパスの苦手な選手をマークするための戦力を割かねばなりません。一見弱みに見える「パスが苦手」という個性をスタイルとして認識し，そのスタイルを最大限生かす作戦＝ビジョンを持たせることで，個性を発揮することができるようになります。
@@ -47,9 +47,9 @@ excerpt: 今回は，秘伝中の秘伝，私の研究室運営のひみつに�
 
 この例からもわかるとおり，VSSの中で最も重要なのがスタイルです。私はスタイルを見抜くためのツールがないか探し求めました。その結果，最終的にたどり着いたのが，次の書籍です。
 
-> [さあ，才能(じぶん)に目覚めよう―あなたの5つの強みを見出し、活かす](http://www.amazon.co.jp/gp/product/4532149479/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4532149479&linkCode=as2&tag=zacky1972-22)
+> [さあ，才能(じぶん)に目覚めよう―あなたの5つの強みを見出し、活かす](//www.amazon.co.jp/gp/product/4532149479/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4532149479&linkCode=as2&tag=zacky1972-22)
 
-<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=zacky1972-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4532149479" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+<iframe src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=zacky1972-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4532149479" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
 
 この本にはストレングス・ファインダーというウェブ上の診断ツールの利用権がついています。ストレングス・ファインダーにアクセスし，心理学に基づいた結構な数の設問に答えると，5つの強みが診断されるという仕組みです。**私はこの5つの強みから想像を広げ，ビジョンである学生の研究テーマや将来の仕事を着想します。** (このようなスタイルは，私が着想という強みを持っているからこそのアプローチかもしれません。)
 
