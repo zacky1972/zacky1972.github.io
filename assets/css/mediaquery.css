@@ -114,10 +114,10 @@
   td.about_text {
     width: 190px;
   }
-  .posts td.date:first-child {
+  .posts td.date {
     display: none;
   }
-  .posts td.tag:first-child {
+  .posts td.tag {
     display: none;
   }
   .posts td.title {
