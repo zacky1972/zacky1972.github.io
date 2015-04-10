@@ -6,7 +6,7 @@ layout: default
 
 {% include about-text.html %}
 
-<!--* [担当授業科目](/courses/)-->
+* [担当授業科目](/courses/)
 
 ## 研究テーマ (Research Topics)
 
