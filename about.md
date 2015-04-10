@@ -6,6 +6,8 @@ layout: default
 
 {% include about-text.html %}
 
+<!--* [担当授業科目](/courses/)-->
+
 ## 研究テーマ (Research Topics)
 
 下記に関する研究と実践:
