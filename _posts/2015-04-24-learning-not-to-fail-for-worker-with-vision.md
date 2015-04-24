@@ -38,4 +38,12 @@ excerpt: 社会人が学習する際に陥りがちな「眼高手低」を回�
 
 > [21世紀マインドセット](http://phys-yobiko.com/mission/)
 
+## 社会人の学習で大事なことは「習慣化」
+
+自由に使える時間が慢性的に不足している社会人の場合，新しいことを始めるためには，要らないものをやめること，新しいことが定着するまで辛抱強く続けることが大事です。すなわち「習慣」の問題になります。
+
+習慣を変えるのに効くのが，[スタンフォードの自分を変える教室](http://www.amazon.co.jp/gp/product/4479793631/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4479793631&linkCode=as2&tag=zacky1972-22)です。
+
+<a href="//www.amazon.co.jp/gp/product/4479793631/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4479793631&linkCode=as2&tag=zacky1972-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4479793631&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=zacky1972-22&l=as2&o=9&a=4479793631" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
 
