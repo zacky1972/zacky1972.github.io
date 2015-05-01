@@ -128,11 +128,11 @@
   002 .top(/index.html)
 -----------------------------------------------------------------------*/
 @media screen and (min-width: 641px) and (max-width: 959px) {
-  .top .search {
+  .contents.search {
     margin: 24px 0 0 0;
   }
-  .top .search-input {
-    width: 173px;
+  .contents .search-input {
+    width: 275px;
   }
   .top .menu li {
     height: 306px;
@@ -141,14 +141,14 @@
   }
 }
 @media screen and (min-width: 481px) and (max-width: 640px) {
-  .top .search {
+  .contents .search {
     float: none;
     margin: 24px 0 0 0;
     text-align: left;
   }
-  .top .search-input {
+  .contents .search-input {
     margin: 0 0 0 6px;
-    width: 173px;
+    width: 256px;
   }
   .top .menu li {
     float: none;
@@ -161,14 +161,14 @@
   }
 }
 @media screen and (max-width: 480px) {
-  .top .search {
+  .contents .search {
     float: none;
     margin: 24px 0 0 0;
     text-align: left;
   }
-  .top .search-input {
+  .contents .search-input {
     margin: 0 0 0 6px;
-    width: 153px !important;
+    width: 256px !important;
   }
   .top .menu li {
     float: none;
