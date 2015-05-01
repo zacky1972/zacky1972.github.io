@@ -168,7 +168,7 @@
   }
   .top .search-input {
     margin: 0 0 0 6px;
-    width: 153px;
+    width: 153px !important;
   }
   .top .menu li {
     float: none;
