@@ -14,3 +14,9 @@ excerpt: 電子情報通信学会のシンポジウム「教育改革と人材�
 <div style="margin-bottom: 5px;">
 <strong> <a href="https://www.slideshare.net/zacky1972/ss-45671379" target="_blank" title="コンピュータシステムの原理を理解させる アクティブ・ラーニング">コンピュータシステムの原理を理解させる アクティブ・ラーニング</a> </strong> from <strong><a href="https://www.slideshare.net/zacky1972" target="_blank">Susumu Yamazaki</a></strong> </div>
 
+## 追記 2015/05/07
+
+講演の動画も公開しました。講演のスライドと動画の公開に際し，電子情報通信学会のご理解をいただけました。ありがとうございます。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qIr4sgPvQog" frameborder="0" allowfullscreen></iframe>
+
