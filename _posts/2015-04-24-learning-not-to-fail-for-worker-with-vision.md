@@ -17,7 +17,13 @@ excerpt: 社会人が学習する際に陥りがちな「眼高手低」を回�
 
 [経験学習入門](//www.amazon.co.jp/gp/product/4478017298/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4478017298&linkCode=as2&tag=zacky1972-22)には次のようにまとめられています。
 
-<iframe src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=zacky1972-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4478017298" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+
+> [![「経験学習」入門](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4478017298&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22
+ "「経験学習」入門")](//www.amazon.co.jp/gp/product/4478017298/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4478017298&linkCode=as2&tag=zacky1972-22)
+
+> [「経験学習」入門](http://www.amazon.co.jp/gp/product/4478017298/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4478017298&linkCode=as2&tag=zacky1972-22)
+
 
 > 1.ストレッチ: 問題意識を持って，新規性のある課題に取り組む
 
@@ -36,6 +42,8 @@ excerpt: 社会人が学習する際に陥りがちな「眼高手低」を回�
 
 関連として[田原真人さんによる「21世紀マインドセット」旧名称は「物理学習マインドセット」](http://phys-yobiko.com/mission/)を紹介します。物理と銘打っていますが，分野を問わず新しいことを学ぼうとしている人みなさんにオススメします。
 
+[![21世紀マインドセット](//img.youtube.com/vi/Z9sRqcBIH80/0.jpg "21世紀マインドセット")](http://phys-yobiko.com/mission/)
+
 > [21世紀マインドセット](http://phys-yobiko.com/mission/)
 
 ## 社会人の学習で大事なことは「習慣化」
@@ -44,6 +52,11 @@ excerpt: 社会人が学習する際に陥りがちな「眼高手低」を回�
 
 習慣を変えるのに効くのが，[スタンフォードの自分を変える教室](http://www.amazon.co.jp/gp/product/4479793631/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4479793631&linkCode=as2&tag=zacky1972-22)です。
 
-<a href="//www.amazon.co.jp/gp/product/4479793631/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4479793631&linkCode=as2&tag=zacky1972-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4479793631&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=zacky1972-22&l=as2&o=9&a=4479793631" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+> [![スタンフォードの自分を変える教室](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4479793631&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22 "スタンフォードの自分を変える教室")](//www.amazon.co.jp/gp/product/4479793631/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4479793631&linkCode=as2&tag=zacky1972-22)
 
+> [スタンフォードの自分を変える教室](//www.amazon.co.jp/gp/product/4479793631/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4479793631&linkCode=as2&tag=zacky1972-22)
+
+この本については，以前，こんな記事を書きました。
+
+> [惰丸(ダマル)日記 第1章〜「スタンフォードの自分を変える教室」を実践してみた](https://zacky1972.github.io/blog/2013/01/16/Willpower-Instinct.html)
 
