@@ -87,3 +87,8 @@ excerpt: 慎重なことは弱みだと思っていませんか？ 強みに変�
 
 思い立ってざざっと書いてみましたが，いかがだったでしょう？ シリーズ化していこうと思うので，よかったら感想ください。また，ざざっと書いたので，いろいろ不十分だったことがわかりました。どしどし追記していきたいと思います。
 
+コメント・感想等はこちらへ。
+
+* [ZACKY's Laboratory Facebook ページ](https://www.facebook.com/zacky1972lab/posts/562616523880658)
+* [Facebook](https://www.facebook.com/zacky1972/posts/972131722819793)
+* [Twitter](https://twitter.com/zacky1972/status/599470674936274944)
