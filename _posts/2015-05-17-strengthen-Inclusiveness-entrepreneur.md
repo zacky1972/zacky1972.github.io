@@ -44,7 +44,11 @@ excerpt: 「包含」を強みに持つ人はインバウンドマーケティ�
 
 > [![インバウンドマーケティング](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4797372192&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/4797372192/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4797372192&linkCode=as2&tag=zacky1972-22)
 
-# 感想をどうぞ！
+## おわりに
+
+そういうわけで，「包含」を強みに持っている人は，ブログを書き続けましょう！ そして SNS で発信するのです。インバウンドマーケティングももちろん読んでね。発信し続けたらきっと道は開けますよ。	
+
+## 感想をどうぞ！
 
 * [ZACKY's Laboratory Facebook ページ](https://www.facebook.com/zacky1972lab/posts/562948037180840)
 * [Facebook](https://www.facebook.com/zacky1972/posts/972770742755891)
