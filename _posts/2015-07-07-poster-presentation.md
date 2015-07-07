@@ -37,4 +37,4 @@ excerpt: ソフトウェア工学概論のポスター発表会に参加して�
 
 * [Facebook: https://www.facebook.com/zacky1972](https://www.facebook.com/zacky1972)
 * [Twitter: zacky1972](https://twitter.com/zacky1972)
-* E-mail: "山崎 進" <zacky@kitakyu-u.ac.jp>
+* E-mail: "山崎 進" &lt;zacky@kitakyu-u.ac.jp&gt;
