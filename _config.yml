@@ -1,18 +1,6 @@
 name: ZACKY's Laboratory
 description: 北九州市立大学でプログラミングを教えている山崎進のブログです。
 url: https://zacky1972.github.io
-hightlighter: pygments
-markdown: redcarpet
-redcarpet:
-  extensions: [
-    "no_intra_emphasis",
-    "fenced_code_blocks",
-    "autolink",
-    "tables",
-    "footnotes",
-    "strikethrough",
-    "lax_html_blocks"
-  ]
 kramdown:
   input: GFM
 github: [Repository metadata]
