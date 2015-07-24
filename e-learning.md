@@ -7,4 +7,4 @@ permalink: e-learning/index.html
 
 近日公開予定
 
-{% include posts.html category="e-learning" %}
+{% include posts.html tag="public" %}
