@@ -1,8 +1,8 @@
 ---
-category: page
+category: blog
 tags: 告知 起業家マインド
 title: イノベーションを語らう会 ＠SWEST
-layout: page
+layout: post
 excerpt: どうしたらイノベーションを生み出せるのでしょうか？
 ---
 # イノベーションを語らう会 ＠SWEST
