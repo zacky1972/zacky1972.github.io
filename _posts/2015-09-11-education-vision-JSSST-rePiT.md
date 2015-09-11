@@ -19,5 +19,7 @@ excerpt: 9月11日(金)14:45〜16:45のセッションにて教育実践の集�
 
 [日本ソフトウェア科学会第32回大会 https://jssst2015.wordpress.com/](https://jssst2015.wordpress.com/) 早稲田大学 西早稲田キャンパス（〒169-8555　新宿区大久保3-4-1）
 
-なお，講演資料は本ウェブページにて，発表終了後に SlideShare 等を用いて公開する予定です。
+講演資料の SlideShare は次の通りです。
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/dj5h1EMedhrLEg" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/zacky1972/ss-52655352" title="ソフトウェア開発の教育のビジョンを語ろう" target="_blank">ソフトウェア開発の教育のビジョンを語ろう</a> </strong> from <strong><a href="//www.slideshare.net/zacky1972" target="_blank">Susumu Yamazaki</a></strong> </div>
 
