@@ -13,4 +13,4 @@ permalink: assets/talks/talk0001-vi7waiv0vun6joof5giz6nob8ribr8ye/index.html
 
 ## ラジオ番組出演
 
-* [KITAQ企画会議(11/20)](https://www.facebook.com/groups/1499000153763602/permalink/1499000600430224/)
+* [20151120 KITAQ企画会議](https://www.facebook.com/groups/1499000153763602/permalink/1499000600430224/)
