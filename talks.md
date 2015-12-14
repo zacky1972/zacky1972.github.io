@@ -10,7 +10,7 @@ permalink: assets/talks/talk0001-vi7waiv0vun6joof5giz6nob8ribr8ye/index.html
 2. [20151212 インドネシア訪問団とグローバルリテラシー (AAC)](./インドネシア訪問団とグローバルリテラシー〜ZACKY's Laboratory Podcast.m4a) [(MP3)](./インドネシア訪問団とグローバルリテラシー〜ZACKY's Laboratory Podcast.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1499001383763479/)
 3. [20151213 テーマソングについて (AAC)](./テーマソングについて〜ZACKY's Laboratory Podcast.m4a) [(MP3)](./テーマソングについて〜ZACKY's Laboratory Podcast.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1499036950426589/)
 4. [20151214 なんで Podcast をはじめたか (AAC)](./Podcast-0004-Why-I-begin-Podcast.m4a) [(MP3)](./Podcast-0004-Why-I-begin-Podcast.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/1499218990408385/)
-5. [20151215 ZACKY's Laboratory のゴールは卒業論文ではない (AAC)](./Podcast-0005-Laboratory-Vision.m4a) [(MP3)](./Podcast-0005-Laboratory-Vision.mp3)
+5. [20151215 ZACKY's Laboratory のゴールは卒業論文ではない (AAC)](./Podcast-0005-Laboratory-Vision.m4a) [(MP3)](./Podcast-0005-Laboratory-Vision.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1499662543697363/)
 
 ## ラジオ番組出演
 
