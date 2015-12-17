@@ -13,6 +13,7 @@ permalink: assets/talks/talk0001-vi7waiv0vun6joof5giz6nob8ribr8ye/index.html
 5. [20151215 ZACKY's Laboratory のゴールは卒業論文ではない (AAC)](./Podcast-0005-Laboratory-Vision.m4a) [(MP3)](./Podcast-0005-Laboratory-Vision.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1499662543697363/)
 6. [20151216 育てたい人材〜多能工プログラマとは (AAC)](./Podcast-0006-Programmer.m4a) [(MP3)](./Podcast-0006-Programmer.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1500341363629481/)
 7. [20151217 育てたい人材〜起業家マインドを持つエンジニアとは (AAC)](./Podcast-0007-Entrepreneur.m4a) [(MP3)](./Podcast-0007-Entrepreneur.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1501154550214829/)
+8. [20151218 卒業研究のまとめかた (AAC)](./Podcast-0008-Research-Method.m4a) [(MP3)](./Podcast-0008-Research-Method.mp3)
 
 ## ラジオ番組出演
 
