@@ -16,7 +16,8 @@ permalink: assets/talks/talk0001-vi7waiv0vun6joof5giz6nob8ribr8ye/index.html
 8. [20151218 卒業研究のまとめかた (AAC)](./Podcast-0008-Research-Method.m4a) [(MP3)](./Podcast-0008-Research-Method.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1501189646877986/)
 9. [20151219 計画の立て方 (AAC)](./Podcast-0009-Planning.m4a) [(MP3)](./Podcast-0009-Planning.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1501559233507694/)
 10. [20151220 継続すること (AAC)](./Podcast-0010-Continuation.m4a) [(MP3)](./Podcast-0010-Continuation.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1502226620107622/)
-11. [20151221 締め切り直前のプロジェクトマネジメント (AAC)](Podcast-0011-Project-Management.m4a) [(MP3)](Podcast-0011-Project-Management.mp3)
+11. [20151221 締め切り直前のプロジェクトマネジメント (AAC)](./Podcast-0011-Project-Management.m4a) [(MP3)](./Podcast-0011-Project-Management.mp3)
+12. [20151222 ボツネタこそ宝の山〜高校生向けペルソナ・ワークショップ (AAC)](./Podcast-0012-Marketing.m4a) [(MP3)](./Podcast-0012-Marketing.mp3)
 
 ## ラジオ番組出演
 
