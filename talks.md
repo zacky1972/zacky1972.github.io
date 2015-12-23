@@ -19,8 +19,9 @@ permalink: assets/talks/talk0001-vi7waiv0vun6joof5giz6nob8ribr8ye/index.html
 11. [20151221 締め切り直前のプロジェクトマネジメント (AAC)](./Podcast-0011-Project-Management.m4a) [(MP3)](./Podcast-0011-Project-Management.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1503264216670529/)
 12. [20151222 ボツネタこそ宝の山〜高校生向けペルソナ・ワークショップ (AAC)](./Podcast-0012-Marketing.m4a) [(MP3)](./Podcast-0012-Marketing.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1503925733271044/)
 13. [20151223 会社の見分け方〜ビジネスモデルの観点 (AAC)](./Podcast-0013-Business-Model.m4a) [(MP3)](./Podcast-0013-Business-Model.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1504391206557830/)
+14. [20151224 ビジネスの提案と広報〜ターゲットユーザーを決める／UX／リーンスタートアップ／インバウンド・マーケティング (AAC)](./Podcast-0014-Business-Proposal.m4a) [(MP3)](./Podcast-0014-Business-Proposal.mp3) 
 
 ## ラジオ番組出演
 
 * [20151120 KITAQ企画会議](https://www.facebook.com/groups/1499000153763602/permalink/1499000600430224/)
-* [20160108 KITAQ企画会議 (出演予定)]
+* [20160108 KITAQ企画会議 (出演予定)](https://www.facebook.com/groups/1499000153763602/)
