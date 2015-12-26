@@ -22,7 +22,7 @@ permalink: assets/talks/talk0001-vi7waiv0vun6joof5giz6nob8ribr8ye/index.html
 14. [20151224 ビジネスの提案と広報〜ターゲットユーザーを決める／UX／リーンスタートアップ／インバウンド・マーケティング (AAC)](./Podcast-0014-Business-Proposal.m4a) [(MP3)](./Podcast-0014-Business-Proposal.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1504862259844058/)
 15. [20151225 作品を残そう/プログラマのロールモデル (AAC)](./Podcast-0015-Role-Model.m4a) [(MP3)](./Podcast-0015-Role-Model.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1505523266444624/)
 16. [20151226 ラーニング・パターン(Learning Pattern) (AAC)](./Podcast-0016-Learning-Pattern.m4a) [(MP3)](./Podcast-0016-Learning-Pattern.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1505810799749204/)
-17. [20151227 ワーク・シフトと山崎のやりたいこと (AAC)](./Podcast-0017-Work-Shift.m4a) [(MP3)](./Podcast-0017-Work-Shift.mp3) 
+17. [20151227 ワーク・シフトと山崎のやりたいこと (AAC)](./Podcast-0017-Work-Shift.m4a) [(MP3)](./Podcast-0017-Work-Shift.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1505940476402903/)
 
 ## ラジオ番組出演
 
