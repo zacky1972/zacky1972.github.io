@@ -24,6 +24,7 @@ permalink: assets/talks/talk0001-vi7waiv0vun6joof5giz6nob8ribr8ye/index.html
 16. [20151226-1 ラーニング・パターン(Learning Pattern) (AAC)](./Podcast-0016-Learning-Pattern.m4a) [(MP3)](./Podcast-0016-Learning-Pattern.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1505810799749204/)
 17. [20151226-2 ワーク・シフトと山崎のやりたいこと (AAC)](./Podcast-0017-Work-Shift.m4a) [(MP3)](./Podcast-0017-Work-Shift.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1505940476402903/)
 18. [20151227 九州アプリチャレンジキャラバンのふりかえり〜プレゼンテーションの注意点 (AAC)](./Podcast-0018-Presentation.m4a) [(MP3)](./Podcast-0018-Presentation.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1506328256364125/)
+19. [20151228 面談に来てね (AAC)](./Podcast-0019-Future-Course.m4a) [(MP3)](./Podcast-0019-Future-Course.mp3)
 
 ## ラジオ番組出演
 
