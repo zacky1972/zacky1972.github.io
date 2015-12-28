@@ -25,7 +25,7 @@ permalink: assets/talks/talk0001-vi7waiv0vun6joof5giz6nob8ribr8ye/index.html
 17. [20151226-2 ワーク・シフトと山崎のやりたいこと (AAC)](./Podcast-0017-Work-Shift.m4a) [(MP3)](./Podcast-0017-Work-Shift.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1505940476402903/)
 18. [20151227 九州アプリチャレンジキャラバンのふりかえり〜プレゼンテーションの注意点 (AAC)](./Podcast-0018-Presentation.m4a) [(MP3)](./Podcast-0018-Presentation.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1506328256364125/)
 19. [20151228 面談に来てね (AAC)](./Podcast-0019-Future-Course.m4a) [(MP3)](./Podcast-0019-Future-Course.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1507061802957437/)
-20. [20151229 イノベーションと持続可能性 (AAC)](./Podcast-0020-Innovation.m4a) [(MP3)](./Podcast-0020-Innovation.mp3)
+20. [20151229 イノベーションと持続可能性 (AAC)](./Podcast-0020-Innovation.m4a) [(MP3)](./Podcast-0020-Innovation.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1507557442907873/)
 
 ## ラジオ番組出演
 
