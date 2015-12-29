@@ -9,7 +9,13 @@ def loadYAML(filename)
 	YAML.load(File.read(filename), :encoding => Encoding::UTF_8)
 end
 
-def rendorMD(talks)
+def render(file, template, talks)
+	File.open(file, "w") do |io|
+		p io.puts template.render(talks)
+	end
+end
+
+def renderMD(talks)
 	template = Liquid::Template.parse(<<"EOS"
 ---
 title: {{title}}
@@ -28,11 +34,57 @@ permalink: talks/index.html
 * [{{ talk.date }} {{ talk.title }}]({{ talk.link }})
 {% endfor %}
 EOS
-	)
-	File.open("../../talks.md", "w") do |io|
-		p io.puts template.render(talks)
-	end
+		)
+	render("../../talks.md", template, talks)
+end
+
+def renderPodcast(talks)
+	template = Liquid::Template.parse(<<"EOS"
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>{{ title }}</title>
+    <link>{{ link }}</title>
+    <language>{{ language }}</language>
+    <copyright>&#xA9; {{ author }} </copyright>
+    <itunes:subtitle>{{ summary }}</itunes:subtitle>
+    <itunes:author>{{ author }}</itunes:author>
+    <itunes:summary>{{ summary }}</itunes:summary>
+    <description>{{ summary }}</description>
+    <itunes:owner>
+      <itunes:name>{{ author }}</itunes:name>
+      <itunes:email>{{ email }}</itunes:email>
+    </itunes:owner>
+    <itunes:image href="{{ image }}" />
+    <itunes:category text="{{ category }}" />
+{% for talk in talks %}
+    <item>
+      <title>{{ talk.date }} {{ talk.title }}</title>
+      <itunes:author>{{ author }}</itunes:author>
+      <itunes:subtitle> {{ talk.title }}</itunes:subtitle>
+      <itunes:summary> {{ talk.title }}</itunes:summary>
+      <itunes:image href="{{ image }}" />
+      <enclosure url="{{ file_dir }}{{ talk.file }}.mp3" length="{{ talk.length }}" type="audio/mp3" />
+      <guid isPermaLink="true">{{ file_dir }}{{ talk.file }}.mp3</guid>
+      <pubDate>{{ talk.time }}</pubDate>
+    </item>
+{% endfor %}
+  </channel>
+</rss>
+EOS
+		)
+	render("../../podcast.xml", template, talks)
+end
+
+def getLength(talks)
+	talks["talks"].each{|talk|
+		file = talks["path"] + talk["file"] + ".mp3"
+		talk["length"] = File.size(file)
+		talk["time"] = File.ctime(file).rfc822
+	}
 end
 
 talks = loadYAML("../talks/talks.yaml")
-rendorMD(talks)
+getLength(talks)
+renderMD(talks)
+renderPodcast(talks)

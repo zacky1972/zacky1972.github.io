@@ -1,11 +1,14 @@
 title: ZACKY's Laboratory Podcast
 author: Susumu Yamazaki @ZACKY1972
-image: https://zacky1972.github.io/assets/images/ZACKY-icon.jpg
+email: zacky1972@gmail.com
+image: https://zacky1972.github.io/assets/images/ZACKY.jpg
 summary: ZACKY's Laboratory Podcast この番組は北九州市立大学でプログラミングを教えている山崎進がお送りします。
 category: Education
 explicit:
 link: https://zacky1972.github.io/talks/
+language: ja-jp
 file_dir: https://zacky1972.github.io/assets/talks/
+path: ../talks/
 Facebook: https://www.facebook.com/groups/1499000153763602/
 radio:
  - date: 20151120
