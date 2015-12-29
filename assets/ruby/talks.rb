@@ -19,7 +19,7 @@ permalink: talks/index.html
 # {{title}}
 
 {% for talk in talks %}
-{{ talk.num }}. [{{ talk.date }} {{ talk.title }}]({{ link }}{{ talk.file }}.mp3) [Facebook]({{Facebook}}permalink/{{talk.Facebook}}/)
+{{ talk.num }}. [{{ talk.date }} {{ talk.title }}]({{ file_dir }}{{ talk.file }}.mp3) [Facebook]({{Facebook}}permalink/{{talk.Facebook}}/)
 {% endfor %}
 
 ## ラジオ番組出演
