@@ -4,7 +4,8 @@ image: https://zacky1972.github.io/assets/images/ZACKY-icon.jpg
 summary: ZACKY's Laboratory Podcast この番組は北九州市立大学でプログラミングを教えている山崎進がお送りします。
 category: Education
 explicit:
-link: https://zacky1972/talks/
+link: https://zacky1972.github.io/talks/
+file_dir: https://zacky1972.github.io/assets/talks/
 Facebook: https://www.facebook.com/groups/1499000153763602/
 radio:
  - date: 20151120
