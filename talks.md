@@ -48,7 +48,7 @@ permalink: talks/index.html
 
 20. [2015-12-29 15:22:00 +0900 イノベーションと持続可能性](https://zacky1972.github.io/assets/talks/Podcast-0020-Innovation.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1507557442907873/)
 
-21. [2015-12-30 15:22:00 +0900 ふりかえりをしよう〜 KPT と YWT](https://zacky1972.github.io/assets/talks/Podcast-0021-Reflection-KPT-YWT.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink//)
+21. [2015-12-30 15:22:00 +0900 ふりかえりをしよう〜 KPT と YWT](https://zacky1972.github.io/assets/talks/Podcast-0021-Reflection-KPT-YWT.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1508048856192065/)
 
 
 ## ラジオ番組出演
