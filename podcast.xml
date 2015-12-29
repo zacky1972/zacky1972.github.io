@@ -238,5 +238,16 @@
       <pubDate>Tue, 29 Dec 2015 15:22:00 +0900</pubDate>
     </item>
 
+    <item>
+      <title>2015-12-30 15:22:00 +0900 ふりかえりをしよう〜 KPT と YWT</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> ふりかえりをしよう〜 KPT と YWT</itunes:subtitle>
+      <itunes:summary> ふりかえりをしよう〜 KPT と YWT</itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0021-Reflection-KPT-YWT.mp3" length="3000446" type="audio/mpeg" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0021-Reflection-KPT-YWT.mp3</guid>
+      <pubDate>Wed, 30 Dec 2015 15:22:00 +0900</pubDate>
+    </item>
+
   </channel>
 </rss>
