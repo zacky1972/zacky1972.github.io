@@ -54,5 +54,5 @@ permalink: talks/index.html
 
 * [20160107 学研都市へ行こう！ (出演予定)](http://hibiki882.jp/modules/program/index.php/gakken.html)
 
-* [20160108 KITAQ企画会議 (出演予定)](https://www.facebook.com/groups/1499000153763602/)
+* [20160108 KITAQ企画会議 (出演予定)](https://www.facebook.com/kitaqkikakukaigi/)
 
