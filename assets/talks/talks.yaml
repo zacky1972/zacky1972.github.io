@@ -11,113 +11,113 @@ file_dir: https://zacky1972.github.io/assets/talks/
 path: ../talks/
 Facebook: https://www.facebook.com/groups/1499000153763602/
 radio:
- - date: 20151120
+ - date: 2015-11-20
    title: KITAQ企画会議
    link: https://www.facebook.com/groups/1499000153763602/permalink/1499000600430224/
- - date: 20160107
+ - date: 2016-01-07
    title: 学研都市へ行こう！ (出演予定)
    link: http://hibiki882.jp/modules/program/index.php/gakken.html
- - date: 20160108
+ - date: 2016-01-08
    title: KITAQ企画会議 (出演予定)
    link: https://www.facebook.com/kitaqkikakukaigi/
 talks:
  - num: 1
-   date: 20151211
+   date: 2015-12-11T11:15:00
    title: 7つの習慣
    file: Podcast-0001-Seven-Habits
    Facebook: 1499000873763530
  - num: 2
-   date: 20151212 
+   date: 2015-12-12T07:10:00
    title: インドネシア訪問団とグローバルリテラシー
    file: Podcast-0002-Global
    Facebook: 1499001383763479
  - num: 3
-   date: 20151213
+   date: 2015-12-13T12:19:00
    title: テーマソングについて
    file: Podcast-0003-Songs
    Facebook: 1499036950426589
  - num: 4
-   date: 20151214
+   date: 2015-12-13T22:45:00
    title: なんで Podcast をはじめたか
    file: Podcast-0004-Why-I-begin-Podcast
    Facebook: 1499218990408385
  - num: 5
-   date: 20151215
+   date: 2015-12-15T00:00:00
    title: ZACKY's Laboratory のゴールは卒業論文ではない
    file: Podcast-0005-Laboratory-Vision
    Facebook: 1499662543697363
  - num: 6
-   date: 20151216
+   date: 2015-12-16T14:25:00
    title: 育てたい人材〜多能工プログラマとは
    file: Podcast-0006-Programmer
    Facebook: 1500341363629481
  - num: 7
-   date: 20151217
+   date: 2015-12-17T23:52:00
    title: 育てたい人材〜起業家マインドを持つエンジニアとは
    file: Podcast-0007-Entrepreneur
    Facebook: 1501154550214829
  - num: 8
-   date: 20151218
+   date: 2015-12-18T00:50:00
    title: 卒業研究のまとめかた
    file: Podcast-0008-Research-Method
    Facebook: 1501189646877986
  - num: 9
-   date: 20151219
+   date: 2015-12-18T17:35:00
    title: 計画の立て方
    file: Podcast-0009-Planning
    Facebook: 1501559233507694
  - num: 10
-   date: 20151220
+   date: 2015-12-20T00:47:00
    title: 継続すること
    file: Podcast-0010-Continuation
    Facebook: 1502226620107622
  - num: 11
-   date: 20151221
+   date: 2015-12-21T05:47:00
    title: 締め切り直前のプロジェクトマネジメント
    file: Podcast-0011-Project-Management
    Facebook: 1503264216670529
  - num: 12
-   date: 20151222
+   date: 2015-12-22T05:33:00
    title: ボツネタこそ宝の山〜高校生向けペルソナ・ワークショップ
    file: Podcast-0012-Marketing
    Facebook: 1503925733271044
  - num: 13
-   date: 20151223
+   date: 2015-12-23T06:03:00
    title: 会社の見分け方〜ビジネスモデルの観点
    file: Podcast-0013-Business-Model
    Facebook: 1504391206557830
  - num: 14
-   date: 20151224
+   date: 2015-12-24T06:17:00
    title: ビジネスの提案と広報〜ターゲットユーザーを決める／UX／リーンスタートアップ／インバウンド・マーケティング
    file: Podcast-0014-Business-Proposal
    Facebook: 1504862259844058
  - num: 15
-   date: 20151225
+   date: 2015-12-25T15:08:00
    title: 作品を残そう/プログラマのロールモデル
    file: Podcast-0015-Role-Model
    Facebook: 1505523266444624
  - num: 16
-   date: 20151226-1
+   date: 2015-12-26T04:51:00
    title: ラーニング・パターン(Learning Pattern)
    file: Podcast-0016-Learning-Pattern
    Facebook: 1505810799749204
  - num: 17
-   date: 20151226-2
+   date: 2015-12-26T10:39:00
    title: ワーク・シフトと山崎のやりたいこと
    file: Podcast-0017-Work-Shift
    Facebook: 1505940476402903
  - num: 18
-   date: 20151227
+   date: 2015-12-27T04:45:00
    title: 九州アプリチャレンジキャラバンのふりかえり〜プレゼンテーションの注意点
    file: Podcast-0018-Presentation
    Facebook: 1506328256364125
  - num: 19
-   date: 20151228
+   date: 2015-12-28T06:09:00
    title: 面談に来てね
    file: Podcast-0019-Future-Course
    Facebook: 1507061802957437
  - num: 20
-   date: 20151229
+   date: 2015-12-29T06:22:00
    title: イノベーションと持続可能性
    file: Podcast-0020-Innovation
    Facebook: 1507557442907873
