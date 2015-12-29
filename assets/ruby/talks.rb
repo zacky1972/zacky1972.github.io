@@ -66,7 +66,7 @@ def renderPodcast(talks)
       <itunes:subtitle> {{ talk.title }}</itunes:subtitle>
       <itunes:summary> {{ talk.title }}</itunes:summary>
       <itunes:image href="{{ image }}" />
-      <enclosure url="{{ file_dir }}{{ talk.file }}.mp3" length="{{ talk.length }}" type="audio/mp3" />
+      <enclosure url="{{ file_dir }}{{ talk.file }}.mp3" length="{{ talk.length }}" type="audio/mpeg" />
       <guid isPermaLink="true">{{ file_dir }}{{ talk.file }}.mp3</guid>
       <pubDate>{{ talk.time }}</pubDate>
     </item>
