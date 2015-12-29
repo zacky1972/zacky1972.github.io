@@ -3,7 +3,8 @@
 
 require 'liquid'
 require 'yaml'
-require'pp'
+require 'pp'
+require 'date'
 
 def loadYAML(filename)
 	YAML.load(File.read(filename), :encoding => Encoding::UTF_8)
@@ -82,7 +83,7 @@ def getLength(talks)
 	talks["talks"].each{|talk|
 		file = talks["path"] + talk["file"] + ".mp3"
 		talk["length"] = File.size(file)
-		talk["time"] = File.ctime(file).rfc822
+		talk["time"] = talk["date"].rfc822
 	}
 end
 
