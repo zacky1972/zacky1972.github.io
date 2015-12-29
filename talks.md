@@ -5,6 +5,8 @@ permalink: talks/index.html
 ---
 # ZACKY's Laboratory Podcast
 
+[![Podcast](https://zacky1972.github.io/assets/images/ico-blog.png) Podcast](https://zacky1972.github.io/podcast.xml)
+
 
 1. [2015-12-11 20:15:00 +0900 7つの習慣](https://zacky1972.github.io/assets/talks/Podcast-0001-Seven-Habits.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1499000873763530/)
 
