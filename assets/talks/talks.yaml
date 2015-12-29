@@ -10,6 +10,7 @@ language: ja-jp
 file_dir: https://zacky1972.github.io/assets/talks/
 path: ../talks/
 Facebook: https://www.facebook.com/groups/1499000153763602/
+Podcast: https://zacky1972.github.io/podcast.xml
 radio:
  - date: 2015-11-20
    title: KITAQ企画会議

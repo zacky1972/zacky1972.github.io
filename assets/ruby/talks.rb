@@ -25,6 +25,8 @@ permalink: talks/index.html
 ---
 # {{title}}
 
+[![Podcast](https://zacky1972.github.io/assets/images/ico-blog.png) Podcast]({{ Podcast }})
+
 {% for talk in talks %}
 {{ talk.num }}. [{{ talk.date }} {{ talk.title }}]({{ file_dir }}{{ talk.file }}.mp3) [Facebook]({{Facebook}}permalink/{{talk.Facebook}}/)
 {% endfor %}
