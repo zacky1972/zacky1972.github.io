@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>ZACKY's Laboratory Podcast</title>
+    <link>https://zacky1972.github.io/talks/</title>
+    <language>ja-jp</language>
+    <copyright>&#xA9; Susumu Yamazaki @ZACKY1972 </copyright>
+    <itunes:subtitle>ZACKY's Laboratory Podcast この番組は北九州市立大学でプログラミングを教えている山崎進がお送りします。</itunes:subtitle>
+    <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+    <itunes:summary>ZACKY's Laboratory Podcast この番組は北九州市立大学でプログラミングを教えている山崎進がお送りします。</itunes:summary>
+    <description>ZACKY's Laboratory Podcast この番組は北九州市立大学でプログラミングを教えている山崎進がお送りします。</description>
+    <itunes:owner>
+      <itunes:name>Susumu Yamazaki @ZACKY1972</itunes:name>
+      <itunes:email>zacky1972@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+    <itunes:category text="Education" />
+
+    <item>
+      <title>20151211 7つの習慣</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> 7つの習慣</itunes:subtitle>
+      <itunes:summary> 7つの習慣</itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0001-Seven-Habits.mp3" length="3226353" type="audio/mp3" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0001-Seven-Habits.mp3</guid>
+      <pubDate>Tue, 29 Dec 2015 16:40:16 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>20151212 インドネシア訪問団とグローバルリテラシー</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> インドネシア訪問団とグローバルリテラシー</itunes:subtitle>
+      <itunes:summary> インドネシア訪問団とグローバルリテラシー</itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0002-Global.mp3" length="4082333" type="audio/mp3" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0002-Global.mp3</guid>
+      <pubDate>Tue, 29 Dec 2015 16:40:16 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>20151213 テーマソングについて</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> テーマソングについて</itunes:subtitle>
+      <itunes:summary> テーマソングについて</itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0003-Songs.mp3" length="10514516" type="audio/mp3" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0003-Songs.mp3</guid>
+      <pubDate>Tue, 29 Dec 2015 16:40:16 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>20151214 なんで Podcast をはじめたか</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> なんで Podcast をはじめたか</itunes:subtitle>
+      <itunes:summary> なんで Podcast をはじめたか</itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0004-Why-I-begin-Podcast.mp3" length="3226353" type="audio/mp3" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0004-Why-I-begin-Podcast.mp3</guid>
+      <pubDate>Tue, 29 Dec 2015 16:40:16 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>20151215 ZACKY's Laboratory のゴールは卒業論文ではない</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> ZACKY's Laboratory のゴールは卒業論文ではない</itunes:subtitle>
+      <itunes:summary> ZACKY's Laboratory のゴールは卒業論文ではない</itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0005-Laboratory-Vision.mp3" length="3434288" type="audio/mp3" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0005-Laboratory-Vision.mp3</guid>
+      <pubDate>Tue, 29 Dec 2015 16:40:16 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>20151216 育てたい人材〜多能工プログラマとは</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> 育てたい人材〜多能工プログラマとは</itunes:subtitle>
+      <itunes:summary> 育てたい人材〜多能工プログラマとは</itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0006-Programmer.mp3" length="2835143" type="audio/mp3" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0006-Programmer.mp3</guid>
+      <pubDate>Tue, 29 Dec 2015 16:40:16 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>20151217 育てたい人材〜起業家マインドを持つエンジニアとは</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> 育てたい人材〜起業家マインドを持つエンジニアとは</itunes:subtitle>
+      <itunes:summary> 育てたい人材〜起業家マインドを持つエンジニアとは</itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0007-Entrepreneur.mp3" length="2108939" type="audio/mp3" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0007-Entrepreneur.mp3</guid>
+      <pubDate>Tue, 29 Dec 2015 16:40:16 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>20151218 卒業研究のまとめかた</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> 卒業研究のまとめかた</itunes:subtitle>
+      <itunes:summary> 卒業研究のまとめかた</itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0008-Research-Method.mp3" length="3645566" type="audio/mp3" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0008-Research-Method.mp3</guid>
+      <pubDate>Tue, 29 Dec 2015 16:40:16 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>20151219 計画の立て方</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> 計画の立て方</itunes:subtitle>
+      <itunes:summary> 計画の立て方</itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0009-Planning.mp3" length="3226353" type="audio/mp3" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0009-Planning.mp3</guid>
+      <pubDate>Tue, 29 Dec 2015 16:40:16 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>20151220 継続すること</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> 継続すること</itunes:subtitle>
+      <itunes:summary> 継続すること</itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0010-Continuation.mp3" length="3024270" type="audio/mp3" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0010-Continuation.mp3</guid>
+      <pubDate>Tue, 29 Dec 2015 16:40:16 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>20151221 締め切り直前のプロジェクトマネジメント</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> 締め切り直前のプロジェクトマネジメント</itunes:subtitle>
+      <itunes:summary> 締め切り直前のプロジェクトマネジメント</itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0011-Project-Management.mp3" length="3036181" type="audio/mp3" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0011-Project-Management.mp3</guid>
+      <pubDate>Tue, 29 Dec 2015 16:40:16 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>20151222 ボツネタこそ宝の山〜高校生向けペルソナ・ワークショップ</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> ボツネタこそ宝の山〜高校生向けペルソナ・ワークショップ</itunes:subtitle>
+      <itunes:summary> ボツネタこそ宝の山〜高校生向けペルソナ・ワークショップ</itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0012-Marketing.mp3" length="2703277" type="audio/mp3" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0012-Marketing.mp3</guid>
+      <pubDate>Tue, 29 Dec 2015 16:40:16 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>20151223 会社の見分け方〜ビジネスモデルの観点</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> 会社の見分け方〜ビジネスモデルの観点</itunes:subtitle>
+      <itunes:summary> 会社の見分け方〜ビジネスモデルの観点</itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0013-Business-Model.mp3" length="4107620" type="audio/mp3" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0013-Business-Model.mp3</guid>
+      <pubDate>Tue, 29 Dec 2015 16:40:16 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>20151224 ビジネスの提案と広報〜ターゲットユーザーを決める／UX／リーンスタートアップ／インバウンド・マーケティング</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> ビジネスの提案と広報〜ターゲットユーザーを決める／UX／リーンスタートアップ／インバウンド・マーケティング</itunes:subtitle>
+      <itunes:summary> ビジネスの提案と広報〜ターゲットユーザーを決める／UX／リーンスタートアップ／インバウンド・マーケティング</itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0014-Business-Proposal.mp3" length="4296328" type="audio/mp3" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0014-Business-Proposal.mp3</guid>
+      <pubDate>Tue, 29 Dec 2015 16:40:16 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>20151225 作品を残そう/プログラマのロールモデル</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> 作品を残そう/プログラマのロールモデル</itunes:subtitle>
+      <itunes:summary> 作品を残そう/プログラマのロールモデル</itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0015-Role-Model.mp3" length="2786451" type="audio/mp3" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0015-Role-Model.mp3</guid>
+      <pubDate>Tue, 29 Dec 2015 16:40:16 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>20151226-1 ラーニング・パターン(Learning Pattern)</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> ラーニング・パターン(Learning Pattern)</itunes:subtitle>
+      <itunes:summary> ラーニング・パターン(Learning Pattern)</itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0016-Learning-Pattern.mp3" length="2643927" type="audio/mp3" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0016-Learning-Pattern.mp3</guid>
+      <pubDate>Tue, 29 Dec 2015 16:40:16 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>20151226-2 ワーク・シフトと山崎のやりたいこと</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> ワーク・シフトと山崎のやりたいこと</itunes:subtitle>
+      <itunes:summary> ワーク・シフトと山崎のやりたいこと</itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0017-Work-Shift.mp3" length="3107444" type="audio/mp3" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0017-Work-Shift.mp3</guid>
+      <pubDate>Tue, 29 Dec 2015 16:40:16 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>20151227 九州アプリチャレンジキャラバンのふりかえり〜プレゼンテーションの注意点</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> 九州アプリチャレンジキャラバンのふりかえり〜プレゼンテーションの注意点</itunes:subtitle>
+      <itunes:summary> 九州アプリチャレンジキャラバンのふりかえり〜プレゼンテーションの注意点</itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0018-Presentation.mp3" length="3226353" type="audio/mp3" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0018-Presentation.mp3</guid>
+      <pubDate>Tue, 29 Dec 2015 16:40:16 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>20151228 面談に来てね</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> 面談に来てね</itunes:subtitle>
+      <itunes:summary> 面談に来てね</itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0019-Future-Course.mp3" length="2382284" type="audio/mp3" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0019-Future-Course.mp3</guid>
+      <pubDate>Tue, 29 Dec 2015 16:40:16 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>20151229 イノベーションと持続可能性</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> イノベーションと持続可能性</itunes:subtitle>
+      <itunes:summary> イノベーションと持続可能性</itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0020-Innovation.mp3" length="3155091" type="audio/mp3" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0020-Innovation.mp3</guid>
+      <pubDate>Tue, 29 Dec 2015 16:40:16 +0900</pubDate>
+    </item>
+
+  </channel>
+</rss>
