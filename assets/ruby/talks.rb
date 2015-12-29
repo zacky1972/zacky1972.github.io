@@ -81,7 +81,7 @@ EOS
 	render("../../podcast.xml", template, talks)
 end
 
-def getLength(talks)
+def getLengthAndTime(talks)
 	talks["talks"].each{|talk|
 		file = talks["path"] + talk["file"] + ".mp3"
 		talk["length"] = File.size(file)
@@ -90,6 +90,6 @@ def getLength(talks)
 end
 
 talks = loadYAML("../talks/talks.yaml")
-getLength(talks)
+getLengthAndTime(talks)
 renderMD(talks)
 renderPodcast(talks)
