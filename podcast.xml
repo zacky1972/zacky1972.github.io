@@ -4,7 +4,7 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>ZACKY's Laboratory Podcast</title>
-    <link>https://zacky1972.github.io/talks/</title>
+    <link>https://zacky1972.github.io/talks/</link>
     <language>ja-jp</language>
     <copyright>&#xA9; Susumu Yamazaki @ZACKY1972 </copyright>
     <itunes:subtitle>ZACKY's Laboratory Podcast この番組は北九州市立大学でプログラミングを教えている山崎進がお送りします。</itunes:subtitle>
