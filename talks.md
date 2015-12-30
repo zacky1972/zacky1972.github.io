@@ -5,6 +5,18 @@ permalink: talks/index.html
 ---
 # ZACKY's Laboratory Podcast
 
+## ラジオ番組出演
+
+
+* [2015-11-20 KITAQ企画会議](https://www.facebook.com/groups/1499000153763602/permalink/1499000600430224/)
+
+* [2016-01-07 学研都市へ行こう！ (出演予定)](http://hibiki882.jp/modules/program/index.php/gakken.html)
+
+* [2016-01-08 KITAQ企画会議 (出演予定)](https://www.facebook.com/kitaqkikakukaigi/)
+
+
+## Podcast 
+
 [![Podcast](https://zacky1972.github.io/assets/images/ico-blog.png) Podcast](https://zacky1972.github.io/podcast.xml)
 
 
@@ -52,13 +64,4 @@ permalink: talks/index.html
 
 22. [2015-12-31 06:38:00 +0900 研究室のふりかえり(YWT)](https://zacky1972.github.io/assets/talks/Podcast-0022-Laboratory-YWT.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1508454476151503/)
 
-
-## ラジオ番組出演
-
-
-* [2015-11-20 KITAQ企画会議](https://www.facebook.com/groups/1499000153763602/permalink/1499000600430224/)
-
-* [2016-01-07 学研都市へ行こう！ (出演予定)](http://hibiki882.jp/modules/program/index.php/gakken.html)
-
-* [2016-01-08 KITAQ企画会議 (出演予定)](https://www.facebook.com/kitaqkikakukaigi/)
 
