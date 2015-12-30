@@ -249,5 +249,16 @@
       <pubDate>Wed, 30 Dec 2015 06:22:00 +0900</pubDate>
     </item>
 
+    <item>
+      <title>2015-12-31 06:38:00 +0900 研究室のふりかえり(YWT)</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> 研究室のふりかえり(YWT)</itunes:subtitle>
+      <itunes:summary> 研究室のふりかえり(YWT)</itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0022-Laboratory-YWT.mp3" length="3202738" type="audio/mpeg" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0022-Laboratory-YWT.mp3</guid>
+      <pubDate>Thu, 31 Dec 2015 06:38:00 +0900</pubDate>
+    </item>
+
   </channel>
 </rss>
