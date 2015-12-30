@@ -50,6 +50,8 @@ permalink: talks/index.html
 
 21. [2015-12-30 06:22:00 +0900 ふりかえりをしよう〜 KPT と YWT](https://zacky1972.github.io/assets/talks/Podcast-0021-Reflection-KPT-YWT.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1508048856192065/)
 
+22. [2015-12-31 06:38:00 +0900 研究室のふりかえり(YWT)](https://zacky1972.github.io/assets/talks/Podcast-0022-Laboratory-YWT.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink//)
+
 
 ## ラジオ番組出演
 
