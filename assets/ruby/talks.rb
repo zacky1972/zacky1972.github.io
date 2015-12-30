@@ -25,17 +25,20 @@ permalink: talks/index.html
 ---
 # {{title}}
 
+## ラジオ番組出演
+
+{% for talk in radio %}
+* [{{ talk.date }} {{ talk.title }}]({{ talk.link }})
+{% endfor %}
+
+## Podcast 
+
 [![Podcast](https://zacky1972.github.io/assets/images/ico-blog.png) Podcast]({{ Podcast }})
 
 {% for talk in talks %}
 {{ talk.num }}. [{{ talk.date }} {{ talk.title }}]({{ file_dir }}{{ talk.file }}.mp3) [Facebook]({{Facebook}}permalink/{{talk.Facebook}}/)
 {% endfor %}
 
-## ラジオ番組出演
-
-{% for talk in radio %}
-* [{{ talk.date }} {{ talk.title }}]({{ talk.link }})
-{% endfor %}
 EOS
 		)
 	render("../../talks.md", template, talks)
@@ -67,7 +70,7 @@ def renderPodcast(talks)
       <title>{{ talk.date }} {{ talk.title }}</title>
       <itunes:author>{{ author }}</itunes:author>
       <itunes:subtitle> {{ talk.title }}</itunes:subtitle>
-      <itunes:summary> {{ talk.title }}</itunes:summary>
+      <itunes:summary><![CDATA[ {{ talk.title }} <a href="{{Facebook}}permalink/{{talk.Facebook}}/">Facebook</a>]]></itunes:summary>
       <itunes:image href="{{ image }}" />
       <enclosure url="{{ file_dir }}{{ talk.file }}.mp3" length="{{ talk.length }}" type="audio/mpeg" />
       <guid isPermaLink="true">{{ file_dir }}{{ talk.file }}.mp3</guid>
