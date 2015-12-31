@@ -64,6 +64,6 @@ permalink: talks/index.html
 
 22. [2015-12-31 06:38:00 +0900 研究室のふりかえり(YWT)](https://zacky1972.github.io/assets/talks/Podcast-0022-Laboratory-YWT.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1508454476151503/)
 
-23. [2016-01-01 08:22:00 +0900 ビジョンを考えよう](https://zacky1972.github.io/assets/talks/Podcast-0023-Vision.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink//)
+23. [2016-01-01 08:22:00 +0900 ビジョンを考えよう](https://zacky1972.github.io/assets/talks/Podcast-0023-Vision.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1508933596103591/)
 
 
