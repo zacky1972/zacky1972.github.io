@@ -66,6 +66,6 @@ permalink: talks/index.html
 
 23. [2016-01-01 08:22:00 +0900 ビジョンを考えよう](https://zacky1972.github.io/assets/talks/Podcast-0023-Vision.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1508933596103591/)
 
-24. [2016-01-02 05:51:00 +0900 2016年ビジョン〜徒弟制](https://zacky1972.github.io/assets/talks/Podcast-0024-Apprenticeship.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink//)
+24. [2016-01-02 05:51:00 +0900 2016年ビジョン〜徒弟制](https://zacky1972.github.io/assets/talks/Podcast-0024-Apprenticeship.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1509371999393084/)
 
 
