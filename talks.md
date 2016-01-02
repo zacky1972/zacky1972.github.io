@@ -68,6 +68,6 @@ permalink: talks/index.html
 
 24. [2016-01-02 05:51:00 +0900 2016年ビジョン〜徒弟制](https://zacky1972.github.io/assets/talks/Podcast-0024-Apprenticeship.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1509371999393084/)
 
-25. [2016-01-03 04:21:00 +0900 学習意欲を高めよう〜ARCS モデルとモチベーション3.0](https://zacky1972.github.io/assets/talks/Podcast-0025-Motivation.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink//)
+25. [2016-01-03 04:21:00 +0900 学習意欲を高めよう〜ARCS モデルとモチベーション3.0](https://zacky1972.github.io/assets/talks/Podcast-0025-Motivation.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1509819809348303/)
 
 
