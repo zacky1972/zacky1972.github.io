@@ -282,5 +282,16 @@
       <pubDate>Sat, 02 Jan 2016 05:51:00 +0900</pubDate>
     </item>
 
+    <item>
+      <title>2016-01-03 04:21:00 +0900 学習意欲を高めよう〜ARCS モデルとモチベーション3.0</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> 学習意欲を高めよう〜ARCS モデルとモチベーション3.0</itunes:subtitle>
+      <itunes:summary><![CDATA[ 学習意欲を高めよう〜ARCS モデルとモチベーション3.0 <a href="https://www.facebook.com/groups/1499000153763602/permalink//">Facebook</a>]]></itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0025-Motivation.mp3" length="3238265" type="audio/mpeg" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0025-Motivation.mp3</guid>
+      <pubDate>Sun, 03 Jan 2016 04:21:00 +0900</pubDate>
+    </item>
+
   </channel>
 </rss>
