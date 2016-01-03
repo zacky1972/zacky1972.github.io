@@ -70,4 +70,6 @@ permalink: talks/index.html
 
 25. [2016-01-03 04:21:00 +0900 学習意欲を高めよう〜ARCS モデルとモチベーション3.0](https://zacky1972.github.io/assets/talks/Podcast-0025-Motivation.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1509819809348303/)
 
+26. [2016-01-04 02:58:00 +0900 ソフトウェア開発経験の論文化のポイント](https://zacky1972.github.io/assets/talks/Podcast-0026-Reflection-Research.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink//)
+
 
