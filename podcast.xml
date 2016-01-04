@@ -304,5 +304,16 @@
       <pubDate>Mon, 04 Jan 2016 02:58:00 +0900</pubDate>
     </item>
 
+    <item>
+      <title>2016-01-05 06:10:00 +0900 論文を書く順番〜主たる結果が出ている場合</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> 論文を書く順番〜主たる結果が出ている場合</itunes:subtitle>
+      <itunes:summary><![CDATA[ 論文を書く順番〜主たる結果が出ている場合 <a href="https://www.facebook.com/groups/1499000153763602/permalink//">Facebook</a>]]></itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0027-Writing-Thesis.mp3" length="3226353" type="audio/mpeg" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0027-Writing-Thesis.mp3</guid>
+      <pubDate>Tue, 05 Jan 2016 06:10:00 +0900</pubDate>
+    </item>
+
   </channel>
 </rss>
