@@ -72,6 +72,6 @@ permalink: talks/index.html
 
 26. [2016-01-04 02:58:00 +0900 ソフトウェア開発経験の論文化のポイント](https://zacky1972.github.io/assets/talks/Podcast-0026-Reflection-Research.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1510275935969357/)
 
-27. [2016-01-05 06:10:00 +0900 論文を書く順番〜主たる結果が出ている場合](https://zacky1972.github.io/assets/talks/Podcast-0027-Writing-Thesis.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink//)
+27. [2016-01-05 06:10:00 +0900 論文を書く順番〜主たる結果が出ている場合](https://zacky1972.github.io/assets/talks/Podcast-0027-Writing-Thesis.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1510763979253886/)
 
 
