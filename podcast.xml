@@ -315,5 +315,16 @@
       <pubDate>Tue, 05 Jan 2016 06:10:00 +0900</pubDate>
     </item>
 
+    <item>
+      <title>2016-01-06 06:49:00 +0900 デザインの本質</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> デザインの本質</itunes:subtitle>
+      <itunes:summary><![CDATA[ デザインの本質 <a href="https://www.facebook.com/groups/1499000153763602/permalink//">Facebook</a>]]></itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0028-Designer.mp3" length="3226353" type="audio/mpeg" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0028-Designer.mp3</guid>
+      <pubDate>Wed, 06 Jan 2016 06:49:00 +0900</pubDate>
+    </item>
+
   </channel>
 </rss>
