@@ -74,6 +74,6 @@ permalink: talks/index.html
 
 27. [2016-01-05 06:10:00 +0900 論文を書く順番〜主たる結果が出ている場合](https://zacky1972.github.io/assets/talks/Podcast-0027-Writing-Thesis.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1510763979253886/)
 
-28. [2016-01-06 06:49:00 +0900 デザインの本質](https://zacky1972.github.io/assets/talks/Podcast-0028-Designer.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink//)
+28. [2016-01-06 06:49:00 +0900 デザインの本質](https://zacky1972.github.io/assets/talks/Podcast-0028-Designer.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1511194575877493/)
 
 
