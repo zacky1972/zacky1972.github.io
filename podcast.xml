@@ -326,5 +326,16 @@
       <pubDate>Wed, 06 Jan 2016 06:49:00 +0900</pubDate>
     </item>
 
+    <item>
+      <title>2016-01-07 06:49:00 +0900 デザインスキルの鍛え方</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> デザインスキルの鍛え方</itunes:subtitle>
+      <itunes:summary><![CDATA[ デザインスキルの鍛え方 <a href="https://www.facebook.com/groups/1499000153763602/permalink//">Facebook</a>]]></itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0029-Design-Skill.mp3" length="3214441" type="audio/mpeg" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0029-Design-Skill.mp3</guid>
+      <pubDate>Thu, 07 Jan 2016 06:49:00 +0900</pubDate>
+    </item>
+
   </channel>
 </rss>
