@@ -76,6 +76,6 @@ permalink: talks/index.html
 
 28. [2016-01-06 06:49:00 +0900 デザインの本質](https://zacky1972.github.io/assets/talks/Podcast-0028-Designer.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1511194575877493/)
 
-29. [2016-01-07 06:49:00 +0900 デザインスキルの鍛え方](https://zacky1972.github.io/assets/talks/Podcast-0029-Design-Skill.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink//)
+29. [2016-01-07 06:49:00 +0900 デザインスキルの鍛え方](https://zacky1972.github.io/assets/talks/Podcast-0029-Design-Skill.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1511598199170464/)
 
 
