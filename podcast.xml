@@ -337,5 +337,16 @@
       <pubDate>Thu, 07 Jan 2016 06:49:00 +0900</pubDate>
     </item>
 
+    <item>
+      <title>2016-01-08 04:25:00 +0900 入社したら人脈を作ろう</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> 入社したら人脈を作ろう</itunes:subtitle>
+      <itunes:summary><![CDATA[ 入社したら人脈を作ろう <a href="https://www.facebook.com/groups/1499000153763602/permalink//">Facebook</a>]]></itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0030-Partnership.mp3" length="3226353" type="audio/mpeg" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0030-Partnership.mp3</guid>
+      <pubDate>Fri, 08 Jan 2016 04:25:00 +0900</pubDate>
+    </item>
+
   </channel>
 </rss>
