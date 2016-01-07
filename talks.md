@@ -78,6 +78,6 @@ permalink: talks/index.html
 
 29. [2016-01-07 06:49:00 +0900 デザインスキルの鍛え方](https://zacky1972.github.io/assets/talks/Podcast-0029-Design-Skill.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1511598199170464/)
 
-30. [2016-01-08 04:25:00 +0900 入社したら人脈を作ろう](https://zacky1972.github.io/assets/talks/Podcast-0030-Partnership.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink//)
+30. [2016-01-08 04:25:00 +0900 入社したら人脈を作ろう](https://zacky1972.github.io/assets/talks/Podcast-0030-Partnership.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1511964799133804/)
 
 
