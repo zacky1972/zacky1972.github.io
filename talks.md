@@ -10,9 +10,9 @@ permalink: talks/index.html
 
 * [2015-11-20 KITAQ企画会議](https://www.facebook.com/groups/1499000153763602/permalink/1499000600430224/)
 
-* [2016-01-07 学研都市へ行こう！ (出演予定)](http://hibiki882.jp/modules/program/index.php/gakken.html)
+* [2016-01-07 学研都市へ行こう！](http://hibiki882.jp/modules/program/index.php/gakken.html)
 
-* [2016-01-08 KITAQ企画会議 (出演予定)](https://www.facebook.com/kitaqkikakukaigi/)
+* [2016-01-08 KITAQ企画会議](https://www.facebook.com/groups/1499000153763602/permalink/1512359135761037/)
 
 
 ## Podcast 
