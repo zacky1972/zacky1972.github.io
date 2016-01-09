@@ -82,6 +82,6 @@ permalink: talks/index.html
 
 31. [2016-01-09 11:26:00 +0900 競争から共創へ〜21世紀のマインドシフト](https://zacky1972.github.io/assets/talks/Podcast-0031-Give-and-Share.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1512546909075593/)
 
-32. [2016-01-10 07:51:00 +0900 学生にとっての「強み x 教育研究」](https://zacky1972.github.io/assets/talks/Podcast-0032-Streangths-Research.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink//)
+32. [2016-01-10 07:51:00 +0900 学生にとっての「強み x 教育研究」](https://zacky1972.github.io/assets/talks/Podcast-0032-Streangths-Research.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1512968879033396/)
 
 
