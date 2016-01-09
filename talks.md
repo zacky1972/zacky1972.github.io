@@ -80,4 +80,6 @@ permalink: talks/index.html
 
 30. [2016-01-08 04:25:00 +0900 入社したら人脈を作ろう](https://zacky1972.github.io/assets/talks/Podcast-0030-Partnership.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1511964799133804/)
 
+31. [2016-01-09 11:26:00 +0900 競争から共創へ〜21世紀のマインドシフト](https://zacky1972.github.io/assets/talks/Podcast-0031-Give-and-Share.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink//)
+
 
