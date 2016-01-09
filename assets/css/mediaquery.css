@@ -66,6 +66,9 @@
   header h1,h2 {
     width: 460px;
   }
+  nav {
+    height: 120px;
+  }
   nav section {
     width: 460px;
   }
@@ -108,6 +111,9 @@
   }
   header h1,h2 {
     width: 300px;
+  }
+  nav {
+    height: 120px;
   }
   nav section {
     width: 300px;
