@@ -84,4 +84,6 @@ permalink: talks/index.html
 
 32. [2016-01-10 07:51:00 +0900 学生にとっての「強み x 教育研究」](https://zacky1972.github.io/assets/talks/Podcast-0032-Streangths-Research.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1512968879033396/)
 
+33. [2016-01-11 07:51:00 +0900 自分の目的を考えよう〜山崎の教育の目的](https://zacky1972.github.io/assets/talks/Podcast-0033-Purpose.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink//)
+
 
