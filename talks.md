@@ -86,6 +86,6 @@ permalink: talks/index.html
 
 33. [2016-01-11 07:51:00 +0900 自分の目的を考えよう〜山崎の教育の目的](https://zacky1972.github.io/assets/talks/Podcast-0033-Purpose.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1513474832316134/)
 
-34. [2016-01-12 15:06:00 +0900 プログラミングセンスを磨く Rails の学び方](https://zacky1972.github.io/assets/talks/Podcast-0034-Software-Architecture.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink//)
+34. [2016-01-12 15:06:00 +0900 プログラミングセンスを磨く Rails の学び方](https://zacky1972.github.io/assets/talks/Podcast-0034-Software-Architecture.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1514053755591575/)
 
 
