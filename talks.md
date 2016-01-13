@@ -88,6 +88,6 @@ permalink: talks/index.html
 
 34. [2016-01-12 15:06:00 +0900 プログラミングセンスを磨く Rails の学び方](https://zacky1972.github.io/assets/talks/Podcast-0034-Software-Architecture.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1514053755591575/)
 
-35. [2016-01-14 08:51:00 +0900 Template Method パターンを使って DRY にしよう](https://zacky1972.github.io/assets/talks/Podcast-0035-DRY.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink//)
+35. [2016-01-14 08:51:00 +0900 Template Method パターンを使って DRY にしよう](https://zacky1972.github.io/assets/talks/Podcast-0035-DRY.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1514823062181311/)
 
 
