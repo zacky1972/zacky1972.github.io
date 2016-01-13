@@ -192,3 +192,8 @@ talks:
    title: プログラミングセンスを磨く Rails の学び方
    file: Podcast-0034-Software-Architecture
    Facebook: 1514053755591575
+ - num: 35
+   date: 2016-01-14T08:51:00+09:00
+   title: Template Method パターンを使って DRY にしよう
+   file: Podcast-0035-DRY
+   Facebook: 
