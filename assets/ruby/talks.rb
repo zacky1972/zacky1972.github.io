@@ -28,7 +28,7 @@ permalink: talks/index.html
 ## ラジオ番組出演
 
 {% for talk in radio %}
-* [{{ talk.date }} {{ talk.title }}]({{ talk.link }})
+* <a name="radio{{ talk.date }}"></a>[{{ talk.date }} {{ talk.title }}]({{ talk.link }})
 {% endfor %}
 
 ## Podcast 
@@ -36,7 +36,7 @@ permalink: talks/index.html
 [![Podcast](https://zacky1972.github.io/assets/images/ico-blog.png) Podcast]({{ Podcast }})
 
 {% for talk in talks %}
-{{ talk.num }}. [{{ talk.date }} {{ talk.title }}]({{ file_dir }}{{ talk.file }}.mp3) [Facebook]({{Facebook}}permalink/{{talk.Facebook}}/)
+{{ talk.num }}. <a name="Podcast{{ talk.num }}"></a>[{{ talk.date }} {{ talk.title }}]({{ file_dir }}{{ talk.file }}.mp3) [Facebook]({{Facebook}}permalink/{{talk.Facebook}}/)]
 {% endfor %}
 
 EOS
