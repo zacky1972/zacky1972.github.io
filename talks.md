@@ -90,6 +90,6 @@ permalink: talks/index.html
 
 35. [2016-01-14 08:51:00 +0900 Template Method パターンを使って DRY にしよう](https://zacky1972.github.io/assets/talks/Podcast-0035-DRY.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1514823062181311/)
 
-36. [2016-01-16 05:51:00 +0900 4年生受賞記念〜次のゴールとチームの大事さ](https://zacky1972.github.io/assets/talks/Podcast-0036-Congratulations.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink//)
+36. [2016-01-16 05:51:00 +0900 4年生受賞記念〜次のゴールとチームの大事さ](https://zacky1972.github.io/assets/talks/Podcast-0036-Congratulations.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1515627298767554/)
 
 
