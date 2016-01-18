@@ -414,5 +414,16 @@
       <pubDate>Sat, 16 Jan 2016 05:51:00 +0900</pubDate>
     </item>
 
+    <item>
+      <title>2016-01-18 05:51:00 +0900 まずは卒業論文を一通り書きましょう。話はそれからです。</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> まずは卒業論文を一通り書きましょう。話はそれからです。</itunes:subtitle>
+      <itunes:summary><![CDATA[ まずは卒業論文を一通り書きましょう。話はそれからです。 <a href="https://www.facebook.com/groups/1499000153763602/permalink//">Facebook</a>]]></itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0037-Done-is-better-than-Perfect.mp3" length="2465458" type="audio/mpeg" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0037-Done-is-better-than-Perfect.mp3</guid>
+      <pubDate>Mon, 18 Jan 2016 05:51:00 +0900</pubDate>
+    </item>
+
   </channel>
 </rss>
