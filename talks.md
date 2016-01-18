@@ -92,4 +92,6 @@ permalink: talks/index.html
 
 36. <a name="Podcast36"></a>[2016-01-16 05:51:00 +0900 4年生受賞記念〜次のゴールとチームの大事さ](https://zacky1972.github.io/assets/talks/Podcast-0036-Congratulations.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink/1515627298767554/)
 
+37. <a name="Podcast37"></a>[2016-01-18 05:51:00 +0900 まずは卒業論文を一通り書きましょう。話はそれからです。](https://zacky1972.github.io/assets/talks/Podcast-0037-Done-is-better-than-Perfect.mp3) [Facebook](https://www.facebook.com/groups/1499000153763602/permalink//)
+
 
