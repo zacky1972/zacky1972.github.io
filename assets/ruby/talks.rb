@@ -70,7 +70,7 @@ def renderPodcast(talks)
       <title>{{ talk.date }} {{ talk.title }}</title>
       <itunes:author>{{ author }}</itunes:author>
       <itunes:subtitle> {{ talk.title }}</itunes:subtitle>
-      <itunes:summary><![CDATA[ {{ talk.title }} <a href="{{Facebook}}permalink/{{talk.Facebook}}/">Facebook</a> <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('send', 'pageview', {'page': '{{ file_dir_short }}{{ talk.file }}.mp3', 'title':'{{ talk.file }}'}); </script>]]></itunes:summary>
+      <itunes:summary><![CDATA[ {{ talk.title }} <a href="{{Facebook}}permalink/{{talk.Facebook}}/">Facebook</a>]]></itunes:summary>
       <itunes:image href="{{ image }}" />
       <enclosure url="{{ file_dir }}{{ talk.file }}.mp3" length="{{ talk.length }}" type="audio/mpeg" />
       <guid isPermaLink="true">{{ file_dir }}{{ talk.file }}.mp3</guid>
