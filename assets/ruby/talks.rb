@@ -36,7 +36,7 @@ permalink: talks/index.html
 [![Podcast](https://zacky1972.github.io/assets/images/ico-blog.png) Podcast]({{ Podcast }})
 
 {% for talk in talks %}
-{{ talk.num }}. <a name="Podcast{{ talk.num }}"></a>[{{ talk.date }} {{ talk.title }}]({{ file_dir }}{{ talk.file }}.mp3) [Facebook]({{Facebook}}permalink/{{talk.Facebook}}/)
+{{ talk.num }}. <a name="Podcast{{ talk.num }}"></a><a href="{{ file_dir }}{{ talk.file }}.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '{{ file_dir_short }}{{ talk.file }}.mp3', 'title':'{{ talk.file }}'});">{{ talk.date }} {{ talk.title }}</a> [Facebook]({{Facebook}}permalink/{{talk.Facebook}}/)
 {% endfor %}
 
 EOS
