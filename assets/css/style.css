@@ -185,7 +185,7 @@ header h1 {
 -----------------------------------------------------------------------*/
 nav section {
   line-height: 16px;
-  margin: 0 16px;
+  margin: 0 auto;
   width: 960px;
 }
 nav img {
