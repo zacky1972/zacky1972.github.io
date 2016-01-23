@@ -71,6 +71,7 @@
   }
   nav section {
     width: 460px;
+    margin: 0 12px;
   }
   nav ul {
     margin: 0 auto;
@@ -139,6 +140,7 @@
   }
   nav section {
     width: 300px;
+    margin: 0 12px;
   }
   nav ul {
     margin: 0 auto;
