@@ -52,7 +52,7 @@
   }
   .contents {
     width: 460px;
-    font-size: 16px;
+    font-size: 14px;
   }
   .blog .main {
     width: 460px;
@@ -61,7 +61,7 @@
     padding: 5px;
   }
   .posts td {
-    font-size: 16px;
+    font-size: 14px;
   }
   header h1,h2 {
     width: 460px;
@@ -98,7 +98,7 @@
   }
   .contents {
     width: 300px;
-    font-size: 16px;
+    font-size: 14px;
   }
   .blog .main {
     width: 300px;
@@ -107,7 +107,7 @@
     padding: 5px;
   }
   .posts td {
-    font-size: 16px;
+    font-size: 14px;
   }
   header h1,h2 {
     width: 300px;
