@@ -36,7 +36,7 @@ permalink: talks/index.html
 [![Podcast](https://zacky1972.github.io/assets/images/ico-blog.png) Podcast]({{ Podcast }})
 
 {% for talk in talks %}
-{{ talk.num }}. <a name="Podcast{{ talk.num }}"></a><a href="{{ file_dir }}{{ talk.file }}.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '{{ file_dir_short }}{{ talk.file }}.mp3', 'title':'{{ talk.file }}'});">{{ talk.date }} {{ talk.title }}</a> [Facebook]({{Facebook}}permalink/{{talk.Facebook}}/)
+{{ talk.num }}. <a name="Podcast{{ talk.num }}"></a><a href="{{ file_dir }}{{ talk.file }}.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '{{ file_dir_short }}{{ talk.file }}.mp3', 'title':'{{ talk.file }}'});">{{ talk.date }} {{ talk.title }}</a> <a href="{{Facebook}}permalink/{{talk.Facebook}}/" target="_blank">Facebook</a>
 {% endfor %}
 
 EOS
@@ -70,7 +70,7 @@ def renderPodcast(talks)
       <title>{{ talk.date }} {{ talk.title }}</title>
       <itunes:author>{{ author }}</itunes:author>
       <itunes:subtitle> {{ talk.title }}</itunes:subtitle>
-      <itunes:summary><![CDATA[ {{ talk.title }} <a href="{{Facebook}}permalink/{{talk.Facebook}}/">Facebook</a>]]></itunes:summary>
+      <itunes:summary><![CDATA[ {{ talk.title }} <a href="{{Facebook}}permalink/{{talk.Facebook}}/" target="_blank">Facebook</a>]]></itunes:summary>
       <itunes:image href="{{ image }}" />
       <enclosure url="{{ file_dir }}{{ talk.file }}.mp3" length="{{ talk.length }}" type="audio/mpeg" />
       <guid isPermaLink="true">{{ file_dir }}{{ talk.file }}.mp3</guid>
