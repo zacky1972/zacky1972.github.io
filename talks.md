@@ -18,6 +18,7 @@ permalink: talks/index.html
 ## Podcast 
 
 [![Podcast](https://zacky1972.github.io/assets/images/ico-blog.png) Podcast](https://zacky1972.github.io/podcast.xml)
+[![Get it on iTunes](https://zacky1972.github.io/assets/svg/Get_it_on_iTunes_Badge_JP_1214.svg) iTunes](https://itunes.apple.com/jp/podcast/zackys-laboratory-podcast/id1078039941)
 
 
 1. <a name="Podcast1"></a><a href="https://zacky1972.github.io/assets/talks/Podcast-0001-Seven-Habits.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '/assets/talks/Podcast-0001-Seven-Habits.mp3', 'title':'Podcast-0001-Seven-Habits'});">2015-12-11 11:15:00 +0900 7つの習慣</a> <a href="https://www.facebook.com/groups/1499000153763602/permalink/1499000873763530/" target="_blank">Facebook</a>

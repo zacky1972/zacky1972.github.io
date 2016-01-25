@@ -12,6 +12,9 @@ file_dir_short: /assets/talks/
 path: ../talks/
 Facebook: https://www.facebook.com/groups/1499000153763602/
 Podcast: https://zacky1972.github.io/podcast.xml
+RSS_img: https://zacky1972.github.io/assets/images/ico-blog.png
+iTunes: https://itunes.apple.com/jp/podcast/zackys-laboratory-podcast/id1078039941
+iTunes_svg: https://zacky1972.github.io/assets/svg/Get_it_on_iTunes_Badge_JP_1214.svg
 radio:
  - date: 2015-11-20
    title: KITAQ企画会議
