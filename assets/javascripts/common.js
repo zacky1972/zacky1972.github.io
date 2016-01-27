@@ -5,7 +5,7 @@ $(document).ready(function(){
 	$("a").click(function () {
 		var url = $(this).attr("href");
 		if (url != "//zacky1972.github.io/") {
-			ga('send', 'pageview', {'page': url, 'title': url });
+			ga('send', 'pageview', {'page': url, 'location': url });
 		}
 	});
 });
