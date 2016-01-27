@@ -95,6 +95,6 @@ permalink: talks/index.html
 
 37. <a name="Podcast37"></a><a href="https://zacky1972.github.io/assets/talks/Podcast-0037-Done-is-better-than-Perfect.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '/assets/talks/Podcast-0037-Done-is-better-than-Perfect.mp3', 'title':'Podcast-0037-Done-is-better-than-Perfect'});">2016-01-18 05:51:00 +0900 まずは卒業論文を一通り書きましょう。話はそれからです。</a> <a href="https://www.facebook.com/groups/1499000153763602/permalink/1516684855328465/" target="_blank">Facebook</a>
 
-38. <a name="Podcast38"></a><a href="https://zacky1972.github.io/assets/talks/Podcast-0038-Reseach-Essence.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '/assets/talks/Podcast-0038-Reseach-Essence.mp3', 'title':'Podcast-0038-Reseach-Essence'});">2016-01-27 19:48:00 +0900 研究の本質〜新規性は必須か？</a> <a href="https://www.facebook.com/groups/1499000153763602/permalink//" target="_blank">Facebook</a>
+38. <a name="Podcast38"></a><a href="https://zacky1972.github.io/assets/talks/Podcast-0038-Reseach-Essence.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '/assets/talks/Podcast-0038-Reseach-Essence.mp3', 'title':'Podcast-0038-Reseach-Essence'});">2016-01-27 19:48:00 +0900 研究の本質〜新規性は必須か？</a> <a href="https://www.facebook.com/groups/1499000153763602/permalink/1520898684907082/" target="_blank">Facebook</a>
 
 
