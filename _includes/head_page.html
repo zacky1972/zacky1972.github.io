@@ -12,19 +12,10 @@
   <meta property="og:site_name" content="ZACKY's Laboratory" />
   <meta property="og:locale" content="ja_JP" />
   <meta property="fb:app_id" content="1535470796675479" />
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@zacky1972">
+  {% include twitter_card.html %}
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Vollkorn">
-	<link rel="stylesheet" href="{{ site.url }}/assets/css/pygments.css">
-  <link rel="stylesheet" href="{{ site.url }}/assets/css/normalize.css">
-	<link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
-  <link rel="stylesheet" href="{{ site.url }}/assets/css/mediaquery.css">
-	<link rel="apple-touch-icon" href="{{ site.url }}/assets/images/apple-touch-icon.png">
-	<link rel="shortcut icon" href="{{ site.url }}/assets/images/favicon.ico">
-  <link rel="alternate" type="application/atom+xml" title="ZACKY's Laboratory" href="{{ site.url }}/feed.xml" />
-  <!--[if lt IE 9]><script src="//html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script><![endif]-->
-  <!--[if lt IE 9]><script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script><![endif]-->
-  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script type="text/javascript" src="{{ site.url }}/assets/javascripts/common.js"></script>
+  {% include stylesheets.html %}
+  {% include head_icons.html %}
+  {% include head_rss.html %}
+  {% include javascripts.html %}
 </head>
