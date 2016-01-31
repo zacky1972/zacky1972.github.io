@@ -6,14 +6,10 @@
   <meta property="article:author" content="https://www.facebook.com/zacky1972" />
   <meta property="article:publisher" content="https://www.facebook.com/zacky1972lab"/>
   <title>{{ page.title }}</title>
-  <meta property="og:title" content="{{ page.title }}" />
+  {% include facebook_ogp.html %}
   <meta property="og:type" content="blog" />
   <meta property="og:description" content="{% include about-text.html %}" />
-  <meta property="og:url" content="https://zacky1972.github.io{{ page.url }}" />
   <meta property="og:image" content="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
-  <meta property="og:site_name" content="ZACKY's Laboratory 強み x 教育 研究室" />
-  <meta property="og:locale" content="ja_JP" />
-  <meta property="fb:app_id" content="1535470796675479" />
 
   {% include twitter_card.html %}
   <meta name="twitter:title" content="{{ page.title }}">
