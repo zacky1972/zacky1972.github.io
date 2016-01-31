@@ -6,7 +6,7 @@
 	<title>{{ page.title }}</title>
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:type" content="blog" />
-  <meta property="og:description" content="{{ site.vision }}" />
+  <meta property="og:description" content="{% include about-text.html %}" />
   <meta property="og:url" content="https://zacky1972.github.io{{ page.url }}" />
   <meta property="og:image" content="https://zacky1972.github.io/assets/images/ZACKY.jpg" />
   <meta property="og:site_name" content="ZACKY's Laboratory 強み x 教育 研究室" />
@@ -15,7 +15,7 @@
 
   {% include twitter_card.html %}
   <meta name="twitter:title" content="{{ page.title }}">
-  <meta name="twitter:text:description" contents="{{ site.vision }}">
+  <meta name="twitter:text:description" contents="{% include about-text.html %}">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   {% include stylesheets.html %}
