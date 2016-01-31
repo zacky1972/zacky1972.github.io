@@ -10,3 +10,12 @@ $(document).ready(function(){
 		}
 	});
 });
+
+/* record scrool depth to Google Analytics */
+$(function() {
+	$.scrollDepth({
+    	minHeight: 0,
+    	elements: ['#end_contents'],
+    	percentage: true,
+    });
+});
