@@ -1,5 +1,6 @@
 name: ZACKY's Laboratory
 description: 北九州市立大学でプログラミングを教えている山崎進のブログです。
+vision: 北九州市立大学でプログラミングを教えています。「自ら学ぶ力を持たせる」「個性に合わせて長所を伸ばす」「現実社会の問題解決の経験を積ませる」教育を広めることがミッションです。創意工夫にあふれた社会にしたいです。
 url: https://zacky1972.github.io
 kramdown:
   input: GFM
