@@ -40,9 +40,12 @@ echo "***********************************************************"
 echo "  Your site will be available at http://$(docker-machine ip $DOCKER_MACHINE_NAME):4000"
 echo "***********************************************************"
 
+# Port Forwarding
+docker-machine ssh $DOCKER_MACHINE_NAME -f -N -L 4000:localhost:4000
+
 # Start Jekyll and watch for changes
-docker run --rm \
+docker run --rm -it \
   --volume=$JEKYLL_DIR:/src \
-  --publish 4000:4000 \
+  --publish 127.0.0.1:4000:4000 \
   $DOCKER_IMAGE_NAME \
   serve --watch --incremental --force_polling -H 0.0.0.0
