@@ -90,16 +90,15 @@ def renderRSS(talks)
 ---
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0">
   <channel>
     <title>{{ title }}</title>
     <description>{% if summary %}{{ summary | xml_escape }}{% endif %}</description>
     <link>{{ link }}</link>
-    <atom:link href="{{ link }}feed.xml" type="application/rss+xml" />
+    <language>ja-jp</language>
 {% for talk in talks %}
       <item>
         <title>{{ talk.date }} {{ talk.title }}</title>
-        <dc:creator>{{ author | xml_escape }}</dc:creator>
         <description> {{ talk.title | xml_escape }} </description>
         <pubDate>{{ talk.time }}</pubDate>
         <guid isPermaLink="true">{{ link }}#Podcast{{ talk.num }}</guid>
