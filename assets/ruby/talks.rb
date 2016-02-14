@@ -20,8 +20,8 @@ def renderMD(talks)
 	template = Liquid::Template.parse(<<"EOS"
 ---
 title: {{title}}
-layout: default
-permalink: talks/index.html
+layout: talks
+permalink: /talks/index.html
 ---
 # {{title}}
 
@@ -42,7 +42,7 @@ permalink: talks/index.html
 
 EOS
 		)
-	render("../../talks.md", template, talks)
+	render("../../talks/index.md", template, talks)
 end
 
 def renderPodcast(talks)
@@ -85,6 +85,33 @@ EOS
 	render("../../podcast.xml", template, talks)
 end
 
+def renderRSS(talks)
+  template = Liquid::Template.parse(<<"EOS"
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>{{ title }}</title>
+    <description>{% if summary %}{{ summary | xml_escape }}{% endif %}</description>
+    <link>{{ link }}</link>
+    <atom:link href="{{ link }}/feed.xml" rel="self" type="application/rss+xml" />
+{% for talk in talks %}
+      <item>
+        <title>{{ talk.date }} {{ talk.title }}</title>
+        <dc:creator>{{ author | xml_escape }}</dc:creator>
+        <description> {{ talk.title | xml_escape }} </description>
+        <pubDate>{{ talk.time }}</pubDate>
+        <guid isPermaLink="true">{{ link }}#Podcast{{ talk.num }}</guid>
+      </item>
+{% endfor %}    
+  </channel>
+</rss>
+EOS
+    )
+  render("../../talks/feed.xml", template, talks)
+end
+
 def getLengthAndTime(talks)
 	talks["talks"].each{|talk|
 		file = talks["path"] + talk["file"] + ".mp3"
@@ -97,3 +124,4 @@ talks = loadYAML("../talks/talks.yaml")
 getLengthAndTime(talks)
 renderMD(talks)
 renderPodcast(talks)
+renderRSS(talks)

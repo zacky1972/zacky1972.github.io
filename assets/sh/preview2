@@ -9,6 +9,9 @@ DOCKER_IMAGE_NAME=jekyll/jekyll:pages
 # Set to Absolute Directory of Jekyll site to preview 
 JEKYLL_DIR=/Users/zacky/github/zacky1972.github.io
 
+# Set to Port No.
+PORT=4000
+
 # Stop on first error
 set -e
 
@@ -37,15 +40,15 @@ else
 fi
 
 echo "***********************************************************"
-echo "  Your site will be available at http://$(docker-machine ip $DOCKER_MACHINE_NAME):4000"
+echo "  Your site will be available at http://localhost:$PORT"
 echo "***********************************************************"
 
 # Port Forwarding
-docker-machine ssh $DOCKER_MACHINE_NAME -f -N -L 4000:localhost:4000
+docker-machine ssh $DOCKER_MACHINE_NAME -f -N -L $PORT:localhost:$PORT
 
 # Start Jekyll and watch for changes
 docker run --rm -it \
   --volume=$JEKYLL_DIR:/srv/jekyll \
-  --publish 127.0.0.1:4000:4000 \
+  --publish 127.0.0.1:$PORT:$PORT \
   $DOCKER_IMAGE_NAME 
 
