@@ -95,7 +95,7 @@ def renderRSS(talks)
     <title>{{ title }}</title>
     <description>{% if summary %}{{ summary | xml_escape }}{% endif %}</description>
     <link>{{ link }}</link>
-    <atom:link href="{{ link }}/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="{{ link }}feed.xml" rel="self" type="application/rss+xml" />
 {% for talk in talks %}
       <item>
         <title>{{ talk.date }} {{ talk.title }}</title>
