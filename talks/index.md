@@ -97,6 +97,6 @@ permalink: /talks/index.html
 
 38. <a name="Podcast38"></a><a href="https://zacky1972.github.io/assets/talks/Podcast-0038-Reseach-Essence.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '/assets/talks/Podcast-0038-Reseach-Essence.mp3', 'title':'Podcast-0038-Reseach-Essence'});">2016-01-27 19:48:00 +0900 研究の本質〜新規性は必須か？</a> <a href="https://www.facebook.com/groups/1499000153763602/permalink/1520898684907082/" target="_blank">Facebook</a>
 
-39. <a name="Podcast39"></a><a href="https://zacky1972.github.io/assets/talks/Podcast-0039-WillPower-for-Presentation.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '/assets/talks/Podcast-0039-WillPower-for-Presentation.mp3', 'title':'Podcast-0039-WillPower-for-Presentation'});">2016-02-14 22:43:00 +0900 卒業研究発表会に向けてとその後</a> <a href="https://www.facebook.com/groups/1499000153763602/permalink//" target="_blank">Facebook</a>
+39. <a name="Podcast39"></a><a href="https://zacky1972.github.io/assets/talks/Podcast-0039-WillPower-for-Presentation.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '/assets/talks/Podcast-0039-WillPower-for-Presentation.mp3', 'title':'Podcast-0039-WillPower-for-Presentation'});">2016-02-14 22:43:00 +0900 卒業研究発表会に向けてとその後</a> <a href="https://www.facebook.com/groups/1499000153763602/permalink/1530178677312416/" target="_blank">Facebook</a>
 
 
