@@ -1,16 +1,15 @@
 ---
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0">
   <channel>
     <title>ZACKY's Laboratory Podcast</title>
     <description>ZACKY's Laboratory Podcast この番組は北九州市立大学でプログラミングを教えている山崎進がお送りします。</description>
     <link>https://zacky1972.github.io/talks/</link>
-    <atom:link href="https://zacky1972.github.io/talks/feed.xml" type="application/rss+xml" />
+    <language>ja-jp</language>
 
       <item>
         <title>2015-12-11 11:15:00 +0900 7つの習慣</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> 7つの習慣 </description>
         <pubDate>Fri, 11 Dec 2015 11:15:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast1</guid>
@@ -18,7 +17,6 @@
 
       <item>
         <title>2015-12-12 07:10:00 +0900 インドネシア訪問団とグローバルリテラシー</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> インドネシア訪問団とグローバルリテラシー </description>
         <pubDate>Sat, 12 Dec 2015 07:10:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast2</guid>
@@ -26,7 +24,6 @@
 
       <item>
         <title>2015-12-13 12:19:00 +0900 テーマソングについて</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> テーマソングについて </description>
         <pubDate>Sun, 13 Dec 2015 12:19:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast3</guid>
@@ -34,7 +31,6 @@
 
       <item>
         <title>2015-12-13 22:45:00 +0900 なんで Podcast をはじめたか</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> なんで Podcast をはじめたか </description>
         <pubDate>Sun, 13 Dec 2015 22:45:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast4</guid>
@@ -42,7 +38,6 @@
 
       <item>
         <title>2015-12-15 00:00:00 +0900 ZACKY's Laboratory のゴールは卒業論文ではない</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> ZACKY's Laboratory のゴールは卒業論文ではない </description>
         <pubDate>Tue, 15 Dec 2015 00:00:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast5</guid>
@@ -50,7 +45,6 @@
 
       <item>
         <title>2015-12-16 14:25:00 +0900 育てたい人材〜多能工プログラマとは</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> 育てたい人材〜多能工プログラマとは </description>
         <pubDate>Wed, 16 Dec 2015 14:25:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast6</guid>
@@ -58,7 +52,6 @@
 
       <item>
         <title>2015-12-17 23:52:00 +0900 育てたい人材〜起業家マインドを持つエンジニアとは</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> 育てたい人材〜起業家マインドを持つエンジニアとは </description>
         <pubDate>Thu, 17 Dec 2015 23:52:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast7</guid>
@@ -66,7 +59,6 @@
 
       <item>
         <title>2015-12-18 00:50:00 +0900 卒業研究のまとめかた</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> 卒業研究のまとめかた </description>
         <pubDate>Fri, 18 Dec 2015 00:50:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast8</guid>
@@ -74,7 +66,6 @@
 
       <item>
         <title>2015-12-18 17:35:00 +0900 計画の立て方</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> 計画の立て方 </description>
         <pubDate>Fri, 18 Dec 2015 17:35:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast9</guid>
@@ -82,7 +73,6 @@
 
       <item>
         <title>2015-12-20 00:47:00 +0900 継続すること</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> 継続すること </description>
         <pubDate>Sun, 20 Dec 2015 00:47:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast10</guid>
@@ -90,7 +80,6 @@
 
       <item>
         <title>2015-12-21 05:47:00 +0900 締め切り直前のプロジェクトマネジメント</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> 締め切り直前のプロジェクトマネジメント </description>
         <pubDate>Mon, 21 Dec 2015 05:47:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast11</guid>
@@ -98,7 +87,6 @@
 
       <item>
         <title>2015-12-22 05:33:00 +0900 ボツネタこそ宝の山〜高校生向けペルソナ・ワークショップ</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> ボツネタこそ宝の山〜高校生向けペルソナ・ワークショップ </description>
         <pubDate>Tue, 22 Dec 2015 05:33:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast12</guid>
@@ -106,7 +94,6 @@
 
       <item>
         <title>2015-12-23 06:03:00 +0900 会社の見分け方〜ビジネスモデルの観点</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> 会社の見分け方〜ビジネスモデルの観点 </description>
         <pubDate>Wed, 23 Dec 2015 06:03:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast13</guid>
@@ -114,7 +101,6 @@
 
       <item>
         <title>2015-12-24 06:17:00 +0900 ビジネスの提案と広報〜ターゲットユーザーを決める／UX／リーンスタートアップ／インバウンド・マーケティング</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> ビジネスの提案と広報〜ターゲットユーザーを決める／UX／リーンスタートアップ／インバウンド・マーケティング </description>
         <pubDate>Thu, 24 Dec 2015 06:17:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast14</guid>
@@ -122,7 +108,6 @@
 
       <item>
         <title>2015-12-25 15:08:00 +0900 作品を残そう/プログラマのロールモデル</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> 作品を残そう/プログラマのロールモデル </description>
         <pubDate>Fri, 25 Dec 2015 15:08:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast15</guid>
@@ -130,7 +115,6 @@
 
       <item>
         <title>2015-12-26 04:51:00 +0900 ラーニング・パターン(Learning Pattern)</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> ラーニング・パターン(Learning Pattern) </description>
         <pubDate>Sat, 26 Dec 2015 04:51:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast16</guid>
@@ -138,7 +122,6 @@
 
       <item>
         <title>2015-12-26 10:39:00 +0900 ワーク・シフトと山崎のやりたいこと</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> ワーク・シフトと山崎のやりたいこと </description>
         <pubDate>Sat, 26 Dec 2015 10:39:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast17</guid>
@@ -146,7 +129,6 @@
 
       <item>
         <title>2015-12-27 04:45:00 +0900 九州アプリチャレンジキャラバンのふりかえり〜プレゼンテーションの注意点</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> 九州アプリチャレンジキャラバンのふりかえり〜プレゼンテーションの注意点 </description>
         <pubDate>Sun, 27 Dec 2015 04:45:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast18</guid>
@@ -154,7 +136,6 @@
 
       <item>
         <title>2015-12-28 06:09:00 +0900 面談に来てね</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> 面談に来てね </description>
         <pubDate>Mon, 28 Dec 2015 06:09:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast19</guid>
@@ -162,7 +143,6 @@
 
       <item>
         <title>2015-12-29 06:22:00 +0900 イノベーションと持続可能性</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> イノベーションと持続可能性 </description>
         <pubDate>Tue, 29 Dec 2015 06:22:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast20</guid>
@@ -170,7 +150,6 @@
 
       <item>
         <title>2015-12-30 06:22:00 +0900 ふりかえりをしよう〜 KPT と YWT</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> ふりかえりをしよう〜 KPT と YWT </description>
         <pubDate>Wed, 30 Dec 2015 06:22:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast21</guid>
@@ -178,7 +157,6 @@
 
       <item>
         <title>2015-12-31 06:38:00 +0900 研究室のふりかえり(YWT)</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> 研究室のふりかえり(YWT) </description>
         <pubDate>Thu, 31 Dec 2015 06:38:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast22</guid>
@@ -186,7 +164,6 @@
 
       <item>
         <title>2016-01-01 08:22:00 +0900 ビジョンを考えよう</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> ビジョンを考えよう </description>
         <pubDate>Fri, 01 Jan 2016 08:22:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast23</guid>
@@ -194,7 +171,6 @@
 
       <item>
         <title>2016-01-02 05:51:00 +0900 2016年ビジョン〜徒弟制</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> 2016年ビジョン〜徒弟制 </description>
         <pubDate>Sat, 02 Jan 2016 05:51:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast24</guid>
@@ -202,7 +178,6 @@
 
       <item>
         <title>2016-01-03 04:21:00 +0900 学習意欲を高めよう〜ARCS モデルとモチベーション3.0</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> 学習意欲を高めよう〜ARCS モデルとモチベーション3.0 </description>
         <pubDate>Sun, 03 Jan 2016 04:21:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast25</guid>
@@ -210,7 +185,6 @@
 
       <item>
         <title>2016-01-04 02:58:00 +0900 ソフトウェア開発経験の論文化のポイント</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> ソフトウェア開発経験の論文化のポイント </description>
         <pubDate>Mon, 04 Jan 2016 02:58:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast26</guid>
@@ -218,7 +192,6 @@
 
       <item>
         <title>2016-01-05 06:10:00 +0900 論文を書く順番〜主たる結果が出ている場合</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> 論文を書く順番〜主たる結果が出ている場合 </description>
         <pubDate>Tue, 05 Jan 2016 06:10:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast27</guid>
@@ -226,7 +199,6 @@
 
       <item>
         <title>2016-01-06 06:49:00 +0900 デザインの本質</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> デザインの本質 </description>
         <pubDate>Wed, 06 Jan 2016 06:49:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast28</guid>
@@ -234,7 +206,6 @@
 
       <item>
         <title>2016-01-07 06:49:00 +0900 デザインスキルの鍛え方</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> デザインスキルの鍛え方 </description>
         <pubDate>Thu, 07 Jan 2016 06:49:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast29</guid>
@@ -242,7 +213,6 @@
 
       <item>
         <title>2016-01-08 04:25:00 +0900 入社したら人脈を作ろう</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> 入社したら人脈を作ろう </description>
         <pubDate>Fri, 08 Jan 2016 04:25:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast30</guid>
@@ -250,7 +220,6 @@
 
       <item>
         <title>2016-01-09 11:26:00 +0900 競争から共創へ〜21世紀のマインドシフト</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> 競争から共創へ〜21世紀のマインドシフト </description>
         <pubDate>Sat, 09 Jan 2016 11:26:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast31</guid>
@@ -258,7 +227,6 @@
 
       <item>
         <title>2016-01-10 07:51:00 +0900 学生にとっての「強み x 教育研究」</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> 学生にとっての「強み x 教育研究」 </description>
         <pubDate>Sun, 10 Jan 2016 07:51:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast32</guid>
@@ -266,7 +234,6 @@
 
       <item>
         <title>2016-01-11 07:51:00 +0900 自分の目的を考えよう〜山崎の教育の目的</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> 自分の目的を考えよう〜山崎の教育の目的 </description>
         <pubDate>Mon, 11 Jan 2016 07:51:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast33</guid>
@@ -274,7 +241,6 @@
 
       <item>
         <title>2016-01-12 15:06:00 +0900 プログラミングセンスを磨く Rails の学び方</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> プログラミングセンスを磨く Rails の学び方 </description>
         <pubDate>Tue, 12 Jan 2016 15:06:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast34</guid>
@@ -282,7 +248,6 @@
 
       <item>
         <title>2016-01-14 08:51:00 +0900 Template Method パターンを使って DRY にしよう</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> Template Method パターンを使って DRY にしよう </description>
         <pubDate>Thu, 14 Jan 2016 08:51:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast35</guid>
@@ -290,7 +255,6 @@
 
       <item>
         <title>2016-01-16 05:51:00 +0900 4年生受賞記念〜次のゴールとチームの大事さ</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> 4年生受賞記念〜次のゴールとチームの大事さ </description>
         <pubDate>Sat, 16 Jan 2016 05:51:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast36</guid>
@@ -298,7 +262,6 @@
 
       <item>
         <title>2016-01-18 05:51:00 +0900 まずは卒業論文を一通り書きましょう。話はそれからです。</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> まずは卒業論文を一通り書きましょう。話はそれからです。 </description>
         <pubDate>Mon, 18 Jan 2016 05:51:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast37</guid>
@@ -306,7 +269,6 @@
 
       <item>
         <title>2016-01-27 19:48:00 +0900 研究の本質〜新規性は必須か？</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> 研究の本質〜新規性は必須か？ </description>
         <pubDate>Wed, 27 Jan 2016 19:48:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast38</guid>
@@ -314,7 +276,6 @@
 
       <item>
         <title>2016-02-14 22:43:00 +0900 卒業研究発表会に向けてとその後</title>
-        <dc:creator>Susumu Yamazaki @ZACKY1972</dc:creator>
         <description> 卒業研究発表会に向けてとその後 </description>
         <pubDate>Sun, 14 Feb 2016 22:43:00 +0900</pubDate>
         <guid isPermaLink="true">https://zacky1972.github.io/talks/#Podcast39</guid>
