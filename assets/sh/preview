@@ -6,6 +6,9 @@ DOCKER_MACHINE_NAME=default
 # Set to the name of the Docker image you want to use
 DOCKER_IMAGE_NAME=jekyll
 
+# Set to Absolute Directory of Jekyll site to preview 
+JEKYLL_DIR=/Users/zacky/github/zacky1972.github.io
+
 # Stop on first error
 set -e
 
@@ -39,7 +42,7 @@ echo "***********************************************************"
 
 # Start Jekyll and watch for changes
 docker run --rm \
-  --volume=$(pwd):/src \
+  --volume=$JEKYLL_DIR:/src \
   --publish 4000:4000 \
   $DOCKER_IMAGE_NAME \
   serve --watch --incremental --force_polling -H 0.0.0.0
