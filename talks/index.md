@@ -1,7 +1,7 @@
 ---
 title: ZACKY's Laboratory Podcast
-layout: default
-permalink: talks/index.html
+layout: talks
+permalink: /talks/index.html
 ---
 # ZACKY's Laboratory Podcast
 
