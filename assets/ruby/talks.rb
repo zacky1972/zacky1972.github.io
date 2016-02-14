@@ -102,6 +102,7 @@ def renderRSS(talks)
         <description> {{ talk.title | xml_escape }} </description>
         <pubDate>{{ talk.time }}</pubDate>
         <guid isPermaLink="true">{{ link }}#Podcast{{ talk.num }}</guid>
+        <link>{{ link }}#Podcast{{ talk.num }}</link>
       </item>
 {% endfor %}    
   </channel>
