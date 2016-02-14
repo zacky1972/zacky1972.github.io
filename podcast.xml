@@ -436,5 +436,16 @@
       <pubDate>Wed, 27 Jan 2016 19:48:00 +0900</pubDate>
     </item>
 
+    <item>
+      <title>2016-02-14 22:43:00 +0900 卒業研究発表会に向けてとその後</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> 卒業研究発表会に向けてとその後</itunes:subtitle>
+      <itunes:summary><![CDATA[ 卒業研究発表会に向けてとその後 <a href="https://www.facebook.com/groups/1499000153763602/permalink//" target="_blank">Facebook</a>]]></itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY-3000.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0039-WillPower-for-Presentation.mp3" length="2691365" type="audio/mpeg" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0039-WillPower-for-Presentation.mp3</guid>
+      <pubDate>Sun, 14 Feb 2016 22:43:00 +0900</pubDate>
+    </item>
+
   </channel>
 </rss>
