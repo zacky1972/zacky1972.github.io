@@ -14,6 +14,8 @@ permalink: /talks/index.html
 
 * <a name="radio2016-01-08"></a>[2016-01-08 KITAQ企画会議](https://www.facebook.com/groups/1499000153763602/permalink/1512359135761037/)
 
+* <a name="radio2016-03-10"></a>[2016-03-10 学研都市へ行こう！](http://hibiki882.jp/modules/program/index.php/gakken.html)
+
 
 ## Podcast 
 
