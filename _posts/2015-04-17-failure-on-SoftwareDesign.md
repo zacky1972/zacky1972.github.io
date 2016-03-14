@@ -7,7 +7,7 @@ excerpt: 個別化教授システム(PSI)にチャレンジして大失敗! 対�
 ---
 # ソフトウェア設計・同演習で大失敗!!
 
-長年実践的なオブジェクト指向開発の教育に取り組んできた研究成果を結集して[ソフトウェア設計・同演習](/courses/SoftwareDesign.html)を新しい方法で運営するチャレンジに取り組みました。どのようなチャレンジかというと，[完全習得学習(mastery learning)](http://www.gsis.kumamoto-u.ac.jp/opencourses/pf/2Block/03/1_text.html)を目指し，[個別化教授システム(PSI: personalized system of instruction)](http://www.gsis.kumamoto-u.ac.jp/opencourses/pf/2Block/03/2_text.html)を全面的に導入するというチャレンジです。**Kintone ベースの個別学習管理システム**を[株式会社 AISIC](http://aisic.jp)と共同開発して臨みました。
+長年実践的なオブジェクト指向開発の教育に取り組んできた研究成果を結集して[ソフトウェア設計・同演習](/courses/SoftwareDesign.html)を新しい方法で運営するチャレンジに取り組みました。どのようなチャレンジかというと，[完全習得学習(mastery learning)](http://www.gsis.kumamoto-u.ac.jp/opencourses/pf/2Block/03/1_text.html)を目指し，[個別化教授システム(PSI: personalized system of instruction)](http://www.gsis.kumamoto-u.ac.jp/opencourses/pf/2Block/03/2_text.html)を全面的に導入するというチャレンジです。**kintone ベースの個別学習管理システム**を[株式会社 AISIC](http://aisic.jp)と共同開発して臨みました。
 
 ところが，やってみてわかったのですが**このチャレンジは大失敗でした**。学生が個別に学習を進めるペースが予想以上に速く，70名近くもいるので圧倒的な量の答案が集まり，TA学生5名による個別学習管理システムでの入力・フィードバック作業がまったく追いつかなかったのです。
 

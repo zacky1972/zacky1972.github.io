@@ -12,6 +12,14 @@ layout: default
 
 ![コース概要](SWEng-CourseStructure.png "コース概要")
 
+## 関連記事
+
+* [書籍刊行のお知らせ](/blog/2015/08/21/FD-book.html)
+* [2015年度 ソフトウェア工学概論 公開ポスター発表会のお知らせ](/blog/2015/07/07/poster-presentation.html)
+* [「ソフトウェア開発の教育のビジョンを語ろう」＠ソフトウェア科学会大会](/blog/2015/09/11/education-vision-JSSST-rePiT.html)
+* [FD研修講演〜反転授業とアクティブラーニング](/blog/2015/12/02/FD-seminar-on-active-learning.html)
+* [アクティブ・ラーニングの理想を実現せよ](/blog/2015/08/29/realize-the-ideal-of-active-learning.html)
+
 ## 到達目標
 
 1. 与えられたソフトウェア工学関連トピックについて，教員と教科書の助けを得ながら，自分の言葉で要約を記述できる。
@@ -42,24 +50,27 @@ IV. 関心・意欲・態度
 
 ## 教科書
 
-[実践ソフトウェアエンジニアリング〜ソフトウェアプロフェッショナルのための基本知識 ロジャー・プレスマン著 西康晴ほか監訳 日科技連出版社](http://www.amazon.co.jp/gp/product/4817161485/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4817161485&linkCode=as2&tag=zacky1972-22)
-
-(原著: [Software Engineering: A Practitioner’s Approach. Roger Pressman. McGraw-Hill.](http://www.amazon.co.jp/gp/product/9814577383/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=9814577383&linkCode=as2&tag=zacky1972-22))
+授業中に配布します。
 
 ## 参考書(図書館蔵書には◯)
 
 主要な参考書を掲載します。学生の興味に応じて授業中にも紹介します。
 
+◯[実践ソフトウェアエンジニアリング〜ソフトウェアプロフェッショナルのための基本知識 ロジャー・プレスマン著 西康晴ほか監訳 日科技連出版社](http://www.amazon.co.jp/gp/product/4817161485/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4817161485&linkCode=as2&tag=zacky1972-22)
+
+◯[Software Engineering: A Practitioner’s Approach. Roger Pressman. McGraw-Hill.](http://www.amazon.co.jp/gp/product/9814577383/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=9814577383&linkCode=as2&tag=zacky1972-22)
+
+
 ◯[ソフトウェア工学〜理論と実践 シャリ・ローレンス・プリーガー著 堀内泰輔訳 ピアソン・エデュケーション](http://www.amazon.co.jp/gp/product/4894713683/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4894713683&linkCode=as2&tag=zacky1972-22)
 
-◯(原著: [Software Engineering: Theory and Practice, Shari Lawrence Pfleeger, Pearson Education.](http://www.amazon.co.jp/gp/product/0136061699/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=0136061699&linkCode=as2&tag=zacky1972-22))
+◯[Software Engineering: Theory and Practice, Shari Lawrence Pfleeger, Pearson Education.](http://www.amazon.co.jp/gp/product/0136061699/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=0136061699&linkCode=as2&tag=zacky1972-22)
 
 ◯ソフトウェアエンジニアリング基礎知識体系-SWEBOK2004 松本吉弘訳 オーム社
 
-(原著: [SWBOK, IEEE Computer Society. available at http://www.computer.org/portal/web/swebok/home](http://www.computer.org/portal/web/swebok/home))
+[SWBOK, IEEE Computer Society. available at http://www.computer.org/portal/web/swebok/home](http://www.computer.org/portal/web/swebok/home)
 
 ◯ソフトウェア開発201の鉄則 アラン・デービス著 松原友夫訳 日経BP社
-(原著: 201 Principles of Software Development. Alan M. Davis. IEEE Computer Society.)
+201 Principles of Software Development. Alan M. Davis. IEEE Computer Society.
 
 The Essence of Software Engineering: Applying the SEMAT Kernel. Ivar Jacobson et al. Addison-Wesley.
 
@@ -67,39 +78,52 @@ The Essence of Software Engineering: Applying the SEMAT Kernel. Ivar Jacobson et
 
 私たちは，ソフトウェア開発経験の浅い学生の能動的・自律的な深い学びを促進することを狙って，この授業を設計しました。
 
-授業は2部構成です。次の点に注意してください。
+授業は2部構成です。
 
-* 第一部は学生が自分のペースで進められるようにしています。第一部のスケジュールはあくまで目安です。毎回の分量も一定ではありません。
-* シラバスから項目を変更しています。
+教科書の内容
 
-1. 第1部
-	1. オリエンテーション
-	2. 概論
-	3. プログラミング
-	4. 設計
-	5. 要求分析
-	6. ソフトウェアテスト
-	7. プロセス
-	8. プロジェクト
-	9. ソフトウェア開発の2つの立場
-2. 第2部
-	1. 研究計画
-	2. プレゼンテーション作成
-	3. ポスター発表第1回
-	4. プレゼンテーション洗練
-	5. ポスター発表第2回
-	6. ふりかえり
+1. 概論
+2. プログラミング
+3. 設計
+4. 要求開発
+5. ソフトウェアテスト
+6. プロセス
+7. プロジェクト
+8. ソフトウェア開発の2つの立場
+
+![コース概要](SWEng-CourseStructure.png "コース概要")
+
+Part I (概要の学習)
+
+1. オリエンテーション
+2. 参考書 1
+3. 参考書 1 (ディスカッション)
+4. 参考書 2
+5. 参考書 2 (ディスカッション)
+6. 参考書 3
+7. 参考書 3 (ディスカッション)
+8. Part I ふりかえり
+
+Part II (ポスター発表)
+
+9. 研究計画
+10. 調査
+11. プレゼンテーション作成
+12. ポスター発表
+13. プレゼンテーション洗練
+14. ポスター発表(再)
+15. Part II ふりかえり
 
 ## 成績評価の方法
 
 到達目標ごとの成績評価
 
-* 到達目標1: 各トピックの要約を記述したレポート(第一部の毎週): 30%
-* 到達目標2: 各トピックのリサーチクエッションとその動機を記述したレポート(第一部の毎週): 20%
+* 到達目標1: 教科書で紹介する参考書の中から3冊以上の要約を記述したレポート(Part I): 30%
+* 到達目標2: 3個以上のリサーチクエッションとその動機を記述したレポート(Part I): 20%
 * 到達目標3: 下記の合計: 50%
 	* リサーチクエッションの研究計画のレポートとディスカッション(1回)
-	* リサーチクエッションについて調査したポスター発表(2回発表，2回成果物提出)
-	* ポスター発表での質疑をふりかえったレポート(2回)
+	* リサーチクエッションについて調査したポスター発表(2回発表，1回成果物提出)
+	* ポスター発表での議論をふりかえったレポート(2回)
 	* 授業全体をふりかえったレポート(1回)
 	* 授業への積極的参加
 
