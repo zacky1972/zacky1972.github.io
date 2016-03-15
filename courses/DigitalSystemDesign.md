@@ -21,17 +21,20 @@ layout: default
 
 【コンパイラ開発】
 [青木峰郎，ふつうのコンパイラをつくろう : 言語処理系をつくりながら学ぶコンパイルと実行環境の仕組み，ソフトバンククリエイティブ，2009. ISBN: 9784797337952](//www.amazon.co.jp/gp/product/4797337958/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4797337958&linkCode=as2&tag=zacky1972-22)
+
 [![ふつうのコンパイラをつくろう](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4797337958&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/4797337958/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4797337958&linkCode=as2&tag=zacky1972-22)
 
 ## 参考書(図書館蔵書には○) / References (Available in the library: ○)
 
 【プロセッサ開発】
 [○ D. A. Patterson and J. L. Hennessy, 成田光彰訳, コンピュータの構成と設計(上下巻)，第5版，日経BP社，2014. ISBN: 9784822298425(上巻)，](//www.amazon.co.jp/gp/product/4822298426/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4822298426&linkCode=as2&tag=zacky1972-22)[9784822298432(下巻)](//www.amazon.co.jp/gp/product/4822298434/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4822298434&linkCode=as2&tag=zacky1972-22)
+
 [![コンピュータの構成と設計(上巻)](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4822298426&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/4822298426/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4822298426&linkCode=as2&tag=zacky1972-22) [![コンピュータの構成と設計(下巻)](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4822298434&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/4822298434/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4822298434&linkCode=as2&tag=zacky1972-22) 
 
 【コンパイラ開発】
 
 [○プログラミング言語処理系 佐々政孝著 岩波書店 (絶版)](//www.amazon.co.jp/gp/product/4000103458/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4000103458&linkCode=as2&tag=zacky1972-22)
+
 [![プログラミング言語処理系](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4000103458&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/4000103458/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4000103458&linkCode=as2&tag=zacky1972-22)
 
 [○コンパイラ : 原理・技法・ツール A.V. エイホ [ほか]共著 サイエンス社 ISBN:9784781912295 (新版あり，新版は図書館蔵書ではない)](//www.amazon.co.jp/gp/product/478191229X/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=478191229X&linkCode=as2&tag=zacky1972-22)

@@ -57,28 +57,34 @@ IV. 関心・意欲・態度
 主要な参考書を掲載します。学生の興味に応じて授業中にも紹介します。
 
 ◯[実践ソフトウェアエンジニアリング〜ソフトウェアプロフェッショナルのための基本知識 ロジャー・プレスマン著 西康晴ほか監訳 日科技連出版社](//www.amazon.co.jp/gp/product/4817161485/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4817161485&linkCode=as2&tag=zacky1972-22)
+
 [![実践ソフトウェアエンジニアリング](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4817161485&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/4817161485/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4817161485&linkCode=as2&tag=zacky1972-22)
 
 ◯[Software Engineering: A Practitioner’s Approach. Roger Pressman. McGraw-Hill.](//www.amazon.co.jp/gp/product/9814577383/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=9814577383&linkCode=as2&tag=zacky1972-22)
 
 
 ◯[ソフトウェア工学〜理論と実践 シャリ・ローレンス・プリーガー著 堀内泰輔訳 ピアソン・エデュケーション](//www.amazon.co.jp/gp/product/4894713683/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4894713683&linkCode=as2&tag=zacky1972-22)
+
 [![ソフトウェア工学〜理論と実践](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4894713683&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/4894713683/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4894713683&linkCode=as2&tag=zacky1972-22)
 
 ◯[Software Engineering: Theory and Practice, Shari Lawrence Pfleeger, Pearson Education.](//www.amazon.co.jp/gp/product/0136061699/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=0136061699&linkCode=as2&tag=zacky1972-22)
+
 [![Software Engineering: Theory and Practice](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0136061699&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/0136061699/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=0136061699&linkCode=as2&tag=zacky1972-22)
 
 [◯ソフトウェアエンジニアリング基礎知識体系-SWEBOK2004 松本吉弘訳 オーム社](//www.amazon.co.jp/gp/product/4274500292/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4274500292&linkCode=as2&tag=zacky1972-22)
+
 [![ソフトウェアエンジニアリング基礎知識体系-SWEBOK2004](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4274500292&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/4274500292/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4274500292&linkCode=as2&tag=zacky1972-22)
 
 [SWBOK, IEEE Computer Society. available at http://www.computer.org/portal/web/swebok/home](http://www.computer.org/portal/web/swebok/home)
 
 [◯ソフトウェア開発201の鉄則 アラン・デービス著 松原友夫訳 日経BP社](//www.amazon.co.jp/gp/product/4822290026/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4822290026&linkCode=as2&tag=zacky1972-22)
+
 [![ソフトウェア開発201の鉄則](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4822290026&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/4822290026/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4822290026&linkCode=as2&tag=zacky1972-22)
 
 201 Principles of Software Development. Alan M. Davis. IEEE Computer Society. (絶版)
 
 [The Essence of Software Engineering: Applying the SEMAT Kernel. Ivar Jacobson et al. Addison-Wesley.](//www.amazon.co.jp/gp/product/0321885953/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=0321885953&linkCode=as2&tag=zacky1972-22)
+
 [![The Essence of Software Engineering](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0321885953&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/0321885953/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=0321885953&linkCode=as2&tag=zacky1972-22)
 
 ## 授業計画・内容
