@@ -28,10 +28,17 @@ layout: default
 
 ## 参考書(図書館蔵書には○) / References (Available in the library: ○)
 
-○​ 牛​尾​ ​剛​「​オ​ブ​ジ​ェ​ク​ト​脳​の​つ​く​り​方​」​翔​泳​社​ ​I​S​B​N​:​ ​9​7​8​-​4​7​9​8​1​0​4​1​8​8​ 
-​○​ 平沢​ ​章​「​オ​ブ​ジ​ェ​ク​ト​指​向​で​な​ぜ​つ​く​る​の​か​」​(​第​2​版​)​ ​日​経​B​P​社​ ​I​S​B​N​:​ ​9​7​8​-​4​8​2​2​2​8​4​6​5​7​
-○​ ​E​.​ガ​ン​マ​他​著​「​デ​ザ​イ​ン​パ​タ​ー​ン​」​ソ​フ​ト​バ​ン​ク​ク​リ​エ​イ​テ​ィ​ブ​，​I​S​B​N​:​ ​9​7​8​-​4​7​9​7​3​1​1​1​2​9​
-○ M​.​フ​ァ​ウ​ラ​ー​著​「​リ​フ​ァ​ク​タ​リ​ン​グ​ ​」​オーム社 ​I​S​B​N​:​ ​978-4274050190 ​(​新装版): 図書館蔵書は旧版
+[○ 牛尾 剛「オブジェクト脳のつくり方」翔泳社 ISBN: 978-4798104188​](//www.amazon.co.jp/gp/product/4798104183/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4798104183&linkCode=as2&tag=zacky1972-22)
+[![オブジェクト脳のつくり方](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4798104183&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/4798104183/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4798104183&linkCode=as2&tag=zacky1972-22)
+
+​[○ 平沢 章「オブジェクト指向でなぜつくるのか」(第2版) 日経BP社 ISBN: 978-4822284657​](http://www.amazon.co.jp/gp/product/4822284654/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4822284654&linkCode=as2&tag=zacky1972-22)
+[![オブジェクト指向でなぜつくるのか](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4822284654&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/4822284654/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4822284654&linkCode=as2&tag=zacky1972-22)
+
+[○ E.ガンマ他著「デザインパターン」ソフトバンククリエイティブ，ISBN: 978-4797311129​](//www.amazon.co.jp/gp/product/4797311126/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4797311126&linkCode=as2&tag=zacky1972-22)
+[![デザインパターン](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4797311126&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/4797311126/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4797311126&linkCode=as2&tag=zacky1972-22)
+
+
+[○ M.ファウラー著「リファクタリング」オーム社 ISBN: 978-4274050190 (新装版): 図書館蔵書は旧版​​](http://www.amazon.co.jp/gp/product/427405019X/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=427405019X&linkCode=as2&tag=zacky1972-22)
 
 他にも必要に応じて授業中に提示します。
 

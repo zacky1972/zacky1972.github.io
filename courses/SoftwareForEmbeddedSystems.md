@@ -50,7 +50,8 @@ III. 思考・判断・表現 (thinking, decision making, writing)
 
 ## 参考書(図書館蔵書には○) / References (Available in the library: ○)
 
-○ B.P. Douglass “Design Patterns for Embedded Systems in C: An Embedded Software Engineering Toolkit”. Newnes, 2010. ISBN 978-1856177078
+[○ B.P. Douglass “Design Patterns for Embedded Systems in C: An Embedded Software Engineering Toolkit”. Newnes, 2010. ISBN 978-1856177078](//www.amazon.co.jp/gp/product/1856177076/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=1856177076&linkCode=as2&tag=zacky1972-22)
+[![Design Patterns for Embedded Systems in C](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1856177076&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/1856177076/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=1856177076&linkCode=as2&tag=zacky1972-22)
 
 ## 授業計画・内容 / Class schedules and Contents
 

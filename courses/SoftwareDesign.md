@@ -145,10 +145,17 @@ UMLモデルを書くだけではソフトウェア開発は完結しません�
 
 ### 参考書 (図書館蔵書には◯) 
 
-* [◯牛尾 剛「オブジェクト脳のつくり方」翔泳社 ISBN: 978-4798104188](http://www.amazon.co.jp/gp/product/4798104183/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4798104183&linkCode=as2&tag=zacky1972-22)
-* [◯平沢 章「オブジェクト指向でなぜつくるのか」(第2版) 日経BP社 ISBN: 978-4822284657](http://www.amazon.co.jp/gp/product/4822284654/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4822284654&linkCode=as2&tag=zacky1972-22)
-* [◯E.ガンマ他 「デザインパターン」ソフトバンククリエイティブ，ISBN: 978-4797311129](http://www.amazon.co.jp/gp/product/4797311126/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4797311126&linkCode=as2&tag=zacky1972-22)
-* [◯M.ファウラー 「リファクタリング」オーム社 ISBN: 978-4274050190 (新装版): 図書館蔵書は旧版](http://www.amazon.co.jp/gp/product/427405019X/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=427405019X&linkCode=as2&tag=zacky1972-22)
+[◯牛尾 剛「オブジェクト脳のつくり方」翔泳社 ISBN: 978-4798104188](//www.amazon.co.jp/gp/product/4798104183/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4798104183&linkCode=as2&tag=zacky1972-22)
+[![オブジェクト脳のつくり方](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4798104183&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/4798104183/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4798104183&linkCode=as2&tag=zacky1972-22)
+
+
+[◯平沢 章「オブジェクト指向でなぜつくるのか」(第2版) 日経BP社 ISBN: 978-4822284657](//www.amazon.co.jp/gp/product/4822284654/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4822284654&linkCode=as2&tag=zacky1972-22)
+[![オブジェクト指向でなぜつくるのか](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4822284654&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/4822284654/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4822284654&linkCode=as2&tag=zacky1972-22)
+
+[◯E.ガンマ他 「デザインパターン」ソフトバンククリエイティブ，ISBN: 978-4797311129](//www.amazon.co.jp/gp/product/4797311126/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4797311126&linkCode=as2&tag=zacky1972-22)
+[![デザインパターン](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4797311126&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/4797311126/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4797311126&linkCode=as2&tag=zacky1972-22)
+
+[◯M.ファウラー 「リファクタリング」オーム社 ISBN: 978-4274050190 (新装版): 図書館蔵書は旧版](//www.amazon.co.jp/gp/product/427405019X/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=427405019X&linkCode=as2&tag=zacky1972-22)
 
 ## 授業計画・内容
 

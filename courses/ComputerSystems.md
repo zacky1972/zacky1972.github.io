@@ -46,17 +46,29 @@ IV. 関心・意欲・態度
 ## 参考書(図書館蔵書には○) / References (Available in the library: ○)
 
 【コンピュータの基本構成と動作原理】
-○プログラムはなぜ動くのか 第2版 矢沢久雄著 日経ソフトウェア ISBN: 978-4822283155
-○コンピュータはなぜ動くのか 矢沢久雄著 日経ソフトウェア ISBN: 978-4822281656
+
+[○プログラムはなぜ動くのか 第2版 矢沢久雄著 日経ソフトウェア ISBN: 978-4822283155](//www.amazon.co.jp/gp/product/4822283151/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4822283151&linkCode=as2&tag=zacky1972-22) 
+[![プログラムはなぜ動くのか](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4822283151&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/4822283151/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4822283151&linkCode=as2&tag=zacky1972-22)
+
+[○コンピュータはなぜ動くのか 矢沢久雄著 日経ソフトウェア ISBN: 978-4822281656](//www.amazon.co.jp/gp/product/4822281655/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4822281655&linkCode=as2&tag=zacky1972-22)
+[![コンピュータはなぜ動くのか](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4822281655&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/4822281655/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4822281655&linkCode=as2&tag=zacky1972-22)
 
 【プログラミング言語処理系】
-○コンパイラの構成と最適化 中田育男著 朝倉書店 ISBN:4254121393 (新版あり，新版は図書館蔵書ではない)
-○プログラミング言語処理系 佐々政孝著 岩波書店 (絶版)
-○コンパイラ 中井 央著 コロナ社 ISBN: 978-4339027082
-○コンパイラ : 原理・技法・ツール A.V. エイホ [ほか]共著 サイエンス社 ISBN:9784781912295
+
+[○コンパイラの構成と最適化 中田育男著 朝倉書店 ISBN:4254121393 (新版あり，新版は図書館蔵書ではない)](//www.amazon.co.jp/gp/product/4254121776/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4254121776&linkCode=as2&tag=zacky1972-22)
+
+[○プログラミング言語処理系 佐々政孝著 岩波書店 (絶版)](//www.amazon.co.jp/gp/product/4000103458/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4000103458&linkCode=as2&tag=zacky1972-22)
+[![プログラミング言語処理系](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4000103458&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/4000103458/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4000103458&linkCode=as2&tag=zacky1972-22)
+
+[○コンパイラ 中井 央著 コロナ社 ISBN: 978-4339027082](//www.amazon.co.jp/gp/product/4339027081/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4339027081&linkCode=as2&tag=zacky1972-22)
+[![コンパイラ](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4339027081&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/4339027081/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4339027081&linkCode=as2&tag=zacky1972-22)
+
+[○コンパイラ : 原理・技法・ツール A.V. エイホ [ほか]共著 サイエンス社 ISBN:9784781912295 (新版あり，新版は図書館蔵書ではない)](//www.amazon.co.jp/gp/product/478191229X/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=478191229X&linkCode=as2&tag=zacky1972-22)
 
 【オペレーティングシステム】
-○モダンオペレーティングシステム 第2版 A.S. タネンバウム著 ピアソンエデュケーション (絶版)
+[○モダンオペレーティングシステム 第2版 A.S. タネンバウム著 ピアソンエデュケーション (絶版)](//www.amazon.co.jp/gp/product/4894715376/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4894715376&linkCode=as2&tag=zacky1972-22)
+
+[![モダンオペレーティングシステム](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4894715376&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/4894715376/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4894715376&linkCode=as2&tag=zacky1972-22)
 
 ## 授業計画・内容 / Class schedules and Contents
 
