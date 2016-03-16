@@ -421,6 +421,7 @@ td.about_text p {
 }
 #pagetop a {
   background: transparent url("../images/ico-pagetop.png") no-repeat left top;
+  background-size: 24px 24px;
   display: block;
   height: 24px;
   overflow: hidden;
