@@ -281,8 +281,8 @@ nav a:active {
 }
 .contents .search {
   float: right;
-  height: 40px;
-  line-height: 40px;
+  height: 64px;
+  line-height: 64px;
   margin: 4px 0 24px 0;
   overflow: hidden;
   text-align: right;
@@ -562,6 +562,7 @@ td.about_text p {
   color: #c9171e;
   font-weight: bold;
 }
+
 .blog h1, h2, h3, h4, h5, h6 {
   margin: 25px 0 10px;
   padding: 0;
@@ -615,6 +616,7 @@ td.about_text p {
   max-width: 640px;
   height: auto;
 }
+
 
 /*-----------------------------------------------------------------------
   02-06. interview(/interview.html)
