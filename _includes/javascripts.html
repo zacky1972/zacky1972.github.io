@@ -4,15 +4,3 @@
   <script src="/assets/javascripts/jquery.scrolldepth.min.js"></script>
   <script type="text/javascript" src="/assets/javascripts/jquery.qrcode.min.js"></script>
   <script type="text/javascript" src="/assets/javascripts/common.js"></script>
-
-  <!-- setting for QR code -->
-  <script type="text/javascript">
-  $(document).ready(function(){
-  	$('#QR-self').qrcode({
-  		render: 'canvas',
-  		size: 64,
-  		text: '{{ site.url}}{{ page.url }}',
-  	});
-  });
-
-  </script>
