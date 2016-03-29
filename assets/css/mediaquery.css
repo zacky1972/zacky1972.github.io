@@ -131,6 +131,13 @@
     padding: 4em 1em 2.5em 1em;
   }
 
+  .story div:first-child {
+    margin-right: 10px;
+  }
+
+  .story h1 {
+    width: calc(100% - 64px - 10px);
+  }
 
   .posts td {
     font-size: 14px;
