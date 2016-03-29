@@ -3,7 +3,7 @@
   var $qrObj = $("<div/>").qrcode({
     render: 'div',
     size: 96,
-    text: '{{ site.url}}{{ page.url }}',
+    text: '{{ site.url}}{{ page.url }}'
   });
   $(".main .story").prepend($qrObj);
   </script>

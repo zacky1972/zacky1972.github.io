@@ -22,8 +22,9 @@
     width: 620px;
   }
   .blog .story {
-    padding: 5px;
+    padding: 4em 3em 2.5em 3em;
   }
+
   .posts td {
     font-size: 14px;
   }
@@ -58,7 +59,7 @@
     width: 460px;
   }
   .blog .story {
-    padding: 5px;
+    padding: 4em 1em 2.5em 1em;
   }
   .posts td {
     font-size: 14px;
@@ -127,8 +128,10 @@
     width: 300px;
   }
   .blog .story {
-    padding: 5px;
+    padding: 4em 1em 2.5em 1em;
   }
+
+
   .posts td {
     font-size: 14px;
   }
