@@ -430,6 +430,7 @@ td.about_text p {
   width: 24px;
 }
 
+
 /*-----------------------------------------------------------------------
   02-01. .top(/index.html)
 -----------------------------------------------------------------------*/
@@ -511,7 +512,29 @@ td.about_text p {
 }
 .blog .story {
   padding: 4em 7em 2.5em 7em;
+  overflow: hidden;
+  border-bottom: 1px solid black;
 }
+
+.story div:first-child {
+  margin-right: 30px;
+  margin-top: calc(10px - 32px);
+  width: 64px;
+  height: 64px;
+  float: left;
+  position: relative;
+}
+
+.story h1 {
+  width: calc(100% - 64px - 30px);
+  float: left;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 .blog figure dl {
   border: 1px solid #777777;
   float: left;
