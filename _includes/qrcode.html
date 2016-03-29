@@ -1,8 +1,9 @@
   <script type="text/javascript">
   /* setting for QR code */
   var $qrObj = $("<div/>").qrcode({
-    render: 'div',
-    size: 96,
+    render: 'image',
+    size: 64,
+    fill: '#555555',
     text: '{{ site.url}}{{ page.url }}'
   });
   $(".main .story").prepend($qrObj);
