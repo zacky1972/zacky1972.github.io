@@ -97,7 +97,7 @@
   .blog h1 {
     border-bottom: 1px solid #888888;
     margin-bottom: 25px;
-    font-size: 1.75em;
+    font-size: 1.5em;
   }
   .blog h2 {
     font-size: 1.35em;
@@ -183,10 +183,10 @@
   .blog h1 {
     border-bottom: 1px solid #888888;
     margin-bottom: 25px;
-    font-size: 1.5em;
+    font-size: 1.35em;
   }
   .blog h2 {
-    font-size: 1.35em;
+    font-size: 1.3em;
     border-bottom: 1px solid #cccccc;
   }
   .blog h3 {
