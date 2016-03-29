@@ -517,7 +517,7 @@ td.about_text p {
 }
 
 .story div:first-child {
-  margin-right: 30px;
+  margin-right: 20px;
   margin-top: calc(10px - 32px);
   width: 64px;
   height: 64px;
@@ -526,7 +526,7 @@ td.about_text p {
 }
 
 .story h1 {
-  width: calc(100% - 64px - 30px);
+  width: calc(100% - 64px - 20px);
   float: left;
   position: absolute;
   top: 50%;
