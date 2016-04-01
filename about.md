@@ -26,7 +26,7 @@ We Study and practice on the following topics:
 * Web marketing and Business modeling
 * Software education, based on instructional design and/or apprenticeship with research and internship activities
 
-# 研究室について
+## 研究室について
 
 当研究室では将来の「**多能工プログラマ**」と「**起業家マインドを持ったエンジニア**」を育成しています。
 
