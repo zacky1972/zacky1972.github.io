@@ -630,7 +630,7 @@ td.about_text p {
   position: relative;
 }
 
-.story h1 {
+.story h1:first-child {
   width: calc(100% - 64px - 20px);
   float: left;
   position: relative;
