@@ -10,7 +10,7 @@ layout: default
 * [コンピュータシステム(学部2年次 第2学期) (2014〜)](/courses/ComputerSystems.html)
 * [ソフトウェア設計・同演習(学部3年次 第1学期) (2015〜)](/courses/SoftwareDesign.html)
 * 情報メディア工学実験III (学部3年次 第1学期) (2015〜)
-* [ディジタルシステム設計 (学部3年次 第1学期 集中講義) (2016〜)](/courses/DigitalSystemDesign.html)
+* [ディジタルシステム設計 (学部3年次 第1学期 集中講義) (2016〜)](/courses/DigitalSystemDesign.html)
 * [プログラミング・同演習(学部3年次 第2学期) (2015〜)](/courses/ProgrammingExercises.html)
 * [ソフトウェア工学概論(大学院博士前期課程1年次 第1学期) (2008〜)](/courses/SoftwareEngineering.html)
 * [組込みソフトウェア(大学院博士前期課程1年次 第1学期 集中講義) (2011〜)](/courses/SoftwareForEmbeddedSystems.html)
