@@ -101,4 +101,6 @@ permalink: /talks/index.html
 
 39. <a name="Podcast39"></a><a href="https://zacky1972.github.io/assets/talks/Podcast-0039-WillPower-for-Presentation.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '/assets/talks/Podcast-0039-WillPower-for-Presentation.mp3', 'title':'Podcast-0039-WillPower-for-Presentation'});">2016-02-14 22:43:00 +0900 卒業研究発表会に向けてとその後</a> <a href="https://www.facebook.com/groups/1499000153763602/permalink/1530178677312416/" target="_blank">Facebook</a>
 
+40. <a name="Podcast40"></a><a href="https://zacky1972.github.io/assets/talks/Podcast-0040-Professional.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '/assets/talks/Podcast-0040-Professional.mp3', 'title':'Podcast-0040-Professional'});">2016-04-17 22:47:00 +0900 プロフェッショナルに求められる意識とは？</a> <a href="https://www.facebook.com/groups/1499000153763602/permalink//" target="_blank">Facebook</a>
+
 
