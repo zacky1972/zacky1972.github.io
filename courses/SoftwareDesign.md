@@ -187,7 +187,7 @@ UMLモデルを書くだけではソフトウェア開発は完結しません�
 * 到達目標1: 試験(Examination): 10%
 * 到達目標2: 試験(Examination): 20%
 * 到達目標3: 試験(Examination): 10%
-* 到達目標4: 演習課題(Eercise): 40%
+* 到達目標4: 演習課題(Exercise): 40%
 * 積極的な授業への参加 (Class Participation): 20%
 
 ## 履修上の注意
