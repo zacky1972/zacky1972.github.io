@@ -103,6 +103,6 @@ permalink: /talks/index.html
 
 40. <a name="Podcast40"></a><a href="https://zacky1972.github.io/assets/talks/Podcast-0040-Professional.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '/assets/talks/Podcast-0040-Professional.mp3', 'title':'Podcast-0040-Professional'});">2016-04-17 22:47:00 +0900 プロフェッショナルに求められる意識とは？ その1</a> <a href="https://www.facebook.com/groups/1499000153763602/permalink/1567172953612988/" target="_blank">Facebook</a>
 
-41. <a name="Podcast41"></a><a href="https://zacky1972.github.io/assets/talks/Podcast-0041-Professional-2.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '/assets/talks/Podcast-0041-Professional-2.mp3', 'title':'Podcast-0041-Professional-2'});">2016-04-22 11:49:00 +0900 プロフェッショナルに求められる意識とは？ その2</a> <a href="https://www.facebook.com/groups/1499000153763602/permalink//" target="_blank">Facebook</a>
+41. <a name="Podcast41"></a><a href="https://zacky1972.github.io/assets/talks/Podcast-0041-Professional-2.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '/assets/talks/Podcast-0041-Professional-2.mp3', 'title':'Podcast-0041-Professional-2'});">2016-04-22 11:49:00 +0900 プロフェッショナルに求められる意識とは？ その2</a> <a href="https://www.facebook.com/groups/1499000153763602/permalink/1569571576706459/" target="_blank">Facebook</a>
 
 
