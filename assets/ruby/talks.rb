@@ -120,8 +120,13 @@ def getLengthAndTime(talks)
 	}
 end
 
+puts 'loadYAML'
 talks = loadYAML("../talks/talks.yaml")
+puts 'getLengthAndTime'
 getLengthAndTime(talks)
+puts 'renderMD'
 renderMD(talks)
+puts 'renderPodcast'
 renderPodcast(talks)
+puts 'renderRSS'
 renderRSS(talks)

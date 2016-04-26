@@ -469,5 +469,16 @@
       <pubDate>Fri, 22 Apr 2016 11:49:00 +0900</pubDate>
     </item>
 
+    <item>
+      <title>2016-04-26 09:26:00 +0900 今後の研究室の方向性について〜ビジネスと研究</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> 今後の研究室の方向性について〜ビジネスと研究</itunes:subtitle>
+      <itunes:summary><![CDATA[ 今後の研究室の方向性について〜ビジネスと研究 <a href="https://www.facebook.com/groups/1499000153763602/permalink//" target="_blank">Facebook</a>]]></itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY-3000.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/Podcast-0042-Direction.mp3" length="3374937" type="audio/mpeg" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/Podcast-0042-Direction.mp3</guid>
+      <pubDate>Tue, 26 Apr 2016 09:26:00 +0900</pubDate>
+    </item>
+
   </channel>
 </rss>
