@@ -105,6 +105,6 @@ permalink: /talks/index.html
 
 41. <a name="Podcast41"></a><a href="https://zacky1972.github.io/assets/talks/Podcast-0041-Professional-2.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '/assets/talks/Podcast-0041-Professional-2.mp3', 'title':'Podcast-0041-Professional-2'});">2016-04-22 11:49:00 +0900 プロフェッショナルに求められる意識とは？ その2</a> <a href="https://www.facebook.com/groups/1499000153763602/permalink/1569571576706459/" target="_blank">Facebook</a>
 
-42. <a name="Podcast42"></a><a href="https://zacky1972.github.io/assets/talks/Podcast-0042-Direction.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '/assets/talks/Podcast-0042-Direction.mp3', 'title':'Podcast-0042-Direction'});">2016-04-26 09:26:00 +0900 今後の研究室の方向性について〜ビジネスと研究</a> <a href="https://www.facebook.com/groups/1499000153763602/permalink//" target="_blank">Facebook</a>
+42. <a name="Podcast42"></a><a href="https://zacky1972.github.io/assets/talks/Podcast-0042-Direction.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '/assets/talks/Podcast-0042-Direction.mp3', 'title':'Podcast-0042-Direction'});">2016-04-26 09:26:00 +0900 今後の研究室の方向性について〜ビジネスと研究</a> <a href="https://www.facebook.com/groups/1499000153763602/permalink/1571476949849255/" target="_blank">Facebook</a>
 
 
