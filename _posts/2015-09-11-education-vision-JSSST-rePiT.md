@@ -13,7 +13,7 @@ excerpt: 9月11日(金)14:45〜16:45のセッションにて教育実践の集�
 
 論文予稿を公開します。下記からダウンロードできます。
 
-[http://zacky1972.github.io/assets/pdfs/education-vision.pdf](http://zacky1972.github.io/assets/pdfs/education-vision.pdf)
+[http://zacky1972.github.io/assets/pdfs/education-vision.pdf](/assets/pdfs/education-vision.pdf)
 
 論文発表，いや，「ライブ」に参加したい方は，ぜひ日本ソフトウェア科学会大会に参加申し込みをして，9月11日(金) 14:45〜16:45のセッションに参加ください。終了後にお茶しながら教育談義しましょう！
 

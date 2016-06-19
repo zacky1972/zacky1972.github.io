@@ -15,7 +15,7 @@ excerpt: 教育を通じて学生や若手の社会人たちにどのような�
 
 ## コンセプトづくり
 
-> [ブログ記事より「授業づくりはまずコンセプトづくりから〜事例に学ぶコンセプトづくり」http://zacky1972.github.io/blog/2015/02/25/concept-making-in-practice.html](http://zacky1972.github.io/blog/2015/02/25/concept-making-in-practice.html)
+> [ブログ記事より「授業づくりはまずコンセプトづくりから〜事例に学ぶコンセプトづくり」http://zacky1972.github.io/blog/2015/02/25/concept-making-in-practice.html](/blog/2015/02/25/concept-making-in-practice.html)
 
 コンセプトがはっきりしている製品やサービスは，そうでない製品やサービスに比べて使い勝手が良いことが多いですよね。同じように授業でもコンセプトをはっきりさせると学生にとって様々な利点が生まれます。
 
@@ -51,11 +51,11 @@ excerpt: 教育を通じて学生や若手の社会人たちにどのような�
 
 次の記事では，ガニェの学習成果の5分類を踏まえて，より高度な「問題解決」について論じました。
 
-> [何ができたら「問題解決」したことになるのか〜ガニェの教えからの考察 http://zacky1972.github.io/blog/2015/02/11/essence-of-problem-solving.html](http://zacky1972.github.io/blog/2015/02/11/essence-of-problem-solving.html)
+> [何ができたら「問題解決」したことになるのか〜ガニェの教えからの考察 http://zacky1972.github.io/blog/2015/02/11/essence-of-problem-solving.html](/blog/2015/02/11/essence-of-problem-solving.html)
 
 ### 学習意欲(ARCSモデル)
 
-> [ブログ記事より「学習意欲に火をつけよう！ 〜ARCS モデル」http://zacky1972.github.io/blog/2015/02/06/ARCS.html](http://zacky1972.github.io/blog/2015/02/06/ARCS.html)
+> [ブログ記事より「学習意欲に火をつけよう！ 〜ARCS モデル」http://zacky1972.github.io/blog/2015/02/06/ARCS.html](/blog/2015/02/06/ARCS.html)
 
 一口に学習意欲といっても，何が原因で学習意欲を損ねているのかによって，対処方法を変える必要があります。 
 
