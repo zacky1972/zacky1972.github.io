@@ -3,7 +3,7 @@ title: medium
 layout: default
 permalink: medium/index.html
 ---
-# ブログ
+# Medium 
 
 {% include posts.html category="medium" %}
 
