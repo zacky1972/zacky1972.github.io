@@ -16,7 +16,8 @@ excerpt: 田原さんの「成功と失敗を見届ける覚悟がLearningでき
 
 話を学習に戻すと，このような失敗を恐れない試行錯誤の体験は経験学習の観点からも有用であると言えます。[経験学習入門](//www.amazon.co.jp/gp/product/4478017298/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4478017298&linkCode=as2&tag=zacky1972-22)には，経験学習すなわち経験から学ぶことで学習効果を高めるには，次の3つの要素が重要だとまとめています。
 
-<iframe src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=zacky1972-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4478017298" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+<a  href="http://www.amazon.co.jp/gp/product/4478017298/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4478017298&linkCode=as2&tag=zacky1972-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4478017298&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=zacky1972-22&l=as2&o=9&a=4478017298" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
 
 > 1.ストレッチ: 問題意識を持って，新規性のある課題に取り組む
 
