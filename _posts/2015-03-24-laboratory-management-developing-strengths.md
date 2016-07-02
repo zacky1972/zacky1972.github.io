@@ -72,10 +72,10 @@ excerpt: 今回は，秘伝中の秘伝，私の研究室運営のひみつに�
 
 ## あわせて読みたい
 
+* [ロールモデル設定の極意〜「なりたい自分」は学生の興味や強みの延長線上に](/blog/2016/04/02/role-model-of-student.html)
 * [サイトリニューアル〜「強み x 教育 研究室」にこめた想い](/blog/2016/01/09/renewal.html)
 * [最高のパフォーマンスを発揮する若者を育てたい〜個性に合わせて長所を伸ばす教育に取り組む理由](/medium/2015/09/27/medium.html)
 * [入門ゼミ「自分の『やりたいこと』探し」まとめ](/blog/2015/07/16/Introductory-Seminar.html)
 * [「慎重さ」を生かすプログラマ志望学生の学習アプローチ](/blog/2015/05/16/strengthen-Deliberative-programmer.html)
 * [「包含」を生かすビジネス志向学生の学習アプローチ](/blog/2015/05/17/strengthen-Inclusiveness-entrepreneur.html)
 * [「回復志向」を生かすプログラマ志望学生の学習アプローチ](/blog/2015/05/26/strengthen-Restorative-programmer.html)
-
