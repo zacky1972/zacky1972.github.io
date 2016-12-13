@@ -24,3 +24,6 @@ excerpt: 私のやりたい事を一言で表す「職業名」を考えまし�
 この「Personal Vision Co-Creator」という旗印を掲げて，日々の活動に精力的に励みたいと思いますので，今後ともよろしくお願いします。
 
 ![名刺ポートレイト](/assets/images/namecard-portrait.JPG)
+
+Twitter ハッシュタグは [#PersonalVisionCoCreator](https://twitter.com/hashtag/PersonalVisionCoCreator?src=hash)
+
