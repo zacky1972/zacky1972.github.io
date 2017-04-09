@@ -81,7 +81,7 @@ This class consists of two parts.
 5. Software Testing
 6. Process
 7. Project
-8. Two Positions of Software Development
+8. Two Viewpoints of Software Development
 9. Service Design and Business
 
 ![Course Overview](SWEng-CourseStructure.png "Course Overview")
