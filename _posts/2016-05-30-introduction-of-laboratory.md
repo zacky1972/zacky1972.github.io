@@ -14,3 +14,7 @@ excerpt: 学部3年生向け研究室紹介スライド2016年版を公開しま
 【追記 2016/06/08】学部1年生向けのスライドを公開しました。
 
 <script async class="speakerdeck-embed" data-id="930e9cb060a44ff7a527af0fd2f1e045" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+【追記 2017/04/13】遅くなりましたが2016年10月に学部3年生向けに紹介したスライドを公開しました。
+
+<script async class="speakerdeck-embed" data-id="d0d917ba32d243b992027a6cf4cfdc5c" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
