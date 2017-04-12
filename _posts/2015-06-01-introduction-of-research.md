@@ -15,3 +15,7 @@ excerpt: 研究紹介のスライドを公開しました。
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/m5Q5-bu_1NI" frameborder="0" allowfullscreen></iframe>
 
+## 関連記事
+
+* [研究紹介スライド(2017)](/blog/2017/04/11/introduction-of-laboratory.html)
+* [研究室紹介スライド(2016)](/blog/2016/05/30/introduction-of-laboratory.html)

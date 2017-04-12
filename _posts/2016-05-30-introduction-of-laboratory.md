@@ -18,3 +18,8 @@ excerpt: 学部3年生向け研究室紹介スライド2016年版を公開しま
 【追記 2017/04/13】遅くなりましたが2016年10月に学部3年生向けに紹介したスライドを公開しました。
 
 <script async class="speakerdeck-embed" data-id="d0d917ba32d243b992027a6cf4cfdc5c" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+## 関連記事
+
+* [研究紹介スライド(2017)](/blog/2017/04/11/introduction-of-laboratory.html)
+* [研究紹介スライド(2015)](/blog/2015/06/01/introduction-of-research.html)
