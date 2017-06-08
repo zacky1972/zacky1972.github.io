@@ -34,3 +34,10 @@ excerpt: 9月11日(金)14:45〜16:45のセッションにて教育実践の集�
 [![インストラクショナルデザインの原理](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4762825735&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/4762825735/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4762825735&linkCode=as2&tag=zacky1972-22)
 
 [![教師が変わる, 学生も変わる —ファカルティ・ディベロップメントへの取り組み (シリーズ 北九大の挑戦 3)](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4798501654&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=zacky1972-22)](//www.amazon.co.jp/gp/product/4798501654/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4798501654&linkCode=as2&tag=zacky1972-22)
+
+## 追記: 2017/6/8
+
+ソフトウェアシンポジウム向けにスライドを更新しました。
+
+<script async class="speakerdeck-embed" data-id="974a3a20d79e449eb747d1e4ca6126b7" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
