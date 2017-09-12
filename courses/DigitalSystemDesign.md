@@ -17,7 +17,7 @@ layout: default
 ## 教科書 / Textbooks
 
 【プロセッサ開発】
-[井澤裕司，シンプルなCPUを作ってみよう，ver.2, 2007. http://laputa.cs.shinshu-u.ac.jp/~yizawa/CompArch/design_cpu/](http://laputa.cs.shinshu-u.ac.jp/~yizawa/CompArch/design_cpu/)
+[井澤裕司，シンプルなCPUを作ってみよう，ver.2, 2007. http://www7b.biglobe.ne.jp/~yizawa/design_cpu/index.html](http://www7b.biglobe.ne.jp/~yizawa/design_cpu/index.html)
 
 【コンパイラ開発】
 [青木峰郎，ふつうのコンパイラをつくろう : 言語処理系をつくりながら学ぶコンパイルと実行環境の仕組み，ソフトバンククリエイティブ，2009. ISBN: 9784797337952](//www.amazon.co.jp/gp/product/4797337958/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4797337958&linkCode=as2&tag=zacky1972-22)
