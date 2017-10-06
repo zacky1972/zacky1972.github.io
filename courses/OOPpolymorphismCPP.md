@@ -160,3 +160,38 @@ public:
 
 動作しないコードを何のために書くのでしょうか？ 実は，こう書くことで，Pet クラスの GetAngry メソッドが呼ばれると，実際にはサブクラスで定義されている GetAngry メソッドが呼ばれるようになります。このようにスーパークラスのメソッドをサブクラスが定義しなおして上書きするような働きをするので，オーバーライド(override)と言います。
 
+### 演習問題のコード product.cpp
+
+```c++
+// Product sample
+
+#include <iostream>
+
+using namespace std;
+
+class Product
+{
+protected:
+    int price;
+public:
+    void SetPrice(int p)
+    {
+        this->price = p;
+    }
+
+    virtual int GetPrice()
+    {
+        return price;
+    }
+
+    virtual ~Product() {}
+};
+
+int main()
+{
+    Product* product = new Product();
+    product->SetPrice(100);
+    cout << "商品の価格は" << product->GetPrice() << "円" << endl;
+    return 0;
+}
+```
