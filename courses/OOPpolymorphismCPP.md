@@ -160,7 +160,7 @@ public:
 
 動作しないコードを何のために書くのでしょうか？ 実は，こう書くことで，Pet クラスの GetAngry メソッドが呼ばれると，実際にはサブクラスで定義されている GetAngry メソッドが呼ばれるようになります。このようにスーパークラスのメソッドをサブクラスが定義しなおして上書きするような働きをするので，オーバーライド(override)と言います。
 
-[ここまで読んだら本文に戻ってください。](/courses/OOPpolymorphism.html#whyPolymorphism)
+[ここまで読んだら本文に戻ってください。](/courses/OOPpolymorphism.html#ex)
 
 <a name="product"></a>
 # 演習問題のコード product.cpp 
