@@ -83,14 +83,14 @@ Client というのは，顧客のことですが，ここではその意味か�
 # Pet sample
 
 class Pet
-	def getAngry
-	end
+   def getAngry
+   end
 end
 
 class Cat < Pet
-	def getAngry
-		"ネコがひっかく"
-	end
+   def getAngry
+      "ネコがひっかく"
+   end
 end
 
 pet = Cat.new
@@ -105,9 +105,9 @@ puts pet.getAngry
 
 ```ruby
 class Dog < Pet
-	def getAngry
-		"イヌがほえる"
-	end
+   def getAngry
+      "イヌがほえる"
+   end
 end
 ```
 
@@ -119,20 +119,20 @@ end
 # Pet sample
 
 class Pet
-	def getAngry
-	end
+   def getAngry
+   end
 end
 
 class Cat < Pet
-	def getAngry
-		"ネコがひっかく"
-	end
+   def getAngry
+      "ネコがひっかく"
+   end
 end
 
 class Dog < Pet
-	def getAngry
-		"イヌがほえる"
-	end
+   def getAngry
+      "イヌがほえる"
+   end
 end
 
 pet = Cat.new
