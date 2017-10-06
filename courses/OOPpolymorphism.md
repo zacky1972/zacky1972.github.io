@@ -1,8 +1,11 @@
 ---
 title: オブジェクト指向プログラミング〜ポリモーフィズム
-layout: default
+layout: post
+excerpt: このテキストでは，オブジェクト指向プログラミングの原動力であるポリモーフィズムについて説明します。
 ---
 # オブジェクト指向プログラミング〜ポリモーフィズム
+
+このテキストでは，オブジェクト指向プログラミングの原動力であるポリモーフィズムについて説明します。
 
 ## クラスと属性・操作
 
@@ -77,69 +80,9 @@ Client というのは，顧客のことですが，ここではその意味か�
 
 ## ポリモーフィズムのサンプルプログラム
 
-先ほどのクラス図は，Ruby の場合，次のように書きます。
+各言語によるポリモーフィズムのサンプルプログラムを紹介します。
 
-```ruby
-# Pet sample
-
-class Pet
-   def getAngry
-   end
-end
-
-class Cat < Pet
-   def getAngry
-      "ネコがひっかく"
-   end
-end
-
-pet = Cat.new
-puts pet.getAngry
-```
-
-ここで，Client のコードは pet = ... 以降です。
-
-このプログラムを実行すると，「ひっかく」と表示されます。
-
-ここで新たに次のコードを Client の前に足してください。
-
-```ruby
-class Dog < Pet
-   def getAngry
-      "イヌがほえる"
-   end
-end
-```
-
-その上で，Client のコードの Cat.new を Dog.new に変更して実行すると，「ほえる」と表示されます。
-
-ここまでまとめると，次のようなコードになります。
-
-```ruby
-# Pet sample
-
-class Pet
-   def getAngry
-   end
-end
-
-class Cat < Pet
-   def getAngry
-      "ネコがひっかく"
-   end
-end
-
-class Dog < Pet
-   def getAngry
-      "イヌがほえる"
-   end
-end
-
-pet = Cat.new
-puts pet.getAngry
-pet = Dog.new
-puts pet.getAngry
-```
+* [C++](/courses/OOPpolymorphismCPP.html)
 
 
 なんでポリモーフィズムがあるかというと，どのサブクラスであったとしても，Client のコードはそのままで実行できるという利点があるからです。この利点により，コードの再利用性が高まるので，ソフトウェア開発の生産性が高くなります。
