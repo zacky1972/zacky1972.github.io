@@ -15,9 +15,9 @@ excerpt: このテキストでは，オブジェクト指向プログラミン�
 
 ## C++でのプログラム例
 
-getAngry の部分を C++ で記述します。
+GetAngry の部分を C++ で記述します。
 
-```C++
+```c++
 // Pet sample
 
 #include <iostream> // cout, endl を使うため
