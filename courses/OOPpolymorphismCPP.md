@@ -178,7 +178,7 @@ class Product
 protected:
     int price;
 public:
-    void SetPrice(int p)
+    virtual void SetPrice(int p)
     {
         this->price = p;
     }
@@ -200,5 +200,4 @@ int main()
 }
 ```
 
-## 補足説明
-
+[本文に戻る](/courses/OOPpolymorphism.html#ex3)
