@@ -198,6 +198,7 @@ int main()
     Product* product = new Product();
     product->SetPrice(100);
     cout << "商品の価格は" << product->GetPrice() << "円" << endl;
+    delete product;
     return 0;
 }
 ```
