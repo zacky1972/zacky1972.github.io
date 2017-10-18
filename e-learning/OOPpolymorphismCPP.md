@@ -15,7 +15,7 @@ excerpt: このテキストでは，オブジェクト指向プログラミン�
 
 ## C++でのプログラム例
 
-GetAngry の部分を C++ で記述します。
+GetAngry の部分を C++ で記述します。(ファイル名 pet.cpp)
 
 ```c++
 // Pet sample
@@ -165,7 +165,7 @@ public:
 [ここまで読んだら本文に戻ってください。](/e-learning/OOPpolymorphism.html#ex)
 
 <a name="product"></a>
-# 演習問題のコード product.cpp 
+# 演習問題のコード (ファイル名: product.cpp)
 
 
 ```c++
