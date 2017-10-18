@@ -131,7 +131,7 @@ Client というのは，顧客のことですが，ここではその意味か�
 
 クラス Product と Client のコードは下記のコードを参考にしてください。　
 
-* [C++のコード](/e-learing/OOPpolymorphismCPP.html#product)
+* [C++のコード](/e-learning/OOPpolymorphismCPP.html#product)
 
 ### 演習問題4
 
