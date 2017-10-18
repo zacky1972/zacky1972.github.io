@@ -20,31 +20,55 @@ GetAngry の部分を C++ で記述します。(ファイル名 pet.cpp)
 ```c++
 // Pet sample
 
-#include <iostream> // cout, endl を使うため
-#include <string> // string を使うため
+#include <iostream> // コンソール出力 cout, 改行 endl を使うため
+#include <string> // 文字列 string を使うため
 
-using namespace std; // これを書くと std::cout と書かずに cout と省略できる
+using namespace std; // これを書くと，たとえば std::cout と書かずに cout と省略できる
 
-class Pet // クラス Pet を定義する
+/*
+ * クラス Pet: ペット型ロボットのクラス
+ */
+class Pet
 {
 public: // 以下のメンバー変数やメソッドを公開する
     virtual string GetAngry() = 0; // 抽象メソッド
-    virtual ~Pet() {} // デストラクタ: delete で呼ばれる
+    virtual ~Pet() {}
+    /*
+     * 今の時点では↑は，Cat や Dog を削除(delete)するときに
+     * 必要な「おまじない」だと思ってください
+     */
 };
 
-class Cat : public Pet // スーパークラスが Pet であるようなクラス Cat を定義する
+/*
+ * クラス Cat: ネコ型ロボットのクラス
+ * スーパークラスは Pet
+ */
+class Cat : public Pet
 {
 public:
-    virtual string GetAngry() // C++ ではメソッドに virtual とつけるとポリモーフィズムが利くようになる
+    /*
+     * メソッド GetAngry (怒る)
+     */
+    virtual string GetAngry()
+    /*
+     * 今の時点では， C++ ではメソッドに virtual とつけると，ポリモーフィズムが利いて，
+     * サブクラスでメソッドの上書き(オーバーライド)ができるようになると理解してください
+     */
     {
         return "ネコがひっかく";
     }
 };
 
-
+/*
+ * クラス Dog: イヌ型ロボットのクラス
+ * スーパークラスは Pet
+ */
 class Dog : public Pet
 {
 public:
+    /*
+     * メソッド GetAngry (怒る)
+     */
     virtual string GetAngry()
     {
         return "イヌがほえる";
@@ -53,13 +77,13 @@ public:
 
 int main()
 {
-    Pet* pet = new Cat(); // Cat クラスのインスタンス(実体)を新規作成し，ポインタ変数 pet に代入する
-    cout << pet->GetAngry() << endl; // C言語風に書くと printf("%s\n", pet->GetAngry());
-    delete pet; // C++ ではオブジェクトを使い終わったら必ず delete する
+    Pet* pet1 = new Cat(); // Cat(ネコ型ロボット)を実体化して，変数 pet1 に代入する
+    cout << pet1->GetAngry() << endl; // C言語風に書くと printf("%s\n", pet1->GetAngry());
+    delete pet1; // C++ ではオブジェクトを使い終わったら必ず削除 (delete) する
 
-    pet = new Dog();
-    cout << pet->GetAngry() << endl; // C言語風に書くと printf("%s\n", pet->GetAngry());
-    delete pet;
+    Pet* pet2 = new Dog();
+    cout << pet2->GetAngry() << endl; // C言語風に書くと printf("%s\n", pet2->GetAngry());
+    delete pet2;
 
     return 0;
 }
@@ -92,13 +116,13 @@ Client に相当するコードは次の部分です。
 ```c++
 int main()
 {
-    Pet* pet = new Cat(); // Cat クラスのインスタンス(実体)を新規作成し，ポインタ変数 pet に代入する
-    cout << pet->GetAngry() << endl; // C言語風に書くと printf("%s\n", pet->GetAngry());
-    delete pet; // C++ ではオブジェクトを使い終わったら必ず delete する
+    Pet* pet1 = new Cat();
+    cout << pet1->GetAngry() << endl;
+    delete pet1;
 
-    pet = new Dog();
-    cout << pet->GetAngry() << endl; // C言語風に書くと printf("%s\n", pet->GetAngry());
-    delete pet;
+    Pet* pet2 = new Dog();
+    cout << pet2->GetAngry() << endl;
+    delete pet2;
 
     return 0;
 }
@@ -106,7 +130,7 @@ int main()
 
 前半部分では，Cat クラス(ネコ型ロボット)を生成して GetAngry メソッドを呼び出しています。その結果，「ネコがひっかく」と表示されます。後半部分では，Dog クラス(イヌ型ロボット)を生成して，GetAngry メソッドを呼び出しています。その結果，「イヌがほえる」と表示されます。
 
-注目してほしいのは，メソッドを呼び出すコードが，ネコでもイヌでも pet->GetAngry() であるという点です。まったく同じコードなのに，ネコとイヌで振る舞いが異なります。このことをポリモーフィズム(polymorphism)と言います。
+注目してほしいのは，メソッドを呼び出すコードが，ネコでもイヌでも pet1->GetAngry() もしくは pet2->GetAngry() と，全く同じコードの形をしているという点です。まったく同じなのに，ネコとイヌで振る舞いが異なります。このことをポリモーフィズム(polymorphism)と言います。
 
 以下で，ポリモーフィズムを働かせるためにどのようにプログラミングしているかを見ていきましょう。
 
@@ -127,17 +151,19 @@ public:
 
 * まず class Cat : public Pet とすることで，Cat が Pet を継承すると定義しています。
 * 次に virtual string GetAngry() では GetAngry メソッドを定義しています。
-* virtual をつけると，ポリモーフィズムを有効にします。C++ では明示的に virtual をつけないとポリモーフィズムが機能しません。
+* virtual をつけると，ポリモーフィズムを有効にして，サブクラスでメソッドの上書き(オーバーライド)ができるようになります。今の時点では，C++ では原則的にメソッドに virtual をつける必要があると理解してください。
 
 なお，C++ では次のように宣言と定義を分離して書くこともできます。大規模なプログラムを書くときには宣言と定義を分離し，宣言をヘッダファイル(.h)に書くことが一般的です。
 
 ```c++
+// クラス Cat と メソッド GetAngry の宣言
 class Cat : public Pet
 {
 public:
     virtual string GetAngry();
 };
 
+// クラス Cat のメソッド GetAngry の定義
 string Cat::GetAngry() {
     return "ネコがひっかく";
 }
@@ -153,7 +179,7 @@ string Cat::GetAngry() {
 class Pet
 {
 public:
-    virtual string GetAngry() = 0; // 抽象メソッド
+    virtual string GetAngry() = 0;
     virtual ~Pet() {}
 };
 ```
