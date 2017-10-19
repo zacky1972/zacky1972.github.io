@@ -277,7 +277,7 @@ nav a:active {
   01-06. contents
 -----------------------------------------------------------------------*/
 .contents {
-  line-height: 1.5em; 
+  line-height: 1.5em;
 }
 .contents .search {
   float: right;
@@ -430,6 +430,14 @@ td.about_text p {
   width: 24px;
 }
 
+
+.highlighter-rouge {
+  overflow: hidden;
+  padding-top: 1em;
+}
+.highlight {
+  height: auto !important;
+}
 
 /*-----------------------------------------------------------------------
   02-01. .top(/index.html)
