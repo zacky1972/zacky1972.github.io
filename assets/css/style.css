@@ -53,7 +53,7 @@ textarea {
 }
 a,
 a:link {
-  color: #2b1d19;
+  color: blue;
   text-decoration: none;
   -webkit-transition-property: all;
   -webkit-transition: 0.25s linear;
@@ -67,7 +67,7 @@ a:link {
   transition: 0.25s linear;
 }
 a:visited {
-  color: #2b1d19;
+  color: darkblue;
   text-decoration: none;
   -webkit-transition-property: all;
   -webkit-transition: 0.25s linear;
