@@ -47,7 +47,7 @@ class Cat : public Pet
 protected:
 	/*
 	 * AfterEat: エサ (food)を食べた後の動作を行う
-	 * 	3. エサに砂をかける動作をする
+	 * 3. エサに砂をかける動作をする
 	 * 4. 毛づくろいする
 	 */
 	virtual void AfterEat(string food) {
