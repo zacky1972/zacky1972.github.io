@@ -1,4 +1,5 @@
 # Pet sample
+# coding: utf-8
 
 class Pet():
     def getAngry(self):
