@@ -99,6 +99,7 @@ Client というのは，顧客のことですが，ここではその意味か�
 各言語によるポリモーフィズムのサンプルプログラムを紹介します。
 
 * [C++のコード](/e-learning/OOPpolymorphismCPP.html)
+* [Pythonのコード](/e-learning/OOPpolymorphismPython.html)
 
 
 <a name="ex"></a>
@@ -136,6 +137,7 @@ Client というのは，顧客のことですが，ここではその意味か�
 クラス Product と Client のコードは下記のコードを参考にしてください。　
 
 * [C++のコード](/e-learning/OOPpolymorphismCPP.html#product)
+* [Pythonのコード](/e-learning/OOPpolymorphismPython.html#product)
 
 ### 演習問題4
 
