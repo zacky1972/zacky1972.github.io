@@ -9,7 +9,7 @@ excerpt: このテキストでは，Template Method パターンの Python の�
 
 ## クラス図・シーケンス図
 
-![Template Method パターン(ペット型ロボット)](assets/images/pet-uml-template-method.png)
+![Template Method パターン(ペット型ロボット)](/assets/images/pet-uml-template-method.png)
 
 ## プログラムコード例
 
