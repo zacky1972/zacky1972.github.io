@@ -28,7 +28,7 @@ excerpt: このテキストでは，Template Method パターンについて説�
 
 ## Template Method パターンによる解法
 
-![Template Method パターン(ペット型ロボット)](assets/images/pet-uml-template-method.png)
+![Template Method パターン(ペット型ロボット)](/assets/images/pet-uml-template-method.png)
 
 プログラムコード例
 * [C++](/e-learning/OOPtemplatemethodCPP.html)
