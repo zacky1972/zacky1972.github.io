@@ -2,6 +2,9 @@
 # coding: utf-8
 
 class LightState():
+    @staticmethod
+    def setState(light, state):
+        light.setState(state)
     def turnOn(self, light):
         pass
     def turnOff(self, light):
@@ -10,12 +13,12 @@ class LightState():
 class LightOff(LightState):
     def turnOn(self, light):
         print('点灯する')
-        light.setState(Light.lightOn)
+        LightState.setState(light, Light.lightOn)
 
 class LightOn(LightState):
     def turnOff(self, light):
         print('消灯する')
-        light.setState(Light.lightOff)
+        LightState.setState(light, Light.lightOff)
 
 class Light():
     lightOff = LightOff()
