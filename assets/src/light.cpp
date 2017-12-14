@@ -8,6 +8,9 @@ class Light;
 
 class LightState
 {
+protected:
+    static void SetState(Light* light, const LightState* state);
+
 public:
     virtual ~LightState() {}
     virtual void TurnOn(Light* light) {}
@@ -33,19 +36,22 @@ class Light
 {
     LightState* state;
 
+protected:
+    virtual void SetState(const LightState* state)
+    {
+        this->state = const_cast<LightState*>(state);
+    }
+
 public:
     const static LightState* lightOff; 
     const static LightState* lightOn; 
+    friend class LightState;
 
     Light()
     {
         this->SetState(lightOff);
     }
     virtual ~Light() {}
-    virtual void SetState(const LightState* state)
-    {
-        this->state = const_cast<LightState*>(state);
-    }
     virtual void TurnOn()
     {
         this->state->TurnOn(this);
@@ -60,17 +66,21 @@ public:
 const LightState* Light::lightOff = new LightOff();
 const LightState* Light::lightOn = new LightOn();
 
+void LightState::SetState(Light* light, const LightState* state)
+{
+    light->SetState(state);
+}
 
 void LightOff::TurnOn(Light* light)
 {
     cout << "点灯する" << endl;
-    light->SetState(Light::lightOn);
+    SetState(light, Light::lightOn);
 }
 
 void LightOn::TurnOff(Light* light)
 {
     cout << "消灯する" << endl;
-    light->SetState(Light::lightOff);
+    SetState(light, Light::lightOff);
 }
 
 int main()
