@@ -9,4 +9,6 @@ excerpt: ザキ研の長期研究ビジョンを公表します。
 
 ザキ研の長期研究ビジョンを公表します。
 
+[ザキ研10年ビジョン](https://zacky1972.github.io/research-vision-2018/#/)
+
 <iframe allowfullscreen="true" src="https://zacky1972.github.io/research-vision-2018/#/" title="ザキ研10年ビジョン"/>
