@@ -59,6 +59,9 @@ AI専門家である[永原正章先生](http://www.kitakyu-u.ac.jp/env/subject/
 
 [ザキ研10年ビジョン〜Elixir](https://zacky1972.github.io/research-vision-2018/#/1)
 
+<iframe allowfullscreen="true" src="https://zacky1972.github.io/research-vision-2018/#/1" title="ザキ研10年ビジョン〜Elixir"/>
+
+
 ひびきのAI研究会での出会いをきっかけに，[fukuoka.ex](https://fukuokaex.connpass.com)と出会い，2018年から[Elixir(エリクサー)](https://elixir-lang.org)の研究活動をスタートさせることになりました。
 
 Elixirはシンプルで並列性と耐障害性に優れたプログラミング言語です。Elixirで記述された[Phoenix](http://phoenixframework.org)は簡潔な記述で大量のデータアクセスに耐えられるウェブサイトを構築できます。
