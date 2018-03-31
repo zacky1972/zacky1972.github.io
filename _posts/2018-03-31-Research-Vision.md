@@ -11,13 +11,13 @@ excerpt: ザキ研の長期研究ビジョンを公表します。
 
 [ザキ研10年ビジョン](https://zacky1972.github.io/research-vision-2018/#/)
 
-<iframe allowfullscreen="true" src="https://zacky1972.github.io/research-vision-2018/#/" title="ザキ研10年ビジョン"/>
+<iframe allowfullscreen="true" src="https://zacky1972.github.io/research-vision-2018/#/" title="ザキ研10年ビジョン"></iframe>
 
 ## 若者の潜在能力を最大限引き出す教育
 
 [ザキ研10年ビジョン〜若者の潜在能力を最大限引き出す教育](https://zacky1972.github.io/research-vision-2018/#/7)
 
-<iframe allowfullscreen="true" src="https://zacky1972.github.io/research-vision-2018/#/7" title="ザキ研10年ビジョン〜若者の潜在能力を最大限引き出す教育"/>
+<iframe allowfullscreen="true" src="https://zacky1972.github.io/research-vision-2018/#/7" title="ザキ研10年ビジョン〜若者の潜在能力を最大限引き出す教育"></iframe>
 
 今まで長年にわたって，私たちは**若者の潜在能力を最大限引き出す教育**に取り組んできました。そのために編み出したのは，[数々の授業科目](http://zacky1972.github.io/courses/)，[共同研究型インターンシップ](http://zacky1972.github.io/blog/2015/09/23/collaborative-research-internships.html)，そして[小学校プログラミング教育「KaFT」](https://zacky1972.github.io/KaFT/)です。
 
@@ -31,7 +31,7 @@ excerpt: ザキ研の長期研究ビジョンを公表します。
 
 [ザキ研10年ビジョン〜地域課題の解決](https://zacky1972.github.io/research-vision-2018/#/4)
 
-<iframe allowfullscreen="true" src="https://zacky1972.github.io/research-vision-2018/#/4" title="ザキ研10年ビジョン〜地域課題の解決"/>
+<iframe allowfullscreen="true" src="https://zacky1972.github.io/research-vision-2018/#/4" title="ザキ研10年ビジョン〜地域課題の解決"></iframe>
 
 一方，共同研究型インターンシップを進めていくうちに，地域課題を解決するアプリを開発するというテーマが，地域の方々に大変喜ばれ，かつ地域貢献を大事にする北九州市立大学の活動としての大義名分があると実感するようになりました。
 
@@ -45,7 +45,7 @@ KK-SHiFTの活動を続けていくことで，北九州高専のソフトウェ
 
 [ザキ研10年ビジョン〜AI技術の社会実装](https://zacky1972.github.io/research-vision-2018/#/9)
 
-<iframe allowfullscreen="true" src="https://zacky1972.github.io/research-vision-2018/#/9" title="ザキ研10年ビジョン〜AI技術の社会実装"/>
+<iframe allowfullscreen="true" src="https://zacky1972.github.io/research-vision-2018/#/9" title="ザキ研10年ビジョン〜AI技術の社会実装"></iframe>
 
 最近急速に依頼が増えてきた共同研究案件として，**AI技術の社会実装**があります。
 
@@ -59,7 +59,7 @@ AI専門家である[永原正章先生](http://www.kitakyu-u.ac.jp/env/subject/
 
 [ザキ研10年ビジョン〜Elixir](https://zacky1972.github.io/research-vision-2018/#/1)
 
-<iframe allowfullscreen="true" src="https://zacky1972.github.io/research-vision-2018/#/1" title="ザキ研10年ビジョン〜Elixir"/>
+<iframe allowfullscreen="true" src="https://zacky1972.github.io/research-vision-2018/#/1" title="ザキ研10年ビジョン〜Elixir"></iframe>
 
 
 ひびきのAI研究会での出会いをきっかけに，[fukuoka.ex](https://fukuokaex.connpass.com)と出会い，2018年から[Elixir(エリクサー)](https://elixir-lang.org)の研究活動をスタートさせることになりました。
@@ -79,7 +79,7 @@ Elixirに対する私たちの期待は次の通りです。
 
 [ZEAM開発ログ 第1回: BEAMバイトコード・インサイド〜30年の歴史を誇るBEAMを超えるには](https://zeam-vm.github.io/zeam-fukuoka.ex-20170223/#/)
 
-<iframe allowfullscreen="true" src="https://zeam-vm.github.io/zeam-fukuoka.ex-20170223/#/" title="ZEAM開発ログ 第1回: BEAMバイトコード・インサイド〜30年の歴史を誇るBEAMを超えるには"/>
+<iframe allowfullscreen="true" src="https://zeam-vm.github.io/zeam-fukuoka.ex-20170223/#/" title="ZEAM開発ログ 第1回: BEAMバイトコード・インサイド〜30年の歴史を誇るBEAMを超えるには"></iframe>
 
 2018年にElixirに関する共同研究を1件スタートさせました。この研究では主に次のことを目指します。
 
@@ -94,7 +94,7 @@ Elixirに対する私たちの期待は次の通りです。
 
 [ザキ研10年ビジョン〜地域イノベーション研究所(仮称)の創立に向けて](https://zacky1972.github.io/research-vision-2018/#/10)
 
-<iframe allowfullscreen="true" src="https://zacky1972.github.io/research-vision-2018/#/10" title="ザキ研10年ビジョン〜地域イノベーション研究所(仮称)の創立に向けて"/>
+<iframe allowfullscreen="true" src="https://zacky1972.github.io/research-vision-2018/#/10" title="ザキ研10年ビジョン〜地域イノベーション研究所(仮称)の創立に向けて"></iframe>
 
 このような方向性の研究を拡大するにあたって，**地域課題の解決のためのイノベーション**を興す研究を行う**地域イノベーション研究所**の創設を目指します。
 
