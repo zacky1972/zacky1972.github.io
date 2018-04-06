@@ -95,7 +95,6 @@ This class consists of two parts.
 5. Reference 2 (discussion)
 6. Reference 3
 7. Reference 3 (discussion)
-8. Reflection of Part I
 
 ### Part II (Poster Presentations)
 
@@ -106,7 +105,7 @@ This class consists of two parts.
 12. Reflection of Poster Session
 13. Refining Presentation
 14. Poster Session (Retry)
-15. Reflection of Part II
+15. Reflection
 
 ## Assessment Method
 
