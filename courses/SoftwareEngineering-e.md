@@ -108,7 +108,7 @@ This class consists of two parts.
 14. Poster Session (Retry)
 15. Reflection of Part II
 
-## 成績評価の方法
+## Assessment Method
 
 * Objective 1, 30%
 	* Three reports at least in Part I. Each describes a summary of the reference introduced in the textbook.
@@ -123,7 +123,7 @@ This class consists of two parts.
 
 ## Preparation and Review
 
-In Part I, the student must read the whole books that will be lent from the instructor.
+In Part I, the student must read the books that will be lent from the instructor.
 
 In Part II, the student must research and prepare a presentation.
 
