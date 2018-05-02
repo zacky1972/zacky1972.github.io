@@ -32,7 +32,7 @@ fukuoka.exで始めた新企画で，季節外れのAdvent Calendarをfukuoka.ex
 ### piacere
 
 1. [ExcelでElixirマスター1回目：行の「並べ替え」と「絞り込み」](https://qiita.com/piacere/items/6714e1440e3f25fb46a1)
-2. ExcelでElixirマスター2回目：列の抽出とWeb表示
+2. [ExcelでElixirマスター2回目：「列の抽出」と「Web表示」](https://qiita.com/piacere/items/b7787580fce5f148242f)
 3. ExcelでElixirマスター3回目：WebにDBデータ表示
 4. ExcelでElixirマスター4回目：Webに外部APIデータ表示
 5. ExcelでElixirマスター5回目：Webにグラフ表示
