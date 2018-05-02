@@ -19,6 +19,8 @@ fukuoka.ex で取材を受けました。私，山崎が登場するのは part.
 
 ![fukuoka.ex](http://dame.engineer/wp-content/uploads/2018/04/fukuokaex.png)
 
+![fukuoka.ex members](http://dame.engineer/wp-content/uploads/2018/05/fukuoka_ex_all2.png)
+
 ## 季節外れの Elixir or Phoenix Advent Calendar
 
 [Elixir or Phoenix Advent Calendar 2017](https://qiita.com/advent-calendar/2017/elixir-or-phoenix)
@@ -29,8 +31,6 @@ fukuoka.exで始めた新企画で，季節外れのAdvent Calendarをfukuoka.ex
 
 ### piacere
 
-![piacere](http://dame.engineer/wp-content/uploads/2018/04/piacere_small.png)
-
 1. [ExcelでElixirマスター1回目：行の「並べ替え」と「絞り込み」](https://qiita.com/piacere/items/6714e1440e3f25fb46a1)
 2. ExcelでElixirマスター2回目：列の抽出とWeb表示
 3. ExcelでElixirマスター3回目：WebにDBデータ表示
@@ -38,8 +38,6 @@ fukuoka.exで始めた新企画で，季節外れのAdvent Calendarをfukuoka.ex
 5. ExcelでElixirマスター5回目：Webにグラフ表示
 
 ### つちろー
-
-![つちろー](http://dame.engineer/wp-content/uploads/2018/04/tsutiro_obal.png)
 
 1. [ElixirでSI開発入門 #1 Ectoで悲観的ロック](https://qiita.com/tuchiro/items/7b04b0661cfa4a7af179)
 2. ElixirでSI開発入門 #2 Ectoで楽観的ロック
@@ -49,8 +47,6 @@ fukuoka.exで始めた新企画で，季節外れのAdvent Calendarをfukuoka.ex
 
 ### enぺだーし
 
-![enぺだーし](http://dame.engineer/wp-content/uploads/2018/04/enpedasi_obal.png)
-
 1. [ElixirのGenStageに入門する #1](https://qiita.com/twinbee/items/12a61863ceef794996e0)
 2. Elixir GenStage #2 背圧を理解する
 3. Elixir Flowでイベント制御を行う
@@ -58,8 +54,6 @@ fukuoka.exで始めた新企画で，季節外れのAdvent Calendarをfukuoka.ex
 5. Elixirから簡単にRustが呼べるRustler#2 クレートを使ってみる
 
 ### ZACKY
-
-![ZACKY](http://dame.engineer/wp-content/uploads/2018/05/zack_obal.png)
 
 1. [ZEAM開発ログv0.1.0 Flow / GenStage による並列プログラミング入門](https://qiita.com/zacky1972/items/e843607881bbeca34b70)
 2. ZEAM開発ログv0.1.1 AI/MLを爆速にしたい！ Flow / GenStage でGPUを駆動できないの？
