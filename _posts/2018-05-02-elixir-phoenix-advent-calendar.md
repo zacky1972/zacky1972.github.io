@@ -48,7 +48,7 @@ fukuoka.exで始めた新企画で，季節外れのAdvent Calendarをfukuoka.ex
 ### enぺだーし
 
 1. [ElixirのGenStageに入門する #1](https://qiita.com/twinbee/items/12a61863ceef794996e0)
-2. Elixir GenStage #2 背圧を理解する
+2. [Elixir GenStage #2 背圧を理解する](https://qiita.com/twinbee/items/eda7f70fa9e4651f2248)
 3. Elixir Flowでイベント制御を行う
 4. Elixirから簡単にRustが呼べるRustler#1 準備編
 5. Elixirから簡単にRustが呼べるRustler#2 クレートを使ってみる
