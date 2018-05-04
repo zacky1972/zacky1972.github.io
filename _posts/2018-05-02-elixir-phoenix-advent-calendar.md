@@ -56,9 +56,9 @@ fukuoka.exで始めた新企画で，季節外れのAdvent Calendarをfukuoka.ex
 ### ZACKY
 
 1. [ZEAM開発ログv0.1.0 Flow / GenStage による並列プログラミング入門](https://qiita.com/zacky1972/items/e843607881bbeca34b70)
-2. ZEAM開発ログv0.1.1 AI/MLを爆速にしたい！ Flow / GenStage でGPUを駆動できないの？
-3. ZEAM開発ログv0.1.2 Flow / GenStage からGPU駆動ハンドコンパイル
-4. ZEAM開発ログv0.1.3 Flow / GenStage GPU続編，詳細追ってお知らせ，乞うご期待！
+2. [ZEAM開発ログv0.1.1 AI/MLを爆速にしたい！ Flow / GenStage でGPUを駆動できないの？](https://qiita.com/zacky1972/items/140d2380dfdf727b22bc)
+3. ZEAM開発ログv0.1.2 AI/MLを爆速にしたい！ Flow のコードを OpenCL で書いてみる〜CPU編
+4. ZEAM開発ログv0.1.3 AI/MLを爆速にしたい！ Flow のコードを OpenCL で書いてみる〜GPU編
 
 ### takasehideki (ゲスト出演)
 
