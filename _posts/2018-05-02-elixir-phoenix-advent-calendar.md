@@ -13,8 +13,8 @@ fukuoka.exが送るElixir(エリクサー)に関する連載記事を紹介し�
 
 fukuoka.ex で取材を受けました。私，山崎が登場するのは part.3 です。
 
-1. [【part.1】福岡のElixirコミュニティ fukuoka.exをどんな人がやってるか聞いてきた](http://dame.engineer/archives/391)
-2. [【part.2】福岡のElixirコミュニティ fukuoka.exをどんな人がやってるか聞いてきた](http://dame.engineer/archives/414)
+1. [【part.1】福岡のElixirコミュニティ fukuoka.exをどんな人がやってるか聞いてきた](http://dame.engineer/archives/391#post-391)
+2. [【part.2】福岡のElixirコミュニティ fukuoka.exをどんな人がやってるか聞いてきた](http://dame.engineer/archives/414#post-414)
 3. [【part.3】福岡のElixirコミュニティ fukuoka.exをどんな人がやってるか聞いてきた](http://dame.engineer/archives/439#post-439)
 
 ![fukuoka.ex](http://dame.engineer/wp-content/uploads/2018/04/fukuokaex.png)
@@ -33,7 +33,7 @@ fukuoka.exで始めた新企画で，季節外れのAdvent Calendarをfukuoka.ex
 
 1. [ExcelでElixirマスター1回目：行の「並べ替え」と「絞り込み」](https://qiita.com/piacere/items/6714e1440e3f25fb46a1)
 2. [ExcelでElixirマスター2回目：「列の抽出」と「Web表示」](https://qiita.com/piacere/items/b7787580fce5f148242f)
-3. ExcelでElixirマスター3回目：WebにDBデータ表示
+3. [ExcelでElixirマスター3回目：WebにDBデータ表示](https://qiita.com/piacere/items/a7558adc6856e3577dc6)
 4. ExcelでElixirマスター4回目：Webに外部APIデータ表示
 5. ExcelでElixirマスター5回目：Webにグラフ表示
 
