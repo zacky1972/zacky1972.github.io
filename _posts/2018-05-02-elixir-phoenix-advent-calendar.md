@@ -64,7 +64,7 @@ fukuoka.exで始めた新企画で，季節外れのAdvent Calendarをfukuoka.ex
 
 1. [ElixirでIoT#0：IoTボードへのLinux環境の準備](https://qiita.com/takasehideki/items/9e3db412a40659233384)
 2. [ElixirでIoT#1：IoTボードへのElixir環境の構築とEEloTツールキットの紹介](https://qiita.com/takasehideki/items/fc570ae92a895caed213)
-3. ElixirでIoT#2：いろいろ分かるベンチマークを整備してみる
-4. ElixirでIoT#3：IoTボードで動いた！Phoenixが立った！性能評価と考察
+3. [ElixirでIoT#2：いろいろ分かるベンチマークを整備してみる](https://qiita.com/takasehideki/items/e1dcb4058c7d0b51d554)
+4. [ElixirでIoT#3：IoTボードで動いた！Phoenixが立った！性能評価と考察](https://qiita.com/takasehideki/items/0aa644639f81c2ad0bbc)
 5. ElixirでIoT#4：Nervesって何者？ラズパイでLチカできんの！？
 
