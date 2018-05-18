@@ -35,7 +35,7 @@ fukuoka.exで始めた新企画で，季節外れのAdvent Calendarをfukuoka.ex
 2. [Excelから関数型言語マスター2回目：「列の抽出」と「Web表示」](https://qiita.com/piacere/items/b7787580fce5f148242f)
 3. [Excelから関数型言語マスター3回目：WebにDBデータ表示](https://qiita.com/piacere/items/a7558adc6856e3577dc6)
 4. [Excelから関数型言語マスター4回目：Webに外部APIデータ表示](https://qiita.com/piacere/items/4c212615a4eb699dd109)
-5. Excelから関数型言語マスター5回目：Webにグラフ表示
+5. [Excelから関数型言語マスター5回目：Webにグラフ表示](https://qiita.com/piacere_ex/items/290b76b76d5ff8e019bf)
 
 ### つちろー
 
