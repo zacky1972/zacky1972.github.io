@@ -35,15 +35,15 @@ fukuoka.exで始めた新企画で，季節外れのAdvent Calendarをfukuoka.ex
 2. [Excelから関数型言語マスター2回目：「列の抽出」と「Web表示」](https://qiita.com/piacere/items/b7787580fce5f148242f)
 3. [Excelから関数型言語マスター3回目：WebにDBデータ表示](https://qiita.com/piacere/items/a7558adc6856e3577dc6)
 4. [Excelから関数型言語マスター4回目：Webに外部APIデータ表示](https://qiita.com/piacere/items/4c212615a4eb699dd109)
-5. Excelから関数型言語マスター5回目：Webにグラフ表示
+5. [Excelから関数型言語マスター5回目：Webにグラフ表示](https://qiita.com/piacere_ex/items/290b76b76d5ff8e019bf)
 
 ### つちろー
 
 1. [ElixirでSI開発入門 #1 Ectoで悲観的ロック](https://qiita.com/tuchiro/items/7b04b0661cfa4a7af179)
 2. [ElixirでSI開発入門 #2 Ectoで楽観的ロック](https://qiita.com/tuchiro/items/8949cc43ba90f4e68bf3)
 3. [ElixirでSI開発入門 #3 主キーが"id "じゃない既存DBへの接続](https://qiita.com/tuchiro/items/a4808baacea9a07d2409)
-4. ElixirでSI開発入門 #4 本番パスワードを環境変数に持たせる
-5. ElixirでSI開発入門 #5 システムログをファイル出力する
+4. [ElixirでSI開発入門 #4 本番パスワードを環境変数に持たせる](https://qiita.com/tuchiro/items/4ccba7e210c596c383af)
+5. [ElixirでSI開発入門 #5 Ectoで自由にSQLを書いて実行する](https://qiita.com/tuchiro/items/34a3c7f0f7deb5d3241f)
 
 ### enぺだーし
 
@@ -58,7 +58,7 @@ fukuoka.exで始めた新企画で，季節外れのAdvent Calendarをfukuoka.ex
 1. [ZEAM開発ログv0.1.0 Flow / GenStage による並列プログラミング入門](https://qiita.com/zacky1972/items/e843607881bbeca34b70)
 2. [ZEAM開発ログv0.1.1 AI/MLを爆速にしたい！ Flow / GenStage でGPUを駆動できないの？](https://qiita.com/zacky1972/items/140d2380dfdf727b22bc)
 3. [ZEAM開発ログv0.1.2 AI/MLを爆速にしたい！ Flow のコードを OpenCL で書いてみる〜CPU編](https://qiita.com/zacky1972/items/c5c43794bd8af75a9800)
-4. ZEAM開発ログv0.1.3 AI/MLを爆速にしたい！ Flow のコードを OpenCL で書いてみる〜GPU編
+4. [ZEAM開発ログv0.1.3 AI/MLを爆速にしたい！ Flow のコードを OpenCL で書いてみる〜GPU編](https://qiita.com/zacky1972/items/05ab840561657da1e154)
 
 ### takasehideki (ゲスト出演)
 
@@ -66,5 +66,5 @@ fukuoka.exで始めた新企画で，季節外れのAdvent Calendarをfukuoka.ex
 2. [ElixirでIoT#1：IoTボードへのElixir環境の構築とEEloTツールキットの紹介](https://qiita.com/takasehideki/items/fc570ae92a895caed213)
 3. [ElixirでIoT#2：いろいろ分かるベンチマークを整備してみる](https://qiita.com/takasehideki/items/e1dcb4058c7d0b51d554)
 4. [ElixirでIoT#3：IoTボードで動いた！Phoenixが立った！性能評価と考察](https://qiita.com/takasehideki/items/0aa644639f81c2ad0bbc)
-5. ElixirでIoT#4：Nervesって何者？ラズパイでLチカできんの！？
+5. [ElixirでIoT#4：Nervesって何者？ラズパイでLチカできんの！？](https://qiita.com/takasehideki/items/94820516ec95b85bae32)
 
