@@ -23,7 +23,8 @@ fukuoka.ex で取材を受けました。私，山崎が登場するのは part.
 
 ## 季節外れの Elixir or Phoenix Advent Calendar
 
-[Elixir or Phoenix Advent Calendar 2017](https://qiita.com/advent-calendar/2017/elixir-or-phoenix)
+1. [Elixir or Phoenix Advent Calendar 2017](https://qiita.com/advent-calendar/2017/elixir-or-phoenix)
+2. [fukuoka.ex(その2) Elixir Advent Calendar 2017](https://adventar.org/calendars/2871)
 
 fukuoka.exで始めた新企画で，季節外れのAdvent Calendarをfukuoka.exチームで書いて，連載的に情報発信しよう！という企画です。
 
@@ -59,6 +60,7 @@ fukuoka.exで始めた新企画で，季節外れのAdvent Calendarをfukuoka.ex
 2. [ZEAM開発ログv0.1.1 AI/MLを爆速にしたい！ Flow / GenStage でGPUを駆動できないの？](https://qiita.com/zacky1972/items/140d2380dfdf727b22bc)
 3. [ZEAM開発ログv0.1.2 AI/MLを爆速にしたい！ Flow のコードを OpenCL で書いてみる〜CPU編](https://qiita.com/zacky1972/items/c5c43794bd8af75a9800)
 4. [ZEAM開発ログv0.1.3 AI/MLを爆速にしたい！ Flow のコードを OpenCL で書いてみる〜GPU編](https://qiita.com/zacky1972/items/05ab840561657da1e154)
+5. [ZEAM開発ログv0.1.4 Python/NumPyとElixir/Flow一本勝負！ElixirはAI/ML業界に革命をもたらすか!?](https://qiita.com/zacky1972/items/5e7a31b3ee03bc0d31dd)
 
 ### takasehideki (ゲスト出演)
 
