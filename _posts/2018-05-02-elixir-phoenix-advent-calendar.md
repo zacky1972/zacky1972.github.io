@@ -76,3 +76,9 @@ fukuoka.exで始めた新企画で，季節外れのAdvent Calendarをfukuoka.ex
 ### koga
 
 1. [Elixirのパーサーコンビネータライブラリ Combine入門](https://qiita.com/koga1020/items/e102dc56315800704602)
+
+
+### kobatako
+
+1. [ElixirでSlack Botを作った with Qiita API](https://qiita.com/kobatako/items/586f82b2845f7d1583ce)
+
