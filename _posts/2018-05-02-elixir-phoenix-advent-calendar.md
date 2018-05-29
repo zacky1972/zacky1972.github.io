@@ -46,6 +46,7 @@ fukuoka.exで始めた新企画で，季節外れのAdvent Calendarをfukuoka.ex
 3. [ElixirでSI開発入門 #3 主キーが"id "じゃない既存DBへの接続](https://qiita.com/tuchiro/items/a4808baacea9a07d2409)
 4. [ElixirでSI開発入門 #4 本番パスワードを環境変数に持たせる](https://qiita.com/tuchiro/items/4ccba7e210c596c383af)
 5. [ElixirでSI開発入門 #5 Ectoで自由にSQLを書いて実行する](https://qiita.com/tuchiro/items/34a3c7f0f7deb5d3241f)
+6. [ElixirでSI開発入門 #7 Multiで使う関数を再利用可能な粒度に分割する](https://qiita.com/tuchiro/items/8048e38404e0968d9b6e)
 
 ### enぺだーし
 
