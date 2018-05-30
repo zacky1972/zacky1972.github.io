@@ -56,6 +56,7 @@ fukuoka.exで始めた新企画で，季節外れのAdvent Calendarをfukuoka.ex
 4. [Elixirから簡単にRustを呼び出せるRustler #1 準備編](https://qiita.com/twinbee/items/aabc11d0d667800fc0bb)
 5. [Elixirから簡単にRustを呼び出せるRustler #2 クレートを使ってみる](https://qiita.com/twinbee/items/54e8a4ec73bc27abd10e)
 6. [Elixirから簡単にRustを呼び出せるRustler #3 いろいろな型を呼び出す](https://qiita.com/twinbee/items/f94eb7f74ff39c781da0)
+7. [Elixirから簡単にRustを呼び出せるRustler #4 SHIFT-JIS変換を行う](https://qiita.com/twinbee/items/75415203e44daee16fcc)
 
 ### ZACKY
 
