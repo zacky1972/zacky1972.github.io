@@ -80,6 +80,7 @@ fukuoka.exで始めた新企画で，季節外れのAdvent Calendarをfukuoka.ex
 ### koga
 
 1. [Elixirのパーサーコンビネータライブラリ Combine入門](https://qiita.com/koga1020/items/e102dc56315800704602)
+2. [Phoenix + Vue.js入門](https://qiita.com/koga1020/items/c02a0fd5ae11fb5da1e0)
 
 
 ### kobatako
