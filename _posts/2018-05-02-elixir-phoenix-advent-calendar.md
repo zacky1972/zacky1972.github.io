@@ -70,6 +70,7 @@ fukuoka.exで始めた新企画で，季節外れのAdvent Calendarをfukuoka.ex
 5. [ZEAM開発ログv0.1.4 Python/NumPyとElixir/Flow一本勝負！ElixirはAI/ML業界に革命をもたらすか!?](https://qiita.com/zacky1972/items/5e7a31b3ee03bc0d31dd)
 6. [ZEAM開発ログv0.1.5 Elixir から Rustler でネイティブコードベンチマークを呼び出してみよう〜ElixirでAI/MLを高速化](https://qiita.com/zacky1972/items/95d898c5b44fd6f243ee)
 7. [ZEAM開発ログv0.1.6 Elixir から Rustler で GPU を駆動しよう〜ElixirでAI/MLを高速化](https://qiita.com/zacky1972/items/c998cad40ff9f2a42fde)
+8. [ZEAM開発ログv0.1.6.1 Elixir / Rustler 小ネタ集〜 Rustler でリストからバイナリに変換](https://qiita.com/zacky1972/items/cab329e03f9fae6c7404)
 
 ### takasehideki (ゲスト出演)
 
