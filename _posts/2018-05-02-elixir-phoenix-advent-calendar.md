@@ -92,3 +92,4 @@ fukuoka.exで始めた新企画で，季節外れのAdvent Calendarをfukuoka.ex
 
 1. [ElixirでSlack Botを作った with Qiita API](https://qiita.com/kobatako/items/586f82b2845f7d1583ce)
 2. [定期的にSlack Botで記事を通知する with Qiita API](https://qiita.com/kobatako/items/d7b404ba53f9a25ac5aa)
+3. [Slack botで通知したい投稿日のものを通知する with Qiita API](https://qiita.com/kobatako/items/f4c3cb1b21c499f7614e)
