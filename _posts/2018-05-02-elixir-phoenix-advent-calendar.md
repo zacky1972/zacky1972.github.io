@@ -39,6 +39,7 @@ fukuoka.exで始めた新企画で，季節外れのAdvent Calendarをfukuoka.ex
 5. [Excelから関数型言語マスター5回目：Webにグラフ表示](https://qiita.com/piacere_ex/items/290b76b76d5ff8e019bf)
 6. [Elixirでデータ分析入門#1：様々なデータをインプットする](https://qiita.com/piacere_ex/items/f7077f0ff1b1a6c7a959)
 7. [Elixirでデータ分析入門#2：インプットしたデータを変換する（前処理①）](https://qiita.com/piacere_ex/items/64c2127857599137e8a7)
+8. [関数型でデータサイエンス番外編：様々な日時文字列を扱えるようにする](https://qiita.com/piacere_ex/items/09d4dfab06c66f4faae4)
 
 ### つちろー
 
