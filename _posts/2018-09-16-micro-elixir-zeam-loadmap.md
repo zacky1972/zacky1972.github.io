@@ -40,7 +40,7 @@ Polymorphic LLVM によるインラインアセンブリコード記述でも Ru
 |> [ZEAM開発ログ v.0.4.5 ビット列について調べてみる](https://qiita.com/zacky1972/items/939acbd6ff6580479253)  
 |> [ZEAM開発ログ v.0.4.6 OKを使ってNIFのエラー処理をエレガントに書いてみる](https://qiita.com/zacky1972/items/54ce88214c9a8b10d645)  
 |> [ZEAM開発ログ v.0.4.7 BigNum をどのようにNIFで扱うか考える](https://qiita.com/zacky1972/items/e2858597de64ec2449dc)  
-
+|> [ZEAM開発ログ v.0.4.8 INT64判定をGPUベンチマークに組込む](https://qiita.com/zacky1972/items/0475cb5e48869435dcc5)  
 
 以上の研究により，C言語や LLVM IR でどのようなコードを生成すれば型多相かつ型安全で，分岐予測の観点で最適化されたコードを生成できるかがわかりました。
 
