@@ -32,9 +32,15 @@ Polymorphic LLVM によるインラインアセンブリコード記述でも Ru
 そこで，型多相かつ型安全なコード生成について研究を進めました。
 
 **今までの開発成果**
-|> [ZEAM開発ログ v.0.4.0 型多相かつ型安全なNIFをC言語で書いてみる](https://qiita.com/zacky1972/items/ddcbab5998d7864b3f18)
-|> [ZEAM開発ログ v.0.4.1 型多相かつ型安全なNIFの LLVM IR コードを読み解く](https://qiita.com/zacky1972/items/c922d6e8ba9dd951aa34)
-|> [ZEAM開発ログ v.0.4.2 型多相かつ型安全なNIFのコードを分岐予測の観点で最適化する](https://qiita.com/zacky1972/items/4d72b95be62b446ae4be)
+|> [ZEAM開発ログ v.0.4.0 型多相かつ型安全なNIFをC言語で書いてみる](https://qiita.com/zacky1972/items/ddcbab5998d7864b3f18)  
+|> [ZEAM開発ログ v.0.4.1 型多相かつ型安全なNIFの LLVM IR コードを読み解く](https://qiita.com/zacky1972/items/c922d6e8ba9dd951aa34)  
+|> [ZEAM開発ログ v.0.4.2 型多相かつ型安全なNIFのコードを分岐予測の観点で最適化する](https://qiita.com/zacky1972/items/4d72b95be62b446ae4be)  
+|> [ZEAM開発ログ v.0.4.3 型多相かつ型安全なNIFでオーバーフローを検出する](https://qiita.com/zacky1972/items/affc8861c0838cc4d935)  
+|> [ZEAM開発ログ v.0.4.4 INT64判定をマクロで簡単に判定する](https://qiita.com/zacky1972/items/878489ce88f380f0ae60)  
+|> [ZEAM開発ログ v.0.4.5 ビット列について調べてみる](https://qiita.com/zacky1972/items/939acbd6ff6580479253)  
+|> [ZEAM開発ログ v.0.4.6 OKを使ってNIFのエラー処理をエレガントに書いてみる](https://qiita.com/zacky1972/items/54ce88214c9a8b10d645)  
+|> [ZEAM開発ログ v.0.4.7 BigNum をどのようにNIFで扱うか考える](https://qiita.com/zacky1972/items/e2858597de64ec2449dc)  
+
 
 以上の研究により，C言語や LLVM IR でどのようなコードを生成すれば型多相かつ型安全で，分岐予測の観点で最適化されたコードを生成できるかがわかりました。
 
