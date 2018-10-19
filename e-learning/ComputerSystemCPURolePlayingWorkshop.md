@@ -26,8 +26,8 @@ excerpt: このテキストでは，Z80 CPUになりきってグループワー�
 
 プログラム例1,2の解答例は次の通りです。
 
-* [Z80プログラム例1-解答例](ComputerSystem-03-CPU-IS-Z80-Q-1-a.pdf)
-* [Z80プログラム例2-解答例](ComputerSystem-03-CPU-IS-Z80-Q-2-a.pdf)
+* [Z80プログラム例1-解答例](./pdfs/ComputerSystem-03-CPU-IS-Z80-Q-1-a.pdf)
+* [Z80プログラム例2-解答例](./pdfs/ComputerSystem-03-CPU-IS-Z80-Q-2-a.pdf)
 
 このロールプレイングワークショップのノリはこんな感じです(実際には仮装しません)。
 
