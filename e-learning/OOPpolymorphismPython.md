@@ -140,6 +140,42 @@ class Cat(Pet): pass
 pet = Cat() # エラーになる
 ```
 
+### どのように呼び出されるか
+
+下記の Client のコードでの `pet.getAngry()` について，
+
+```python
+pet = Cat()
+pet.getAngry()
+```
+
+変数 `pet` の実態は `Cat` クラスですので，まず `Pet` クラスの定義を見にいきます。
+
+```python
+class Cat(Pet):
+    def getAngry(self):
+        print('ネコがひっかく')
+```
+
+ここで，`getAngry` メソッドが定義されているので，これが呼び出されて「ネコがひっかく」と表示します。
+
+もしこの `Cat` クラスが次のように定義されていたとします。
+
+```python
+class Cat(Pet): pass
+```
+
+ここには `getAngry` メソッドが定義されていないので，スーパークラスである `Pet` クラスを見にいきます。
+
+```python
+from abc import ABCMeta, abstractmethod
+
+class Pet(metaclass=ABCMeta):
+    @abstractmethod
+    def getAngry(self): pass
+```
+
+`getAngry` が抽象メソッド `@abstractmethod` であると宣言されています。そのため，`getAngry` メソッドを `Cat` で定義してほしいと，エラーを出して終了します。
 
 [ここまで読んだら本文に戻ってください。](/e-learning/OOPpolymorphism.html#ex)
 
