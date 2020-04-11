@@ -149,7 +149,7 @@ pet = Cat()
 pet.getAngry()
 ```
 
-変数 `pet` の実態は `Cat` クラスですので，まず `Pet` クラスの定義を見にいきます。
+変数 `pet` の実態は `Cat` クラスですので，まず `Cat` クラスの定義を見にいきます。
 
 ```python
 class Cat(Pet):
