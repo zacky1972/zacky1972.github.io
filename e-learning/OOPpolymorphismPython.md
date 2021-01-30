@@ -21,108 +21,27 @@ GetAngry の部分を Python で記述します。(ファイル名 pet.py)
 # Pet sample
 # coding: utf-8
 
-class Pet():
-    def getAngry(self):
-         pass
+from abc import ABCMeta, abstractmethod
+
+class Pet(metaclass=ABCMeta):
+    @abstractmethod
+    def getAngry(self): pass
 
 class Cat(Pet):
     def getAngry(self):
-        return 'ネコがひっかく'
+        print('ネコがひっかく')
 
 class Dog(Pet):
     def getAngry(self):
-        return 'イヌがほえる'
+        print('イヌがほえる')
 
 pet = Cat()
-print(pet.getAngry())
+pet.getAngry()
 pet = Dog()
-print(pet.getAngry())
+pet.getAngry()
 ```
 
 ## 実行方法
-
-このプログラムは Python 3 系列を前提に書かれています。そのため，Python のバージョンが 3 以上であることを確認します。
-
-```
-$ python --version
-Python 2.7.10
-```
-
-この例では Python 2 系列であるバージョン 2.7.10 です。Python 3 系列に切り替えてやる必要があります。
-
-Python のバージョンを切り替えるには pyenv を使うことが多いです。まず，pyenv でインストールされているバージョンを確認しましょう。
-
-```
-$ pyenv versions
-* system (set by /***/.pyenv/version)
-```
-
-この場合はバージョンが1つしかないので，別のバージョンの Python をインストールする必要があります。インストールできる Python のバージョンのリストは次のコマンドを入力します。
-
-```
-$ pyenv install -l
-Available versions:
-  2.1.3
-  2.2.3
-  2.3.7
-  2.4
-...
-  3.5.3
-  3.5.4
-  3.6.0
-  3.6-dev
-  3.6.1
-  3.6.2
-  3.6.3
-  3.7.0a1
-  3.7-dev
-...
-  anaconda-1.4.0
-  anaconda-1.5.0
-  anaconda-1.5.1
-  anaconda-1.6.0
-  anaconda-1.6.1
-...
-  anaconda3-2.4.1
-  anaconda3-2.5.0
-  anaconda3-4.0.0
-  anaconda3-4.1.0
-  anaconda3-4.1.1
-...
-```
-
-この場合，バージョン3の安定版である，3.6.* もしくは anaconda3-* をインストールするといいでしょう。(演習室環境ではインストール済みです)
-
-たとえば 3.6.0 をインストールする場合は次のように入力します。
-
-```
-$ pyenv install 3.6.0
-```
-
-anaconda3-4.3.0 をインストールする場合は次のように入力します。
-
-```
-$ pyenv install anaconda3-4.3.0
-```
-
-改めてバージョンリストを表示すると次のようになります。(演習室環境では2017年11月現在この状態です)
-
-```
-$ pyenv versions
-* system (set by /***/.pyenv/version)
-  3.6.0
-  anaconda3-4.3.0
-```
-
-使用するバージョンを切り替えるには，たとえば次のように入力します。
-
-```
-$ pyenv global anaconda3-4.3.0
-$ pyenv versions
-  system
-  3.6.0
-* anaconda3-4.3.0 (set by /***/.pyenv/version)
-```
 
 実行するには次のように入力しましょう。
 
@@ -147,9 +66,9 @@ Client に相当するコードは次の部分です。
 
 ```python
 pet = Cat()
-print(pet.getAngry())
+pet.getAngry()
 pet = Dog()
-print(pet.getAngry())
+pet.getAngry()
 ```
 
 前半部分では，Cat クラス(ネコ型ロボット)を生成して getAngry メソッドを呼び出しています。その結果，「ネコがひっかく」と表示されます。後半部分では，Dog クラス(イヌ型ロボット)を生成して，getAngry メソッドを呼び出しています。その結果，「イヌがほえる」と表示されます。
@@ -165,7 +84,7 @@ print(pet.getAngry())
 ```python
 class Cat(Pet):
     def getAngry(self):
-        return 'ネコがひっかく'
+        print('ネコがひっかく')
 ```
 
 * まず class Cat(Pet) とすることで，Cat が Pet を継承すると定義しています。
@@ -176,22 +95,87 @@ class Cat(Pet):
 ```python
 class Dog(Pet):
     def getAngry(self):
-        return 'イヌがほえる'
+        print('イヌがほえる')
 ```
+
+このように Python では，異なるクラスに同じ名前のメソッドを持たせることで，ポリモーフィズムを実現します。
 
 ### スーパークラスのコード
 
 スーパークラスである Pet クラスは次のように定義しています。
 
 ```python
-class Pet():
-    def getAngry(self):
-         pass
+from abc import ABCMeta, abstractmethod
+
+class Pet(metaclass=ABCMeta):
+    @abstractmethod
+    def getAngry(self): pass
 ```
 
-ポイントとなるのは，pass です。Pet クラスの getAngry メソッドには実体がなく，単体では動作しません。これを抽象メソッド(abstract method) と言います。抽象メソッドを含むクラスのことを抽象クラス(abstract class)と言います。
+ポイントとなるのは，`@abstractmethod` と `pass` です。これらを書いているので，Pet クラスは単体では動作しません。
 
-動作しないコードを何のために書くのでしょうか？ 実は，こう書くことで，Pet クラスの getAngry メソッドが呼ばれると，実際にはサブクラスで定義されている getAngry メソッドが呼ばれるようになります。このようにスーパークラスのメソッドをサブクラスが定義しなおして上書きするような働きをするので，オーバーライド(override)と言います。
+たとえば次のようなプログラムを書くとエラーになります。
+
+```python
+from abc import ABCMeta, abstractmethod
+
+class Pet(metaclass=ABCMeta):
+    @abstractmethod
+    def getAngry(self): pass
+
+pet = Pet() # エラーになる
+```
+
+動作しないコードを何のために書くのでしょうか？ 実は，こう書くことで，Pet クラスを継承した時に，サブクラスで getAngry メソッドを必ず上書き(オーバーライド: override)して定義することが求められます。そうしないで実体を作ろうとするとエラーになります。
+
+```python
+from abc import ABCMeta, abstractmethod
+
+class Pet(metaclass=ABCMeta):
+    @abstractmethod
+    def getAngry(self): pass
+
+class Cat(Pet): pass
+
+pet = Cat() # エラーになる
+```
+
+### どのように呼び出されるか
+
+下記の Client のコードでの `pet.getAngry()` について，
+
+```python
+pet = Cat()
+pet.getAngry()
+```
+
+変数 `pet` の実態は `Cat` クラスですので，まず `Cat` クラスの定義を見にいきます。
+
+```python
+class Cat(Pet):
+    def getAngry(self):
+        print('ネコがひっかく')
+```
+
+ここで，`getAngry` メソッドが定義されているので，これが呼び出されて「ネコがひっかく」と表示します。
+
+もしこの `Cat` クラスが次のように定義されていたとします。
+
+```python
+class Cat(Pet): pass
+```
+
+ここには `getAngry` メソッドが定義されていないので，スーパークラスである `Pet` クラスを見にいきます。
+
+```python
+from abc import ABCMeta, abstractmethod
+
+class Pet(metaclass=ABCMeta):
+    @abstractmethod
+    def getAngry(self): pass
+```
+
+`getAngry` が抽象メソッド `@abstractmethod` であると宣言されています。そのため，`getAngry` メソッドを `Cat` で定義してほしいと，エラーを出して終了します。
 
 [ここまで読んだら本文に戻ってください。](/e-learning/OOPpolymorphism.html#ex)
 
