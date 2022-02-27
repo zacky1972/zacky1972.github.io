@@ -7,7 +7,7 @@ category: Education
 explicit:
 link: https://zacky1972.github.io/talks/
 language: ja-jp
-file_dir: https://zacky1972.github.io/assets/talks/
+file_dir: https://media.githubusercontent.com/media/zacky1972/zacky1972.github.io/master/assets/talks/
 file_dir_short: /assets/talks/
 path: ../talks/
 Facebook: https://www.facebook.com/groups/1499000153763602/
@@ -240,11 +240,11 @@ talks:
    file: Podcast-0042-Direction
    Facebook: 1571476949849255
  - num: 43
-   date: 2022-02-02
+   date: 2022-02-02T08:30:00+09:00
    title: kokura.exラジオ〜ゲストAlice
    file: kokuraex_alice
  - num: 44
-   date: 2022-02-16
+   date: 2022-02-16T08:30:00+09:00
    title: kokura.exラジオ〜ゲストpiacere
    file: kokuraex_piacere
 

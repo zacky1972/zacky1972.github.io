@@ -39,9 +39,9 @@ permalink: /talks/index.html
 
 {% for talk in talks %}
 {% if talk.Facebook %}
-  {{ talk.num }}. <a name="Podcast{{ talk.num }}"></a><a href="{{ file_dir }}{{ talk.file }}.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '{{ file_dir_short }}{{ talk.file }}.mp3', 'title':'{{ talk.file }}'});">{{ talk.date }} {{ talk.title }}</a> <a href="{{Facebook}}permalink/{{talk.Facebook}}/" target="_blank">Facebook</a>
+  {{ talk.num }}. <a name="Podcast{{ talk.num }}"></a> <embed src="{{ file_dir }}{{ talk.file }}.mp3" autostart="false" hidden="false"> <a href="{{Facebook}}permalink/{{talk.Facebook}}/" target="_blank">Facebook</a>
 {% else %}
-  {{ talk.num }}. <a name="Podcast{{ talk.num }}"></a><a href="{{ file_dir }}{{ talk.file }}.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '{{ file_dir_short }}{{ talk.file }}.mp3', 'title':'{{ talk.file }}'});">{{ talk.date }} {{ talk.title }}</a>
+  {{ talk.num }}. <a name="Podcast{{ talk.num }}"></a> <embed src="{{ file_dir }}{{ talk.file }}.mp3" autostart="false" hidden="false">
 {% endif %}
 {% endfor %}
 
