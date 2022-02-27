@@ -40,7 +40,7 @@ permalink: /talks/index.html
 {% for talk in talks %}
   {{ talk.num }}. <a name="Podcast{{ talk.num }}"></a> <audio id="my-audio{{ talk.num }}"> <source src="{{ file_dir }}{{ talk.file }}.mp3" type="audio/mpeg"> </audio> <a href="{{ file_dir }}{{ talk.file }}.mp3">{{ talk.date }} {{ talk.title }}</a> <button id="play{{ talk.num }}">play</button><button id="pause{{ talk.num }}">pause</button> {% if talk.Facebook %}<a href="{{Facebook}}permalink/{{talk.Facebook}}/" target="_blank">Facebook</a>{% endif %}
   <script>
-    window.onload = function(){
+    window.addEventListener('load', function(){
       var myAudio{{ talk.num }} = document.getElementById('my-audio{{ talk.num }}');
       var play{{ talk.num }} = document.getElementById('play{{ talk.num }}');
       var pause{{ talk.num }} = document.getElementById('pause{{ talk.num }}');
@@ -53,7 +53,7 @@ permalink: /talks/index.html
       function pauseAudio{{ talk.num }}() {
         myAudio{{ talk.num }}.pause();
       }
-    }
+    });
   </script>
 {% endfor %}
 
