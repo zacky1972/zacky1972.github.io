@@ -42,25 +42,21 @@ permalink: /talks/index.html
   <a name="Podcast{{ talk.num }}"></a> 
   <audio id="my-audio{{ talk.num }}">
     <source src="{{ file_dir }}{{ talk.file }}.mp3" type="audio/mpeg">
-    <p>{{ talk.date }} {{ talk.title }}</p>
   </audio>
+  <p>{{ talk.date }} {{ talk.title }}</p>
   <button id="play{{ talk.num }}">play</button>
   <button id="pause{{ talk.num }}">pause</button>
   <script>
     window.onload = function(){
-
       var myAudio = document.getElementById('my-audio{{ talk.num }}');
       var play = document.getElementById('play{{ talk.num }}');
       var pause = document.getElementById('pause{{ talk.num }}');
-
       // associate functions with the 'onclick' events
       play.onclick = playAudio;
       pause.onclick = pauseAudio;
-
       function playAudio() {
         myAudio.play();
       }
-  
       function pauseAudio() {
         myAudio.pause();
       }
