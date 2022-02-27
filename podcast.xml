@@ -480,5 +480,27 @@
       <pubDate>Tue, 26 Apr 2016 09:26:00 +0900</pubDate>
     </item>
 
+    <item>
+      <title>2022-02-02 kokura.exラジオ〜ゲストAlice</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> kokura.exラジオ〜ゲストAlice</itunes:subtitle>
+      <itunes:summary><![CDATA[ kokura.exラジオ〜ゲストAlice <a href="https://www.facebook.com/groups/1499000153763602/permalink//" target="_blank">Facebook</a>]]></itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY-3000.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/kokuraex_alice.mp3" length="60687985" type="audio/mpeg" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/kokuraex_alice.mp3</guid>
+      <pubDate>Wed, 2 Feb 2022 00:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <title>2022-02-16 kokura.exラジオ〜ゲストpiacere</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> kokura.exラジオ〜ゲストpiacere</itunes:subtitle>
+      <itunes:summary><![CDATA[ kokura.exラジオ〜ゲストpiacere <a href="https://www.facebook.com/groups/1499000153763602/permalink//" target="_blank">Facebook</a>]]></itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY-3000.jpg" />
+      <enclosure url="https://zacky1972.github.io/assets/talks/kokuraex_piacere.mp3" length="64479985" type="audio/mpeg" />
+      <guid isPermaLink="true">https://zacky1972.github.io/assets/talks/kokuraex_piacere.mp3</guid>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+    </item>
+
   </channel>
 </rss>
