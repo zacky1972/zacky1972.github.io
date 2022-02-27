@@ -38,14 +38,7 @@ permalink: /talks/index.html
 [![Get it on iTunes]({{ iTunes_svg }}) iTunes]({{ iTunes }})
 
 {% for talk in talks %}
-  {{ talk.num }}. 
-  <a name="Podcast{{ talk.num }}"></a> 
-  <audio id="my-audio{{ talk.num }}">
-    <source src="{{ file_dir }}{{ talk.file }}.mp3" type="audio/mpeg">
-  </audio>
-  <p>{{ talk.date }} {{ talk.title }}</p>
-  <button id="play{{ talk.num }}">play</button>
-  <button id="pause{{ talk.num }}">pause</button>
+  {{ talk.num }}. <a name="Podcast{{ talk.num }}"></a> <audio id="my-audio{{ talk.num }}"> <source src="{{ file_dir }}{{ talk.file }}.mp3" type="audio/mpeg"> </audio> <p>{{ talk.date }} {{ talk.title }}</p><button id="play{{ talk.num }}">play</button><button id="pause{{ talk.num }}">pause</button> {% if talk.Facebook %}<a href="{{Facebook}}permalink/{{talk.Facebook}}/" target="_blank">Facebook</a>{% endif %}
   <script>
     window.onload = function(){
       var myAudio = document.getElementById('my-audio{{ talk.num }}');
@@ -62,9 +55,6 @@ permalink: /talks/index.html
       }
     }
   </script>
-  {% if talk.Facebook %}
-    <a href="{{Facebook}}permalink/{{talk.Facebook}}/" target="_blank">Facebook</a>
-  {% endif %}
 {% endfor %}
 
 EOS
