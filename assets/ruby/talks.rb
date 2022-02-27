@@ -38,20 +38,20 @@ permalink: /talks/index.html
 [![Get it on iTunes]({{ iTunes_svg }}) iTunes]({{ iTunes }})
 
 {% for talk in talks %}
-  {{ talk.num }}. <a name="Podcast{{ talk.num }}"></a> <audio id="my-audio{{ talk.num }}"> <source src="{{ file_dir }}{{ talk.file }}.mp3" type="audio/mpeg"> </audio> <p>{{ talk.date }} {{ talk.title }}</p><button id="play{{ talk.num }}">play</button><button id="pause{{ talk.num }}">pause</button> {% if talk.Facebook %}<a href="{{Facebook}}permalink/{{talk.Facebook}}/" target="_blank">Facebook</a>{% endif %}
+  {{ talk.num }}. <a name="Podcast{{ talk.num }}"></a> <audio id="my-audio{{ talk.num }}"> <source src="{{ file_dir }}{{ talk.file }}.mp3" type="audio/mpeg"> </audio> <a href="{{ file_dir }}{{ talk.file }}.mp3">{{ talk.date }} {{ talk.title }}</a> <button id="play{{ talk.num }}">play</button><button id="pause{{ talk.num }}">pause</button> {% if talk.Facebook %}<a href="{{Facebook}}permalink/{{talk.Facebook}}/" target="_blank">Facebook</a>{% endif %}
   <script>
     window.onload = function(){
-      var myAudio = document.getElementById('my-audio{{ talk.num }}');
-      var play = document.getElementById('play{{ talk.num }}');
-      var pause = document.getElementById('pause{{ talk.num }}');
+      var myAudio{{ talk.num }} = document.getElementById('my-audio{{ talk.num }}');
+      var play{{ talk.num }} = document.getElementById('play{{ talk.num }}');
+      var pause{{ talk.num }} = document.getElementById('pause{{ talk.num }}');
       // associate functions with the 'onclick' events
-      play.onclick = playAudio;
-      pause.onclick = pauseAudio;
-      function playAudio() {
-        myAudio.play();
+      play{{ talk.num }}.onclick = playAudio{{ talk.num }};
+      pause{{ talk.num }}.onclick = pauseAudio{{ talk.num }};
+      function playAudio{{ talk.num }}() {
+        myAudio{{ talk.num }}.play();
       }
-      function pauseAudio() {
-        myAudio.pause();
+      function pauseAudio{{ talk.num }}() {
+        myAudio{{ talk.num }}.pause();
       }
     }
   </script>
