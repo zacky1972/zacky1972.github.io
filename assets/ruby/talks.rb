@@ -7,7 +7,8 @@ require 'pp'
 require 'date'
 
 def loadYAML(filename)
-	YAML.load(File.read(filename), :encoding => Encoding::UTF_8)
+	#YAML.load(File.read(filename), :encoding => Encoding::UTF_8)
+	YAML.load(File.read(filename))
 end
 
 def render(file, template, talks)
@@ -37,7 +38,11 @@ permalink: /talks/index.html
 [![Get it on iTunes]({{ iTunes_svg }}) iTunes]({{ iTunes }})
 
 {% for talk in talks %}
-{{ talk.num }}. <a name="Podcast{{ talk.num }}"></a><a href="{{ file_dir }}{{ talk.file }}.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '{{ file_dir_short }}{{ talk.file }}.mp3', 'title':'{{ talk.file }}'});">{{ talk.date }} {{ talk.title }}</a> <a href="{{Facebook}}permalink/{{talk.Facebook}}/" target="_blank">Facebook</a>
+{% if talk.Facebook %}
+  {{ talk.num }}. <a name="Podcast{{ talk.num }}"></a><a href="{{ file_dir }}{{ talk.file }}.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '{{ file_dir_short }}{{ talk.file }}.mp3', 'title':'{{ talk.file }}'});">{{ talk.date }} {{ talk.title }}</a> <a href="{{Facebook}}permalink/{{talk.Facebook}}/" target="_blank">Facebook</a>
+{% else %}
+  {{ talk.num }}. <a name="Podcast{{ talk.num }}"></a><a href="{{ file_dir }}{{ talk.file }}.mp3" target="_blank" onclick="ga('send', 'pageview', {'page': '{{ file_dir_short }}{{ talk.file }}.mp3', 'title':'{{ talk.file }}'});">{{ talk.date }} {{ talk.title }}</a>
+{% endif %}
 {% endfor %}
 
 EOS

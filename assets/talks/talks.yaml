@@ -27,7 +27,7 @@ radio:
    link: https://www.facebook.com/groups/1499000153763602/permalink/1512359135761037/
  - date: 2016-03-10
    title: 学研都市へ行こう！
-   link: http://hibiki882.jp/modules/program/index.php/gakken.html
+   link: http://hibiki882.jp/modules/program/index.php/gakken.html   
 talks:
  - num: 1
    date: 2015-12-11T11:15:00+09:00
@@ -239,4 +239,12 @@ talks:
    title: 今後の研究室の方向性について〜ビジネスと研究
    file: Podcast-0042-Direction
    Facebook: 1571476949849255
+ - num: 43
+   date: 2022-02-02
+   title: kokura.exラジオ〜ゲストAlice
+   file: kokuraex_alice
+ - num: 44
+   date: 2022-02-16
+   title: kokura.exラジオ〜ゲストpiacere
+   file: kokuraex_piacere
 
