@@ -502,5 +502,16 @@
       <pubDate>Wed, 16 Feb 2022 08:30:00 +0900</pubDate>
     </item>
 
+    <item>
+      <title>2022-03-02 08:30:00 +0900 kokura.exラジオ(2022年3月2日放送)</title>
+      <itunes:author>Susumu Yamazaki @ZACKY1972</itunes:author>
+      <itunes:subtitle> kokura.exラジオ(2022年3月2日放送)</itunes:subtitle>
+      <itunes:summary><![CDATA[ kokura.exラジオ(2022年3月2日放送) <a href="https://www.facebook.com/groups/1499000153763602/permalink//" target="_blank">Facebook</a>]]></itunes:summary>
+      <itunes:image href="https://zacky1972.github.io/assets/images/ZACKY-3000.jpg" />
+      <enclosure url="https://media.githubusercontent.com/media/zacky1972/zacky1972.github.io/master/assets/talks/kokuraex_20220302.mp3" length="60453361" type="audio/mpeg" />
+      <guid isPermaLink="true">https://media.githubusercontent.com/media/zacky1972/zacky1972.github.io/master/assets/talks/kokuraex_20220302.mp3</guid>
+      <pubDate>Wed, 02 Mar 2022 08:30:00 +0900</pubDate>
+    </item>
+
   </channel>
 </rss>
