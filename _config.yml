@@ -5,3 +5,5 @@ kramdown:
   input: GFM
 github: [Repository metadata]
 exclude: ["vendor", "Gemfile", "Gemfile.lock"]
+timezone: Asia/Tokyo
+
