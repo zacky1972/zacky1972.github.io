@@ -833,4 +833,22 @@ permalink: /talks/index.html
     });
   </script>
 
+  46. <a name="Podcast46"></a> <audio id="my-audio46"> <source src="https://media.githubusercontent.com/media/zacky1972/zacky1972.github.io/master/assets/talks/kokuraex_20220316.mp3" type="audio/mpeg"> </audio> <a href="https://media.githubusercontent.com/media/zacky1972/zacky1972.github.io/master/assets/talks/kokuraex_20220316.mp3">2022-03-16 08:30:00 +0900 kokura.exラジオ(2022年3月16日放送)</a> <button id="play46">play</button><button id="pause46">pause</button> 
+  <script>
+    window.addEventListener('load', function(){
+      var myAudio46 = document.getElementById('my-audio46');
+      var play46 = document.getElementById('play46');
+      var pause46 = document.getElementById('pause46');
+      // associate functions with the 'onclick' events
+      play46.onclick = playAudio46;
+      pause46.onclick = pauseAudio46;
+      function playAudio46() {
+        myAudio46.play();
+      }
+      function pauseAudio46() {
+        myAudio46.pause();
+      }
+    });
+  </script>
+
 
