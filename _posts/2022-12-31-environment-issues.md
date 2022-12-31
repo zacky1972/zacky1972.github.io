@@ -18,6 +18,10 @@ excerpt: オムニバス授業「環境情報学概論」のソフトウェア�
 * [地球温暖化とコンピュータのエネルギー消費の問題にElixirで立ち向かう〜「コンピュータと地球温暖化は決して無縁ではない(2022年版)」](https://qiita.com/zacky1972/items/a67459bf36f7b369b946)
 * [地球温暖化とコンピュータのエネルギー消費の問題にElixirで立ち向かう〜機械学習の消費電力あたり性能の改善に向けて](https://qiita.com/zacky1972/items/fc74503c33839b64d0a3)
 
+なお，授業で扱ったそのほかの論点については，下記の記事に書いています．
+
+[Nerves の可能性は IoT だけじゃない(前編)〜ElixirとPelemayで世界の消費電力を抑える](https://qiita.com/zacky1972/items/2c82a593fbb2e4c949d2)
+
 それぞれの記事の最後に考察として書いたことをまとめておきます．
 
 ## 地球温暖化とコンピュータのエネルギー消費の問題にElixirで立ち向かう〜FAQ3.1「人間が気候変動を引き起こしていることはどのようにしてわかるか？」 (2022年版)
@@ -88,11 +92,11 @@ Apple Siliconで言えば，電力消費の少ないEコアと性能の高いP�
 
 機械学習の消費電力あたりの性能の改善を研究しているプロジェクトが下記になります．
 
-https://zacky1972.github.io/blog/2022/03/03/nx-accel.html
+[https://zacky1972.github.io/blog/2022/03/03/nx-accel.html](https://zacky1972.github.io/blog/2022/03/03/nx-accel.html)
 
 また，特に人工衛星のデータ活用において，消費電力あたりの性能の改善に取り組んでいるのが下記プロジェクトになります．
 
-https://zacky1972.github.io/blog/2022/03/04/sar-data-processing-satellites.html
+[https://zacky1972.github.io/blog/2022/03/04/sar-data-processing-satellites.html](https://zacky1972.github.io/blog/2022/03/04/sar-data-processing-satellites.html)
 
 
 
