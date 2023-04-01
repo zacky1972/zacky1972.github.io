@@ -1,7 +1,7 @@
 ---
-title: ZACKY's Laboratory 強み x 教育 研究室
+title: ZACKY's Laboratory  山崎 進 研究室
 layout: default
 ---
-# ZACKY's Laboratory 強み x 教育 研究室
+# ZACKY's Laboratory 山崎 進 研究室
 
 {% include posts.html %}
