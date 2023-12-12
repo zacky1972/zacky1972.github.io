@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.8.5)
+    addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
     colorator (1.1.0)
     concurrent-ruby (1.2.2)
@@ -68,4 +68,4 @@ DEPENDENCIES
   jekyll
 
 BUNDLED WITH
-   2.4.22
+   2.4.17
