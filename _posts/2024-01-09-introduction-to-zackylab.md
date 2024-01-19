@@ -154,11 +154,11 @@ excerpt: 2024年度の学部研究室配属に先立ち，研究室紹介2024を
 
 山崎進研究室で書くプログラミング言語としては次のものが挙げられます．
 
-* C, Elixir, アセンブリ言語(RISC-V, ARM)
+* C, SystemVerilog, Elixir
 
 下記のプログラミング言語が加わる可能性もあります．
 
-* (SystemVerilog, Rust, Javascript, Objective-C, SQL, アセンブリ言語(x86_64), Swift, Erlang)
+* (Rust, Javascript, Objective-C, SQL, アセンブリ言語(RISC-V, ARM, x86_64), Swift, Erlang)
 
 読む可能性があるプログラミング言語として次のものが挙げられます(主に上記言語への移植が目的)．
 
