@@ -73,9 +73,9 @@ excerpt: 2024年1〜3月の研究目標について，達成状況を中心に�
 
 ## 引き続き，FAIS旭興産グループ研究支援プログラムで研究開発を進めているPelemay BackendのCI環境を整備する．また脆弱性の研究成果についてまとめる．
 
-[FAIS旭興産グループ研究支援プログラム](https://zacky1972.github.io/blog/2022/03/03/nx-accel.html)で研究開発を進めている[Pelemay Backend](https://zacky1972.github.io/blog/2023/05/26/pelemay_backend.html)の[CI環境](https://qiita.com/zacky1972/items/c56da534e391de50f597)については，時間を見つけて，少しずつ整備を進めている．
+[FAIS旭興産グループ研究支援プログラム](https://zacky1972.github.io/blog/2022/03/03/nx-accel.html)で研究開発を進めている[Pelemay Backend](https://zacky1972.github.io/blog/2023/05/26/pelemay_backend.html)の[CI環境](https://qiita.com/zacky1972/items/c56da534e391de50f597)については，時間を見つけて，少しずつ整備を進めています．
 
-また，脆弱性の研究成果について，次の研究室学生の修士論文でまとめることができた．
+また，脆弱性の研究成果について，次の研究室学生の修士論文でまとめることができました．
 
 * 北原 滉大: Elixir HTTPサーバーBanditの脆弱性調査, 2023年度修士論文，北九州市立大学大学院国際環境工学研究科情報工学専攻融合システムコース, 2024年3月
 
