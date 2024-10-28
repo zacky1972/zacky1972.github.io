@@ -23,7 +23,7 @@ GEM
     mutex_m (0.2.0)
     posix-spawn (0.3.15)
     rake (13.2.1)
-    rexml (3.3.8)
+    rexml (3.3.9)
 
 PLATFORMS
   arm64-darwin-23
