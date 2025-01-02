@@ -9,6 +9,8 @@ excerpt: 2025年の研究ヴィジョンについて発表します．
 
 2025年の研究ヴィジョンについて発表します．
 
+![2025年1月3日に撮影した富士山](assets/images/mt_fuji.jpg "2025年1月3日に撮影した富士山")
+
 ## ElixirChipとElixirChip Liteで超低消費電力・高性能の世界へ
 
 - [ElixirChipとElixirChip Liteで超低消費電力・高性能の世界へ](https://qiita.com/zacky1972/items/960f67189705c388b3a7)
