@@ -43,9 +43,33 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
 
 PLATFORMS
-  arm64-darwin-23
-  arm64-darwin-24
+  aarch64-linux
+  aarch64-linux
+  aarch64-linux-android
+  aarch64-linux-musl
+  aarch64-unknown
+  arm-linux
+  arm-linux
+  arm-linux-androideabi
+  arm-linux-musl
+  arm-linux-musleabihf
+  arm64-darwin
+  riscv64-linux
+  riscv64-linux-android
+  riscv64-linux-musl
+  ruby
+  x86-cygwin
+  x86-linux
+  x86-linux
+  x86-linux-android
+  x86-linux-musl
+  x86-unknown
+  x86_64-cygwin
+  x86_64-darwin
   x86_64-linux
+  x86_64-linux
+  x86_64-linux-android
+  x86_64-linux-musl
 
 DEPENDENCIES
   jekyll
