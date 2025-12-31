@@ -1,4 +1,4 @@
---
+---
 category: blog
 tags: 研究プロジェクト
 title: 2025年研究活動ふりかえり
