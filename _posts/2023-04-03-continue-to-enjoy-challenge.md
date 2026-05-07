@@ -48,6 +48,7 @@ excerpt: 山崎進は何度も研究テーマを変えて，50歳になった今
 33. 品質指向AI駆動開発
 34. LLMのFPGA化
 35. 楕円曲線暗号のFPGA化
+36. Platform-Based Design, Platform-Based Custom Silicon
 
 我ながら呆れるほど，たくさんの研究テーマに取り組んできていますね．
 
