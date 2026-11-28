@@ -17,6 +17,6 @@ ReductionBounds は、Erlang や Elixir などのBEAM言語のプログラムに
 
 [ReductionBoundsのソースコードをApache 2.0ライセンスで公開しています。](https://github.com/zacky1972/reduction_bounds)
 
-情報処理学会第162回プログラミング研究発表会にて発表する予定です。
+学会にて発表する予定です。
 
 P.S. Elixir + Lean に取り組んでいる海外の人たちと交流を持ち始めました。
